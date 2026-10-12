@@ -122,4 +122,4 @@ typedef struct ConFig
 
 #endif // APP_CONFIG_H
 
-
+//V0.0.0.1 - 20261012 1차 납품 15대/ 신뢰성 시험 보드 3대(White 최대 출력) 
