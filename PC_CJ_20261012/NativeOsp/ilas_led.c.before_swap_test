@@ -1,0 +1,391 @@
+﻿#include "ilas_led.h"
+#include "iseled.h"
+
+#include <stdarg.h>
+#include <stdio.h>
+
+#define ILAS_LED_ACTIVE_COUNT    (84U)
+#define ILAS_LED_QUEUE_DEPTH     (20U)
+#define ILAS_LED_MEM             (ADI_EAL_ISELED_UNICAST_INST_MEM_SIZE(ILAS_LED_QUEUE_DEPTH))
+#define ILAS_LED_MEM_WORDS       ((ILAS_LED_MEM + 3U) / 4U)
+#define ILAS_LED_INTF_NUM        (2U)
+
+typedef struct
+{
+    uint32_t nRemoteNum;
+    bool bRemoteValid;
+} ILAS_LED_STATE;
+
+static void IlasLedEalCallback(uint32_t nInstNum, ADI_EAL_ISELED_HANDLE hIseledHandle,
+    ADI_EAL_ISELED_CBK_EVT eCbkEventType, const void* pArg);
+static void IlasLedTraceAppendf(const char* pFmt, ...);
+static void IlasLedFlush(uint64_t nTimeoutNs);
+
+static ILAS_LED_TRACE_LINE_FN gpfTraceLine = NULL;
+
+ADI_MEM_DATA_CRIT_CACHE
+static uint32_t ganIlasLedMem[NUM_REMOTE_NODES][ILAS_LED_MEM_WORDS];
+
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_ISELED_FAST_TXN_PAYLOAD gaIlasLedRgbPayload[NUM_REMOTE_NODES][ILAS_LED_ACTIVE_COUNT];
+
+ADI_MEM_DATA_CRIT_CACHE
+static uint8_t ganIlasLedRgbData[NUM_REMOTE_NODES][ILAS_LED_ACTIVE_COUNT][3U];
+
+static ADI_EAL_ISELED_HANDLE gahIlasLedHandle[NUM_REMOTE_NODES];
+static ILAS_LED_DIAG gaIlasLedDiag[NUM_REMOTE_NODES];
+static ILAS_LED_STATE gaIlasLedState[NUM_REMOTE_NODES];
+
+void IlasLed_SetTraceLineFn(ILAS_LED_TRACE_LINE_FN pfTraceLine)
+{
+    gpfTraceLine = pfTraceLine;
+}
+
+void IlasLed_ResetAll(void)
+{
+    for (uint32_t i = 0U; i < NUM_REMOTE_NODES; i++)
+    {
+        gaIlasLedDiag[i].nOpen = -99;
+        gaIlasLedDiag[i].nCallback = -99;
+        gaIlasLedDiag[i].nReset = -99;
+        gaIlasLedDiag[i].nInit = -99;
+        gaIlasLedDiag[i].nInitResp = 0;
+        gaIlasLedDiag[i].nSetRgbResp = 0;
+        gaIlasLedDiag[i].nSetRgb = -99;
+        gaIlasLedDiag[i].nHandleValid = 0;
+        gaIlasLedState[i].nRemoteNum = i;
+        gaIlasLedState[i].bRemoteValid = false;
+        gahIlasLedHandle[i] = NULL;
+    }
+}
+
+void IlasLed_CloseAll(void)
+{
+    for (uint32_t i = 0U; i < NUM_REMOTE_NODES; i++)
+    {
+        if (gahIlasLedHandle[i] != NULL)
+        {
+            (void)adi_eal_iseledClose(gahIlasLedHandle[i]);
+            gahIlasLedHandle[i] = NULL;
+        }
+    }
+}
+
+bool IlasLed_AnyHandleOpen(void)
+{
+    for (uint32_t i = 0U; i < NUM_REMOTE_NODES; i++)
+    {
+        if (gahIlasLedHandle[i] != NULL)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool IlasLed_IsHandleOpen(uint32_t nFidIdx)
+{
+    return (nFidIdx < NUM_REMOTE_NODES && gahIlasLedHandle[nFidIdx] != NULL);
+}
+
+bool IlasLed_IsActive(uint32_t nFidIdx)
+{
+    return (nFidIdx < NUM_REMOTE_NODES &&
+            gahIlasLedHandle[nFidIdx] != NULL &&
+            gaIlasLedDiag[nFidIdx].nInit == (int)ADI_EAL_STATUS_SUCCESS);
+}
+
+const ILAS_LED_DIAG* IlasLed_GetDiag(uint32_t nFidIdx)
+{
+    return (nFidIdx < NUM_REMOTE_NODES) ? &gaIlasLedDiag[nFidIdx] : NULL;
+}
+
+ADI_EAL_STATUS IlasLed_InitFid(uint32_t nFidIdx, uint32_t nRemoteNum)
+{
+    ADI_EAL_STATUS eEalStatus;
+    ADI_EAL_ISELED_CFG oIseledCfg;
+    uint8_t nFid = (uint8_t)(nFidIdx + 1U);
+
+    if (nFidIdx >= NUM_REMOTE_NODES || nRemoteNum >= NUM_REMOTE_NODES)
+    {
+        return ADI_EAL_STATUS_NULL_PTR;
+    }
+
+    (void)ADI_MEMSET(&oIseledCfg, 0, sizeof(oIseledCfg));
+    (void)ADI_MEMSET((uint8_t*)&ganIlasLedMem[nFidIdx][0U], 0, ILAS_LED_MEM);
+
+    oIseledCfg.nInstNum = 0U;
+    oIseledCfg.nRemoteNum = nRemoteNum;
+    oIseledCfg.nIntfNum = ILAS_LED_INTF_NUM;
+    oIseledCfg.nIseledCfgQDepth = ILAS_LED_QUEUE_DEPTH;
+    oIseledCfg.pEalIseledMemory = (uint8_t*)&ganIlasLedMem[nFidIdx][0U];
+    oIseledCfg.nEalIseledMemorySize = ILAS_LED_MEM;
+
+    IlasLedTraceAppendf("FID=0x%02X ISELED open cfg remote=%u intf=%u q=%u mem=%u",
+        (unsigned)nFid, (unsigned)oIseledCfg.nRemoteNum, (unsigned)oIseledCfg.nIntfNum,
+        (unsigned)oIseledCfg.nIseledCfgQDepth, (unsigned)oIseledCfg.nEalIseledMemorySize);
+
+    eEalStatus = adi_eal_iseledOpen(&oIseledCfg, &gahIlasLedHandle[nFidIdx]);
+    gaIlasLedDiag[nFidIdx].nOpen = (int)eEalStatus;
+    gaIlasLedDiag[nFidIdx].nHandleValid = (gahIlasLedHandle[nFidIdx] != NULL) ? 1 : 0;
+    if (eEalStatus != ADI_EAL_STATUS_SUCCESS)
+    {
+        IlasLedTraceAppendf("FID=0x%02X ISELED open failed status=%d", (unsigned)nFid, (int)eEalStatus);
+        return eEalStatus;
+    }
+
+    eEalStatus = adi_eal_iseledRegisterCallback(gahIlasLedHandle[nFidIdx], IlasLedEalCallback);
+    gaIlasLedDiag[nFidIdx].nCallback = (int)eEalStatus;
+    if (eEalStatus != ADI_EAL_STATUS_SUCCESS)
+    {
+        IlasLedTraceAppendf("FID=0x%02X ISELED callback failed status=%d", (unsigned)nFid, (int)eEalStatus);
+        return eEalStatus;
+    }
+
+    gaIlasLedState[nFidIdx].nRemoteNum = nRemoteNum;
+    gaIlasLedState[nFidIdx].bRemoteValid = true;
+    IseledInitDrv((uint8_t)nRemoteNum, gahIlasLedHandle[nFidIdx]);
+
+    eEalStatus = IseledResetStrip((uint8_t)nRemoteNum);
+    gaIlasLedDiag[nFidIdx].nReset = (int)eEalStatus;
+    IlasLedTraceAppendf("FID=0x%02X IseledResetStrip status=%d", (unsigned)nFid, (int)eEalStatus);
+    IlasLedFlush(100ULL * MS_TO_NS);
+    if (eEalStatus != ADI_EAL_STATUS_SUCCESS)
+    {
+        return eEalStatus;
+    }
+
+    eEalStatus = IseledInitStrip((uint8_t)nRemoteNum);
+    gaIlasLedDiag[nFidIdx].nInit = (int)eEalStatus;
+    IlasLedTraceAppendf("FID=0x%02X IseledInitStrip status=%d expected=%u",
+        (unsigned)nFid, (int)eEalStatus, (unsigned)APP_ISELED_TOTAL_COUNT);
+    IlasLedFlush(100ULL * MS_TO_NS);
+
+    return eEalStatus;
+}
+
+uint16_t IlasLed_GetActiveCount(void)
+{
+    return (uint16_t)ILAS_LED_ACTIVE_COUNT;
+}
+int IlasLed_SetColorRgbByFid(uint8_t nFid, uint8_t nRed, uint8_t nGreen, uint8_t nBlue)
+{
+    uint32_t nFidIdx = (uint32_t)(nFid - 1U);
+    ADI_EAL_STATUS eEalStatus;
+
+    if (nFid < 0x01U || nFid > 0x08U || nFidIdx >= NUM_REMOTE_NODES ||
+        gahIlasLedHandle[nFidIdx] == NULL || !gaIlasLedState[nFidIdx].bRemoteValid)
+    {
+        return -1;
+    }
+
+    for (uint16_t nLed = 0U; nLed < ILAS_LED_ACTIVE_COUNT; nLed++)
+    {
+        ganIlasLedRgbData[nFidIdx][nLed][0U] = nRed;
+        ganIlasLedRgbData[nFidIdx][nLed][1U] = nGreen;
+        ganIlasLedRgbData[nFidIdx][nLed][2U] = nBlue;
+        gaIlasLedRgbPayload[nFidIdx][nLed].pData = &ganIlasLedRgbData[nFidIdx][nLed][0U];
+        gaIlasLedRgbPayload[nFidIdx][nLed].nAddress = (uint8_t)(nLed + 1U);
+        gaIlasLedRgbPayload[nFidIdx][nLed].nInstruction = 0x04U;
+    }
+
+    eEalStatus = IseledSetRgb((uint8_t)gaIlasLedState[nFidIdx].nRemoteNum,
+        ADI_EAL_ISELED_NORMAL_MODE,
+        &gaIlasLedRgbPayload[nFidIdx][0U],
+        ILAS_LED_ACTIVE_COUNT,
+        0xFFU,
+        0x00U);
+
+    gaIlasLedDiag[nFidIdx].nSetRgb = (int)eEalStatus;
+    if (eEalStatus == ADI_EAL_STATUS_SUCCESS)
+    {
+        IlasLedFlush(20ULL * MS_TO_NS);
+    }
+
+    IlasLedTraceAppendf("FID=0x%02X IseledSetRgb status=%d count=%u RGB=(%u,%u,%u)",
+        (unsigned)nFid, (int)eEalStatus, (unsigned)ILAS_LED_ACTIVE_COUNT,
+        (unsigned)nRed, (unsigned)nGreen, (unsigned)nBlue);
+
+    return (eEalStatus == ADI_EAL_STATUS_SUCCESS) ? 0 : (int)eEalStatus;
+}
+
+int IlasLed_SetColorRgbNodesByFid(uint8_t nFid, const uint16_t* pnNodeAddrs,
+    const uint8_t* pnRed, const uint8_t* pnGreen, const uint8_t* pnBlue, uint16_t nCount)
+{
+    uint32_t nFidIdx = (uint32_t)(nFid - 1U);
+    ADI_EAL_STATUS eEalStatus;
+    uint16_t nTxCount = 0U;
+
+    if (nFid < 0x01U || nFid > 0x08U || nFidIdx >= NUM_REMOTE_NODES ||
+        pnNodeAddrs == NULL || pnRed == NULL || pnGreen == NULL || pnBlue == NULL ||
+        gahIlasLedHandle[nFidIdx] == NULL || !gaIlasLedState[nFidIdx].bRemoteValid)
+    {
+        return -1;
+    }
+
+    for (uint16_t i = 0U; i < nCount && nTxCount < ILAS_LED_ACTIVE_COUNT; i++)
+    {
+        uint16_t nAddr = pnNodeAddrs[i];
+        if (nAddr == 0U || nAddr > ILAS_LED_ACTIVE_COUNT || nAddr > 0xFFU)
+        {
+            continue;
+        }
+
+        ganIlasLedRgbData[nFidIdx][nTxCount][0U] = pnRed[i];
+        ganIlasLedRgbData[nFidIdx][nTxCount][1U] = pnGreen[i];
+        ganIlasLedRgbData[nFidIdx][nTxCount][2U] = pnBlue[i];
+        gaIlasLedRgbPayload[nFidIdx][nTxCount].pData = &ganIlasLedRgbData[nFidIdx][nTxCount][0U];
+        gaIlasLedRgbPayload[nFidIdx][nTxCount].nAddress = (uint8_t)nAddr;
+        gaIlasLedRgbPayload[nFidIdx][nTxCount].nInstruction = 0x04U;
+        nTxCount++;
+    }
+
+    if (nTxCount == 0U)
+    {
+        return 0;
+    }
+
+    eEalStatus = IseledSetRgb((uint8_t)gaIlasLedState[nFidIdx].nRemoteNum,
+        ADI_EAL_ISELED_NORMAL_MODE,
+        &gaIlasLedRgbPayload[nFidIdx][0U],
+        nTxCount,
+        0xFFU,
+        0x00U);
+
+    gaIlasLedDiag[nFidIdx].nSetRgb = (int)eEalStatus;
+    if (eEalStatus == ADI_EAL_STATUS_SUCCESS)
+    {
+        IlasLedFlush(20ULL * MS_TO_NS);
+    }
+
+    IlasLedTraceAppendf("FID=0x%02X IseledSetRgbNodes status=%d count=%u requested=%u",
+        (unsigned)nFid, (int)eEalStatus, (unsigned)nTxCount, (unsigned)nCount);
+
+    return (eEalStatus == ADI_EAL_STATUS_SUCCESS) ? 0 : (int)eEalStatus;
+}
+int IlasLed_AppendDiag(char* pBuf, size_t nSize)
+{
+    char* p = pBuf;
+    int nTotal = 0;
+
+    if (pBuf == NULL || nSize == 0U)
+    {
+        return 0;
+    }
+
+    for (uint32_t i = 0U; i < NUM_REMOTE_NODES; i++)
+    {
+        int n = snprintf(p, nSize - (size_t)nTotal,
+            "|ILAS%02u:Open=%d,CB=%d,Rst=%d,Init=%d,InitResp=%d,SetRgb=%d,SetResp=%d,Hdl=%d",
+            (unsigned)(i + 1U),
+            gaIlasLedDiag[i].nOpen,
+            gaIlasLedDiag[i].nCallback,
+            gaIlasLedDiag[i].nReset,
+            gaIlasLedDiag[i].nInit,
+            gaIlasLedDiag[i].nInitResp,
+            gaIlasLedDiag[i].nSetRgb,
+            gaIlasLedDiag[i].nSetRgbResp,
+            gaIlasLedDiag[i].nHandleValid);
+        if (n <= 0) { break; }
+        nTotal += n;
+        if ((size_t)nTotal >= nSize)
+        {
+            pBuf[nSize - 1U] = '\0';
+            return (int)(nSize - 1U);
+        }
+        p = pBuf + nTotal;
+    }
+
+    return nTotal;
+}
+
+int IlasLed_FormatStatusDiag(uint32_t nFidIdx, char* pBuf, size_t nSize)
+{
+    if (pBuf == NULL || nSize == 0U || nFidIdx >= NUM_REMOTE_NODES)
+    {
+        return 0;
+    }
+
+    return snprintf(pBuf, nSize,
+        "ILAS_DIAG(Open=%d,Rst=%d,Init=%d,Resp=%d,Set=%d,SetResp=%d,Hdl=%d)",
+        gaIlasLedDiag[nFidIdx].nOpen,
+        gaIlasLedDiag[nFidIdx].nReset,
+        gaIlasLedDiag[nFidIdx].nInit,
+        gaIlasLedDiag[nFidIdx].nInitResp,
+        gaIlasLedDiag[nFidIdx].nSetRgb,
+        gaIlasLedDiag[nFidIdx].nSetRgbResp,
+        gaIlasLedDiag[nFidIdx].nHandleValid);
+}
+
+static void IlasLedFlush(uint64_t nTimeoutNs)
+{
+    adi_network_flushTxBuffer(ADI_NETWORK_DEV_IDX, 0ULL);
+    adi_network_flushTxTimed(nTimeoutNs);
+    adi_network_run();
+}
+
+static void IlasLedEalCallback(uint32_t nInstNum, ADI_EAL_ISELED_HANDLE hIseledHandle,
+    ADI_EAL_ISELED_CBK_EVT eCbkEventType, const void* pArg)
+{
+    uint32_t nFidIdx = NUM_REMOTE_NODES;
+
+    (void)nInstNum;
+
+    for (uint32_t i = 0U; i < NUM_REMOTE_NODES; i++)
+    {
+        if (gahIlasLedHandle[i] == hIseledHandle)
+        {
+            nFidIdx = i;
+            break;
+        }
+    }
+
+    if (eCbkEventType == ADI_EAL_ISELED_CBK_EVT_ISELED_READ_RESP)
+    {
+        const ADI_EAL_ISELED_CBK_EVT_ISELED_READ_RESP_DATA* poResp =
+            (const ADI_EAL_ISELED_CBK_EVT_ISELED_READ_RESP_DATA*)pArg;
+        uint16_t nValidResp = (poResp != NULL) ? poResp->oTxnHdr.nNumValidResp : 0U;
+        if (nFidIdx < NUM_REMOTE_NODES)
+        {
+            gaIlasLedDiag[nFidIdx].nInitResp = (int)nValidResp;
+        }
+        IlasLedTraceAppendf("FID=0x%02X ISELED read response valid=%u expected=%u",
+            (unsigned)((nFidIdx < NUM_REMOTE_NODES) ? (nFidIdx + 1U) : 0U),
+            (unsigned)nValidResp,
+            (unsigned)((poResp != NULL) ? poResp->oTxnHdr.nExpectedNumResp : 0U));
+    }
+    else if (eCbkEventType == ADI_EAL_ISELED_CBK_EVT_ISELED_WRITE_RESP)
+    {
+        if (nFidIdx < NUM_REMOTE_NODES)
+        {
+            gaIlasLedDiag[nFidIdx].nSetRgbResp++;
+        }
+        IlasLedTraceAppendf("FID=0x%02X ISELED write response event=%d",
+            (unsigned)((nFidIdx < NUM_REMOTE_NODES) ? (nFidIdx + 1U) : 0U),
+            (int)eCbkEventType);
+    }
+    else if (eCbkEventType == ADI_EAL_ISELED_CBK_EVT_ERR)
+    {
+        IlasLedTraceAppendf("FID=0x%02X ISELED callback error",
+            (unsigned)((nFidIdx < NUM_REMOTE_NODES) ? (nFidIdx + 1U) : 0U));
+    }
+}
+
+static void IlasLedTraceAppendf(const char* pFmt, ...)
+{
+    char sLine[256];
+    va_list args;
+
+    if (gpfTraceLine == NULL)
+    {
+        return;
+    }
+
+    va_start(args, pFmt);
+    (void)vsnprintf(sLine, sizeof(sLine), pFmt, args);
+    va_end(args);
+    sLine[sizeof(sLine) - 1U] = '\0';
+    gpfTraceLine(sLine);
+}
+
+

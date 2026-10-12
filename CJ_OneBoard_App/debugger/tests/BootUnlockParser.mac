@@ -1,0 +1,37 @@
+// C-SPY Simulator ONLY. These addresses are simulated, not a physical MCU.
+__param CJ_TEST_BACKUP_FILE = "";
+
+execUserSetup()
+{
+    __var original;
+    __var updated;
+
+    original = __makeString(1, 0xFB) + __makeString(5, 0) +
+               __makeString(2, 0xFF) + __makeString(248, 0);
+    updated = __makeString(1, original[0] | 0xF) +
+              __subString(original, 1, 5) +
+              __makeString(2, 0) +
+              __subString(original, 8, 248);
+    if ((sizeof(updated) != 256) || ((updated[0] & 0xFF) != 0xFF) ||
+        ((updated[6] & 0xFF) != 0) || ((updated[7] & 0xFF) != 0) ||
+        (__subString(updated, 1, 5) != __subString(original, 1, 5)) ||
+        (__subString(updated, 8, 248) != __subString(original, 8, 248)))
+    {
+        __abortLaunch("TEST FAIL: Native C-SPY binary string handling.");
+    }
+    __writeMemoryBuffer(updated, 256, 0x00804000, "Memory");
+    __writeMemory32(0x11060103, 0x41002018, "Memory");
+    __writeMemory16(0, 0x41004018, "Memory");
+    CJ_ProvisionFlashProtection(); // Already provisioned: no NVM commands/reset.
+    if (__readMemoryBuffer(256, 0x00804000, "Memory") != updated)
+    {
+        __abortLaunch("TEST FAIL: Already-provisioned User Row changed.");
+    }
+    __message "TEST backup path: ", CJ_TEST_BACKUP_FILE;
+    if (__memorySave("Memory:0x00804000", "Memory:0x008040FF", "intel-extended",
+                     CJ_TEST_BACKUP_FILE, 0) != 0)
+    {
+        __abortLaunch("TEST FAIL: Native C-SPY backup.");
+    }
+    __message "TEST PASS: Production macro registered; binary strings, unlocked path and backup executed in native IAR Simulator.";
+}

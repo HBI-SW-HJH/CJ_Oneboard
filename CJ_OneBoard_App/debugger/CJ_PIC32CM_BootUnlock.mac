@@ -1,0 +1,198 @@
+// CJ PIC32CM5164JH01032 download setup. Runs BEFORE the IAR flash loader.
+// Both projects temporarily clear BOOTPROT before download, then restore the 64KB Boot protection.
+// The remaining 2028 User Row bits are preserved.
+// The remaining setup/exit handling follows IAR's bundled pic32cm-jh.mac.
+
+__var PAC_STATUSB_NVMCTRL_RESTORE;
+__var PAC_STATUSA_WDT_RESTORE;
+__var WDT_CTRLA_RESTORE;
+__var MPU_CTRL_RESTORE;
+
+CJ_WaitNvmReady()
+{
+    __var start;
+
+    start = __wallTime_ms();
+    while ((__readMemory32(0x41004014, "Memory") & 0x1) == 0)
+    {
+        if ((__wallTime_ms() - start) >= 1000)
+        {
+            __abortLaunch("CJ: NVM timeout. Download stopped; do not erase the User Row backup.");
+        }
+        __delay(1);
+    }
+}
+
+CJ_NvmCommand(command)
+{
+    CJ_WaitNvmReady();
+    __writeMemory16(0x1C, 0x41004018, "Memory"); // Clear PROGE/LOCKE/NVME.
+    __writeMemory32(0x2, 0x41004014, "Memory");  // Clear ERROR, not READY.
+    __writeMemory16(0xA500 | command, 0x41004000, "Memory");
+    CJ_WaitNvmReady();
+    if (((__readMemory32(0x41004014, "Memory") & 0x2) != 0) ||
+        ((__readMemory16(0x41004018, "Memory") & 0x1C) != 0))
+    {
+        __abortLaunch("CJ: User Row command failed. Download stopped; keep the User Row backup.");
+    }
+}
+
+CJ_ProvisionFlashProtection(bootProtection, reloadProtection)
+{
+    __var deviceId;
+    __var original;
+    __var updated;
+    __var backupFile;
+    __var control;
+    __var watchdog;
+    __var offset;
+    __var debugControl;
+
+    // Ignore silicon revision/die fields, but require the exact configured part.
+    deviceId = __readMemory32(0x41002018, "Memory");
+    if ((deviceId & 0xFFFF00FF) != 0x11060003)
+    {
+        __abortLaunch("CJ: This download setup requires PIC32CM5164JH01032. User Row not changed.");
+    }
+    if ((__readMemory16(0x41004018, "Memory") & 0x100) != 0)
+    {
+        __abortLaunch("CJ: Device security is enabled. Automatic Chip Erase is not permitted.");
+    }
+    if (((__readMemory32(0x00804000, "Memory") & 0xF) == bootProtection) &&
+        ((__readMemory32(0x00804004, "Memory") & 0xFFFF0000) == 0))
+    {
+        return; // Already provisioned: no User Row write, backup, or extra reset.
+    }
+
+    original = __readMemoryBuffer(256, 0x00804000, "Memory");
+    if ((sizeof(original) != 256) ||
+        (original != __readMemoryBuffer(256, 0x00804000, "Memory")))
+    {
+        __abortLaunch("CJ: Cannot read a stable User Row. User Row not changed.");
+    }
+    updated = __makeString(1, (original[0] & 0xF0) | bootProtection) +
+              __subString(original, 1, 5) +
+              __makeString(2, 0) +
+              __subString(original, 8, 248);
+
+    // Durable original backup, inside this project, before ANY User Row erase.
+    backupFile = __smessage "$PROJ_DIR$/debugger/UserRow_", __wallTime_ms():%u, ".hex";
+    if (__memorySave("Memory:0x00804000", "Memory:0x008040FF", "intel-extended", backupFile, 0) != 0)
+    {
+        __abortLaunch("CJ: Cannot save the original User Row. User Row not changed.");
+    }
+    __message "CJ: BOOTPROT will be configured and Main Flash write protection enabled. Original User Row saved: ", backupFile;
+
+    // NVMCTRL and WDT use the same PAC handling as the bundled IAR loader.
+    if ((__readMemory32(0x40000038, "Memory") & 0x4) != 0)
+    {
+        __writeMemory32(0x10022, 0x40000000, "Memory");
+    }
+    if ((__readMemory32(0x40000034, "Memory") & 0x100) != 0)
+    {
+        __writeMemory32(0x10008, 0x40000000, "Memory");
+    }
+    watchdog = __readMemory8(0x40002000, "Memory");
+    if ((watchdog & 0x82) == 0x82)
+    {
+        __abortLaunch("CJ: Always-on watchdog prevents safe User Row programming. User Row not changed.");
+    }
+    if ((watchdog & 0x2) != 0)
+    {
+        __writeMemory8(watchdog & ~0x2, 0x40002000, "Memory");
+    }
+    if (((__readMemory32(0x40000038, "Memory") & 0x4) != 0) ||
+        ((__readMemory8(0x40002000, "Memory") & 0x2) != 0))
+    {
+        __abortLaunch("CJ: Cannot prepare NVMCTRL/WDT. User Row not changed.");
+    }
+
+    CJ_WaitNvmReady();
+    control = __readMemory32(0x41004004, "Memory");
+    __writeMemory32(control | 0x80, 0x41004004, "Memory"); // MANW.
+    __writeMemory32(0x00402000, 0x4100401C, "Memory");   // User Row byte address / 2.
+    CJ_NvmCommand(0x5); // EAR: erase ONLY the User Row, never Main/Data Flash.
+    for (offset = 0; offset < 256; offset += 64)
+    {
+        CJ_NvmCommand(0x44); // PBC.
+        __writeMemoryBuffer(__subString(updated, offset, 64), 64,
+                            0x00804000 + offset, "Memory");
+        __writeMemory32((0x00804000 + offset) >> 1, 0x4100401C, "Memory");
+        CJ_NvmCommand(0x6); // WAP.
+    }
+    if (__readMemoryBuffer(256, 0x00804000, "Memory") != updated)
+    {
+        __abortLaunch("CJ: User Row verification failed. Download stopped; keep the original backup.");
+    }
+    __writeMemory32(control, 0x41004004, "Memory");
+
+    if (reloadProtection == 0)
+    {
+        __message "CJ: Boot protection saved. It takes effect on the next reset.";
+        return;
+    }
+    // Reload BOOTPROT and REGION_LOCKS before the main flash loader starts.
+    debugControl = __readMemory32(0xE000EDFC, "Memory");
+    __writeMemory32(debugControl | 1, 0xE000EDFC, "Memory");
+    __writeMemory32(0x05FA0004, 0xE000ED0C, "Memory");
+    __delay(20);
+    __writeMemory32(0xA05F0003, 0xE000EDF0, "Memory");
+    __writeMemory32(debugControl, 0xE000EDFC, "Memory");
+    if (((__readMemory32(0x41002018, "Memory") & 0xFFFF00FF) != 0x11060003) ||
+        ((__readMemory32(0x00804000, "Memory") & 0xF) != bootProtection) ||
+        ((__readMemory32(0x00804004, "Memory") & 0xFFFF0000) != 0) ||
+        (__readMemory16(0x41004020, "Memory") != 0) ||
+        ((__readMemory32(0xE000EDF0, "Memory") & 0x20000) == 0))
+    {
+        __abortLaunch("CJ: Reset/reconnect verification failed. Download stopped.");
+    }
+    __message "CJ: BOOTPROT and REGION_LOCKS verified. Continuing normal IAR download.";
+}
+
+execUserFlashInit()
+{
+    CJ_ProvisionFlashProtection(0xF, 1);
+
+    // Save AFTER the optional reset; never restore stale pre-reset registers.
+    MPU_CTRL_RESTORE = __readMemory32(0xE000ED94, "Memory");
+    if ((MPU_CTRL_RESTORE & 0x1) != 0)
+    {
+        __writeMemory32(0, 0xE000ED94, "Memory");
+    }
+    PAC_STATUSB_NVMCTRL_RESTORE = __readMemory32(0x40000038, "Memory") & 0x4;
+    PAC_STATUSA_WDT_RESTORE = __readMemory32(0x40000034, "Memory") & 0x100;
+    WDT_CTRLA_RESTORE = __readMemory8(0x40002000, "Memory");
+    if (PAC_STATUSB_NVMCTRL_RESTORE != 0)
+    {
+        __writeMemory32(0x10022, 0x40000000, "Memory");
+    }
+    if (PAC_STATUSA_WDT_RESTORE != 0)
+    {
+        __writeMemory32(0x10008, 0x40000000, "Memory");
+    }
+    if ((WDT_CTRLA_RESTORE & 0x82) == 0x2)
+    {
+        __writeMemory8(WDT_CTRLA_RESTORE & ~0x2, 0x40002000, "Memory");
+    }
+}
+
+execUserFlashExit()
+{
+    CJ_ProvisionFlashProtection(0x4, 0);
+    if ((WDT_CTRLA_RESTORE & 0x82) == 0x2)
+    {
+        __writeMemory8(WDT_CTRLA_RESTORE, 0x40002000, "Memory");
+    }
+    if (PAC_STATUSA_WDT_RESTORE != 0)
+    {
+        __writeMemory32(0x20008, 0x40000000, "Memory");
+    }
+    if (PAC_STATUSB_NVMCTRL_RESTORE != 0)
+    {
+        __writeMemory32(0x20022, 0x40000000, "Memory");
+    }
+    if ((MPU_CTRL_RESTORE & 0x1) != 0)
+    {
+        __writeMemory32(MPU_CTRL_RESTORE, 0xE000ED94, "Memory");
+    }
+}

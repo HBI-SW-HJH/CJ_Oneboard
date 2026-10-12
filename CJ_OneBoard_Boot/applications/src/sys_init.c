@@ -1,0 +1,73 @@
+// @file    sys_init.c
+// @brief   System initialisation for CJ 4DPLEX Logo Lamp
+//
+// @copyright 2026 CJ 4DPLEX
+
+#include "appConfig.h"
+
+AppTimer_t oAppTimer = { 0U, 0U };
+
+void AppTimer_TickHandler(void)
+{
+    oAppTimer.timeMs++;
+    oAppTimer.tickWdtMs++;
+}
+
+// ===========================================================
+//  WDT 초기화 (내부 전용)
+// ===========================================================
+#if WDT_ENABLE == 1U
+static void WDT_Init(void)
+{
+    uint32_t retry = 0U;
+
+    MCLK_REGS->MCLK_APBAMASK |= MCLK_APBAMASK_WDT_Msk;
+    WDT_REGS->WDT_CONFIG = WDT_PERIOD;
+    WDT_REGS->WDT_CTRLA  = WDT_CTRLA_ENABLE_Msk;
+    while ((WDT_REGS->WDT_SYNCBUSY & WDT_SYNCBUSY_ENABLE_Msk) != 0U)
+    {
+        __NOP();
+        if (++retry >= 1000U)
+        {
+            break;
+        }
+    }
+    WDT_Clear();
+}
+
+void WDT_Clear(void)
+{
+    uint32_t retry = 0U;
+    WDT_REGS->WDT_CLEAR = WDT_CLEAR_CLEAR_KEY;
+    while ((WDT_REGS->WDT_SYNCBUSY & WDT_SYNCBUSY_CLEAR_Msk) != 0U)
+    {
+        __NOP();
+        if (++retry >= 1000U)
+        {
+            break;
+        }
+    }
+}
+#else
+static void WDT_Init(void) { }// WDT disabled 
+void WDT_Clear(void) { }
+#endif
+
+// ===========================================================
+//  WDT 클리어 (main() while(1) 에서 주기적으로 호출)
+// ===========================================================
+
+// ===========================================================
+//  SYS_Init
+// ===========================================================
+
+void SYS_Init(void)
+{
+    Reprogram_Init();
+    Clock_Init();
+    SysTick_Init(SYSTEM_CLOCK_HZ, AppTimer_TickHandler);
+    GPIO_Init(GPIO_GROUP_A, 1U, GPIO_DIR_OUTPUT, GPIO_PULL_NONE);
+    GPIO_Set(GPIO_GROUP_A, 1U, GPIO_LOW);
+    LINT_Init();
+    WDT_Init();
+}

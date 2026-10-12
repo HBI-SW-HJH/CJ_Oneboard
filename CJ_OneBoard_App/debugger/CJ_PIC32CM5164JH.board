@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_board>
+  <pass>
+    <loader>$PROJ_DIR$/debugger/CJ_PIC32CM5164JH_main.flash</loader>
+    <range>CODE 0x00010000 0x0003FFFF</range>
+  </pass>
+  <pass>
+    <loader>$TOOLKIT_DIR$/config/flashloader/Microchip/pic32cm-jh/pic32cm5164jh-data.flash</loader>
+    <range>CODE 0x00400000 0x00401FFF</range>
+  </pass>
+  <pass>
+    <loader>$TOOLKIT_DIR$/config/flashloader/Microchip/pic32cm-jh/pic32cm-jh-user.flash</loader>
+    <range>CODE 0x00800000 0x008040FF</range>
+  </pass>
+</flash_board>

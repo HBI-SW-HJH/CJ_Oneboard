@@ -1,0 +1,181 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace LINMaster.CANoe
+{
+    public sealed class CANoeBridge
+    {
+        private const string ProgId = "CANoe.Application";
+        private const string PanelNamespace = "AD3304LED25";
+
+        private dynamic _application;
+
+        public bool IsAttached => _application != null;
+        public bool IsInitialized { get; private set; }
+        public string LastError { get; private set; }
+
+        public void MarkInitialized()
+        {
+            IsInitialized = true;
+        }
+
+        public void MarkDisconnected()
+        {
+            IsInitialized = false;
+        }
+
+        public bool TryAttach(bool allowStart, out string message)
+        {
+            if (_application != null)
+            {
+                message = "already attached";
+                return true;
+            }
+
+            Type canoeType = Type.GetTypeFromProgID(ProgId);
+            if (canoeType == null)
+            {
+                message = "CANoe COM ProgID is not registered.";
+                LastError = message;
+                return false;
+            }
+
+            try
+            {
+                _application = Marshal.GetActiveObject(ProgId);
+                message = "attached to running CANoe";
+                LastError = null;
+                return true;
+            }
+            catch (COMException)
+            {
+                if (!allowStart)
+                {
+                    message = "running CANoe instance was not found";
+                    LastError = message;
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                message = "CANoe attach failed: " + ex.Message;
+                LastError = message;
+                return false;
+            }
+
+            try
+            {
+                _application = Activator.CreateInstance(canoeType);
+                message = "started CANoe through COM";
+                LastError = null;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _application = null;
+                message = "CANoe start failed: " + ex.Message;
+                LastError = message;
+                return false;
+            }
+        }
+
+        public bool TrySetPanelVariable(string variableName, object value, out string message)
+        {
+            return TrySetSystemVariable(PanelNamespace, variableName, value, out message);
+        }
+
+        public bool TrySetSystemVariable(string namespaceName, string variableName, object value, out string message)
+        {
+            if (!TryAttach(allowStart: false, out message))
+            {
+                LastError = message;
+                return false;
+            }
+
+            try
+            {
+                dynamic variable = ResolveSystemVariable(namespaceName, variableName);
+                variable.Value = value;
+                message = namespaceName + "::" + variableName + "=" + value;
+                LastError = null;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                message = namespaceName + "::" + variableName + " write failed: " + ex.Message;
+                LastError = message;
+                return false;
+            }
+        }
+
+        public bool TryConfigureAd3304Panel(
+            int fid,
+            int node,
+            int firstNode,
+            int lastNode,
+            int shiftWidth,
+            int effectPeriodMs,
+            int r,
+            int g,
+            int b,
+            int brightnessPercent,
+            out string message)
+        {
+            if (!TrySetPanelVariable("Fid", Clamp(fid, 0, 8), out message)) return false;
+            if (!TrySetPanelVariable("Node", Clamp(node, 0, 25), out message)) return false;
+            if (!TrySetPanelVariable("FirstNode", Clamp(firstNode, 1, 25), out message)) return false;
+            if (!TrySetPanelVariable("LastNode", Clamp(lastNode, 1, 25), out message)) return false;
+            if (!TrySetPanelVariable("ShiftWidth", Clamp(shiftWidth, 1, 25), out message)) return false;
+            if (!TrySetPanelVariable("EffectPeriodMs", Clamp(effectPeriodMs, 10, 10000), out message)) return false;
+            if (!TrySetPanelVariable("R", Clamp(r, 0, 255), out message)) return false;
+            if (!TrySetPanelVariable("G", Clamp(g, 0, 255), out message)) return false;
+            if (!TrySetPanelVariable("B", Clamp(b, 0, 255), out message)) return false;
+            if (!TrySetPanelVariable("Brightness", Clamp(brightnessPercent, 0, 100), out message)) return false;
+            if (!TrySetPanelVariable("AutoSend", 0, out message)) return false;
+
+            message = "AD3304 panel variables configured";
+            LastError = null;
+            return true;
+        }
+
+        public bool TryStartEffect(int mode, out string message)
+        {
+            int clampedMode = Clamp(mode, 1, 15);
+            if (TrySetPanelVariable("Command", clampedMode, out message))
+                return true;
+
+            if (clampedMode == 10)
+                return TrySetPanelVariable("BtnReadback", 1, out message);
+
+            return false;
+        }
+
+        public bool TryStopEffect(out string message)
+        {
+            return TrySetPanelVariable("Command", 14, out message);
+        }
+
+        private dynamic ResolveSystemVariable(string namespaceName, string variableName)
+        {
+            dynamic system = _application.System;
+
+            try { return system.Namespaces.Item(namespaceName).Variables.Item(variableName); }
+            catch { }
+
+            try { return system.Namespaces[namespaceName].Variables[variableName]; }
+            catch { }
+
+            try { return system.GetVariable(namespaceName + "::" + variableName); }
+            catch { }
+
+            throw new InvalidOperationException("system variable not found");
+        }
+
+        private static int Clamp(int value, int min, int max)
+        {
+            if (value < min) return min;
+            if (value > max) return max;
+            return value;
+        }
+    }
+}

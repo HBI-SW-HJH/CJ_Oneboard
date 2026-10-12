@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_device>
+  <exe>$TOOLKIT_DIR$/config/flashloader/Microchip/pic32cm-jh/pic32cm-jh_RAM64K.out</exe>
+  <page>64</page>
+  <block>2048 0x100</block>
+  <flash_base>0x00000000</flash_base>
+  <macro>$PROJ_DIR$/debugger/CJ_PIC32CM_BootUnlock.mac</macro>
+  <aggregate>1</aggregate>
+  <online>1</online>
+</flash_device>

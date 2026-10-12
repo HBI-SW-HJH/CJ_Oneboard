@@ -1,0 +1,2395 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/mingw32-make.exe.com"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/mingw32-make.exe"
+      - "C:/Program Files (x86)/NAT Service/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/NAT Service/mingw32-make.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/mingw32-make.exe"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mingw32-make.exe.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mingw32-make.exe"
+      - "C:/Program Files/Bandizip/mingw32-make.exe.com"
+      - "C:/Program Files/Bandizip/mingw32-make.exe"
+      - "C:/OPR3D/OPR3D V9/AxBin/mingw32-make.exe.com"
+      - "C:/OPR3D/OPR3D V9/AxBin/mingw32-make.exe"
+      - "C:/Program Files/dotnet/mingw32-make.exe.com"
+      - "C:/Program Files/dotnet/mingw32-make.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mingw32-make.exe.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mingw32-make.exe"
+      - "C:/Program Files (x86)/dotnet/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/dotnet/mingw32-make.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mingw32-make.exe.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mingw32-make.exe"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/mingw32-make.exe.com"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/mingw32-make.exe"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/mingw32-make.exe.com"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/mingw32-make.exe"
+      - "C:/MinGW/bin/mingw32-make.exe.com"
+      - "C:/MinGW/bin/mingw32-make.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/mingw32-make.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/mingw32-make.exe"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/mingw32-make.exe"
+      - "C:/Program Files/mingw32-make.exe.com"
+      - "C:/Program Files/mingw32-make.exe"
+      - "C:/iar/ewarm-9.70.4/common/bin/mingw32-make.exe.com"
+      - "C:/iar/ewarm-9.70.4/common/bin/mingw32-make.exe"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe.com"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe"
+      - "C:/Program Files/doxygen/bin/mingw32-make.exe.com"
+      - "C:/Program Files/doxygen/bin/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/iar/ewarm-9.70.4/comm/mingw32-make.exe.com"
+      - "C:/iar/ewarm-9.70.4/comm/mingw32-make.exe"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe.com"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe"
+      - "C:/Users/HKKIM/.dotnet/tools/mingw32-make.exe.com"
+      - "C:/Users/HKKIM/.dotnet/tools/mingw32-make.exe"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/mingw32-make.exe.com"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/mingw32-make.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/mingw32-make.exe.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/mingw32-make.exe"
+      - "/REGISTRY-NOTFOUND/bin/mingw32-make.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/mingw32-make.exe"
+      - "c:/MinGW/bin/mingw32-make.exe.com"
+      - "c:/MinGW/bin/mingw32-make.exe"
+      - "/MinGW/bin/mingw32-make.exe.com"
+      - "/MinGW/bin/mingw32-make.exe"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/mingw32-make.exe.com"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/mingw32-make.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c: In function 'main':
+      CMakeCCompilerId.c:905:5: warning: old-style function definition [-Wold-style-definition]
+        905 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c: In function 'main':
+      CMakeCCompilerId.c:905:5: warning: old-style function definition [-Wold-style-definition]
+        905 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1309 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      gcc.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/ar.com"
+    found: "C:/mingw64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/ranlib.com"
+    found: "C:/mingw64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/strip.com"
+    found: "C:/mingw64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/ld.com"
+    found: "C:/mingw64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/nm.com"
+    found: "C:/mingw64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/objdump.com"
+    found: "C:/mingw64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/objcopy.com"
+    found: "C:/mingw64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/readelf.com"
+    found: "C:/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/dlltool.com"
+    found: "C:/mingw64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/addr2line.com"
+    found: "C:/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/"
+      - "C:/Program Files (x86)/NAT Service/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/Bandizip/"
+      - "C:/OPR3D/OPR3D V9/AxBin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files (x86)/dotnet/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/"
+      - "C:/Program Files/"
+      - "C:/iar/ewarm-9.70.4/common/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/iar/ewarm-9.70.4/comm/"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/HKKIM/.dotnet/tools/"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/mingw64/bin/tapi.com"
+      - "C:/mingw64/bin/tapi.exe"
+      - "C:/mingw64/bin/tapi"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/tapi.com"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/tapi.exe"
+      - "C:/Users/HKKIM/.codex/tmp/arg0/codex-arg0WB6Uox/tapi"
+      - "C:/Program Files (x86)/NAT Service/tapi.com"
+      - "C:/Program Files (x86)/NAT Service/tapi.exe"
+      - "C:/Program Files (x86)/NAT Service/tapi"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/tapi.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/tapi.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/tapi"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/tapi.com"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/tapi.exe"
+      - "C:/Program Files (x86)/microchip/xc16/v1.00/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/tapi"
+      - "C:/Program Files/Bandizip/tapi.com"
+      - "C:/Program Files/Bandizip/tapi.exe"
+      - "C:/Program Files/Bandizip/tapi"
+      - "C:/OPR3D/OPR3D V9/AxBin/tapi.com"
+      - "C:/OPR3D/OPR3D V9/AxBin/tapi.exe"
+      - "C:/OPR3D/OPR3D V9/AxBin/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/tapi"
+      - "C:/Program Files (x86)/dotnet/tapi.com"
+      - "C:/Program Files (x86)/dotnet/tapi.exe"
+      - "C:/Program Files (x86)/dotnet/tapi"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/tapi.com"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/tapi.exe"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/bin/tapi"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/tapi.com"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/tapi.exe"
+      - "C:/Users/HKKIM/AppData/Local/Suresofttech Inc/STATIC Toolbox/apps/STATIC Client for C, C++ v4.9.0/tapi"
+      - "C:/MinGW/bin/tapi.com"
+      - "C:/MinGW/bin/tapi.exe"
+      - "C:/MinGW/bin/tapi"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/tapi.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/tapi.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86/bin/tapi"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/tapi.com"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/tapi.exe"
+      - "C:/Program Files/Vector SIL Kit 5.0.1/x86_64/bin/tapi"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/tapi.com"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/tapi.exe"
+      - "C:/Program Files (x86)/Vector CANdb++ 3.1/Exec32/tapi"
+      - "C:/Program Files/tapi.com"
+      - "C:/Program Files/tapi.exe"
+      - "C:/Program Files/tapi"
+      - "C:/iar/ewarm-9.70.4/common/bin/tapi.com"
+      - "C:/iar/ewarm-9.70.4/common/bin/tapi.exe"
+      - "C:/iar/ewarm-9.70.4/common/bin/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Program Files/doxygen/bin/tapi.com"
+      - "C:/Program Files/doxygen/bin/tapi.exe"
+      - "C:/Program Files/doxygen/bin/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/iar/ewarm-9.70.4/comm/tapi.com"
+      - "C:/iar/ewarm-9.70.4/comm/tapi.exe"
+      - "C:/iar/ewarm-9.70.4/comm/tapi"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/HKKIM/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/HKKIM/.dotnet/tools/tapi.com"
+      - "C:/Users/HKKIM/.dotnet/tools/tapi.exe"
+      - "C:/Users/HKKIM/.dotnet/tools/tapi"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/tapi.com"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/tapi.exe"
+      - "C:/Users/HKKIM/AppData/Local/OpenAI/Codex/bin/ada252862d154cdd/tapi"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/tapi.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/tapi.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0/app/resources/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\HKKIM\\.codex\\tmp\\arg0\\codex-arg0WB6Uox"
+        - "C:\\Program Files (x86)\\NAT Service"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\Program Files (x86)\\microchip\\xc16\\v1.00\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\Bandizip\\"
+        - "C:\\OPR3D\\OPR3D V9\\AxBin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\dotnet\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\bin\\"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Suresofttech Inc\\STATIC Toolbox\\apps\\STATIC Client for C, C++ v4.9.0"
+        - "C:\\MinGW\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86\\bin"
+        - "c:\\Program Files\\Vector SIL Kit 5.0.1\\x86_64\\bin"
+        - "c:\\Program Files (x86)\\Vector CANdb++ 3.1\\Exec32"
+        - "C:\\Program Files"
+        - "C:\\iar\\ewarm-9.70.4\\common\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\iar\\ewarm-9.70.4\\comm"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\HKKIM\\.dotnet\\tools"
+        - "C:\\Users\\HKKIM\\AppData\\Local\\OpenAI\\Codex\\bin\\ada252862d154cdd"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.3563.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-kjrx3s"
+      binary: "C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-kjrx3s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-kjrx3s'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:\\mingw64\\bin\\mingw32-make.exe -f Makefile cmTC_ffeb3/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ffeb3.dir\\build.make CMakeFiles/cmTC_ffeb3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-kjrx3s'
+        Building C object CMakeFiles/cmTC_ffeb3.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_ffeb3.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_ffeb3.dir\\build.make:80: CMakeFiles/cmTC_ffeb3.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-kjrx3s'
+        mingw32-make: *** [Makefile:133: cmTC_ffeb3/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/mingw64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-cb59gc"
+      binary: "C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-cb59gc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-cb59gc'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:\\mingw64\\bin\\mingw32-make.exe -f Makefile cmTC_34aac/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_34aac.dir\\build.make CMakeFiles/cmTC_34aac.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-cb59gc'
+        Building C object CMakeFiles/cmTC_34aac.dir/testCCompiler.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_34aac.dir\\testCCompiler.c.obj -c C:\\Users\\HKKIM\\Desktop\\jhhan\\AD3306_AD6601\\AD3304_20260713\\NativeOsp\\cmake-build-mingw-check\\CMakeFiles\\CMakeScratch\\TryCompile-cb59gc\\testCCompiler.c
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_34aac.dir\\build.make:80: CMakeFiles/cmTC_34aac.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HKKIM/Desktop/jhhan/AD3306_AD6601/AD3304_20260713/NativeOsp/cmake-build-mingw-check/CMakeFiles/CMakeScratch/TryCompile-cb59gc'
+        mingw32-make: *** [Makefile:133: cmTC_34aac/fast] Error 2
+        
+      exitCode: 2
+...

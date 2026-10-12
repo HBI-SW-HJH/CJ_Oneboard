@@ -1,0 +1,67 @@
+업데이트 중지 (0%) / 다시 Scan 후 Update로 재시도하십시오.
+[11:40:08.034] TX  55 3C  7F 10 08 31 01 F3 02 13  2D
+[11:40:08.046] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:40:08.058] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.060] RX  55 7D  7F 10 0A 71 01 F3 02 13  EA
+[11:40:08.079] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.081] RX  55 7D  7F 21 57 24 68 01 7D FF  FC
+[11:40:08.081] TX  55 3C  7D 03 22 F2 10 FF FF FF  5A
+[11:40:08.091] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.093] RX  55 7D  7D 10 26 62 F2 10 01 00  E5
+[11:40:08.112] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.114] RX  55 7D  7D 21 01 00 00 00 03 00  5D
+[11:40:08.134] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.135] RX  55 7D  7D 22 00 00 00 00 00 00  60
+[11:40:08.154] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.156] RX  55 7D  7D 23 00 00 00 00 00 00  5F
+[11:40:08.175] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.176] RX  55 7D  7D 24 00 00 00 00 00 03  5B
+[11:40:08.195] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.196] RX  55 7D  7D 25 00 00 00 00 00 00  5D
+[11:40:08.215] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.216] RX  55 7D  7D 26 00 00 07 FF FF FF  55
+[11:40:08.216] TX  55 3C  7D 02 10 02 FF FF FF FF  6E
+[11:40:08.228] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.229] RX  55 7D  7D 06 50 02 00 FA 01 F4  39
+[11:40:08.229] TX  55 3C  7D 10 0B 34 00 44 00 01  ED
+[11:40:08.240] TX  55 3C  7D 21 00 00 00 00 01 01  5F
+[11:40:08.252] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.253] RX  55 7D  7D 04 74 20 00 82 FF FF  67
+[11:40:08.253] TX  55 3C  7D 03 22 F2 10 FF FF FF  5A
+[11:40:08.264] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.265] RX  55 7D  7D 10 26 62 F2 10 01 00  E5
+[11:40:08.285] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.286] RX  55 7D  7D 21 01 00 00 00 03 00  5D
+[11:40:08.304] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.306] RX  55 7D  7D 22 00 00 00 00 00 00  60
+[11:40:08.324] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.326] RX  55 7D  7D 23 00 00 00 00 00 00  5F
+[11:40:08.345] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.346] RX  55 7D  7D 24 00 00 00 00 00 03  5B
+[11:40:08.365] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.367] RX  55 7D  7D 25 00 00 00 00 00 00  5D
+[11:40:08.386] REQ  55 7D  (Master Header / Classic response)
+[11:40:08.387] RX  55 7D  7D 26 00 00 07 FF FF FF  55
+[11:40:08.387] TX  55 3C  7D 10 82 36 01 F8 FF 00  BF
+[11:40:08.397] TX  55 3C  7D 21 20 C1 00 01 00 08  76
+[11:40:08.408] TX  55 3C  7D 22 09 0A 0B 0C 0D 0E  1B
+[11:40:08.419] TX  55 3C  7D 23 0F 10 11 12 13 14  F5
+[11:40:08.430] TX  55 3C  7D 24 15 16 17 18 19 1A  D0
+[11:40:08.440] TX  55 3C  7D 25 1B 1C 1D 1E 1F 20  AB
+[11:40:08.451] TX  55 3C  7D 26 21 22 23 24 25 26  86
+[11:40:08.461] TX  55 3C  7D 27 27 28 29 2A 2B 2C  61
+[11:40:08.472] TX  55 3C  7D 28 2D 2E 2F 30 31 32  3C
+[11:40:08.482] TX  55 3C  7D 29 33 34 35 36 37 38  17
+[11:40:08.493] TX  55 3C  7D 2A 39 3A 3B 3C 3D 3E  F1
+[11:40:08.504] TX  55 3C  7D 2B 3F 40 41 42 43 44  CC
+[11:40:08.514] TX  55 3C  7D 2C 45 46 47 48 49 4A  A7
+[11:40:08.525] TX  55 3C  7D 2D 4B 4C 4D 4E 4F 50  82
+[11:40:08.536] TX  55 3C  7D 2E 51 52 53 54 55 56  5D
+[11:40:08.547] TX  55 3C  7D 2F 57 58 59 5A 5B 5C  38
+[11:40:08.558] TX  55 3C  7D 20 5D 5E 5F 60 61 62  23
+[11:40:08.569] TX  55 3C  7D 21 63 64 65 66 67 68  FD
+[11:40:08.579] TX  55 3C  7D 22 69 6A 6B 6C 6D 6E  D8
+[11:40:08.590] TX  55 3C  7D 23 6F 70 71 72 73 74  B3
+[11:40:08.600] TX  55 3C  7D 24 75 76 77 78 79 7A  8E
+[11:40:08.611] TX  55 3C  7D 25 7B 7C 7D 7E 7F FF  E9
+[11:40:08.618] UPDATE STOP: 사용자 요청으로 이후 전송 중지. 완료 요청 및 Reset을 보내지 않습니다.

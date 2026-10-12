@@ -1,0 +1,23 @@
+# ninja log v6
+1741	1780	8134677181134068	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Exe/CJ_App.bin	d79f1df25d841348
+494	823	8134677168669748	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_3123715753699466016.dir/gpio_device.o	d5bfa49aab043961
+667	979	8134677170409439	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/Startup_17868067532763321386.dir/startup_pic32cmjh01.o	90c02960bcfd612a
+169	787	8134677165419542	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/Verification.o	d414c357d8cf7fa7
+7	307	8134677163796849	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/crc32.o	38980c4d70d8722f
+151	696	8134677165251726	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/UDS.o	1588d378c601d96d
+71	588	8134677164435332	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/pds.o	1b1d3040c8315bcc
+52	1616	8134677164259156	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/OSPControl.o	bc518a4e854ba5f3
+30	466	8134677164025092	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/lin_task.o	c796731f1c788959
+113	909	8134677164867812	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/SRGBControl.o	28cdce5f2ca3c7f0
+591	932	8134677169635569	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_3123715753699466016.dir/power_device.o	e28a71ff491312b9
+130	493	8134677165039110	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/sys_init.o	632523976c90b109
+193	540	8134677165662715	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/XCP.o	9fbf01e36414fe8e
+309	665	8134677166820682	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_3123715753699466016.dir/clock_device.o	9daaeb6cf3136d0f
+469	806	8134677168420157	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_3123715753699466016.dir/flash_device.o	ad0f4e0f3978c18a
+542	963	8134677169155307	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_3123715753699466016.dir/lin_device.o	2546c09040326220
+619	949	8134677169922308	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_3123715753699466016.dir/systick_device.o	5f8da7ad733ca04a
+5246	5511	8124520503526835	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/Firmware Update_14452931431178221931.dir/Reprogram.o	75f849f0a6b1440b
+699	995	8134677170713904	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/main.o	358597ddf96fd557
+1617	1739	8134677179904464	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Exe/CJ_OneBoard_APP.out	ec35b8f91f77b715
+1617	1739	8134677179904464	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/List/CJ_OneBoard_APP.map	ec35b8f91f77b715
+88	617	8134677164607654	D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/CJ_OneBoard_App_20260930/build/Debug/Obj/src_13801307003738827180.dir/Reprogram.o	d5ee6755e4d90c18

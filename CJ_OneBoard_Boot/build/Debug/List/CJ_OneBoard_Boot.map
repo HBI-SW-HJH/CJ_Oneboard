@@ -1,0 +1,441 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.4.588/W64 for ARM                  08/Oct/2026  13:05:28
+# Copyright 2007-2026 IAR Systems AB.
+#
+#    Output file  =
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Exe\CJ_OneBoard_Boot.out
+#    Map file     =
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\List\CJ_OneBoard_Boot.map
+#    Command line =
+#        -f
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Exe\CJ_OneBoard_Boot.out.rsp
+#        (D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir\clock_device.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir\crc32.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir\flash_device.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir\gpio_device.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir\lin_device.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir\lin_task.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\main.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir\Reprogram.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\Startup_17868067532763321386.dir\startup_pic32cmjh01.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir\sys_init.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir\systick_device.o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir\UDS.o
+#        --no_out_extension -o
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Exe\CJ_OneBoard_Boot.out
+#        --map
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\List\CJ_OneBoard_Boot.map
+#        --config
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\flash.icf
+#        --entry Reset_Handler --inline --vfe --text_out locale
+#        --cpu=Cortex-M0+ --fpu=None) --diagnostics_format=sarif_stdout
+#        --dependencies=n
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Exe\CJ_OneBoard_Boot.out.iar_deps
+#        --dynamic_output
+#        D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Exe\CJ_OneBoard_Boot.out.iar_dynout
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 {  ro section .vectors,  ro section .intvec };
+"P1":  place in [from 0x0 to 0xffff] {  ro };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {  rw,  block HEAP };
+define block CSTACK with size = 4K, alignment = 8 { };
+"A1":  place at end of [from 0x2000'0000 to 0x2000'ffff] {  block CSTACK };
+
+No sections matched the following patterns:
+
+  ro object bsp_flash_config.o  in "P3"
+
+
+  Section          Kind         Address  Alignment    Size  Object
+  -------          ----         -------  ---------    ----  ------
+"A0":                                                0x100
+  .vectors         const            0x0          4    0xc0  startup_pic32cmjh01.o [2]
+  .intvec          ro code         0xc0          4    0x40  vector_table_M.o [6]
+                                - 0x100              0x100
+
+"P1":                                               0x25fc
+  .text            ro code        0x100          4   0xeec  Reprogram.o [3]
+  .text            ro code        0xfec          4    0xbc  sys_init.o [3]
+  .text            ro code       0x10a8          4    0x1e  memcmp.o [6]
+  .text            ro code       0x10c6          2     0x2  vectortrap_M.o [6]
+  .text            ro code       0x10c8          4     0xe  flash_device.o [4]
+  .text            ro code       0x10d8          4    0x4e  ABImemcpy.o [6]
+  .text            ro code       0x1128          4    0x74  crc32.o [3]
+  .text            ro code       0x119c          4    0x4e  ABImemset.o [6]
+  .text            ro code       0x11ec          4   0x1a0  clock_device.o [4]
+  .text            ro code       0x138c          4    0xf8  systick_device.o [4]
+  .text            ro code       0x1484          2   0x266  gpio_device.o [4]
+  .text            ro code       0x16ec          4   0x51c  lin_task.o [3]
+  .text            ro code       0x1c08          2    0xae  I32DivModFast.o [6]
+  .text            ro code       0x1cb8          4   0x224  UDS.o [3]
+  .text            ro code       0x1edc          4   0x6a4  lin_device.o [4]
+  .text            ro code       0x2580          4    0x68  startup_pic32cmjh01.o [2]
+  .text            ro code       0x25e8          4    0x1c  cstartup_M.o [6]
+  .text            ro code       0x2604          4    0x22  cmain.o [6]
+  .text            ro code       0x2628          4    0x28  data_init.o [6]
+  .text            ro code       0x2650          4    0x24  main.o [1]
+  .text            ro code       0x2674          2     0x8  exit.o [5]
+  .text            ro code       0x267c          4     0x4  cexit.o [6]
+  .text            ro code       0x2680          4     0xa  cexit_2.o [6]
+  .text            ro code       0x268c          4     0xc  XXexit.o [6]
+  .text            ro code       0x2698          2    0x3c  zero_init3.o [6]
+  .iar.init_table  const         0x26d4          4    0x10  - Linker created -
+  .rodata          const         0x26e4          4    0x18  clock_device.o [4]
+  .rodata          const         0x26fc                0x0  zero_init3.o [6]
+                               - 0x26fc             0x25fc
+
+"P2":                                                0xfd4
+  .bss             zero     0x2000'0000          4   0x400  crc32.o [3]
+  .bss             zero     0x2000'0400          4   0x304  lin_task.o [3]
+  .bss             zero     0x2000'0704          4   0x304  lin_task.o [3]
+  .bss             zero     0x2000'0a08          4   0x11c  Reprogram.o [3]
+  .bss             zero     0x2000'0b24          4   0x100  Reprogram.o [3]
+  .bss             zero     0x2000'0c24          4   0x100  Reprogram.o [3]
+  .bss             zero     0x2000'0e00        256    0xc0  lin_device.o [4]
+  .bss             zero     0x2000'0ec0          4    0x94  lin_task.o [3]
+  .bss             zero     0x2000'0f54          4    0x1c  lin_task.o [3]
+  .bss             zero     0x2000'0f70          4    0x10  lin_device.o [4]
+  .bss             zero     0x2000'0f80          4     0x8  sys_init.o [3]
+  .bss             zero     0x2000'0f88          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0f8c          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0f90          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0f94          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0f98          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0f9c          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0fa0          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0fa4          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0fa8          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0fac          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0fb0          4     0x4  lin_device.o [4]
+  .bss             zero     0x2000'0fb4          4     0x4  lin_task.o [3]
+  .bss             zero     0x2000'0fb8          4     0x4  lin_task.o [3]
+  .bss             zero     0x2000'0fbc          4     0x4  systick_device.o [4]
+  .bss             zero     0x2000'0fc0          4     0x4  UDS.o [3]
+  .bss             zero     0x2000'0fc4          2     0x2  lin_device.o [4]
+  .bss             zero     0x2000'0fc6                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fc7                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fc8                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fc9                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fca                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fcb                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fcc                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fcd                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fce                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fcf                0x1  lin_device.o [4]
+  .bss             zero     0x2000'0fd0                0x1  UDS.o [3]
+                          - 0x2000'0fd1              0xfd1
+
+"A1":                                               0x1000
+  CSTACK                    0x2000'f000          8  0x1000  <Block>
+    CSTACK         uninit   0x2000'f000             0x1000  <Block tail>
+                          - 0x2001'0000             0x1000
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+       0x26fc       0xffff  0xd904
+  0x2000'0fd4  0x2000'efff  0xe02c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xfd1:
+          0x2000'0000  0xfd1
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj: [1]
+    main.o                      36
+    ------------------------------------------------
+    Total:                      36
+
+D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\Startup_17868067532763321386.dir: [2]
+    startup_pic32cmjh01.o      104      192
+    ------------------------------------------------
+    Total:                     104      192
+
+D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir: [3]
+    Reprogram.o              3'820               796
+    UDS.o                      548                 5
+    crc32.o                    116             1'024
+    lin_task.o               1'308             1'728
+    sys_init.o                 188                 8
+    ------------------------------------------------
+    Total:                   5'980             3'561
+
+D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir: [4]
+    clock_device.o             416       24
+    flash_device.o              14
+    gpio_device.o              614
+    lin_device.o             1'700               264
+    systick_device.o           248                 4
+    ------------------------------------------------
+    Total:                   2'992       24      268
+
+dl6M_tln.a: [5]
+    exit.o                       8
+    ------------------------------------------------
+    Total:                       8
+
+rt6M_tl.a: [6]
+    ABImemcpy.o                 78
+    ABImemset.o                 78
+    I32DivModFast.o            174
+    XXexit.o                    12
+    cexit.o                      4
+    cexit_2.o                   10
+    cmain.o                     34
+    cstartup_M.o                28
+    data_init.o                 40
+    memcmp.o                    30
+    vector_table_M.o            64
+    vectortrap_M.o               2
+    zero_init3.o                60
+    ------------------------------------------------
+    Total:                     614
+
+    Gaps                        14               220
+    Linker created                       16    4'096
+----------------------------------------------------
+    Grand Total:             9'748      232    8'145
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x26d4          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x26e4          --   Gb  - Linker created -
+?main                        0x2605         Code  Gb  cmain.o [6]
+AC_Handler                   0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+ADC0_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+ADC1_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+AppTimer_TickHandler          0xfed   0x10  Code  Gb  sys_init.o [3]
+BusFault_Handler             0x10c7         Code  Wk  vectortrap_M.o [6]
+CAN0_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+CAN1_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+CRC32_GetRunTimeCRC32        0x115d   0x36  Code  Gb  crc32.o [3]
+CRC32_Init                   0x1129   0x34  Code  Gb  crc32.o [3]
+CSTACK$$Base            0x2000'f000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2001'0000          --   Gb  - Linker created -
+Clock_EnablePeripheral       0x12f3   0x1a  Code  Gb  clock_device.o [4]
+Clock_EnableSercomApbc       0x130d   0x1e  Code  Gb  clock_device.o [4]
+Clock_EnableSercomApbc::masks
+                             0x26e4   0x18  Data  Lc  clock_device.o [4]
+Clock_GclkGen0Sync           0x11ed    0xc  Code  Lc  clock_device.o [4]
+Clock_GclkSync               0x11f9    0xc  Code  Lc  clock_device.o [4]
+Clock_Init                   0x1205   0xee  Code  Gb  clock_device.o [4]
+DAC_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+DMAC_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+DebugMon_Handler             0x10c7         Code  Wk  vectortrap_M.o [6]
+Default_Handler              0x25bd   0x10  Code  Gb  startup_pic32cmjh01.o [2]
+EIC_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+EVSYS_Handler                0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+FREQM_Handler                0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+Flash_Read                   0x10c9    0xe  Code  Gb  flash_device.o [4]
+GPIO_EnableInput             0x16b9   0x32  Code  Gb  gpio_device.o [4]
+GPIO_Init                    0x1485  0x15a  Code  Gb  gpio_device.o [4]
+GPIO_Set                     0x15df   0x30  Code  Gb  gpio_device.o [4]
+GPIO_SetPmux                 0x160f   0xaa  Code  Gb  gpio_device.o [4]
+HardFault_Handler            0x25ab   0x12  Code  Gb  startup_pic32cmjh01.o [2]
+ICM_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+LINT_HandleDiagnostic        0x1879  0x1ec  Code  Lc  lin_task.o [3]
+LINT_Init                    0x1b39   0x70  Code  Gb  lin_task.o [3]
+LINT_Process                 0x1bad   0x20  Code  Gb  lin_task.o [3]
+LINT_QueueDiagnosticResponse
+                             0x176d  0x108  Code  Lc  lin_task.o [3]
+LINT_RxCallback              0x1a69   0x52  Code  Lc  lin_task.o [3]
+LINT_TxCallback              0x1ad1   0x60  Code  Lc  lin_task.o [3]
+LIN_CalcChecksum             0x20cd   0x36  Code  Gb  lin_device.o [4]
+LIN_CalcPID                  0x207d   0x50  Code  Gb  lin_device.o [4]
+LIN_FindFrame                0x1ff5   0x5e  Code  Lc  lin_device.o [4]
+LIN_Init                     0x2103   0xf8  Code  Gb  lin_device.o [4]
+LIN_InstallSercom0Vector
+                             0x1f97   0x40  Code  Lc  lin_device.o [4]
+LIN_IrqHandler               0x2299  0x290  Code  Gb  lin_device.o [4]
+LIN_RegisterFrames           0x2209    0xa  Code  Gb  lin_device.o [4]
+LIN_SendByte                 0x2053   0x22  Code  Lc  lin_device.o [4]
+LIN_WaitSync                 0x1fd7   0x1e  Code  Lc  lin_device.o [4]
+MCRAMC_Handler               0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+MemManage_Handler            0x10c7         Code  Wk  vectortrap_M.o [6]
+NMI_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+NVMCTRL_Handler              0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+PDEC_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+PTC_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+PendSV_Handler               0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+RTC_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+Region$$Table$$Base          0x26d4          --   Gb  - Linker created -
+Region$$Table$$Limit         0x26e4          --   Gb  - Linker created -
+Reprogram_BackupApp           0x649   0xdc  Code  Lc  Reprogram.o [3]
+Reprogram_Command             0x149   0x52  Code  Lc  Reprogram.o [3]
+Reprogram_Copy                0x501   0xc2  Code  Lc  Reprogram.o [3]
+Reprogram_Crc                 0x115   0x34  Code  Gb  Reprogram.o [3]
+Reprogram_ImageValid          0x5cd   0x72  Code  Lc  Reprogram.o [3]
+Reprogram_Init                0x739  0x188  Code  Gb  Reprogram.o [3]
+Reprogram_Load                0x421   0xc8  Code  Lc  Reprogram.o [3]
+Reprogram_Process             0x8c9   0x6e  Code  Gb  Reprogram.o [3]
+Reprogram_Request             0x969  0x672  Code  Gb  Reprogram.o [3]
+Reprogram_StartApp            0x3f1   0x1c  Code  Lc  Reprogram.o [3]
+Reprogram_Store               0x361   0x88  Code  Lc  Reprogram.o [3]
+Reprogram_WriteProtect_Lock
+                              0x19b   0x46  Code  Gb  Reprogram.o [3]
+Reprogram_WriteProtect_Unlock
+                              0x1e1   0x3e  Code  Gb  Reprogram.o [3]
+Reprogram_WriteRow            0x21f  0x138  Code  Lc  Reprogram.o [3]
+Reset_Handler                0x2581   0x2a  Code  Gb  startup_pic32cmjh01.o [2]
+RingBuf_Pop                  0x172b   0x42  Code  Lc  lin_task.o [3]
+RingBuf_Push                 0x16ed   0x3e  Code  Lc  lin_task.o [3]
+SERCOM0_6_Handler            0x2579    0x8  Code  Gb  lin_device.o [4]
+SERCOM1_7_Handler            0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SERCOM2_Handler              0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SERCOM3_Handler              0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SERCOM4_Handler              0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SERCOM5_Handler              0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SVC_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SYSTEM_Handler               0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+SYS_Init                     0x1057   0x32  Code  Gb  sys_init.o [3]
+SysTick_Config               0x1417   0x30  Code  Lc  systick_device.o [4]
+SysTick_Handler              0x145b   0x10  Code  Gb  systick_device.o [4]
+SysTick_Init                 0x1447   0x14  Code  Gb  systick_device.o [4]
+TC0_5_Handler                0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TC1_6_Handler                0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TC2_7_Handler                0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TC3_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TC4_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TCC0_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TCC1_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+TCC2_Handler                 0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+UDS_HandleBroadcast          0x1da9   0xf8  Code  Gb  UDS.o [3]
+UDS_HandleRequest            0x1d8b   0x1e  Code  Gb  UDS.o [3]
+UDS_Init                     0x1cb9   0x6c  Code  Gb  UDS.o [3]
+UDS_Timeout                  0x1d25   0x66  Code  Gb  UDS.o [3]
+UsageFault_Handler           0x10c7         Code  Wk  vectortrap_M.o [6]
+WDT_Clear                    0x1037   0x20  Code  Gb  sys_init.o [3]
+WDT_Handler                  0x25bd   0x10  Code  Wk  startup_pic32cmjh01.o [2]
+WDT_Init                      0xffd   0x3a  Code  Lc  sys_init.o [3]
+__NVIC_ClearPendingIRQ       0x1ef5   0x18  Code  Lc  lin_device.o [4]
+__NVIC_EnableIRQ             0x1edd   0x18  Code  Lc  lin_device.o [4]
+__NVIC_SetPriority           0x1f0d   0x8a  Code  Lc  lin_device.o [4]
+__NVIC_SetPriority           0x138d   0x8a  Code  Lc  systick_device.o [4]
+__NVIC_SystemReset            0x101   0x14  Code  Lc  Reprogram.o [3]
+__aeabi_memcpy               0x110d         Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy4              0x10d9         Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8              0x10d9         Code  Gb  ABImemcpy.o [6]
+__aeabi_memset               0x119d         Code  Gb  ABImemset.o [6]
+__aeabi_uidiv                0x1c09         Code  Gb  I32DivModFast.o [6]
+__aeabi_uidivmod             0x1c09         Code  Gb  I32DivModFast.o [6]
+__cmain                      0x2605         Code  Gb  cmain.o [6]
+__exit                       0x268d         Code  Gb  XXexit.o [6]
+__iar_Memcpy                 0x1119         Code  Gb  ABImemcpy.o [6]
+__iar_Memset4_word           0x11bd         Code  Gb  ABImemset.o [6]
+__iar_Memset_word            0x11a9         Code  Gb  ABImemset.o [6]
+__iar_data_init3             0x2629   0x28  Code  Gb  data_init.o [6]
+__iar_program_start          0x25e9         Code  Gb  cstartup_M.o [6]
+__iar_zero_init3             0x2699   0x3c  Code  Gb  zero_init3.o [6]
+__vector_table                 0xc0         Data  Gb  vector_table_M.o [6]
+_call_main                   0x2611         Code  Gb  cmain.o [6]
+_exit                        0x267d         Code  Gb  cexit.o [6]
+_exit_2                      0x2681         Code  Gb  cexit_2.o [6]
+exit                         0x2675    0x8  Code  Gb  exit.o [5]
+gCRC32Table             0x2000'0000  0x400  Data  Gb  crc32.o [3]
+gReprogram              0x2000'0a08  0x11c  Data  Gb  Reprogram.o [3]
+gUDSInitNumber          0x2000'0fc0    0x4  Data  Gb  UDS.o [3]
+gUpdateBackup           0x2000'0c24  0x100  Data  Gb  Reprogram.o [3]
+gUpdateMain             0x2000'0b24  0x100  Data  Gb  Reprogram.o [3]
+g_dbg_lin_drop_count    0x2000'0fa0    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_error_count   0x2000'0f98    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_error_state   0x2000'0fca    0x1  Data  Gb  lin_device.o [4]
+g_dbg_lin_irq_count     0x2000'0f88    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_last_intflag  0x2000'0fc9    0x1  Data  Gb  lin_device.o [4]
+g_dbg_lin_last_pid      0x2000'0fc6    0x1  Data  Gb  lin_device.o [4]
+g_dbg_lin_last_raw_id   0x2000'0fc7    0x1  Data  Gb  lin_device.o [4]
+g_dbg_lin_last_state    0x2000'0fc8    0x1  Data  Gb  lin_device.o [4]
+g_dbg_lin_last_status   0x2000'0fc4    0x2  Data  Gb  lin_device.o [4]
+g_dbg_lin_rx_cb_count   0x2000'0f9c    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_rxbrk_count   0x2000'0f8c    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_rxc_count     0x2000'0f90    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_rxs_count     0x2000'0f94    0x4  Data  Gb  lin_device.o [4]
+g_dbg_lin_tp_error_count
+                        0x2000'0fb8    0x4  Data  Gb  lin_task.o [3]
+g_dbg_lin_tx_drop_count
+                        0x2000'0fb4    0x4  Data  Gb  lin_task.o [3]
+g_pfnVectors                    0x0   0xc0  Data  Gb  startup_pic32cmjh01.o [2]
+main                         0x2651   0x24  Code  Gb  main.o [1]
+memcmp                       0x10a9         Code  Gb  memcmp.o [6]
+oAppTimer               0x2000'0f80    0x8  Data  Gb  sys_init.o [3]
+s_active                0x2000'0fa8    0x4  Data  Gb  lin_device.o [4]
+s_anyFrame              0x2000'0f70   0x10  Data  Gb  lin_device.o [4]
+s_dataIdx               0x2000'0fcd    0x1  Data  Gb  lin_device.o [4]
+s_diag                  0x2000'0ec0   0x94  Data  Gb  lin_task.o [3]
+s_discoverySlot         0x2000'0fd0    0x1  Data  Gb  UDS.o [3]
+s_frameCount            0x2000'0fcc    0x1  Data  Gb  lin_device.o [4]
+s_frameTable            0x2000'0fa4    0x4  Data  Gb  lin_device.o [4]
+s_frames                0x2000'0f54   0x1c  Data  Gb  lin_task.o [3]
+s_linVectorInstalled    0x2000'0fcf    0x1  Data  Gb  lin_device.o [4]
+s_linVectorTable        0x2000'0e00   0xc0  Data  Gb  lin_device.o [4]
+s_pid                   0x2000'0fce    0x1  Data  Gb  lin_device.o [4]
+s_rxCb                  0x2000'0fac    0x4  Data  Gb  lin_device.o [4]
+s_rxRing                0x2000'0400  0x304  Data  Gb  lin_task.o [3]
+s_state                 0x2000'0fcb    0x1  Data  Gb  lin_device.o [4]
+s_tickCb                0x2000'0fbc    0x4  Data  Gb  systick_device.o [4]
+s_txCb                  0x2000'0fb0    0x4  Data  Gb  lin_device.o [4]
+s_txRing                0x2000'0704  0x304  Data  Gb  lin_task.o [3]
+
+
+[1] = D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj
+[2] = D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\Startup_17868067532763321386.dir
+[3] = D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_13801307003738827180.dir
+[4] = D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Obj\src_3123715753699466016.dir
+[5] = dl6M_tln.a
+[6] = rt6M_tl.a
+
+  9'748 bytes of readonly  code memory
+    232 bytes of readonly  data memory
+  8'145 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,556 @@
+﻿/*****************************************************************************
+Copyright (c) 2025 - Analog Devices Inc. All Rights Reserved.
+This software is proprietary & confidential to Analog Devices, Inc.
+and its licensors.
+*******************************************************************************
+ * @file         : adi_Eth10BaseT1s_cfg.c
+ * @brief        : AD3304 x8 configuration (IF4/IF5 ??SDIO(P)/CLKIN(N))
+ *                 FID = MAC 嶺뚮씭??嶺??꾩룆????(0x00~0x08)
+ *                 Remote 0~7 = FID 0x01~0x08 (8??AD3304)
+ * @author       : Modified from original ADI Automotive Software team file
+******************************************************************************/
+
+/* =========================================================================
+   |                               INCLUDES                                |
+   ========================================================================= */
+#include "adi_Eth10BaseT1s_cfg.h"
+
+/* =========================================================================
+   |                       INTERFACE REGMAPS (??ㅻ쾴??                        |
+   ========================================================================= */
+/* FIO0 Interface RegMap ??IF4(SDIO-P) / IF5(CLKIN-N) */
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REG_ADDR_VAL aoFIOUart1IfRegMap[] =
+{
+    {
+        .nAddr = FLEXIO_CONTROL_NW_ADDR,
+        .nVal = (FLEXIO_CONTROL_RESET_VAL &
+                 ~(BITM_FLEXIO_CONTROL_ENABLE |
+                 BITM_FLEXIO_CONTROL_AUTOMATIC_TRIGGER |
+                 BITM_FLEXIO_CONTROL_MANUAL_TRIGGER |
+                 BITM_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_RISING_EDGE |
+                 BITM_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_FALLING_EDGE |
+                 BITM_FLEXIO_CONTROL_ENABLE_READ_TIME_TAG |
+                 BITM_FLEXIO_CONTROL_TX_FIFO_RESET |
+                 BITM_FLEXIO_CONTROL_RX_FIFO_RESET |
+                 BITM_FLEXIO_CONTROL_SOFT_RESET |
+                 BITM_FLEXIO_CONTROL_COMPLETE_TRANSACTIONS |
+                 BITM_FLEXIO_CONTROL_NUM_PACKED_TRANSACTIONS |
+                 BITM_FLEXIO_CONTROL_RAM_PARITY_HALT_ENABLE)) |
+                 ((0x0U << BITP_FLEXIO_CONTROL_ENABLE) |
+                 (0x0U << BITP_FLEXIO_CONTROL_AUTOMATIC_TRIGGER) |
+                 (0x0U << BITP_FLEXIO_CONTROL_MANUAL_TRIGGER) |
+                 (0x0U << BITP_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_RISING_EDGE) |
+                 (0x0U << BITP_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_FALLING_EDGE) |
+                 (0x0U << BITP_FLEXIO_CONTROL_ENABLE_READ_TIME_TAG) |
+                 (0x0U << BITP_FLEXIO_CONTROL_TX_FIFO_RESET) |
+                 (0x0U << BITP_FLEXIO_CONTROL_RX_FIFO_RESET) |
+                 (0x0U << BITP_FLEXIO_CONTROL_SOFT_RESET) |
+                 (0x0U << BITP_FLEXIO_CONTROL_COMPLETE_TRANSACTIONS) |
+                 (0x1U << BITP_FLEXIO_CONTROL_NUM_PACKED_TRANSACTIONS) |
+                 (0x1U << BITP_FLEXIO_CONTROL_RAM_PARITY_HALT_ENABLE))
+    },
+    {
+        .nAddr = FLEXIO_LENGTHS_NW_ADDR,
+        .nVal = (FLEXIO_LENGTHS_RESET_VAL &
+                 ~(BITM_FLEXIO_LENGTHS_MANUAL_WR_BYTES |
+                 BITM_FLEXIO_LENGTHS_MANUAL_RD_BYTES)) |
+                 ((0x0U << BITP_FLEXIO_LENGTHS_MANUAL_WR_BYTES) |
+                 (0x0U << BITP_FLEXIO_LENGTHS_MANUAL_RD_BYTES))
+    },
+};
+
+/* FIO1 Interface RegMap ??IF4(SDIO-P) / IF5(CLKIN-N) */
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REG_ADDR_VAL aoFIOUart2IfRegMap[] =
+{
+    {
+        .nAddr = FLEXIO_CONTROL_NW_ADDR,
+        .nVal = (FLEXIO_CONTROL_RESET_VAL &
+                 ~(BITM_FLEXIO_CONTROL_ENABLE |
+                 BITM_FLEXIO_CONTROL_AUTOMATIC_TRIGGER |
+                 BITM_FLEXIO_CONTROL_MANUAL_TRIGGER |
+                 BITM_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_RISING_EDGE |
+                 BITM_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_FALLING_EDGE |
+                 BITM_FLEXIO_CONTROL_ENABLE_READ_TIME_TAG |
+                 BITM_FLEXIO_CONTROL_TX_FIFO_RESET |
+                 BITM_FLEXIO_CONTROL_RX_FIFO_RESET |
+                 BITM_FLEXIO_CONTROL_SOFT_RESET |
+                 BITM_FLEXIO_CONTROL_COMPLETE_TRANSACTIONS |
+                 BITM_FLEXIO_CONTROL_NUM_PACKED_TRANSACTIONS |
+                 BITM_FLEXIO_CONTROL_RAM_PARITY_HALT_ENABLE)) |
+                 ((0x0U << BITP_FLEXIO_CONTROL_ENABLE) |
+                 (0x0U << BITP_FLEXIO_CONTROL_AUTOMATIC_TRIGGER) |
+                 (0x0U << BITP_FLEXIO_CONTROL_MANUAL_TRIGGER) |
+                 (0x0U << BITP_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_RISING_EDGE) |
+                 (0x0U << BITP_FLEXIO_CONTROL_EXTERNAL_TRIGGER_ENABLE_FALLING_EDGE) |
+                 (0x0U << BITP_FLEXIO_CONTROL_ENABLE_READ_TIME_TAG) |
+                 (0x0U << BITP_FLEXIO_CONTROL_TX_FIFO_RESET) |
+                 (0x0U << BITP_FLEXIO_CONTROL_RX_FIFO_RESET) |
+                 (0x0U << BITP_FLEXIO_CONTROL_SOFT_RESET) |
+                 (0x0U << BITP_FLEXIO_CONTROL_COMPLETE_TRANSACTIONS) |
+                 (0x1U << BITP_FLEXIO_CONTROL_NUM_PACKED_TRANSACTIONS) |
+                 (0x1U << BITP_FLEXIO_CONTROL_RAM_PARITY_HALT_ENABLE))
+    },
+    {
+        .nAddr = FLEXIO_LENGTHS_NW_ADDR,
+        .nVal = (FLEXIO_LENGTHS_RESET_VAL &
+                 ~(BITM_FLEXIO_LENGTHS_MANUAL_WR_BYTES |
+                 BITM_FLEXIO_LENGTHS_MANUAL_RD_BYTES)) |
+                 ((0x0U << BITP_FLEXIO_LENGTHS_MANUAL_WR_BYTES) |
+                 (0x0U << BITP_FLEXIO_LENGTHS_MANUAL_RD_BYTES))
+    },
+};
+
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REG_ADDR_VAL aoIseledIf2IfRegMap[] =
+{
+    {
+        .nAddr = ISELED_CONTROL_NW_ADDR,
+        .nVal  = (ISELED_CONTROL_RESET_VAL &
+                 ~(BITM_ISELED_CONTROL_TRANSACTION_HEADER_ENABLE |
+                   BITM_ISELED_CONTROL_ILAS_MODE |
+                   BITM_ISELED_CONTROL_RESYNCHRONIZATION_REQUIRED |
+                   BITM_ISELED_CONTROL_ENABLE_UPSTREAM_ECCO |
+                   BITM_ISELED_CONTROL_ENABLE_READ_TIME_TAG_ECCO |
+                   BITM_ISELED_CONTROL_ENABLE_READ_TIME_TAG |
+                   BITM_ISELED_CONTROL_TRANSACTION_TRIGGER |
+                   BITM_ISELED_CONTROL_TRIGGER_MODE |
+                   BITM_ISELED_CONTROL_ISELED_ENABLE |
+                   BITM_ISELED_CONTROL_CHANNEL_MODE |
+                   BITM_ISELED_CONTROL_TX_FIFO_RESET |
+                   BITM_ISELED_CONTROL_RX_FIFO_RESET |
+                   BITM_ISELED_CONTROL_SOFT_RESET)) |
+                 ((0x1U << BITP_ISELED_CONTROL_TRANSACTION_HEADER_ENABLE) |
+                  (0x0U << BITP_ISELED_CONTROL_ILAS_MODE) |
+                  (0x0U << BITP_ISELED_CONTROL_RESYNCHRONIZATION_REQUIRED) |
+                  (0x1U << BITP_ISELED_CONTROL_ENABLE_UPSTREAM_ECCO) |
+                  (0x0U << BITP_ISELED_CONTROL_ENABLE_READ_TIME_TAG_ECCO) |
+                  (0x0U << BITP_ISELED_CONTROL_ENABLE_READ_TIME_TAG) |
+                  (0x0U << BITP_ISELED_CONTROL_TRANSACTION_TRIGGER) |
+                  (0x1U << BITP_ISELED_CONTROL_TRIGGER_MODE) |
+                  (0x1U << BITP_ISELED_CONTROL_ISELED_ENABLE) |
+                  (0x2U << BITP_ISELED_CONTROL_CHANNEL_MODE) |
+                  (0x0U << BITP_ISELED_CONTROL_TX_FIFO_RESET) |
+                  (0x0U << BITP_ISELED_CONTROL_RX_FIFO_RESET) |
+                  (0x0U << BITP_ISELED_CONTROL_SOFT_RESET))
+    },
+    {
+        .nAddr = ISELED_INSTRUCTION_NW_ADDR,
+        .nVal  = (ISELED_INSTRUCTION_RESET_VAL &
+                 ~(BITM_ISELED_INSTRUCTION_DOWNSTREAM_PACKET_LENGTH)) |
+                 ((0x28U << BITP_ISELED_INSTRUCTION_DOWNSTREAM_PACKET_LENGTH))
+    },
+    {
+        .nAddr = ISELED_TRANSACTION_HEADER_NW_ADDR,
+        .nVal  = (ISELED_TRANSACTION_HEADER_RESET_VAL &
+                 ~(BITM_ISELED_TRANSACTION_HEADER_NUM_PACKED_TRANSACTIONS)) |
+                 ((0x1U << BITP_ISELED_TRANSACTION_HEADER_NUM_PACKED_TRANSACTIONS))
+    },
+};
+
+/* =========================================================================
+   |                         FIFO REGMAPS (??ㅻ쾴??                           |
+   ========================================================================= */
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REG_ADDR_VAL aoFIOUart1FifoRegMap[] =
+{
+    {
+        .nAddr = FIFO_CONTROL_NW_ADDR,
+        .nVal = (FIFO_CONTROL_RESET_VAL & ~(BITM_FIFO_CONTROL_READ_MODE)) |
+                 ((0x3U << BITP_FIFO_CONTROL_READ_MODE))
+    },
+    {
+        .nAddr = FIFO_READ_BLOCK_SIZES_NW_ADDR,
+        .nVal = (FIFO_READ_BLOCK_SIZES_RESET_VAL &
+                 ~(BITM_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE_INSTANTANEOUS |
+                 BITM_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE)) |
+                 ((0x1U << BITP_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE_INSTANTANEOUS) |
+                 (0x578U << BITP_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE))
+    },
+    {
+        .nAddr = FIFO_READ_BLOCK_TIME_NW_ADDR,
+        .nVal = (FIFO_READ_BLOCK_TIME_RESET_VAL &
+                 ~(BITM_FIFO_READ_BLOCK_TIME_READ_BLOCK_TIME_INSTANTANEOUS)) |
+                 ((0xc8U << BITP_FIFO_READ_BLOCK_TIME_READ_BLOCK_TIME_INSTANTANEOUS))
+    },
+};
+
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REG_ADDR_VAL aoFIOUart2FifoRegMap[] =
+{
+    {
+        .nAddr = FIFO_CONTROL_NW_ADDR,
+        .nVal = (FIFO_CONTROL_RESET_VAL & ~(BITM_FIFO_CONTROL_READ_MODE)) |
+                 ((0x3U << BITP_FIFO_CONTROL_READ_MODE))
+    },
+    {
+        .nAddr = FIFO_READ_BLOCK_SIZES_NW_ADDR,
+        .nVal = (FIFO_READ_BLOCK_SIZES_RESET_VAL &
+                 ~(BITM_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE_INSTANTANEOUS |
+                 BITM_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE)) |
+                 ((0x1U << BITP_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE_INSTANTANEOUS) |
+                 (0x578U << BITP_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE))
+    },
+    {
+        .nAddr = FIFO_READ_BLOCK_TIME_NW_ADDR,
+        .nVal = (FIFO_READ_BLOCK_TIME_RESET_VAL &
+                 ~(BITM_FIFO_READ_BLOCK_TIME_READ_BLOCK_TIME_INSTANTANEOUS)) |
+                 ((0xc8U << BITP_FIFO_READ_BLOCK_TIME_READ_BLOCK_TIME_INSTANTANEOUS))
+    },
+};
+
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REG_ADDR_VAL aoIseledIf2FifoRegMap[] =
+{
+    {
+        .nAddr = FIFO_CONTROL_NW_ADDR,
+        .nVal = (FIFO_CONTROL_RESET_VAL & ~(BITM_FIFO_CONTROL_READ_MODE)) |
+                 ((0x3U << BITP_FIFO_CONTROL_READ_MODE))
+    },
+    {
+        .nAddr = FIFO_READ_BLOCK_SIZES_NW_ADDR,
+        .nVal = (FIFO_READ_BLOCK_SIZES_RESET_VAL &
+                 ~(BITM_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE_INSTANTANEOUS |
+                   BITM_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE)) |
+                 ((0x1U << BITP_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE_INSTANTANEOUS) |
+                  (0x578U << BITP_FIFO_READ_BLOCK_SIZES_READ_BLOCK_SIZE))
+    },
+    {
+        .nAddr = FIFO_READ_BLOCK_TIME_NW_ADDR,
+        .nVal = (FIFO_READ_BLOCK_TIME_RESET_VAL &
+                 ~(BITM_FIFO_READ_BLOCK_TIME_READ_BLOCK_TIME_INSTANTANEOUS)) |
+                 ((0x1d4cU << BITP_FIFO_READ_BLOCK_TIME_READ_BLOCK_TIME_INSTANTANEOUS))
+    },
+};
+
+/* =========================================================================
+   |           REMOTE REGMAPS ??AD3304 x8 (FID 0x01 ~ 0x08)               |
+   |   AD3304: SAIF4 = SDIO(P), SAIF5 = CLKIN(N)                          |
+   |   ?リ옇???AD3301 (SAIF2/SAIF3, SAIF4/SAIF5) ???깆젧?????                    |
+   |   AD3304 IF4/IF5 ?????곕さ???곌떠???                                         |
+   |     HOST_IF_TO_INTF_MUX2  : FIO0??얩댃E-IF0, FIO1??얩댃E-IF1              |
+   |     HOST_IF_FROM_INT_MUX  : RxFIFO0??쒖¡O0, RxFIFO1??쒖¡O1             |
+   |     IO_LV_TP_OUT_EN_SA_IF : SAIF4 TX enable (bit4)                   |
+   |     IO_LV_TP_IP_EN_SA_IF  : SAIF5 RX enable (bit5)                   |
+   ========================================================================= */
+
+/* ???? ??ㅻ쾴??Remote RegMap 嶺뚮씞?뗥칰類욎뿉?(8???筌뤾퍓援??熬? ???됰뎄 HW ??뚮봽?? ???? */
+#define DEFINE_REMOTE_REGMAP(name, mac_addr_64) \
+ADI_MEM_DATA_CRIT_CACHE \
+static ADI_E2BCORE_REG_ADDR_VAL name[] = \
+{ \
+    { \
+        .nAddr = LCE_DEVICE_MAC_ADDRESS_LOWER_NW_ADDR, \
+        .nVal  = (uint32_t)(((mac_addr_64) & 0x0000FFFFFFFFull) << BITP_LCE_DEVICE_MAC_ADDRESS_LOWER_DEVICE_MAC_ADDRESS_LOWER) \
+    }, \
+    { \
+        .nAddr = LCE_DEVICE_MULTICAST_ADDRESS_UPPER_NW_ADDR, \
+        .nVal  = (LCE_DEVICE_MULTICAST_ADDRESS_UPPER_RESET_VAL & \
+                  ~(BITM_LCE_DEVICE_MULTICAST_ADDRESS_UPPER_DEVICE_MAC_ADDRESS_UPPER | \
+                    BITM_LCE_DEVICE_MULTICAST_ADDRESS_UPPER_MULTICAST_MAC_ADDRESS_UPPER)) | \
+                  ((0xe0U << BITP_LCE_DEVICE_MULTICAST_ADDRESS_UPPER_DEVICE_MAC_ADDRESS_UPPER) | \
+                   (0x1e0U << BITP_LCE_DEVICE_MULTICAST_ADDRESS_UPPER_MULTICAST_MAC_ADDRESS_UPPER)) \
+    }, \
+    /* FIO0/FIO1 routing restored from the working FIO project. */ \
+    { \
+        .nAddr = HOST_IF_TO_INTF_MUX2_NW_ADDR, \
+        .nVal  = (HOST_IF_TO_INTF_MUX2_RESET_VAL & \
+                  ~(BITM_HOST_IF_TO_INTF_MUX2_TO_INTF_MUX_10 | \
+                    BITM_HOST_IF_TO_INTF_MUX2_TO_INTF_MUX_11)) | \
+                  ((0x0U << BITP_HOST_IF_TO_INTF_MUX2_TO_INTF_MUX_10) | \
+                   (0x1U << BITP_HOST_IF_TO_INTF_MUX2_TO_INTF_MUX_11)) \
+    }, \
+    { \
+        .nAddr = HOST_IF_FROM_INT_MUX_NW_ADDR, \
+        .nVal  = (HOST_IF_FROM_INT_MUX_RESET_VAL & \
+                  ~(BITM_HOST_IF_FROM_INT_MUX_FROM_INTF_MUX_0 | \
+                    BITM_HOST_IF_FROM_INT_MUX_FROM_INTF_MUX_1)) | \
+                  ((0xaU << BITP_HOST_IF_FROM_INT_MUX_FROM_INTF_MUX_0) | \
+                   (0xbU << BITP_HOST_IF_FROM_INT_MUX_FROM_INTF_MUX_1)) \
+    }, \
+    { \
+        .nAddr = HOST_IF_INPUT_SELECTOR3_NW_ADDR, \
+        .nVal  = (HOST_IF_INPUT_SELECTOR3_RESET_VAL & \
+                  ~(BITM_HOST_IF_INPUT_SELECTOR3_FLEX_IO_0_INPUT_SELECTOR_0 | \
+                    BITM_HOST_IF_INPUT_SELECTOR3_FLEX_IO_0_INPUT_SELECTOR_1)) | \
+                  ((0x0U << BITP_HOST_IF_INPUT_SELECTOR3_FLEX_IO_0_INPUT_SELECTOR_0) | \
+                   (0x1U << BITP_HOST_IF_INPUT_SELECTOR3_FLEX_IO_0_INPUT_SELECTOR_1)) \
+    }, \
+    { \
+        .nAddr = HOST_IF_OUTPUT_SELECTOR0_NW_ADDR, \
+        .nVal  = (HOST_IF_OUTPUT_SELECTOR0_RESET_VAL & \
+                  ~(BITM_HOST_IF_OUTPUT_SELECTOR0_IO0_OUTPUT_SELECTOR)) | \
+                  ((0x22U << BITP_HOST_IF_OUTPUT_SELECTOR0_IO0_OUTPUT_SELECTOR)) \
+    }, \
+    /* ISELED routing copied from ADI ex_iseled: SAIF3=SIO_N, SAIF4=SIO_P. */ \
+    { \
+        .nAddr = HOST_IF_TO_INTF_MUX_NW_ADDR, \
+        .nVal  = (HOST_IF_TO_INTF_MUX_RESET_VAL & \
+                  ~(BITM_HOST_IF_TO_INTF_MUX_TO_INTF_MUX_2)) | \
+                  ((0x0U << BITP_HOST_IF_TO_INTF_MUX_TO_INTF_MUX_2)) \
+    }, \
+    { \
+        .nAddr = HOST_IF_INPUT_SELECTOR2_NW_ADDR, \
+        .nVal  = (HOST_IF_INPUT_SELECTOR2_RESET_VAL & \
+                  ~(BITM_HOST_IF_INPUT_SELECTOR2_ISELED0_SIO_N_INPUT_SELECTOR | \
+                    BITM_HOST_IF_INPUT_SELECTOR2_ISELED0_SIO_P_INPUT_SELECTOR)) | \
+                  ((0x3U << BITP_HOST_IF_INPUT_SELECTOR2_ISELED0_SIO_N_INPUT_SELECTOR) | \
+                   (0x4U << BITP_HOST_IF_INPUT_SELECTOR2_ISELED0_SIO_P_INPUT_SELECTOR)) \
+    }, \
+    { \
+        .nAddr = HOST_IF_OUTPUT_SELECTOR1_NW_ADDR, \
+        .nVal  = (HOST_IF_OUTPUT_SELECTOR1_RESET_VAL & \
+                  ~(BITM_HOST_IF_OUTPUT_SELECTOR1_IO4_OUTPUT_SELECTOR)) | \
+                  ((0xcU << BITP_HOST_IF_OUTPUT_SELECTOR1_IO4_OUTPUT_SELECTOR)) \
+    }, \
+    { \
+        .nAddr = HOST_IF_SA_IF_BUS_CONFIGURATION_NW_ADDR, \
+        .nVal  = (HOST_IF_SA_IF_BUS_CONFIGURATION_RESET_VAL & \
+                  ~(BITM_HOST_IF_SA_IF_BUS_CONFIGURATION_SA_IF_INPUT_ENABLE)) | \
+                  ((0xfffU << BITP_HOST_IF_SA_IF_BUS_CONFIGURATION_SA_IF_INPUT_ENABLE)) \
+    }, \
+    { .nAddr = 0xC9DFU, .nVal = 0x0011U }, \
+    { .nAddr = 0xC9E0U, .nVal = 0x000AU }, \
+    { .nAddr = 0xC802U, .nVal = 0x7777U }, \
+    { .nAddr = 0xfc00U, .nVal = 0x1U }, \
+    { .nAddr = 0xfc04U, .nVal = 0x2U }, \
+    { .nAddr = 0xfc08U, .nVal = 0x4U }, \
+    { .nAddr = 0xfc14U, .nVal = 0x20U }, \
+    { .nAddr = 0xfc18U, .nVal = 0x40U }, \
+}
+
+/* 8??AD3304 Remote RegMap ??諛댁뎽 (FID = MAC 嶺뚮씭??嶺??꾩룆???? */
+DEFINE_REMOTE_REGMAP(aoRemote1RegMap, REMOTE2_MAC_ADDR);  /* FID 0x01 */
+DEFINE_REMOTE_REGMAP(aoRemote2RegMap, REMOTE3_MAC_ADDR);  /* FID 0x02 */
+DEFINE_REMOTE_REGMAP(aoRemote3RegMap, REMOTE4_MAC_ADDR);  /* FID 0x03 */
+DEFINE_REMOTE_REGMAP(aoRemote4RegMap, REMOTE5_MAC_ADDR);  /* FID 0x04 */
+DEFINE_REMOTE_REGMAP(aoRemote5RegMap, REMOTE6_MAC_ADDR);  /* FID 0x05 */
+DEFINE_REMOTE_REGMAP(aoRemote6RegMap, REMOTE7_MAC_ADDR);  /* FID 0x06 */
+DEFINE_REMOTE_REGMAP(aoRemote7RegMap, REMOTE8_MAC_ADDR);  /* FID 0x07 */
+DEFINE_REMOTE_REGMAP(aoRemote8RegMap, REMOTE9_MAC_ADDR);  /* FID 0x08 */
+
+/* =========================================================================
+   |               INTERFACE CONFIGURATIONS (??ㅻ쾴??2嶺??х몭?                   |
+   ========================================================================= */
+#define DEFINE_IF_CONFIG(name, remote_num) \
+ADI_MEM_DATA_CRIT_CACHE \
+static ADI_E2BCORE_IF_CONFIG name[4] = \
+{ \
+    [0U] = { \
+        .oId       = GET_ID(0U, remote_num, 0U), \
+        .bEnabled  = true, \
+        .eIfType   = ADI_E2BCORE_IF_TYPE_FIO, \
+        .nIfTopic  = 1, \
+        .nNumIfReg = (sizeof(aoFIOUart1IfRegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)), \
+        .aoIfRegData  = aoFIOUart1IfRegMap, \
+        .nFifoTopic   = 5, \
+        .nNumFifoReg  = (sizeof(aoFIOUart1FifoRegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)), \
+        .aoFifoRegData = aoFIOUart1FifoRegMap, \
+        .pfIntfCb  = &FioOspInterfaceCbk, \
+    }, \
+    [1U] = { \
+        .oId       = GET_ID(0U, remote_num, 1U), \
+        .bEnabled  = true, \
+        .eIfType   = ADI_E2BCORE_IF_TYPE_FIO, \
+        .nIfTopic  = 2, \
+        .nNumIfReg = (sizeof(aoFIOUart2IfRegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)), \
+        .aoIfRegData  = aoFIOUart2IfRegMap, \
+        .nFifoTopic   = 6, \
+        .nNumFifoReg  = (sizeof(aoFIOUart2FifoRegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)), \
+        .aoFifoRegData = aoFIOUart2FifoRegMap, \
+        .pfIntfCb  = &FioOspInterfaceCbk, \
+    }, \
+    [2U] = { \
+        .oId       = GET_ID(0U, remote_num, 2U), \
+        .bEnabled  = true, \
+        .eIfType   = ADI_E2BCORE_IF_TYPE_ISELED, \
+        .nIfTopic  = 3, \
+        .nNumIfReg = (sizeof(aoIseledIf2IfRegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)), \
+        .aoIfRegData  = aoIseledIf2IfRegMap, \
+        .nFifoTopic   = 7, \
+        .nNumFifoReg  = (sizeof(aoIseledIf2FifoRegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)), \
+        .aoFifoRegData = aoIseledIf2FifoRegMap, \
+        .pfIntfCb  = &IseledInterfaceCbk, \
+    }, \
+    [3U] = { .bEnabled = false }, \
+}
+
+/* 8??Remote??IfConfig (?띠룄?ヨ????몃뎡 ?筌뤾쑬裕??怨룸츩 ?熬곣뫗?? */
+DEFINE_IF_CONFIG(aoRemote1IfConfig, 0U);
+DEFINE_IF_CONFIG(aoRemote2IfConfig, 1U);
+DEFINE_IF_CONFIG(aoRemote3IfConfig, 2U);
+DEFINE_IF_CONFIG(aoRemote4IfConfig, 3U);
+DEFINE_IF_CONFIG(aoRemote5IfConfig, 4U);
+DEFINE_IF_CONFIG(aoRemote6IfConfig, 5U);
+DEFINE_IF_CONFIG(aoRemote7IfConfig, 6U);
+DEFINE_IF_CONFIG(aoRemote8IfConfig, 7U);
+
+/* =========================================================================
+   |            REMOTE CONFIGURATIONS ??8??AD3304                         |
+   ========================================================================= */
+ADI_MEM_DATA_CRIT_CACHE
+static ADI_E2BCORE_REMOTE_CONFIG aoEth10BaseT1sRemoteConfig[8] =
+{
+    [0U] = {
+        .oId          = GET_ID(0U, 0U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE2_MAC_ADDR),  /* FID 0x01 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote1RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote1RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote1IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [1U] = {
+        .oId          = GET_ID(0U, 1U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE3_MAC_ADDR),  /* FID 0x02 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote2RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote2RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote2IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [2U] = {
+        .oId          = GET_ID(0U, 2U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE4_MAC_ADDR),  /* FID 0x03 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote3RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote3RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote3IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [3U] = {
+        .oId          = GET_ID(0U, 3U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE5_MAC_ADDR),  /* FID 0x04 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote4RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote4RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote4IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [4U] = {
+        .oId          = GET_ID(0U, 4U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE6_MAC_ADDR),  /* FID 0x05 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote5RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote5RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote5IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [5U] = {
+        .oId          = GET_ID(0U, 5U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE7_MAC_ADDR),  /* FID 0x06 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote6RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote6RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote6IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [6U] = {
+        .oId          = GET_ID(0U, 6U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE8_MAC_ADDR),  /* FID 0x07 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote7RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote7RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote7IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+    [7U] = {
+        .oId          = GET_ID(0U, 7U, 0xFFFFFFFFU),
+        .anMacAddr    = MAC_64_TO_8(REMOTE9_MAC_ADDR),  /* FID 0x08 */
+        .bEnabled     = true,
+        .nNumRegisters= (sizeof(aoRemote8RegMap) / sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        .aoRegData    = aoRemote8RegMap,
+        .nNumIf       = 4,
+        .aoIntfConfigs= aoRemote8IfConfig,
+        .pfRemoteCb   = &RemoteNodeCbk
+    },
+};
+
+/* =========================================================================
+   |                       NETWORK CONFIGURATION                           |
+   ========================================================================= */
+ADI_MEM_DATA_CRIT_CACHE
+ADI_E2BCORE_CFG oEth10BaseT1sNtwrkCfg =
+{
+    .anMacAddr         = MAC_64_TO_8(CONTROLLER1_MAC_ADDR),
+    .nNumNodes         = 8U,
+    .aoRemoteCfgs      = aoEth10BaseT1sRemoteConfig,
+    .pfLibCb           = &Eth10BaseT1sCbk,
+    .bInitializeNetwork= true,
+};
+
+/* =========================================================================
+   |  Eth10BaseT1sCfg_SetRemoteMac ??Remote 0 (嶺??뺢퀡????筌뤾퍓援? MAC ?띠룄???    |
+   ========================================================================= */
+void Eth10BaseT1sCfg_SetRemoteMac(const uint8_t* pMac6)
+{
+    Eth10BaseT1sCfg_SetRemoteMacByIdx(0U, pMac6);
+}
+
+/* =========================================================================
+   |  Eth10BaseT1sCfg_SetRemoteMacByIdx ???筌뤾퍓????돠?Remote MAC ?띠룄???        |
+   ========================================================================= */
+void Eth10BaseT1sCfg_SetRemoteMacByIdx(uint32_t nIdx, const uint8_t* pMac6)
+{
+    /* ??Remote??RegMap ?꾩룄?ｈ굢?????????逾??*/
+    static ADI_E2BCORE_REG_ADDR_VAL* apRegMap[8u] = {
+        aoRemote1RegMap, aoRemote2RegMap, aoRemote3RegMap, aoRemote4RegMap,
+        aoRemote5RegMap, aoRemote6RegMap, aoRemote7RegMap, aoRemote8RegMap,
+    };
+    static const uint32_t anRegCount[8u] = {
+        (uint32_t)(sizeof(aoRemote1RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote2RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote3RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote4RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote5RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote6RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote7RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+        (uint32_t)(sizeof(aoRemote8RegMap)/sizeof(ADI_E2BCORE_REG_ADDR_VAL)),
+    };
+
+    if (nIdx >= 8U || pMac6 == NULL) return;
+
+    uint32_t nMacLow = ((uint32_t)pMac6[2] << 24u)
+        | ((uint32_t)pMac6[3] << 16u)
+        | ((uint32_t)pMac6[4] << 8u)
+        | (uint32_t)pMac6[5];
+    uint32_t nMacHi = (uint32_t)pMac6[1];
+
+    ADI_E2BCORE_REG_ADDR_VAL* pMap = apRegMap[nIdx];
+    uint32_t nCount = anRegCount[nIdx];
+
+    for (uint32_t i = 0U; i < nCount; i++)
+    {
+        if (pMap[i].nAddr == LCE_DEVICE_MAC_ADDRESS_LOWER_NW_ADDR)
+        {
+            pMap[i].nVal = nMacLow << BITP_LCE_DEVICE_MAC_ADDRESS_LOWER_DEVICE_MAC_ADDRESS_LOWER;
+        }
+        else if (pMap[i].nAddr == LCE_DEVICE_MULTICAST_ADDRESS_UPPER_NW_ADDR)
+        {
+            pMap[i].nVal = (pMap[i].nVal
+                            & ~BITM_LCE_DEVICE_MULTICAST_ADDRESS_UPPER_DEVICE_MAC_ADDRESS_UPPER)
+                         | (nMacHi << BITP_LCE_DEVICE_MULTICAST_ADDRESS_UPPER_DEVICE_MAC_ADDRESS_UPPER);
+        }
+    }
+
+    /* E2B remote config MAC ???욋뵛??*/
+    (void)memcpy(&aoEth10BaseT1sRemoteConfig[nIdx].anMacAddr[0U], pMac6, 6U);
+}
+
+/*
+ * EOF: www.analog.com
+*/
+
+
+
+
+
+

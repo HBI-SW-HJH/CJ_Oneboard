@@ -1,0 +1,15 @@
+C:\iar\ewarm-9.70.4\arm\bin\armproc.dll
+
+ C:\iar\ewarm-9.70.4\arm\bin\armjlink.dll
+
+ D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\build\Debug\Exe\CJ_OneBoard_Boot.out
+
+ --plugin=C:\iar\ewarm-9.70.4\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\iar\ewarm-9.70.4\arm/config/debugger/Microchip/DSU.dmac
+
+ --flash_loader=D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930/debugger/CJ_PIC32CM5164JH.board
+
+ 
+
+

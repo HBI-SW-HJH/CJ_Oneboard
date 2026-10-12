@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/cmake_install.cmake",
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/common/cmake_install.cmake",
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/pal/cmake_install.cmake",
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/pal/pal_win_x64/cmake_install.cmake",
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/network/cmake_install.cmake",
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/eal/cmake_install.cmake",
+		"D:/jhhan/program/CJ_OneBoard/Program/CJ_Boot_20260930/PC_CJ_20260930/NativeOsp/cmake-build/osal/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

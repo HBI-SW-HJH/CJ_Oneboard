@@ -1,0 +1,181 @@
+새 App 정상확인 실패: 복원 상태 정보 오류. 다시 Scan 하십시오.
+[11:39:56.858] TX  55 3C  7F 10 08 31 01 F3 02 13  2D
+[11:39:56.870] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:39:56.881] REQ  55 7D  (Master Header / Classic response)
+[11:39:56.883] RX  55 7D  7F 10 09 71 01 F3 02 13  EB
+[11:39:56.901] REQ  55 7D  (Master Header / Classic response)
+[11:39:56.903] RX  55 7D  7F 21 57 24 68 00 FF FF  7B
+[11:39:56.903] TX  55 3C  7F 10 08 31 03 F3 01 13  2C
+[11:39:56.914] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:39:56.926] REQ  55 7D  (Master Header / Classic response)
+[11:39:56.928] RX  55 7D  7F 10 21 71 03 F3 01 32  B3
+[11:39:56.947] REQ  55 7D  (Master Header / Classic response)
+[11:39:56.949] RX  55 7D  7F 21 36 4A 30 37 2D 30  1A
+[11:39:56.967] REQ  55 7D  (Master Header / Classic response)
+[11:39:56.969] RX  55 7D  7F 22 30 30 31 2A 5A 58  EF
+[11:39:56.988] REQ  55 7D  (Master Header / Classic response)
+[11:39:56.989] RX  55 7D  7F 23 31 2D 30 30 32 35  37
+[11:39:57.008] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.010] RX  55 7D  7F 24 2A 00 01 2A 0A 2A  D2
+[11:39:57.027] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.029] RX  55 7D  7F 25 13 57 24 68 FF FF  64
+[11:39:57.029] TX  55 3C  01 03 22 F2 10 FF FF FF  D6
+[11:39:57.040] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.041] RX  55 7D  01 10 26 62 F2 10 00 00  63
+[11:39:57.060] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.062] RX  55 7D  01 21 01 00 00 00 03 00  D9
+[11:39:57.081] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.084] RX  55 7D  01 22 00 00 00 00 00 00  DC
+[11:39:57.101] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.103] RX  55 7D  01 23 00 00 00 00 00 00  DB
+[11:39:57.121] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.122] RX  55 7D  01 24 00 00 00 00 00 03  D7
+[11:39:57.141] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.143] RX  55 7D  01 25 00 00 00 05 00 00  D4
+[11:39:57.162] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.163] RX  55 7D  01 26 00 00 07 FF FF FF  D1
+[11:39:57.163] TX  55 3C  01 02 10 02 FF FF FF FF  EA
+[11:39:57.174] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.176] RX  55 7D  01 06 50 02 00 FA 01 F4  B5
+[11:39:57.876] TX  55 3C  7F 10 08 31 01 F3 02 13  2D
+[11:39:57.887] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:39:57.898] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.899] RX  55 7D  7F 10 0A 71 01 F3 02 13  EA
+[11:39:57.919] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.920] RX  55 7D  7F 21 57 24 68 01 7D FF  FC
+[11:39:57.920] TX  55 3C  7D 02 10 02 FF FF FF FF  6E
+[11:39:57.932] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.934] RX  55 7D  7D 06 50 02 00 FA 01 F4  39
+[11:39:57.934] TX  55 3C  7D 10 0B 34 00 44 00 01  ED
+[11:39:57.946] TX  55 3C  7D 21 00 00 00 00 01 01  5F
+[11:39:57.957] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.959] RX  55 7D  7D 04 74 20 00 82 FF FF  67
+[11:39:57.959] TX  55 3C  7D 03 22 F2 10 FF FF FF  5A
+[11:39:57.969] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.971] RX  55 7D  7D 10 26 62 F2 10 01 00  E5
+[11:39:57.989] REQ  55 7D  (Master Header / Classic response)
+[11:39:57.991] RX  55 7D  7D 21 01 00 00 00 03 00  5D
+[11:39:58.009] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.012] RX  55 7D  7D 22 00 00 00 00 00 00  60
+[11:39:58.030] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.032] RX  55 7D  7D 23 00 00 00 00 00 00  5F
+[11:39:58.052] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.053] RX  55 7D  7D 24 00 00 00 00 00 03  5B
+[11:39:58.072] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.073] RX  55 7D  7D 25 00 00 00 05 00 00  58
+[11:39:58.092] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.094] RX  55 7D  7D 26 00 00 07 FF FF FF  55
+[11:39:58.094] TX  55 3C  7D 10 82 36 01 F8 FF 00  BF
+[11:39:58.104] TX  55 3C  7D 21 20 C1 00 01 00 08  76
+[11:39:58.115] TX  55 3C  7D 22 09 0A 0B 0C 0D 0E  1B
+[11:39:58.125] TX  55 3C  7D 23 0F 10 11 12 13 14  F5
+[11:39:58.136] TX  55 3C  7D 24 15 16 17 18 19 1A  D0
+[11:39:58.146] TX  55 3C  7D 25 1B 1C 1D 1E 1F 20  AB
+[11:39:58.156] TX  55 3C  7D 26 21 22 23 24 25 26  86
+[11:39:58.167] TX  55 3C  7D 27 27 28 29 2A 2B 2C  61
+[11:39:58.178] TX  55 3C  7D 28 2D 2E 2F 30 31 32  3C
+[11:39:58.189] TX  55 3C  7D 29 33 34 35 36 37 38  17
+[11:39:58.200] TX  55 3C  7D 2A 39 3A 3B 3C 3D 3E  F1
+[11:39:58.210] TX  55 3C  7D 2B 3F 40 41 42 43 44  CC
+[11:39:58.221] TX  55 3C  7D 2C 45 46 47 48 49 4A  A7
+[11:39:58.231] TX  55 3C  7D 2D 4B 4C 4D 4E 4F 50  82
+[11:39:58.242] TX  55 3C  7D 2E 51 52 53 54 55 56  5D
+[11:39:58.253] TX  55 3C  7D 2F 57 58 59 5A 5B 5C  38
+[11:39:58.264] TX  55 3C  7D 20 5D 5E 5F 60 61 62  23
+[11:39:58.276] TX  55 3C  7D 21 63 64 65 66 67 68  FD
+[11:39:58.287] TX  55 3C  7D 22 69 6A 6B 6C 6D 6E  D8
+[11:39:58.299] TX  55 3C  7D 23 6F 70 71 72 73 74  B3
+[11:39:58.309] TX  55 3C  7D 24 75 76 77 78 79 7A  8E
+[11:39:58.320] TX  55 3C  7D 25 7B 7C 7D 7E 7F FF  E9
+[11:39:58.330] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.332] RX  55 7D  7D 02 76 01 FF FF FF FF  09
+[11:39:58.332] TX  55 3C  7D 10 82 36 02 80 81 82  33
+[11:39:58.342] TX  55 3C  7D 21 83 84 85 86 87 88  3D
+[11:39:58.353] TX  55 3C  7D 22 89 8A 8B 8C 8D 8E  18
+[11:39:58.364] TX  55 3C  7D 23 8F 90 91 92 93 94  F2
+[11:39:58.374] TX  55 3C  7D 24 95 96 97 98 99 9A  CD
+[11:39:58.385] TX  55 3C  7D 25 9B 9C 9D 9E 9F A0  A8
+[11:39:58.396] TX  55 3C  7D 26 A1 A2 A3 A4 A5 A6  83
+[11:39:58.406] TX  55 3C  7D 27 A7 A8 A9 AA AB AC  5E
+[11:39:58.417] TX  55 3C  7D 28 AD AE AF B0 B1 B2  39
+[11:39:58.428] TX  55 3C  7D 29 B3 B4 B5 B6 B7 B8  14
+[11:39:58.440] TX  55 3C  7D 2A B9 BA BB BC BD BE  EE
+[11:39:58.451] TX  55 3C  7D 2B BF C0 C1 C2 C3 C4  C9
+[11:39:58.462] TX  55 3C  7D 2C C5 C6 C7 C8 C9 CA  A4
+[11:39:58.474] TX  55 3C  7D 2D CB CC CD CE CF D0  7F
+[11:39:58.484] TX  55 3C  7D 2E D1 D2 D3 D4 D5 D6  5A
+[11:39:58.496] TX  55 3C  7D 2F D7 D8 D9 DA DB DC  35
+[11:39:58.506] TX  55 3C  7D 20 DD DE DF E0 E1 E2  20
+[11:39:58.517] TX  55 3C  7D 21 E3 E4 E5 E6 E7 E8  FA
+[11:39:58.528] TX  55 3C  7D 22 E9 EA EB EC ED EE  D5
+[11:39:58.538] TX  55 3C  7D 23 EF F0 F1 F2 F3 F4  B0
+[11:39:58.549] TX  55 3C  7D 24 F5 F6 F7 F8 F9 FA  8B
+[11:39:58.560] TX  55 3C  7D 25 FB FC FD FE FF FF  67
+[11:39:58.571] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.573] RX  55 7D  7D 02 76 02 FF FF FF FF  08
+[11:39:58.573] TX  55 3C  7D 03 36 03 00 FF FF FF  46
+[11:39:58.584] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.586] RX  55 7D  7D 02 76 03 FF FF FF FF  07
+[11:39:58.586] TX  55 3C  7D 05 37 2F CF 75 6C FF  65
+[11:39:58.598] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.599] RX  55 7D  7D 01 77 FF FF FF FF FF  0A
+[11:39:58.599] TX  55 3C  7D 03 22 F2 10 FF FF FF  5A
+[11:39:58.609] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.611] RX  55 7D  7D 10 26 62 F2 10 01 00  E5
+[11:39:58.630] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.632] RX  55 7D  7D 21 01 00 00 00 03 00  5D
+[11:39:58.650] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.652] RX  55 7D  7D 22 00 00 00 00 00 00  60
+[11:39:58.670] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.672] RX  55 7D  7D 23 00 00 00 00 00 00  5F
+[11:39:58.691] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.693] RX  55 7D  7D 24 00 00 00 00 00 03  5B
+[11:39:58.711] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.714] RX  55 7D  7D 25 00 00 00 05 00 00  58
+[11:39:58.732] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.733] RX  55 7D  7D 26 00 00 07 FF FF FF  55
+[11:39:58.733] TX  55 3C  7D 02 11 01 FF FF FF FF  6E
+[11:39:58.744] REQ  55 7D  (Master Header / Classic response)
+[11:39:58.746] RX  55 7D  7D 02 51 01 FF FF FF FF  2E
+[11:40:00.747] TX  55 3C  7F 10 08 31 01 F3 02 13  2D
+[11:40:00.759] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:40:00.769] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.771] RX  55 7D  7F 10 09 71 01 F3 02 13  EB
+[11:40:00.789] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.790] RX  55 7D  7F 21 57 24 68 00 FF FF  7B
+[11:40:00.790] TX  55 3C  7F 10 08 31 03 F3 01 13  2C
+[11:40:00.801] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:40:00.812] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.814] RX  55 7D  7F 10 21 71 03 F3 01 32  B3
+[11:40:00.832] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.834] RX  55 7D  7F 21 36 4A 30 37 2D 30  1A
+[11:40:00.853] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.855] RX  55 7D  7F 22 30 30 31 2A 5A 58  EF
+[11:40:00.874] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.876] RX  55 7D  7F 23 31 2D 30 30 32 35  37
+[11:40:00.894] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.896] RX  55 7D  7F 24 2A 00 02 2A 0A 2A  D1
+[11:40:00.914] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.916] RX  55 7D  7F 25 13 57 24 68 FF FF  64
+[11:40:00.918] TX  55 3C  7F 10 08 31 01 F3 02 13  2D
+[11:40:00.930] TX  55 3C  7F 21 57 24 68 FF FF FF  7B
+[11:40:00.942] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.943] RX  55 7D  7F 10 09 71 01 F3 02 13  EB
+[11:40:00.962] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.964] RX  55 7D  7F 21 57 24 68 00 FF FF  7B
+[11:40:00.964] TX  55 3C  01 03 22 F2 10 FF FF FF  D6
+[11:40:00.976] REQ  55 7D  (Master Header / Classic response)
+[11:40:00.977] RX  55 7D  01 10 26 62 F2 10 00 00  63
+[11:40:00.998] REQ  55 7D  (Master Header / Classic response)
+[11:40:01.000] RX  55 7D  01 21 01 00 00 00 03 00  D9
+[11:40:01.017] REQ  55 7D  (Master Header / Classic response)
+[11:40:01.019] RX  55 7D  01 22 00 00 00 00 00 00  DC
+[11:40:01.037] REQ  55 7D  (Master Header / Classic response)
+[11:40:01.039] RX  55 7D  01 23 00 00 00 00 00 00  DB
+[11:40:01.057] REQ  55 7D  (Master Header / Classic response)
+[11:40:01.058] RX  55 7D  01 24 00 00 00 00 00 01  D9
+[11:40:01.078] REQ  55 7D  (Master Header / Classic response)
+[11:40:01.080] RX  55 7D  01 25 00 00 00 05 00 00  D4
+[11:40:01.098] REQ  55 7D  (Master Header / Classic response)
+[11:40:01.099] RX  55 7D  01 26 00 00 07 FF FF FF  D1
+[11:40:01.099] UPDATE FAIL: 새 App 정상확인 실패: 복원 상태 정보 오류. 다시 Scan 하십시오.
