@@ -41,6 +41,8 @@ function compile(c, parameters) {
     js = js.replace(/\b(\d+)(?:U(?:L)?|LL)\b/g, '$1');
     // C integer division and unsigned timestamp subtraction.
     js = js.replace(/\(delta \* elapsed\) \/ duration/g, 'Math.trunc((delta * elapsed) / duration)');
+    js = js.replace(/\(\(\(command\.effect1 \* 1000\) \+ \(command\.effect2 \* 125\)\) \/ \(command\.effect2 \* 250\)\)/g,
+        'Math.floor(((command.effect1 * 1000) + (command.effect2 * 125)) / (command.effect2 * 250))');
     js = js.replace(/\(\(\(\(command\.effect1 \* 10\) \+ 125\) \/ 250\) \* 100\)/g,
         '(Math.floor(((command.effect1 * 10) + 125) / 250) * 100)');
     js = js.replace(/\(command\.color1 \* 2250\) \/ denominator/g, 'Math.trunc((command.color1 * 2250) / denominator)');
@@ -52,6 +54,7 @@ function compile(c, parameters) {
     js = js.replace(/\(\(557 \* xValue\) - \(2040 \* yValue\) \+ \(10570 \* zValue\)\) \/ 10000/g, 'Math.trunc(((557 * xValue) - (2040 * yValue) + (10570 * zValue)) / 10000)');
     js = js.replace(/\((red|green|blue) \* command\.color3 \* 65535\) \/ \(maximum \* 255\)/g, 'Math.trunc(($1 * command.color3 * 65535) / (maximum * 255))');
     js = js.replace(/oAppTimer\.timeMs - g(SRGB|OSP)Control\.(startTimeMs|phaseTimeMs)\[(zone|port)\]/g, '((oAppTimer.timeMs - g$1Control.$2[$3]) >>> 0)');
+    js = js.replace(/nowMs - g(SRGB|OSP)Control\.phaseTimeMs\[(zone|port)\]/g, '((nowMs - g$1Control.phaseTimeMs[$2]) >>> 0)');
     js = js.replace(/\(\((red|green|blue) \* OSP_PWM_MAX\) \/ 65535\)/g, 'Math.floor(($1 * OSP_PWM_MAX) / 65535)');
     const run = new Function('env', ...parameters, 'with (env) { ' + js + ' }');
     return (env, ...args) => run(env, ...args);
@@ -84,9 +87,11 @@ function setup() {
         LIN_FRAME_DATA_LEN:8, SRGB_ZONE_COUNT:4, OSP_PORT_COUNT:2,
         gConFig:{Chair_Number:0x0A},
         SRGB_ZONE_FRT_LH:0, SRGB_ZONE_FRT_RH:1, SRGB_ZONE_HEADREST:2, SRGB_ZONE_BACK:3,
-        OSP_PWM_MAX:32767, OSP_CURRENT_BIT:128, OSP_ADDR_BROADCAST:0, OSP_CMD_SET_PWM:79,
+        OSP_PWM_MAX:32767, OSP_CURRENT_BIT:128, OSP_LOGO_CURRENT_LIMIT_MA:41,
+        OSP_ADDR_BROADCAST:0, OSP_CMD_SET_PWM:79,
         OSP_PORT_LOGO:0, OSP_PORT_STROBE:1, WDT_CLEAR_MS:100,
         oAppTimer:{timeMs:0, tick1ms:0, tick10ms:0, tick100ms:30, tick100ms_1:60, tick100ms_2:90, tick2s:0, tickWdtMs:0},
+        gVerification:{ActiveFlag:0},
         gSRGBControl:{...control(4), imageDirty:0, txImage:Array.from({length:2}, ()=>Array(16).fill(0))},
         gOSPControl:control(2),
         counts:{SRGB:0, OSP:0, update:[0,0], read:[0,0,0], power:0, srgbWrites:0}, packets:[], srgbImage:null
@@ -95,7 +100,7 @@ function setup() {
         startTimeMs:part.startTimeMs[index], phaseTimeMs:part.phaseTimeMs[index],
         durationMs:part.durationMs[index], fadeOutMs:part.fadeOutMs[index],
         onThreshold:part.onThreshold[index], flickerPhase:part.flickerPhase[index],
-        mode:part.mode[index], effect1:part.effect1[index], effect2:part.effect2[index],
+        mode:part.mode[index], active:part.active[index], effect1:part.effect1[index], effect2:part.effect2[index],
         targetRed:part.targetRed[index], targetGreen:part.targetGreen[index], targetBlue:part.targetBlue[index],
         faded:{red:part.fadedRed[index],green:part.fadedGreen[index],blue:part.fadedBlue[index]},
         output:{red:part.outputRed[index],green:part.outputGreen[index],blue:part.outputBlue[index]}
@@ -113,6 +118,8 @@ function setup() {
         for (const key of Object.keys(object)) delete object[key];
     };
     env.LINT_Process = () => {};
+    env.Reprogram_Process = () => {};
+    env.Verification_Process = () => {};
     env.SRGB_WriteImage = () => { env.counts.srgbWrites++; env.srgbImage=env.gSRGBControl.txImage.map(row=>row.slice()); };
     env.OSP_Transfer = (port, address, command, payload, length, response, responseLength, timeoutUs) => {
         assert.equal(address,0); assert.equal(command,79); assert.equal(length,6);
@@ -212,11 +219,42 @@ check('LIN fields, Chair/LED masks, RGB and CIE limits are applied before LED co
         assert.equal(JSON.stringify([env.gSRGBControl,env.gOSPControl]),before);
     }
     const env=setup();
+    env.LINT_HandleLampControl({data:[0x0F,0x3F,0x57,80,90,255,0,0]});
+    const before=JSON.stringify([env.gSRGBControl,env.gOSPControl]);
     env.LINT_HandleLampControl({data:[0x0F,0x3F,0x57,80,0,255,0,0]});
-    assert(env.states().every(state=>state.targetRed===0 && state.targetGreen===0 && state.targetBlue===0));
+    assert.equal(JSON.stringify([env.gSRGBControl,env.gOSPControl]),before);
     env.gConFig.Chair_Number=0x09;
     env.LINT_HandleLampControl({data:[0x0F,0x3F,0x17,255,0,0,0,0]});
-    assert(env.states().every(state=>state.targetRed===0));
+    assert.equal(JSON.stringify([env.gSRGBControl,env.gOSPControl]),before);
+});
+check('CIE zero brightness or zero coordinate pair turns all outputs off and valid commands recover', () => {
+    for (const [control,value1,value2,brightness] of [[0x57,80,90,255],[0x97,50,120,200]]) {
+        const env=setup();
+        const light = () => {
+            env.LINT_HandleLampControl({data:[0x0F,0x3F,control,value1,value2,brightness,0,0]});
+            assert(env.states().every(state=>state.active===1));
+            assert(env.states().every(state=>state.targetRed!==0 || state.targetGreen!==0 || state.targetBlue!==0));
+        };
+        const assertOff = () => {
+            assert(env.states().every(state=>state.active===0));
+            assert(env.states().every(state=>state.targetRed===0 && state.targetGreen===0 && state.targetBlue===0));
+        };
+
+        light();
+        env.LINT_HandleLampControl({data:[0x0F,0x3F,control,0,0,0,0,0]});
+        assertOff();
+
+        light();
+        env.LINT_HandleLampControl({data:[0x0F,0x3F,control-1,0,0,brightness,0,100]});
+        assertOff();
+        assert(env.states().every(state=>state.mode===6));
+
+        light();
+        env.LINT_HandleLampControl({data:[0x0F,0x3F,control,value1,value2,0,0,0]});
+        assertOff();
+
+        light();
+    }
 });
 check('Mixed Normal/Flicker commits one SRGB image with both parts; OSP PWM payload matches', () => {
     const env=setup();
@@ -233,16 +271,18 @@ check('Mixed Normal/Flicker commits one SRGB image with both parts; OSP PWM payl
     assert.equal(env.counts.srgbWrites,2);
     assert.deepEqual(env.srgbImage[1].slice(0,12),[0,0,65535,65535,65535,65535,0,0,0,0,0,0]);
     assert.deepEqual(env.packets.at(-1).payload,[255,255,128,0,128,0]);
-    assert(env.packets.filter(packet=>packet.payload[0]===255).length===2);
+    assert.deepEqual(env.packets.slice(-2).map(packet=>packet.payload),[[232,244,128,0,128,0],[255,255,128,0,128,0]]);
 });
 check('LIN Duration 0..250 and Hz 1..100: all six LED parts, all 10% steps', () => {
     for (let hz=1; hz<=100; hz++) for (let duty=0; duty<=100; duty+=10) {
-        const env = setup(); env.sendCommand(duty*2.5,hz);
-        assert(env.states().every(s=>s.onThreshold===duty*10 && s.effect2===hz));
+        const env = setup(); const effect1=duty*2.5;
+        const expectedOnThreshold=(effect1>=250) ? 1000 : Math.floor(((effect1*1000)+(hz*125))/(hz*250))*hz;
+        env.sendCommand(effect1,hz);
+        assert(env.states().every(s=>s.onThreshold===expectedOnThreshold && s.effect2===hz));
         for (let tick=1; tick<=1100; tick++) {
             env.step(1); env.loop();
             if (tick>=100) {
-                const on = ((tick*hz)%1000)<duty*10;
+                const on = ((tick*hz)%1000)<expectedOnThreshold;
                 assert(env.states().every(s=>s.output.red === (on ? 65535 : 0)));
             }
         }

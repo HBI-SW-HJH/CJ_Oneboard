@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_App_20260930\settings\CJ_OneBoard_APP.Debug.general.xcl" --backend -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_App_20260930\settings\CJ_OneBoard_APP.Debug.driver.xcl" 
+& "C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261016\CJ_OneBoard_App\settings\CJ_OneBoard_APP.Debug.general.xcl" --backend -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261016\CJ_OneBoard_App\settings\CJ_OneBoard_APP.Debug.driver.xcl" 
 }
 else
 {
-& "C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_App_20260930\settings\CJ_OneBoard_APP.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_App_20260930\settings\CJ_OneBoard_APP.Debug.driver.xcl" 
+& "C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261016\CJ_OneBoard_App\settings\CJ_OneBoard_APP.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261016\CJ_OneBoard_App\settings\CJ_OneBoard_APP.Debug.driver.xcl" 
 }

@@ -130,6 +130,13 @@ static void LINT_HandleLampControl(const LIN_Device_Frame_t *frame)
     }
     else
     {
+        if (((command.color1 == 0U) && (command.color2 == 0U)) || (command.color3 == 0U))
+        {
+            command.active = 0U;
+            SRGBControl_Set(&command);
+            OSPControl_Set(&command);
+            return;
+        }
         if ((command.color1 > 250U) || (command.color2 > 250U))
         {
             return;

@@ -2,7 +2,7 @@
 	"arguments" : 
 	[
 		"C:\\iar\\ewarm-9.70.4\\arm\\bin\\iccarm.exe",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\applications\\src\\XCP.c",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\applications\\src\\XCP.c",
 		"-nostdinc",
 		"-undef",
 		"-Wno-unaligned-access",
@@ -16,13 +16,13 @@
 		"-isystem",
 		"C:\\iar\\ewarm-9.70.4\\arm\\inc\\c",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\applications\\inc\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\applications\\inc\\",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\drivers\\inc\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\drivers\\inc\\",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\startup\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\startup\\",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\Inc\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\Inc\\",
 		"--target=armv7m-none-eabi",
 		"-D",
 		"__CHAR_BITS__=8",
@@ -857,7 +857,7 @@
 		"-x",
 		"c"
 	],
-	"directory" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\applications\\src",
-	"file" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\applications\\src\\XCP.c",
-	"output" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Boot_20260930\\CJ_OneBoard_App_20260930\\build\\Debug\\Obj\\src_13801307003738827180.dir\\XCP.o"
+	"directory" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\applications\\src",
+	"file" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\applications\\src\\XCP.c",
+	"output" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261016\\CJ_OneBoard_App\\build\\Debug\\Obj\\src_13801307003738827180.dir\\XCP.o"
 }
