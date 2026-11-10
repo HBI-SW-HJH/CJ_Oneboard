@@ -19,9 +19,9 @@
 //  Product identity
 //  Append new fields; do not reorder existing fields.
 // ===========================================================
-#define CONFIG_SERIAL_NUMBER       "26J07-0001"
+#define CONFIG_SERIAL_NUMBER       "26K10-0001"
 #define CONFIG_PART_NUMBER         "ZX1-0025"
-#define CONFIG_VERSION             0x0001U
+#define CONFIG_VERSION             0x0002U
 #define CONFIG_CHAIR_NUMBER        0x0AU
 #define CONFIG_CHAIR_MIN           0x0AU
 #define CONFIG_CHAIR_MAX           0x0DU
@@ -123,3 +123,4 @@ typedef struct ConFig
 #endif // APP_CONFIG_H
 
 //V0.0.0.1 - 20261012 1차 납품 15대/ 신뢰성 시험 보드 3대(White 최대 출력) 
+//V0.0.0.2 - 20261109 2차 납품 40대/ Cx/Cy/밝기 0넣었을경우 이전값 유지 - LED OFF 로 변경 //30대 Only Strobe (프로그램 동읽)

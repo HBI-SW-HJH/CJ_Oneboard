@@ -1,0 +1,157 @@
+{
+  "completed": true,
+  "requested_image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Test_20261110_LogoOpenX.bin",
+    "length": 27204,
+    "sha256": "85a14a03832a3fdee0b6a4660bd2803c61833ea42421b15766b03fa42367c791",
+    "crc32": "19E5C6E3",
+    "stack": "20010000",
+    "entry": "00016885"
+  },
+  "boards": {
+    "0A": {
+      "before_30hz_50_period_ms": [
+        21,
+        46
+      ],
+      "after_30hz_50_period_ms": [
+        33,
+        34
+      ],
+      "after_30hz_50_on_ms": [
+        17,
+        17
+      ],
+      "after_30hz_50_off_ms": [
+        16,
+        17
+      ],
+      "logo_error_count": [
+        3,
+        3
+      ],
+      "strobe_error_count": [
+        0,
+        0
+      ],
+      "counter_observation_ms": 7078,
+      "node_counts": [
+        0,
+        8
+      ],
+      "flicker_cases": 18,
+      "fade_cases": 6,
+      "final_strobe_fault": 0
+    },
+    "0B": {
+      "before_30hz_50_period_ms": [
+        20,
+        47
+      ],
+      "after_30hz_50_period_ms": [
+        33,
+        34
+      ],
+      "after_30hz_50_on_ms": [
+        17,
+        17
+      ],
+      "after_30hz_50_off_ms": [
+        16,
+        17
+      ],
+      "logo_error_count": [
+        3,
+        3
+      ],
+      "strobe_error_count": [
+        0,
+        0
+      ],
+      "counter_observation_ms": 7094,
+      "node_counts": [
+        0,
+        8
+      ],
+      "flicker_cases": 18,
+      "fade_cases": 6,
+      "final_strobe_fault": 0
+    },
+    "0C": {
+      "before_30hz_50_period_ms": [
+        20,
+        47
+      ],
+      "after_30hz_50_period_ms": [
+        33,
+        34
+      ],
+      "after_30hz_50_on_ms": [
+        17,
+        17
+      ],
+      "after_30hz_50_off_ms": [
+        16,
+        17
+      ],
+      "logo_error_count": [
+        3,
+        3
+      ],
+      "strobe_error_count": [
+        0,
+        0
+      ],
+      "counter_observation_ms": 7079,
+      "node_counts": [
+        0,
+        8
+      ],
+      "flicker_cases": 18,
+      "fade_cases": 6,
+      "final_strobe_fault": 0
+    }
+  },
+  "download_audit": {
+    "downloads": [
+      {
+        "chair": "0A",
+        "bytes": 27204,
+        "blocks": 213,
+        "sha256": "85a14a03832a3fdee0b6a4660bd2803c61833ea42421b15766b03fa42367c791",
+        "crc32": "19E5C6E3",
+        "wire_image_matches": true
+      },
+      {
+        "chair": "0B",
+        "bytes": 27204,
+        "blocks": 213,
+        "sha256": "85a14a03832a3fdee0b6a4660bd2803c61833ea42421b15766b03fa42367c791",
+        "crc32": "19E5C6E3",
+        "wire_image_matches": true
+      },
+      {
+        "chair": "0C",
+        "bytes": 27204,
+        "blocks": 213,
+        "sha256": "85a14a03832a3fdee0b6a4660bd2803c61833ea42421b15766b03fa42367c791",
+        "crc32": "19E5C6E3",
+        "wire_image_matches": true
+      }
+    ],
+    "verification_start_commands": 0
+  },
+  "readback_checks": 288,
+  "all_readback_pass": true,
+  "flicker_cases": 54,
+  "flicker_capture_windows": 162,
+  "fade_cases": 18,
+  "verification_start_commands": 0,
+  "normal_diagnostics_active": true,
+  "brightness_raw": 26,
+  "optical_measurement": false,
+  "final_led_state": "Strobe OFF on 0A/0B/0C",
+  "frame_error_flags": {
+    "0x18": 69
+  }
+}

@@ -17,15 +17,15 @@ int main(void)
     command.mode = 7U;
     command.active = 1U;
     //26 - 10% // 255 - max
-    command.red = 255U * 257U;
-    command.green = 255U * 257U;
-    command.blue = 255U * 257U;
+    command.red = 25U * 257U;
+    command.green = 25U * 257U;
+    command.blue = 25U * 257U;
     command.timeMs = oAppTimer.timeMs;
 
     SRGBControl_Set(&command);
     OSPControl_Set(&command);
-        */
-  
+        
+  */
     while (1)
     {
         LINT_Process();

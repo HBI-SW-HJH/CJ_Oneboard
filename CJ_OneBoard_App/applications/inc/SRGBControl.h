@@ -57,18 +57,18 @@ typedef struct
 
 typedef enum
 {
-    SRGB_ZONE_FRT_LH = 0U,
-    SRGB_ZONE_FRT_RH,
+    SRGB_ZONE_BACK = 0U,
     SRGB_ZONE_HEADREST,
-    SRGB_ZONE_BACK
+    SRGB_ZONE_FRT_LH,
+    SRGB_ZONE_FRT_RH
 } SRGB_Zone_t;
 
 typedef enum
 {
-    SRGB_FAULT_PART_FRT_LH = 0U,
-    SRGB_FAULT_PART_FRT_RH,
-    SRGB_FAULT_PART_HEADREST,
-    SRGB_FAULT_PART_BACK
+    SRGB_FAULT_PART_BACK = SRGB_ZONE_BACK,
+    SRGB_FAULT_PART_HEADREST = SRGB_ZONE_HEADREST,
+    SRGB_FAULT_PART_FRT_LH = SRGB_ZONE_FRT_LH,
+    SRGB_FAULT_PART_FRT_RH = SRGB_ZONE_FRT_RH
 } SRGB_FaultPart_t;
 
 typedef struct
@@ -113,6 +113,8 @@ typedef struct
 } SRGB_Control_t;
 
 extern SRGB_Control_t gSRGBControl;
+// LIN/verification indices 0..3 remain FRT_LH, FRT_RH, Headrest, Back.
+extern const uint8_t gSRGBZoneFromLin[SRGB_ZONE_COUNT];
 
 void SRGBControl_Init(void);
 void SRGBControl_Set(const LedControlCommand_t *command);

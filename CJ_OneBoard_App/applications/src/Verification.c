@@ -12,8 +12,10 @@ static uint8_t Verification_Read(uint8_t zone, uint8_t node, uint8_t fresh)
 
     if (zone < SRGB_ZONE_COUNT)
     {
-        device = (zone < SRGB_ZONE_HEADREST) ? 1U : 0U;
-        offset = ((zone == SRGB_ZONE_FRT_RH) || (zone == SRGB_ZONE_HEADREST)) ? 2U : 0U;
+        // Request/result zone numbers stay in LIN order; hardware uses schematic order.
+        zone = gSRGBZoneFromLin[zone];
+        device = zone / 2U;
+        offset = (zone % 2U) * 2U;
         gVerification.expected[0U] = gSRGBControl.txImage[device][offset];
         gVerification.expected[1U] = gSRGBControl.txImage[device][offset + 4U];
         gVerification.expected[2U] = gSRGBControl.txImage[device][offset + 8U];
@@ -307,8 +309,8 @@ void Verification_Process(void)
             }
             if (zone < SRGB_ZONE_COUNT)
             {
-                device = (zone < SRGB_ZONE_HEADREST) ? 1U : 0U;
-                offset = ((zone == SRGB_ZONE_FRT_RH) || (zone == SRGB_ZONE_HEADREST)) ? 2U : 0U;
+                device = gSRGBZoneFromLin[zone] / 2U;
+                offset = (gSRGBZoneFromLin[zone] % 2U) * 2U;
                 red = gSRGBControl.txImage[device][offset];
                 green = gSRGBControl.txImage[device][offset + 4U];
                 blue = gSRGBControl.txImage[device][offset + 8U];

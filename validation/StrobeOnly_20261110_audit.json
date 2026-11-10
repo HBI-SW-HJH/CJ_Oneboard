@@ -1,0 +1,102 @@
+{
+  "updates_reassembled_from_lin_frames": [
+    {
+      "number": 1,
+      "chair": "0A",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 2,
+      "chair": "0B",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 3,
+      "chair": "0C",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 4,
+      "chair": "0A",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 5,
+      "chair": "0B",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 6,
+      "chair": "0C",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 7,
+      "chair": "0A",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 8,
+      "chair": "0B",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    },
+    {
+      "number": 9,
+      "chair": "0C",
+      "blocks": 214,
+      "sequence": 215,
+      "crc_request": "D8093DB8",
+      "crc_ack": true,
+      "length": 27376,
+      "sha256": "583cf89c7bc3ffb5966b397ed0d95d624c38f1ff6b268051cceb31563671ade8"
+    }
+  ],
+  "nonzero_frame_flags": [
+    {
+      "fid": "3D",
+      "flags": "18",
+      "count": 200
+    }
+  ],
+  "interpretation": "0x3D empty-response polling was retried by requesting another header; no firmware block retransmissions. All other frame errors would stop the runner."
+}

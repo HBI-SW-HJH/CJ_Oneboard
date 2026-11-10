@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\settings\CJ_OneBoard_Boot.Debug.general.xcl" --backend -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\settings\CJ_OneBoard_Boot.Debug.driver.xcl" 
+"C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\납품\CJ_Git_20261109\CJ_OneBoard_Boot\settings\CJ_OneBoard_Boot.Debug.general.xcl" --backend -f "D:\jhhan\program\CJ_OneBoard\Program\납품\CJ_Git_20261109\CJ_OneBoard_Boot\settings\CJ_OneBoard_Boot.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\settings\CJ_OneBoard_Boot.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\jhhan\program\CJ_OneBoard\Program\CJ_Boot_20260930\CJ_OneBoard_Boot_20260930\settings\CJ_OneBoard_Boot.Debug.driver.xcl" 
+"C:\iar\ewarm-9.70.4\common\bin\cspybat" -f "D:\jhhan\program\CJ_OneBoard\Program\납품\CJ_Git_20261109\CJ_OneBoard_Boot\settings\CJ_OneBoard_Boot.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\jhhan\program\CJ_OneBoard\Program\납품\CJ_Git_20261109\CJ_OneBoard_Boot\settings\CJ_OneBoard_Boot.Debug.driver.xcl" 
 
 @echo off 
 :end

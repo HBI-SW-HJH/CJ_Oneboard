@@ -10,6 +10,7 @@
 // Immediate frame latch; disable zero-data sleep (up to 4ms wake-up).
 
 SRGB_Control_t gSRGBControl;
+const uint8_t gSRGBZoneFromLin[SRGB_ZONE_COUNT] = {SRGB_ZONE_FRT_LH, SRGB_ZONE_FRT_RH, SRGB_ZONE_HEADREST, SRGB_ZONE_BACK};
 
 static void SRGB_SetPin(uint8_t pin, uint8_t high)
 {
@@ -321,8 +322,9 @@ void SRGBControl_Process(void)
             }
         }
 
-        device = (zone < SRGB_ZONE_HEADREST) ? 1U : 0U;
-        offset = ((zone == SRGB_ZONE_FRT_RH) || (zone == SRGB_ZONE_HEADREST)) ? 2U : 0U;
+        // U7: Back/Headrest, U8: FRT_LH/FRT_RH; paired channels start at 0 or 2.
+        device = zone / 2U;
+        offset = (zone % 2U) * 2U;
         if ((gSRGBControl.txImage[device][offset] != gSRGBControl.outputRed[zone]) || (gSRGBControl.txImage[device][offset + 1U] != gSRGBControl.outputRed[zone]) || (gSRGBControl.txImage[device][offset + 4U] != gSRGBControl.outputGreen[zone]) || (gSRGBControl.txImage[device][offset + 5U] != gSRGBControl.outputGreen[zone]) || (gSRGBControl.txImage[device][offset + 8U] != gSRGBControl.outputBlue[zone]) || (gSRGBControl.txImage[device][offset + 9U] != gSRGBControl.outputBlue[zone]))
         {
             gSRGBControl.txImage[device][offset] = gSRGBControl.outputRed[zone];
@@ -384,30 +386,12 @@ uint8_t SRGBControl_GetFaultMask(SRGB_FaultPart_t part)
     uint16_t channelMask;
     uint8_t result = 0U;
 
-    if (part == SRGB_FAULT_PART_FRT_LH)
-    {
-        device = 1U;
-        channelMask = 0x0333U;
-    }
-    else if (part == SRGB_FAULT_PART_FRT_RH)
-    {
-        device = 1U;
-        channelMask = 0x0CCCU;
-    }
-    else if (part == SRGB_FAULT_PART_HEADREST)
-    {
-        device = 0U;
-        channelMask = 0x0CCCU;
-    }
-    else if (part == SRGB_FAULT_PART_BACK)
-    {
-        device = 0U;
-        channelMask = 0x0333U;
-    }
-    else
+    if ((uint32_t)part >= SRGB_ZONE_COUNT)
     {
         return 0U;
     }
+    device = (uint8_t)part / 2U;
+    channelMask = (uint16_t)(0x0333U << (((uint8_t)part % 2U) * 2U));
 
     // Thermal warning is chip-wide (bit15); bit0 is the GCK watchdog result.
     if ((gSRGBControl.thermalWatchdogFault[device] & 0x8000U) != 0U)

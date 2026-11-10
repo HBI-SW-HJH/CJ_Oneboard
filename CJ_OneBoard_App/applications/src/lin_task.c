@@ -45,6 +45,7 @@ static uint8_t RingBuf_Pop(LIN_RingBuf_t *ring, LIN_QueueEntry_t *entry)
 static void LINT_HandleLampControl(const LIN_Device_Frame_t *frame)
 {
     LedControlCommand_t command;
+    uint8_t zone;
     int32_t denominator;
     int32_t cieX;
     int32_t cieY;
@@ -70,7 +71,15 @@ static void LINT_HandleLampControl(const LIN_Device_Frame_t *frame)
     // D7: Normal+Fade=Fade Out x 100ms, Flicker=Frequency 0..100Hz.
 
     command.chairMask = frame->data[0U] & 0x0FU;
-    command.ledMask = frame->data[1U] & 0x3FU;
+    // Convert only the four SRGB bits to schematic order; OSP bits stay unchanged.
+    command.ledMask = frame->data[1U] & 0x30U;
+    for (zone = 0U; zone < SRGB_ZONE_COUNT; zone++)
+    {
+        if ((frame->data[1U] & (uint8_t)(1U << zone)) != 0U)
+        {
+            command.ledMask |= (uint8_t)(1U << gSRGBZoneFromLin[zone]);
+        }
+    }
     command.colorMode = (frame->data[2U] >> 6U) & 0x03U;
     command.fadeEnabled = (frame->data[2U] >> 5U) & 0x01U;
     command.active = (frame->data[2U] >> 4U) & 0x01U;
