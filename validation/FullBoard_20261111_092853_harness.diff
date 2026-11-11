@@ -1,0 +1,59 @@
+--- D:\jhhan\program\CJ_OneBoard\Program\납품\CJ_Git_20261111\PC_CJ_20261012\Forms\FormUDS_Verification.cs
++++ temporary console copy
+@@ -4,10 +4,10 @@
+ using System.Drawing;
+ using System.Runtime.InteropServices;
+ using System.Threading;
+-using System.Windows.Forms;
++using Application = CJConsoleHarness.ConsolePump;
+ using LINMaster.LIN;
+ 
+-namespace LINMaster.Forms
++namespace CJConsoleHarness
+ {
+     public partial class FormUDS
+     {
+@@ -138,7 +138,10 @@
+                         VerificationRead read = ReadVerificationLedFast(chair, zone, led);
+                         ushort expected = zone == selected ? (ushort)(zone < 4 ? 128 * 257 : 128 * 32767 / 255) : (ushort)0;
+                         bool pass = VerificationReadPassed(read, expected, expected, expected);
+-                        if (!pass) zonePassed[zone] = false;
++                        if (!pass)
++                        {
++                            AddVerificationDetailRow(zone, led, "구역 교차 확인", "W", 50, 0, 0, expected, expected, expected, read, false, "첫 불일치에서 중단");
++                        }
+                         if (zone == selected) AddVerificationDetailRow(zone, led, "구역 ON", "W", 50, 0, 0, expected, expected, expected, read, pass, "선택 구역 ON readback");
+                         if (read.Complete && (read.Status & 0x80) != 0) throw new InvalidOperationException("온도 또는 전압 고장: 과열 방지를 위해 중단");
+                     }
+@@ -277,7 +280,7 @@
+ 
+         private void RunFlickerVerification(byte chair)
+         {
+-            foreach (byte hz in new byte[] { 10, 50 })
++            foreach (byte hz in new byte[] { 10, 30 })
+             {
+                 foreach (byte duty in new byte[] { 10, 90 })
+                 {
+@@ -320,6 +323,7 @@
+                         row.MaxOffMs = maxOff;
+                         row.TimingPassed = timingPassed;
+                         row.HardwarePassed = hardwarePassed;
++                        StopOnFailure(row);
+                     }
+                 }
+             }
+@@ -525,12 +529,14 @@
+         private void AddVerificationRow(byte zone, byte led, string test, string color, int level, int hz, int duty, ushort expectedRed, ushort expectedGreen, ushort expectedBlue, VerificationRead read, bool pass, string detail)
+         {
+             _verificationRows.Add(new VerificationReport.Row { Zone = VerificationZones[zone], Led = led + 1, Test = test, Color = color, Brightness = level, Frequency = hz, Duty = duty, ExpectedRed = expectedRed, ExpectedGreen = expectedGreen, ExpectedBlue = expectedBlue, ActualRed = read == null ? (ushort)0 : read.Actual[0], ActualGreen = read == null ? (ushort)0 : read.Actual[1], ActualBlue = read == null ? (ushort)0 : read.Actual[2], Passed = pass, RxAvailable = read != null && read.Complete && (read.Status & 0x01) != 0, Detail = detail + VerificationReadState(read) });
++            if (test != "Flicker") StopOnFailure(_verificationRows[_verificationRows.Count - 1]);
+             if (_verificationRows.Count % 12 == 0 || !pass) SetStatus(lblProductStatus, string.Format("{0} LED {1}: {2} {3}% / 누적 {4}건", VerificationZones[zone], led + 1, test, level, _verificationRows.Count), pass ? Color.Yellow : Color.OrangeRed);
+         }
+ 
+         private void AddVerificationDetailRow(byte zone, byte led, string test, string color, int level, int hz, int duty, ushort expectedRed, ushort expectedGreen, ushort expectedBlue, VerificationRead read, bool pass, string detail)
+         {
+             _verificationDetailRows.Add(new VerificationReport.Row { Zone = VerificationZones[zone], Led = led + 1, Test = test, Color = color, Brightness = level, Frequency = hz, Duty = duty, ExpectedRed = expectedRed, ExpectedGreen = expectedGreen, ExpectedBlue = expectedBlue, ActualRed = read == null ? (ushort)0 : read.Actual[0], ActualGreen = read == null ? (ushort)0 : read.Actual[1], ActualBlue = read == null ? (ushort)0 : read.Actual[2], Passed = pass, RxAvailable = read != null && read.Complete && (read.Status & 0x01) != 0, Detail = detail + VerificationReadState(read) });
++            StopOnFailure(_verificationDetailRows[_verificationDetailRows.Count - 1]);
+         }
+ 
+         private sealed class VerificationRead

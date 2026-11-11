@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "started": "2026-11-11T13:08:25",
+  "stage": "connect",
+  "maximum_brightness": 26,
+  "GUI": false,
+  "optical": false,
+  "updates": [],
+  "in_progress": null,
+  "baseline": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\SeparatedRandom_20261111_130628_baseline.json",
+  "readback_checks": 0,
+  "readback_failures": 0,
+  "source_unchanged": true,
+  "finished": "2026-11-11T13:08:35"
+}

@@ -1,0 +1,7015 @@
+{
+  "completed": true,
+  "stage": "effects_resume completed",
+  "started": "2026-11-11T10:30:05",
+  "boards": {
+    "0C": {
+      "flicker": [
+        {
+          "hz": 25,
+          "duty": 90,
+          "nominal_integer_ms": [
+            [
+              40,
+              40
+            ],
+            [
+              36,
+              36
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "windows": [
+            {
+              "window": 1,
+              "period_ms": [
+                40,
+                40
+              ],
+              "on_ms": [
+                36,
+                36
+              ],
+              "off_ms": [
+                4,
+                4
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 2,
+              "period_ms": [
+                40,
+                40
+              ],
+              "on_ms": [
+                36,
+                36
+              ],
+              "off_ms": [
+                4,
+                4
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 3,
+              "period_ms": [
+                40,
+                40
+              ],
+              "on_ms": [
+                36,
+                36
+              ],
+              "off_ms": [
+                4,
+                4
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "hz": 30,
+          "duty": 10,
+          "nominal_integer_ms": [
+            [
+              33,
+              34
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              30,
+              31
+            ]
+          ],
+          "windows": [
+            {
+              "window": 1,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                3,
+                3
+              ],
+              "off_ms": [
+                30,
+                31
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 2,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                3,
+                3
+              ],
+              "off_ms": [
+                30,
+                31
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 3,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                3,
+                3
+              ],
+              "off_ms": [
+                30,
+                31
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "hz": 30,
+          "duty": 50,
+          "nominal_integer_ms": [
+            [
+              33,
+              34
+            ],
+            [
+              17,
+              17
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "windows": [
+            {
+              "window": 1,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 2,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 3,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "hz": 30,
+          "duty": 90,
+          "nominal_integer_ms": [
+            [
+              33,
+              34
+            ],
+            [
+              30,
+              30
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "windows": [
+            {
+              "window": 1,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                30,
+                30
+              ],
+              "off_ms": [
+                3,
+                4
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 2,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                30,
+                30
+              ],
+              "off_ms": [
+                3,
+                4
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "window": 3,
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                30,
+                30
+              ],
+              "off_ms": [
+                3,
+                4
+              ],
+              "error_ms": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "passed": true,
+          "normal_diagnostics_active": true
+        }
+      ],
+      "fade_poll": [
+        {
+          "duration_ms": 500,
+          "direction": "in",
+          "samples": [
+            {
+              "read_begin_ms": 0.0,
+              "response_ms": 31.0,
+              "rgb": [
+                46,
+                46,
+                46
+              ]
+            },
+            {
+              "read_begin_ms": 31.0,
+              "response_ms": 63.0,
+              "rgb": [
+                313,
+                313,
+                313
+              ]
+            },
+            {
+              "read_begin_ms": 63.0,
+              "response_ms": 94.0,
+              "rgb": [
+                514,
+                514,
+                514
+              ]
+            },
+            {
+              "read_begin_ms": 94.0,
+              "response_ms": 109.0,
+              "rgb": [
+                714,
+                714,
+                714
+              ]
+            },
+            {
+              "read_begin_ms": 109.0,
+              "response_ms": 141.0,
+              "rgb": [
+                914,
+                914,
+                914
+              ]
+            },
+            {
+              "read_begin_ms": 141.0,
+              "response_ms": 172.0,
+              "rgb": [
+                1048,
+                1048,
+                1048
+              ]
+            },
+            {
+              "read_begin_ms": 172.0,
+              "response_ms": 203.0,
+              "rgb": [
+                1249,
+                1249,
+                1249
+              ]
+            },
+            {
+              "read_begin_ms": 203.0,
+              "response_ms": 234.0,
+              "rgb": [
+                1449,
+                1449,
+                1449
+              ]
+            },
+            {
+              "read_begin_ms": 234.0,
+              "response_ms": 250.0,
+              "rgb": [
+                1649,
+                1649,
+                1649
+              ]
+            },
+            {
+              "read_begin_ms": 250.0,
+              "response_ms": 281.0,
+              "rgb": [
+                1850,
+                1850,
+                1850
+              ]
+            },
+            {
+              "read_begin_ms": 281.0,
+              "response_ms": 313.0,
+              "rgb": [
+                2050,
+                2050,
+                2050
+              ]
+            },
+            {
+              "read_begin_ms": 313.0,
+              "response_ms": 344.0,
+              "rgb": [
+                2184,
+                2184,
+                2184
+              ]
+            },
+            {
+              "read_begin_ms": 344.0,
+              "response_ms": 375.0,
+              "rgb": [
+                2451,
+                2451,
+                2451
+              ]
+            },
+            {
+              "read_begin_ms": 375.0,
+              "response_ms": 406.0,
+              "rgb": [
+                2652,
+                2652,
+                2652
+              ]
+            },
+            {
+              "read_begin_ms": 406.0,
+              "response_ms": 453.0,
+              "rgb": [
+                2852,
+                2852,
+                2852
+              ]
+            },
+            {
+              "read_begin_ms": 453.0,
+              "response_ms": 469.0,
+              "rgb": [
+                3119,
+                3119,
+                3119
+              ]
+            },
+            {
+              "read_begin_ms": 469.0,
+              "response_ms": 500.0,
+              "rgb": [
+                3320,
+                3320,
+                3320
+              ]
+            },
+            {
+              "read_begin_ms": 500.0,
+              "response_ms": 531.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 531.0,
+              "response_ms": 563.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 563.0,
+              "response_ms": 578.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 578.0,
+              "response_ms": 625.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 625.0,
+              "response_ms": 641.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 641.0,
+              "response_ms": 672.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 672.0,
+              "response_ms": 703.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 703.0,
+              "response_ms": 734.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 734.0,
+              "response_ms": 766.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            }
+          ],
+          "completion_bound_ms": [
+            469.0,
+            547.0
+          ],
+          "completion_error_bound_ms": [
+            -31.0,
+            47.0
+          ],
+          "bound_includes_LIN_and_host_latency": true,
+          "passed": true
+        },
+        {
+          "duration_ms": 500,
+          "direction": "out",
+          "samples": [
+            {
+              "read_begin_ms": 0.0,
+              "response_ms": 32.0,
+              "rgb": [
+                3327,
+                3327,
+                3327
+              ]
+            },
+            {
+              "read_begin_ms": 32.0,
+              "response_ms": 47.0,
+              "rgb": [
+                3127,
+                3127,
+                3127
+              ]
+            },
+            {
+              "read_begin_ms": 47.0,
+              "response_ms": 79.0,
+              "rgb": [
+                2926,
+                2926,
+                2926
+              ]
+            },
+            {
+              "read_begin_ms": 79.0,
+              "response_ms": 110.0,
+              "rgb": [
+                2726,
+                2726,
+                2726
+              ]
+            },
+            {
+              "read_begin_ms": 110.0,
+              "response_ms": 141.0,
+              "rgb": [
+                2592,
+                2592,
+                2592
+              ]
+            },
+            {
+              "read_begin_ms": 141.0,
+              "response_ms": 172.0,
+              "rgb": [
+                2392,
+                2392,
+                2392
+              ]
+            },
+            {
+              "read_begin_ms": 172.0,
+              "response_ms": 188.0,
+              "rgb": [
+                2191,
+                2191,
+                2191
+              ]
+            },
+            {
+              "read_begin_ms": 188.0,
+              "response_ms": 219.0,
+              "rgb": [
+                2058,
+                2058,
+                2058
+              ]
+            },
+            {
+              "read_begin_ms": 219.0,
+              "response_ms": 235.0,
+              "rgb": [
+                1857,
+                1857,
+                1857
+              ]
+            },
+            {
+              "read_begin_ms": 235.0,
+              "response_ms": 266.0,
+              "rgb": [
+                1657,
+                1657,
+                1657
+              ]
+            },
+            {
+              "read_begin_ms": 266.0,
+              "response_ms": 297.0,
+              "rgb": [
+                1523,
+                1523,
+                1523
+              ]
+            },
+            {
+              "read_begin_ms": 297.0,
+              "response_ms": 329.0,
+              "rgb": [
+                1323,
+                1323,
+                1323
+              ]
+            },
+            {
+              "read_begin_ms": 329.0,
+              "response_ms": 360.0,
+              "rgb": [
+                1122,
+                1122,
+                1122
+              ]
+            },
+            {
+              "read_begin_ms": 360.0,
+              "response_ms": 391.0,
+              "rgb": [
+                922,
+                922,
+                922
+              ]
+            },
+            {
+              "read_begin_ms": 391.0,
+              "response_ms": 422.0,
+              "rgb": [
+                721,
+                721,
+                721
+              ]
+            },
+            {
+              "read_begin_ms": 422.0,
+              "response_ms": 454.0,
+              "rgb": [
+                521,
+                521,
+                521
+              ]
+            },
+            {
+              "read_begin_ms": 454.0,
+              "response_ms": 469.0,
+              "rgb": [
+                320,
+                320,
+                320
+              ]
+            },
+            {
+              "read_begin_ms": 469.0,
+              "response_ms": 500.0,
+              "rgb": [
+                120,
+                120,
+                120
+              ]
+            },
+            {
+              "read_begin_ms": 500.0,
+              "response_ms": 532.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 532.0,
+              "response_ms": 547.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 547.0,
+              "response_ms": 579.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 579.0,
+              "response_ms": 610.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 610.0,
+              "response_ms": 641.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 641.0,
+              "response_ms": 657.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 657.0,
+              "response_ms": 688.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 688.0,
+              "response_ms": 719.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 719.0,
+              "response_ms": 750.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "completion_bound_ms": [
+            469.0,
+            547.0
+          ],
+          "completion_error_bound_ms": [
+            -31.0,
+            47.0
+          ],
+          "bound_includes_LIN_and_host_latency": true,
+          "passed": true
+        },
+        {
+          "duration_ms": 1000,
+          "direction": "in",
+          "samples": [
+            {
+              "read_begin_ms": 0.0,
+              "response_ms": 31.0,
+              "rgb": [
+                26,
+                26,
+                26
+              ]
+            },
+            {
+              "read_begin_ms": 31.0,
+              "response_ms": 62.0,
+              "rgb": [
+                93,
+                93,
+                93
+              ]
+            },
+            {
+              "read_begin_ms": 62.0,
+              "response_ms": 78.0,
+              "rgb": [
+                193,
+                193,
+                193
+              ]
+            },
+            {
+              "read_begin_ms": 78.0,
+              "response_ms": 109.0,
+              "rgb": [
+                226,
+                226,
+                226
+              ]
+            },
+            {
+              "read_begin_ms": 109.0,
+              "response_ms": 140.0,
+              "rgb": [
+                360,
+                360,
+                360
+              ]
+            },
+            {
+              "read_begin_ms": 140.0,
+              "response_ms": 172.0,
+              "rgb": [
+                460,
+                460,
+                460
+              ]
+            },
+            {
+              "read_begin_ms": 172.0,
+              "response_ms": 187.0,
+              "rgb": [
+                560,
+                560,
+                560
+              ]
+            },
+            {
+              "read_begin_ms": 187.0,
+              "response_ms": 218.0,
+              "rgb": [
+                627,
+                627,
+                627
+              ]
+            },
+            {
+              "read_begin_ms": 218.0,
+              "response_ms": 250.0,
+              "rgb": [
+                727,
+                727,
+                727
+              ]
+            },
+            {
+              "read_begin_ms": 250.0,
+              "response_ms": 265.0,
+              "rgb": [
+                828,
+                828,
+                828
+              ]
+            },
+            {
+              "read_begin_ms": 265.0,
+              "response_ms": 297.0,
+              "rgb": [
+                894,
+                894,
+                894
+              ]
+            },
+            {
+              "read_begin_ms": 297.0,
+              "response_ms": 328.0,
+              "rgb": [
+                995,
+                995,
+                995
+              ]
+            },
+            {
+              "read_begin_ms": 328.0,
+              "response_ms": 343.0,
+              "rgb": [
+                1095,
+                1095,
+                1095
+              ]
+            },
+            {
+              "read_begin_ms": 343.0,
+              "response_ms": 375.0,
+              "rgb": [
+                1162,
+                1162,
+                1162
+              ]
+            },
+            {
+              "read_begin_ms": 375.0,
+              "response_ms": 406.0,
+              "rgb": [
+                1262,
+                1262,
+                1262
+              ]
+            },
+            {
+              "read_begin_ms": 406.0,
+              "response_ms": 437.0,
+              "rgb": [
+                1329,
+                1329,
+                1329
+              ]
+            },
+            {
+              "read_begin_ms": 437.0,
+              "response_ms": 453.0,
+              "rgb": [
+                1429,
+                1429,
+                1429
+              ]
+            },
+            {
+              "read_begin_ms": 453.0,
+              "response_ms": 484.0,
+              "rgb": [
+                1529,
+                1529,
+                1529
+              ]
+            },
+            {
+              "read_begin_ms": 484.0,
+              "response_ms": 515.0,
+              "rgb": [
+                1629,
+                1629,
+                1629
+              ]
+            },
+            {
+              "read_begin_ms": 515.0,
+              "response_ms": 547.0,
+              "rgb": [
+                1696,
+                1696,
+                1696
+              ]
+            },
+            {
+              "read_begin_ms": 547.0,
+              "response_ms": 562.0,
+              "rgb": [
+                1796,
+                1796,
+                1796
+              ]
+            },
+            {
+              "read_begin_ms": 562.0,
+              "response_ms": 593.0,
+              "rgb": [
+                1897,
+                1897,
+                1897
+              ]
+            },
+            {
+              "read_begin_ms": 593.0,
+              "response_ms": 625.0,
+              "rgb": [
+                1964,
+                1964,
+                1964
+              ]
+            },
+            {
+              "read_begin_ms": 625.0,
+              "response_ms": 640.0,
+              "rgb": [
+                2064,
+                2064,
+                2064
+              ]
+            },
+            {
+              "read_begin_ms": 640.0,
+              "response_ms": 672.0,
+              "rgb": [
+                2164,
+                2164,
+                2164
+              ]
+            },
+            {
+              "read_begin_ms": 672.0,
+              "response_ms": 703.0,
+              "rgb": [
+                2231,
+                2231,
+                2231
+              ]
+            },
+            {
+              "read_begin_ms": 703.0,
+              "response_ms": 734.0,
+              "rgb": [
+                2331,
+                2331,
+                2331
+              ]
+            },
+            {
+              "read_begin_ms": 734.0,
+              "response_ms": 765.0,
+              "rgb": [
+                2431,
+                2431,
+                2431
+              ]
+            },
+            {
+              "read_begin_ms": 765.0,
+              "response_ms": 797.0,
+              "rgb": [
+                2531,
+                2531,
+                2531
+              ]
+            },
+            {
+              "read_begin_ms": 797.0,
+              "response_ms": 828.0,
+              "rgb": [
+                2632,
+                2632,
+                2632
+              ]
+            },
+            {
+              "read_begin_ms": 828.0,
+              "response_ms": 843.0,
+              "rgb": [
+                2732,
+                2732,
+                2732
+              ]
+            },
+            {
+              "read_begin_ms": 843.0,
+              "response_ms": 875.0,
+              "rgb": [
+                2832,
+                2832,
+                2832
+              ]
+            },
+            {
+              "read_begin_ms": 875.0,
+              "response_ms": 906.0,
+              "rgb": [
+                2932,
+                2932,
+                2932
+              ]
+            },
+            {
+              "read_begin_ms": 906.0,
+              "response_ms": 937.0,
+              "rgb": [
+                3033,
+                3033,
+                3033
+              ]
+            },
+            {
+              "read_begin_ms": 937.0,
+              "response_ms": 968.0,
+              "rgb": [
+                3133,
+                3133,
+                3133
+              ]
+            },
+            {
+              "read_begin_ms": 968.0,
+              "response_ms": 1000.0,
+              "rgb": [
+                3233,
+                3233,
+                3233
+              ]
+            },
+            {
+              "read_begin_ms": 1000.0,
+              "response_ms": 1031.0,
+              "rgb": [
+                3333,
+                3333,
+                3333
+              ]
+            },
+            {
+              "read_begin_ms": 1031.0,
+              "response_ms": 1062.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 1062.0,
+              "response_ms": 1093.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 1093.0,
+              "response_ms": 1125.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 1125.0,
+              "response_ms": 1156.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 1156.0,
+              "response_ms": 1203.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 1203.0,
+              "response_ms": 1234.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 1234.0,
+              "response_ms": 1265.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            }
+          ],
+          "completion_bound_ms": [
+            1000.0,
+            1062.0
+          ],
+          "completion_error_bound_ms": [
+            0.0,
+            62.0
+          ],
+          "bound_includes_LIN_and_host_latency": true,
+          "passed": true
+        },
+        {
+          "duration_ms": 1000,
+          "direction": "out",
+          "samples": [
+            {
+              "read_begin_ms": 0.0,
+              "response_ms": 31.0,
+              "rgb": [
+                3304,
+                3304,
+                3304
+              ]
+            },
+            {
+              "read_begin_ms": 31.0,
+              "response_ms": 63.0,
+              "rgb": [
+                3170,
+                3170,
+                3170
+              ]
+            },
+            {
+              "read_begin_ms": 63.0,
+              "response_ms": 94.0,
+              "rgb": [
+                3070,
+                3070,
+                3070
+              ]
+            },
+            {
+              "read_begin_ms": 94.0,
+              "response_ms": 125.0,
+              "rgb": [
+                2970,
+                2970,
+                2970
+              ]
+            },
+            {
+              "read_begin_ms": 125.0,
+              "response_ms": 156.0,
+              "rgb": [
+                2869,
+                2869,
+                2869
+              ]
+            },
+            {
+              "read_begin_ms": 156.0,
+              "response_ms": 203.0,
+              "rgb": [
+                2769,
+                2769,
+                2769
+              ]
+            },
+            {
+              "read_begin_ms": 203.0,
+              "response_ms": 250.0,
+              "rgb": [
+                2636,
+                2636,
+                2636
+              ]
+            },
+            {
+              "read_begin_ms": 250.0,
+              "response_ms": 281.0,
+              "rgb": [
+                2502,
+                2502,
+                2502
+              ]
+            },
+            {
+              "read_begin_ms": 281.0,
+              "response_ms": 313.0,
+              "rgb": [
+                2368,
+                2368,
+                2368
+              ]
+            },
+            {
+              "read_begin_ms": 313.0,
+              "response_ms": 344.0,
+              "rgb": [
+                2268,
+                2268,
+                2268
+              ]
+            },
+            {
+              "read_begin_ms": 344.0,
+              "response_ms": 359.0,
+              "rgb": [
+                2168,
+                2168,
+                2168
+              ]
+            },
+            {
+              "read_begin_ms": 359.0,
+              "response_ms": 391.0,
+              "rgb": [
+                2101,
+                2101,
+                2101
+              ]
+            },
+            {
+              "read_begin_ms": 391.0,
+              "response_ms": 422.0,
+              "rgb": [
+                2001,
+                2001,
+                2001
+              ]
+            },
+            {
+              "read_begin_ms": 422.0,
+              "response_ms": 438.0,
+              "rgb": [
+                1901,
+                1901,
+                1901
+              ]
+            },
+            {
+              "read_begin_ms": 438.0,
+              "response_ms": 469.0,
+              "rgb": [
+                1834,
+                1834,
+                1834
+              ]
+            },
+            {
+              "read_begin_ms": 469.0,
+              "response_ms": 500.0,
+              "rgb": [
+                1733,
+                1733,
+                1733
+              ]
+            },
+            {
+              "read_begin_ms": 500.0,
+              "response_ms": 516.0,
+              "rgb": [
+                1633,
+                1633,
+                1633
+              ]
+            },
+            {
+              "read_begin_ms": 516.0,
+              "response_ms": 547.0,
+              "rgb": [
+                1566,
+                1566,
+                1566
+              ]
+            },
+            {
+              "read_begin_ms": 547.0,
+              "response_ms": 578.0,
+              "rgb": [
+                1466,
+                1466,
+                1466
+              ]
+            },
+            {
+              "read_begin_ms": 578.0,
+              "response_ms": 594.0,
+              "rgb": [
+                1399,
+                1399,
+                1399
+              ]
+            },
+            {
+              "read_begin_ms": 594.0,
+              "response_ms": 625.0,
+              "rgb": [
+                1299,
+                1299,
+                1299
+              ]
+            },
+            {
+              "read_begin_ms": 625.0,
+              "response_ms": 656.0,
+              "rgb": [
+                1232,
+                1232,
+                1232
+              ]
+            },
+            {
+              "read_begin_ms": 656.0,
+              "response_ms": 672.0,
+              "rgb": [
+                1132,
+                1132,
+                1132
+              ]
+            },
+            {
+              "read_begin_ms": 672.0,
+              "response_ms": 703.0,
+              "rgb": [
+                1032,
+                1032,
+                1032
+              ]
+            },
+            {
+              "read_begin_ms": 703.0,
+              "response_ms": 734.0,
+              "rgb": [
+                965,
+                965,
+                965
+              ]
+            },
+            {
+              "read_begin_ms": 734.0,
+              "response_ms": 750.0,
+              "rgb": [
+                898,
+                898,
+                898
+              ]
+            },
+            {
+              "read_begin_ms": 750.0,
+              "response_ms": 781.0,
+              "rgb": [
+                765,
+                765,
+                765
+              ]
+            },
+            {
+              "read_begin_ms": 781.0,
+              "response_ms": 813.0,
+              "rgb": [
+                698,
+                698,
+                698
+              ]
+            },
+            {
+              "read_begin_ms": 813.0,
+              "response_ms": 844.0,
+              "rgb": [
+                598,
+                598,
+                598
+              ]
+            },
+            {
+              "read_begin_ms": 844.0,
+              "response_ms": 859.0,
+              "rgb": [
+                497,
+                497,
+                497
+              ]
+            },
+            {
+              "read_begin_ms": 859.0,
+              "response_ms": 891.0,
+              "rgb": [
+                430,
+                430,
+                430
+              ]
+            },
+            {
+              "read_begin_ms": 891.0,
+              "response_ms": 922.0,
+              "rgb": [
+                330,
+                330,
+                330
+              ]
+            },
+            {
+              "read_begin_ms": 922.0,
+              "response_ms": 953.0,
+              "rgb": [
+                230,
+                230,
+                230
+              ]
+            },
+            {
+              "read_begin_ms": 953.0,
+              "response_ms": 984.0,
+              "rgb": [
+                130,
+                130,
+                130
+              ]
+            },
+            {
+              "read_begin_ms": 984.0,
+              "response_ms": 1016.0,
+              "rgb": [
+                30,
+                30,
+                30
+              ]
+            },
+            {
+              "read_begin_ms": 1016.0,
+              "response_ms": 1031.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1031.0,
+              "response_ms": 1063.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1063.0,
+              "response_ms": 1094.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1094.0,
+              "response_ms": 1109.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1109.0,
+              "response_ms": 1141.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1141.0,
+              "response_ms": 1172.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1172.0,
+              "response_ms": 1188.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1188.0,
+              "response_ms": 1219.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 1219.0,
+              "response_ms": 1250.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "completion_bound_ms": [
+            984.0,
+            1047.0
+          ],
+          "completion_error_bound_ms": [
+            -16.0,
+            47.0
+          ],
+          "bound_includes_LIN_and_host_latency": true,
+          "passed": true
+        },
+        {
+          "duration_ms": 3000,
+          "direction": "in",
+          "samples": [
+            {
+              "read_begin_ms": 0.0,
+              "response_ms": 31.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 31.0,
+              "response_ms": 62.0,
+              "rgb": [
+                45,
+                45,
+                45
+              ]
+            },
+            {
+              "read_begin_ms": 62.0,
+              "response_ms": 93.0,
+              "rgb": [
+                78,
+                78,
+                78
+              ]
+            },
+            {
+              "read_begin_ms": 93.0,
+              "response_ms": 109.0,
+              "rgb": [
+                100,
+                100,
+                100
+              ]
+            },
+            {
+              "read_begin_ms": 109.0,
+              "response_ms": 140.0,
+              "rgb": [
+                134,
+                134,
+                134
+              ]
+            },
+            {
+              "read_begin_ms": 140.0,
+              "response_ms": 171.0,
+              "rgb": [
+                167,
+                167,
+                167
+              ]
+            },
+            {
+              "read_begin_ms": 171.0,
+              "response_ms": 203.0,
+              "rgb": [
+                201,
+                201,
+                201
+              ]
+            },
+            {
+              "read_begin_ms": 203.0,
+              "response_ms": 234.0,
+              "rgb": [
+                234,
+                234,
+                234
+              ]
+            },
+            {
+              "read_begin_ms": 234.0,
+              "response_ms": 265.0,
+              "rgb": [
+                267,
+                267,
+                267
+              ]
+            },
+            {
+              "read_begin_ms": 265.0,
+              "response_ms": 296.0,
+              "rgb": [
+                301,
+                301,
+                301
+              ]
+            },
+            {
+              "read_begin_ms": 296.0,
+              "response_ms": 328.0,
+              "rgb": [
+                334,
+                334,
+                334
+              ]
+            },
+            {
+              "read_begin_ms": 328.0,
+              "response_ms": 359.0,
+              "rgb": [
+                368,
+                368,
+                368
+              ]
+            },
+            {
+              "read_begin_ms": 359.0,
+              "response_ms": 375.0,
+              "rgb": [
+                401,
+                401,
+                401
+              ]
+            },
+            {
+              "read_begin_ms": 375.0,
+              "response_ms": 406.0,
+              "rgb": [
+                434,
+                434,
+                434
+              ]
+            },
+            {
+              "read_begin_ms": 406.0,
+              "response_ms": 437.0,
+              "rgb": [
+                457,
+                457,
+                457
+              ]
+            },
+            {
+              "read_begin_ms": 437.0,
+              "response_ms": 468.0,
+              "rgb": [
+                490,
+                490,
+                490
+              ]
+            },
+            {
+              "read_begin_ms": 468.0,
+              "response_ms": 500.0,
+              "rgb": [
+                524,
+                524,
+                524
+              ]
+            },
+            {
+              "read_begin_ms": 500.0,
+              "response_ms": 531.0,
+              "rgb": [
+                557,
+                557,
+                557
+              ]
+            },
+            {
+              "read_begin_ms": 531.0,
+              "response_ms": 562.0,
+              "rgb": [
+                590,
+                590,
+                590
+              ]
+            },
+            {
+              "read_begin_ms": 562.0,
+              "response_ms": 593.0,
+              "rgb": [
+                635,
+                635,
+                635
+              ]
+            },
+            {
+              "read_begin_ms": 593.0,
+              "response_ms": 625.0,
+              "rgb": [
+                668,
+                668,
+                668
+              ]
+            },
+            {
+              "read_begin_ms": 625.0,
+              "response_ms": 640.0,
+              "rgb": [
+                702,
+                702,
+                702
+              ]
+            },
+            {
+              "read_begin_ms": 640.0,
+              "response_ms": 671.0,
+              "rgb": [
+                724,
+                724,
+                724
+              ]
+            },
+            {
+              "read_begin_ms": 671.0,
+              "response_ms": 703.0,
+              "rgb": [
+                769,
+                769,
+                769
+              ]
+            },
+            {
+              "read_begin_ms": 703.0,
+              "response_ms": 734.0,
+              "rgb": [
+                802,
+                802,
+                802
+              ]
+            },
+            {
+              "read_begin_ms": 734.0,
+              "response_ms": 781.0,
+              "rgb": [
+                835,
+                835,
+                835
+              ]
+            },
+            {
+              "read_begin_ms": 781.0,
+              "response_ms": 812.0,
+              "rgb": [
+                869,
+                869,
+                869
+              ]
+            },
+            {
+              "read_begin_ms": 812.0,
+              "response_ms": 843.0,
+              "rgb": [
+                902,
+                902,
+                902
+              ]
+            },
+            {
+              "read_begin_ms": 843.0,
+              "response_ms": 859.0,
+              "rgb": [
+                947,
+                947,
+                947
+              ]
+            },
+            {
+              "read_begin_ms": 859.0,
+              "response_ms": 890.0,
+              "rgb": [
+                969,
+                969,
+                969
+              ]
+            },
+            {
+              "read_begin_ms": 890.0,
+              "response_ms": 921.0,
+              "rgb": [
+                1002,
+                1002,
+                1002
+              ]
+            },
+            {
+              "read_begin_ms": 921.0,
+              "response_ms": 953.0,
+              "rgb": [
+                1036,
+                1036,
+                1036
+              ]
+            },
+            {
+              "read_begin_ms": 953.0,
+              "response_ms": 984.0,
+              "rgb": [
+                1069,
+                1069,
+                1069
+              ]
+            },
+            {
+              "read_begin_ms": 984.0,
+              "response_ms": 1015.0,
+              "rgb": [
+                1103,
+                1103,
+                1103
+              ]
+            },
+            {
+              "read_begin_ms": 1015.0,
+              "response_ms": 1031.0,
+              "rgb": [
+                1136,
+                1136,
+                1136
+              ]
+            },
+            {
+              "read_begin_ms": 1031.0,
+              "response_ms": 1062.0,
+              "rgb": [
+                1158,
+                1158,
+                1158
+              ]
+            },
+            {
+              "read_begin_ms": 1062.0,
+              "response_ms": 1093.0,
+              "rgb": [
+                1203,
+                1203,
+                1203
+              ]
+            },
+            {
+              "read_begin_ms": 1093.0,
+              "response_ms": 1125.0,
+              "rgb": [
+                1225,
+                1225,
+                1225
+              ]
+            },
+            {
+              "read_begin_ms": 1125.0,
+              "response_ms": 1156.0,
+              "rgb": [
+                1259,
+                1259,
+                1259
+              ]
+            },
+            {
+              "read_begin_ms": 1156.0,
+              "response_ms": 1171.0,
+              "rgb": [
+                1292,
+                1292,
+                1292
+              ]
+            },
+            {
+              "read_begin_ms": 1171.0,
+              "response_ms": 1203.0,
+              "rgb": [
+                1325,
+                1325,
+                1325
+              ]
+            },
+            {
+              "read_begin_ms": 1203.0,
+              "response_ms": 1234.0,
+              "rgb": [
+                1359,
+                1359,
+                1359
+              ]
+            },
+            {
+              "read_begin_ms": 1234.0,
+              "response_ms": 1265.0,
+              "rgb": [
+                1381,
+                1381,
+                1381
+              ]
+            },
+            {
+              "read_begin_ms": 1265.0,
+              "response_ms": 1296.0,
+              "rgb": [
+                1414,
+                1414,
+                1414
+              ]
+            },
+            {
+              "read_begin_ms": 1296.0,
+              "response_ms": 1328.0,
+              "rgb": [
+                1448,
+                1448,
+                1448
+              ]
+            },
+            {
+              "read_begin_ms": 1328.0,
+              "response_ms": 1343.0,
+              "rgb": [
+                1481,
+                1481,
+                1481
+              ]
+            },
+            {
+              "read_begin_ms": 1343.0,
+              "response_ms": 1375.0,
+              "rgb": [
+                1504,
+                1504,
+                1504
+              ]
+            },
+            {
+              "read_begin_ms": 1375.0,
+              "response_ms": 1390.0,
+              "rgb": [
+                1537,
+                1537,
+                1537
+              ]
+            },
+            {
+              "read_begin_ms": 1390.0,
+              "response_ms": 1437.0,
+              "rgb": [
+                1559,
+                1559,
+                1559
+              ]
+            },
+            {
+              "read_begin_ms": 1437.0,
+              "response_ms": 1453.0,
+              "rgb": [
+                1604,
+                1604,
+                1604
+              ]
+            },
+            {
+              "read_begin_ms": 1453.0,
+              "response_ms": 1484.0,
+              "rgb": [
+                1637,
+                1637,
+                1637
+              ]
+            },
+            {
+              "read_begin_ms": 1484.0,
+              "response_ms": 1515.0,
+              "rgb": [
+                1671,
+                1671,
+                1671
+              ]
+            },
+            {
+              "read_begin_ms": 1515.0,
+              "response_ms": 1562.0,
+              "rgb": [
+                1704,
+                1704,
+                1704
+              ]
+            },
+            {
+              "read_begin_ms": 1562.0,
+              "response_ms": 1578.0,
+              "rgb": [
+                1749,
+                1749,
+                1749
+              ]
+            },
+            {
+              "read_begin_ms": 1578.0,
+              "response_ms": 1609.0,
+              "rgb": [
+                1771,
+                1771,
+                1771
+              ]
+            },
+            {
+              "read_begin_ms": 1609.0,
+              "response_ms": 1640.0,
+              "rgb": [
+                1804,
+                1804,
+                1804
+              ]
+            },
+            {
+              "read_begin_ms": 1640.0,
+              "response_ms": 1671.0,
+              "rgb": [
+                1838,
+                1838,
+                1838
+              ]
+            },
+            {
+              "read_begin_ms": 1671.0,
+              "response_ms": 1687.0,
+              "rgb": [
+                1871,
+                1871,
+                1871
+              ]
+            },
+            {
+              "read_begin_ms": 1687.0,
+              "response_ms": 1718.0,
+              "rgb": [
+                1893,
+                1893,
+                1893
+              ]
+            },
+            {
+              "read_begin_ms": 1718.0,
+              "response_ms": 1750.0,
+              "rgb": [
+                1927,
+                1927,
+                1927
+              ]
+            },
+            {
+              "read_begin_ms": 1750.0,
+              "response_ms": 1781.0,
+              "rgb": [
+                1960,
+                1960,
+                1960
+              ]
+            },
+            {
+              "read_begin_ms": 1781.0,
+              "response_ms": 1796.0,
+              "rgb": [
+                1982,
+                1982,
+                1982
+              ]
+            },
+            {
+              "read_begin_ms": 1796.0,
+              "response_ms": 1828.0,
+              "rgb": [
+                2016,
+                2016,
+                2016
+              ]
+            },
+            {
+              "read_begin_ms": 1828.0,
+              "response_ms": 1859.0,
+              "rgb": [
+                2049,
+                2049,
+                2049
+              ]
+            },
+            {
+              "read_begin_ms": 1859.0,
+              "response_ms": 1875.0,
+              "rgb": [
+                2072,
+                2072,
+                2072
+              ]
+            },
+            {
+              "read_begin_ms": 1875.0,
+              "response_ms": 1906.0,
+              "rgb": [
+                2105,
+                2105,
+                2105
+              ]
+            },
+            {
+              "read_begin_ms": 1906.0,
+              "response_ms": 1937.0,
+              "rgb": [
+                2138,
+                2138,
+                2138
+              ]
+            },
+            {
+              "read_begin_ms": 1937.0,
+              "response_ms": 1968.0,
+              "rgb": [
+                2172,
+                2172,
+                2172
+              ]
+            },
+            {
+              "read_begin_ms": 1968.0,
+              "response_ms": 2000.0,
+              "rgb": [
+                2194,
+                2194,
+                2194
+              ]
+            },
+            {
+              "read_begin_ms": 2000.0,
+              "response_ms": 2015.0,
+              "rgb": [
+                2227,
+                2227,
+                2227
+              ]
+            },
+            {
+              "read_begin_ms": 2015.0,
+              "response_ms": 2046.0,
+              "rgb": [
+                2261,
+                2261,
+                2261
+              ]
+            },
+            {
+              "read_begin_ms": 2046.0,
+              "response_ms": 2078.0,
+              "rgb": [
+                2283,
+                2283,
+                2283
+              ]
+            },
+            {
+              "read_begin_ms": 2078.0,
+              "response_ms": 2093.0,
+              "rgb": [
+                2317,
+                2317,
+                2317
+              ]
+            },
+            {
+              "read_begin_ms": 2093.0,
+              "response_ms": 2125.0,
+              "rgb": [
+                2350,
+                2350,
+                2350
+              ]
+            },
+            {
+              "read_begin_ms": 2125.0,
+              "response_ms": 2156.0,
+              "rgb": [
+                2372,
+                2372,
+                2372
+              ]
+            },
+            {
+              "read_begin_ms": 2156.0,
+              "response_ms": 2171.0,
+              "rgb": [
+                2406,
+                2406,
+                2406
+              ]
+            },
+            {
+              "read_begin_ms": 2171.0,
+              "response_ms": 2203.0,
+              "rgb": [
+                2439,
+                2439,
+                2439
+              ]
+            },
+            {
+              "read_begin_ms": 2203.0,
+              "response_ms": 2234.0,
+              "rgb": [
+                2472,
+                2472,
+                2472
+              ]
+            },
+            {
+              "read_begin_ms": 2234.0,
+              "response_ms": 2281.0,
+              "rgb": [
+                2506,
+                2506,
+                2506
+              ]
+            },
+            {
+              "read_begin_ms": 2281.0,
+              "response_ms": 2296.0,
+              "rgb": [
+                2539,
+                2539,
+                2539
+              ]
+            },
+            {
+              "read_begin_ms": 2296.0,
+              "response_ms": 2328.0,
+              "rgb": [
+                2573,
+                2573,
+                2573
+              ]
+            },
+            {
+              "read_begin_ms": 2328.0,
+              "response_ms": 2343.0,
+              "rgb": [
+                2595,
+                2595,
+                2595
+              ]
+            },
+            {
+              "read_begin_ms": 2343.0,
+              "response_ms": 2375.0,
+              "rgb": [
+                2628,
+                2628,
+                2628
+              ]
+            },
+            {
+              "read_begin_ms": 2375.0,
+              "response_ms": 2406.0,
+              "rgb": [
+                2651,
+                2651,
+                2651
+              ]
+            },
+            {
+              "read_begin_ms": 2406.0,
+              "response_ms": 2421.0,
+              "rgb": [
+                2684,
+                2684,
+                2684
+              ]
+            },
+            {
+              "read_begin_ms": 2421.0,
+              "response_ms": 2453.0,
+              "rgb": [
+                2717,
+                2717,
+                2717
+              ]
+            },
+            {
+              "read_begin_ms": 2453.0,
+              "response_ms": 2484.0,
+              "rgb": [
+                2740,
+                2740,
+                2740
+              ]
+            },
+            {
+              "read_begin_ms": 2484.0,
+              "response_ms": 2515.0,
+              "rgb": [
+                2773,
+                2773,
+                2773
+              ]
+            },
+            {
+              "read_begin_ms": 2515.0,
+              "response_ms": 2531.0,
+              "rgb": [
+                2807,
+                2807,
+                2807
+              ]
+            },
+            {
+              "read_begin_ms": 2531.0,
+              "response_ms": 2562.0,
+              "rgb": [
+                2829,
+                2829,
+                2829
+              ]
+            },
+            {
+              "read_begin_ms": 2562.0,
+              "response_ms": 2593.0,
+              "rgb": [
+                2862,
+                2862,
+                2862
+              ]
+            },
+            {
+              "read_begin_ms": 2593.0,
+              "response_ms": 2625.0,
+              "rgb": [
+                2896,
+                2896,
+                2896
+              ]
+            },
+            {
+              "read_begin_ms": 2625.0,
+              "response_ms": 2640.0,
+              "rgb": [
+                2929,
+                2929,
+                2929
+              ]
+            },
+            {
+              "read_begin_ms": 2640.0,
+              "response_ms": 2671.0,
+              "rgb": [
+                2962,
+                2962,
+                2962
+              ]
+            },
+            {
+              "read_begin_ms": 2671.0,
+              "response_ms": 2703.0,
+              "rgb": [
+                2985,
+                2985,
+                2985
+              ]
+            },
+            {
+              "read_begin_ms": 2703.0,
+              "response_ms": 2718.0,
+              "rgb": [
+                3018,
+                3018,
+                3018
+              ]
+            },
+            {
+              "read_begin_ms": 2718.0,
+              "response_ms": 2750.0,
+              "rgb": [
+                3040,
+                3040,
+                3040
+              ]
+            },
+            {
+              "read_begin_ms": 2750.0,
+              "response_ms": 2781.0,
+              "rgb": [
+                3063,
+                3063,
+                3063
+              ]
+            },
+            {
+              "read_begin_ms": 2781.0,
+              "response_ms": 2796.0,
+              "rgb": [
+                3096,
+                3096,
+                3096
+              ]
+            },
+            {
+              "read_begin_ms": 2796.0,
+              "response_ms": 2828.0,
+              "rgb": [
+                3130,
+                3130,
+                3130
+              ]
+            },
+            {
+              "read_begin_ms": 2828.0,
+              "response_ms": 2859.0,
+              "rgb": [
+                3163,
+                3163,
+                3163
+              ]
+            },
+            {
+              "read_begin_ms": 2859.0,
+              "response_ms": 2875.0,
+              "rgb": [
+                3185,
+                3185,
+                3185
+              ]
+            },
+            {
+              "read_begin_ms": 2875.0,
+              "response_ms": 2906.0,
+              "rgb": [
+                3219,
+                3219,
+                3219
+              ]
+            },
+            {
+              "read_begin_ms": 2906.0,
+              "response_ms": 2937.0,
+              "rgb": [
+                3241,
+                3241,
+                3241
+              ]
+            },
+            {
+              "read_begin_ms": 2937.0,
+              "response_ms": 2953.0,
+              "rgb": [
+                3274,
+                3274,
+                3274
+              ]
+            },
+            {
+              "read_begin_ms": 2953.0,
+              "response_ms": 2984.0,
+              "rgb": [
+                3297,
+                3297,
+                3297
+              ]
+            },
+            {
+              "read_begin_ms": 2984.0,
+              "response_ms": 3015.0,
+              "rgb": [
+                3330,
+                3330,
+                3330
+              ]
+            },
+            {
+              "read_begin_ms": 3015.0,
+              "response_ms": 3046.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3046.0,
+              "response_ms": 3062.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3062.0,
+              "response_ms": 3093.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3093.0,
+              "response_ms": 3125.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3125.0,
+              "response_ms": 3140.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3140.0,
+              "response_ms": 3171.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3171.0,
+              "response_ms": 3203.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3203.0,
+              "response_ms": 3234.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            },
+            {
+              "read_begin_ms": 3234.0,
+              "response_ms": 3250.0,
+              "rgb": [
+                3340,
+                3340,
+                3340
+              ]
+            }
+          ],
+          "completion_bound_ms": [
+            2984.0,
+            3062.0
+          ],
+          "completion_error_bound_ms": [
+            -16.0,
+            62.0
+          ],
+          "bound_includes_LIN_and_host_latency": true,
+          "passed": true
+        },
+        {
+          "duration_ms": 3000,
+          "direction": "out",
+          "samples": [
+            {
+              "read_begin_ms": 0.0,
+              "response_ms": 31.0,
+              "rgb": [
+                3323,
+                3323,
+                3323
+              ]
+            },
+            {
+              "read_begin_ms": 31.0,
+              "response_ms": 62.0,
+              "rgb": [
+                3289,
+                3289,
+                3289
+              ]
+            },
+            {
+              "read_begin_ms": 62.0,
+              "response_ms": 94.0,
+              "rgb": [
+                3256,
+                3256,
+                3256
+              ]
+            },
+            {
+              "read_begin_ms": 94.0,
+              "response_ms": 125.0,
+              "rgb": [
+                3211,
+                3211,
+                3211
+              ]
+            },
+            {
+              "read_begin_ms": 125.0,
+              "response_ms": 156.0,
+              "rgb": [
+                3178,
+                3178,
+                3178
+              ]
+            },
+            {
+              "read_begin_ms": 156.0,
+              "response_ms": 187.0,
+              "rgb": [
+                3144,
+                3144,
+                3144
+              ]
+            },
+            {
+              "read_begin_ms": 187.0,
+              "response_ms": 219.0,
+              "rgb": [
+                3111,
+                3111,
+                3111
+              ]
+            },
+            {
+              "read_begin_ms": 219.0,
+              "response_ms": 250.0,
+              "rgb": [
+                3078,
+                3078,
+                3078
+              ]
+            },
+            {
+              "read_begin_ms": 250.0,
+              "response_ms": 281.0,
+              "rgb": [
+                3044,
+                3044,
+                3044
+              ]
+            },
+            {
+              "read_begin_ms": 281.0,
+              "response_ms": 312.0,
+              "rgb": [
+                3011,
+                3011,
+                3011
+              ]
+            },
+            {
+              "read_begin_ms": 312.0,
+              "response_ms": 359.0,
+              "rgb": [
+                2977,
+                2977,
+                2977
+              ]
+            },
+            {
+              "read_begin_ms": 359.0,
+              "response_ms": 390.0,
+              "rgb": [
+                2933,
+                2933,
+                2933
+              ]
+            },
+            {
+              "read_begin_ms": 390.0,
+              "response_ms": 422.0,
+              "rgb": [
+                2899,
+                2899,
+                2899
+              ]
+            },
+            {
+              "read_begin_ms": 422.0,
+              "response_ms": 453.0,
+              "rgb": [
+                2866,
+                2866,
+                2866
+              ]
+            },
+            {
+              "read_begin_ms": 453.0,
+              "response_ms": 484.0,
+              "rgb": [
+                2822,
+                2822,
+                2822
+              ]
+            },
+            {
+              "read_begin_ms": 484.0,
+              "response_ms": 515.0,
+              "rgb": [
+                2788,
+                2788,
+                2788
+              ]
+            },
+            {
+              "read_begin_ms": 515.0,
+              "response_ms": 547.0,
+              "rgb": [
+                2744,
+                2744,
+                2744
+              ]
+            },
+            {
+              "read_begin_ms": 547.0,
+              "response_ms": 578.0,
+              "rgb": [
+                2710,
+                2710,
+                2710
+              ]
+            },
+            {
+              "read_begin_ms": 578.0,
+              "response_ms": 609.0,
+              "rgb": [
+                2677,
+                2677,
+                2677
+              ]
+            },
+            {
+              "read_begin_ms": 609.0,
+              "response_ms": 656.0,
+              "rgb": [
+                2643,
+                2643,
+                2643
+              ]
+            },
+            {
+              "read_begin_ms": 656.0,
+              "response_ms": 672.0,
+              "rgb": [
+                2599,
+                2599,
+                2599
+              ]
+            },
+            {
+              "read_begin_ms": 672.0,
+              "response_ms": 703.0,
+              "rgb": [
+                2577,
+                2577,
+                2577
+              ]
+            },
+            {
+              "read_begin_ms": 703.0,
+              "response_ms": 750.0,
+              "rgb": [
+                2532,
+                2532,
+                2532
+              ]
+            },
+            {
+              "read_begin_ms": 750.0,
+              "response_ms": 781.0,
+              "rgb": [
+                2499,
+                2499,
+                2499
+              ]
+            },
+            {
+              "read_begin_ms": 781.0,
+              "response_ms": 812.0,
+              "rgb": [
+                2454,
+                2454,
+                2454
+              ]
+            },
+            {
+              "read_begin_ms": 812.0,
+              "response_ms": 844.0,
+              "rgb": [
+                2421,
+                2421,
+                2421
+              ]
+            },
+            {
+              "read_begin_ms": 844.0,
+              "response_ms": 875.0,
+              "rgb": [
+                2387,
+                2387,
+                2387
+              ]
+            },
+            {
+              "read_begin_ms": 875.0,
+              "response_ms": 906.0,
+              "rgb": [
+                2354,
+                2354,
+                2354
+              ]
+            },
+            {
+              "read_begin_ms": 906.0,
+              "response_ms": 937.0,
+              "rgb": [
+                2309,
+                2309,
+                2309
+              ]
+            },
+            {
+              "read_begin_ms": 937.0,
+              "response_ms": 969.0,
+              "rgb": [
+                2287,
+                2287,
+                2287
+              ]
+            },
+            {
+              "read_begin_ms": 969.0,
+              "response_ms": 984.0,
+              "rgb": [
+                2254,
+                2254,
+                2254
+              ]
+            },
+            {
+              "read_begin_ms": 984.0,
+              "response_ms": 1015.0,
+              "rgb": [
+                2220,
+                2220,
+                2220
+              ]
+            },
+            {
+              "read_begin_ms": 1015.0,
+              "response_ms": 1047.0,
+              "rgb": [
+                2198,
+                2198,
+                2198
+              ]
+            },
+            {
+              "read_begin_ms": 1047.0,
+              "response_ms": 1062.0,
+              "rgb": [
+                2164,
+                2164,
+                2164
+              ]
+            },
+            {
+              "read_begin_ms": 1062.0,
+              "response_ms": 1094.0,
+              "rgb": [
+                2142,
+                2142,
+                2142
+              ]
+            },
+            {
+              "read_begin_ms": 1094.0,
+              "response_ms": 1109.0,
+              "rgb": [
+                2109,
+                2109,
+                2109
+              ]
+            },
+            {
+              "read_begin_ms": 1109.0,
+              "response_ms": 1140.0,
+              "rgb": [
+                2098,
+                2098,
+                2098
+              ]
+            },
+            {
+              "read_begin_ms": 1140.0,
+              "response_ms": 1172.0,
+              "rgb": [
+                2053,
+                2053,
+                2053
+              ]
+            },
+            {
+              "read_begin_ms": 1172.0,
+              "response_ms": 1187.0,
+              "rgb": [
+                2020,
+                2020,
+                2020
+              ]
+            },
+            {
+              "read_begin_ms": 1187.0,
+              "response_ms": 1219.0,
+              "rgb": [
+                1997,
+                1997,
+                1997
+              ]
+            },
+            {
+              "read_begin_ms": 1219.0,
+              "response_ms": 1250.0,
+              "rgb": [
+                1964,
+                1964,
+                1964
+              ]
+            },
+            {
+              "read_begin_ms": 1250.0,
+              "response_ms": 1265.0,
+              "rgb": [
+                1942,
+                1942,
+                1942
+              ]
+            },
+            {
+              "read_begin_ms": 1265.0,
+              "response_ms": 1297.0,
+              "rgb": [
+                1908,
+                1908,
+                1908
+              ]
+            },
+            {
+              "read_begin_ms": 1297.0,
+              "response_ms": 1328.0,
+              "rgb": [
+                1875,
+                1875,
+                1875
+              ]
+            },
+            {
+              "read_begin_ms": 1328.0,
+              "response_ms": 1359.0,
+              "rgb": [
+                1842,
+                1842,
+                1842
+              ]
+            },
+            {
+              "read_begin_ms": 1359.0,
+              "response_ms": 1390.0,
+              "rgb": [
+                1819,
+                1819,
+                1819
+              ]
+            },
+            {
+              "read_begin_ms": 1390.0,
+              "response_ms": 1406.0,
+              "rgb": [
+                1786,
+                1786,
+                1786
+              ]
+            },
+            {
+              "read_begin_ms": 1406.0,
+              "response_ms": 1437.0,
+              "rgb": [
+                1752,
+                1752,
+                1752
+              ]
+            },
+            {
+              "read_begin_ms": 1437.0,
+              "response_ms": 1469.0,
+              "rgb": [
+                1719,
+                1719,
+                1719
+              ]
+            },
+            {
+              "read_begin_ms": 1469.0,
+              "response_ms": 1500.0,
+              "rgb": [
+                1686,
+                1686,
+                1686
+              ]
+            },
+            {
+              "read_begin_ms": 1500.0,
+              "response_ms": 1531.0,
+              "rgb": [
+                1652,
+                1652,
+                1652
+              ]
+            },
+            {
+              "read_begin_ms": 1531.0,
+              "response_ms": 1562.0,
+              "rgb": [
+                1619,
+                1619,
+                1619
+              ]
+            },
+            {
+              "read_begin_ms": 1562.0,
+              "response_ms": 1594.0,
+              "rgb": [
+                1585,
+                1585,
+                1585
+              ]
+            },
+            {
+              "read_begin_ms": 1594.0,
+              "response_ms": 1609.0,
+              "rgb": [
+                1552,
+                1552,
+                1552
+              ]
+            },
+            {
+              "read_begin_ms": 1609.0,
+              "response_ms": 1640.0,
+              "rgb": [
+                1530,
+                1530,
+                1530
+              ]
+            },
+            {
+              "read_begin_ms": 1640.0,
+              "response_ms": 1672.0,
+              "rgb": [
+                1485,
+                1485,
+                1485
+              ]
+            },
+            {
+              "read_begin_ms": 1672.0,
+              "response_ms": 1719.0,
+              "rgb": [
+                1452,
+                1452,
+                1452
+              ]
+            },
+            {
+              "read_begin_ms": 1719.0,
+              "response_ms": 1750.0,
+              "rgb": [
+                1418,
+                1418,
+                1418
+              ]
+            },
+            {
+              "read_begin_ms": 1750.0,
+              "response_ms": 1781.0,
+              "rgb": [
+                1385,
+                1385,
+                1385
+              ]
+            },
+            {
+              "read_begin_ms": 1781.0,
+              "response_ms": 1812.0,
+              "rgb": [
+                1351,
+                1351,
+                1351
+              ]
+            },
+            {
+              "read_begin_ms": 1812.0,
+              "response_ms": 1844.0,
+              "rgb": [
+                1307,
+                1307,
+                1307
+              ]
+            },
+            {
+              "read_begin_ms": 1844.0,
+              "response_ms": 1875.0,
+              "rgb": [
+                1274,
+                1274,
+                1274
+              ]
+            },
+            {
+              "read_begin_ms": 1875.0,
+              "response_ms": 1906.0,
+              "rgb": [
+                1240,
+                1240,
+                1240
+              ]
+            },
+            {
+              "read_begin_ms": 1906.0,
+              "response_ms": 1937.0,
+              "rgb": [
+                1207,
+                1207,
+                1207
+              ]
+            },
+            {
+              "read_begin_ms": 1937.0,
+              "response_ms": 1969.0,
+              "rgb": [
+                1173,
+                1173,
+                1173
+              ]
+            },
+            {
+              "read_begin_ms": 1969.0,
+              "response_ms": 2000.0,
+              "rgb": [
+                1129,
+                1129,
+                1129
+              ]
+            },
+            {
+              "read_begin_ms": 2000.0,
+              "response_ms": 2031.0,
+              "rgb": [
+                1095,
+                1095,
+                1095
+              ]
+            },
+            {
+              "read_begin_ms": 2031.0,
+              "response_ms": 2062.0,
+              "rgb": [
+                1062,
+                1062,
+                1062
+              ]
+            },
+            {
+              "read_begin_ms": 2062.0,
+              "response_ms": 2094.0,
+              "rgb": [
+                1029,
+                1029,
+                1029
+              ]
+            },
+            {
+              "read_begin_ms": 2094.0,
+              "response_ms": 2125.0,
+              "rgb": [
+                995,
+                995,
+                995
+              ]
+            },
+            {
+              "read_begin_ms": 2125.0,
+              "response_ms": 2156.0,
+              "rgb": [
+                962,
+                962,
+                962
+              ]
+            },
+            {
+              "read_begin_ms": 2156.0,
+              "response_ms": 2187.0,
+              "rgb": [
+                928,
+                928,
+                928
+              ]
+            },
+            {
+              "read_begin_ms": 2187.0,
+              "response_ms": 2219.0,
+              "rgb": [
+                895,
+                895,
+                895
+              ]
+            },
+            {
+              "read_begin_ms": 2219.0,
+              "response_ms": 2265.0,
+              "rgb": [
+                850,
+                850,
+                850
+              ]
+            },
+            {
+              "read_begin_ms": 2265.0,
+              "response_ms": 2281.0,
+              "rgb": [
+                806,
+                806,
+                806
+              ]
+            },
+            {
+              "read_begin_ms": 2281.0,
+              "response_ms": 2312.0,
+              "rgb": [
+                772,
+                772,
+                772
+              ]
+            },
+            {
+              "read_begin_ms": 2312.0,
+              "response_ms": 2344.0,
+              "rgb": [
+                750,
+                750,
+                750
+              ]
+            },
+            {
+              "read_begin_ms": 2344.0,
+              "response_ms": 2390.0,
+              "rgb": [
+                717,
+                717,
+                717
+              ]
+            },
+            {
+              "read_begin_ms": 2390.0,
+              "response_ms": 2422.0,
+              "rgb": [
+                661,
+                661,
+                661
+              ]
+            },
+            {
+              "read_begin_ms": 2422.0,
+              "response_ms": 2453.0,
+              "rgb": [
+                628,
+                628,
+                628
+              ]
+            },
+            {
+              "read_begin_ms": 2453.0,
+              "response_ms": 2484.0,
+              "rgb": [
+                594,
+                594,
+                594
+              ]
+            },
+            {
+              "read_begin_ms": 2484.0,
+              "response_ms": 2500.0,
+              "rgb": [
+                561,
+                561,
+                561
+              ]
+            },
+            {
+              "read_begin_ms": 2500.0,
+              "response_ms": 2531.0,
+              "rgb": [
+                539,
+                539,
+                539
+              ]
+            },
+            {
+              "read_begin_ms": 2531.0,
+              "response_ms": 2562.0,
+              "rgb": [
+                494,
+                494,
+                494
+              ]
+            },
+            {
+              "read_begin_ms": 2562.0,
+              "response_ms": 2594.0,
+              "rgb": [
+                472,
+                472,
+                472
+              ]
+            },
+            {
+              "read_begin_ms": 2594.0,
+              "response_ms": 2625.0,
+              "rgb": [
+                438,
+                438,
+                438
+              ]
+            },
+            {
+              "read_begin_ms": 2625.0,
+              "response_ms": 2640.0,
+              "rgb": [
+                405,
+                405,
+                405
+              ]
+            },
+            {
+              "read_begin_ms": 2640.0,
+              "response_ms": 2672.0,
+              "rgb": [
+                371,
+                371,
+                371
+              ]
+            },
+            {
+              "read_begin_ms": 2672.0,
+              "response_ms": 2703.0,
+              "rgb": [
+                349,
+                349,
+                349
+              ]
+            },
+            {
+              "read_begin_ms": 2703.0,
+              "response_ms": 2734.0,
+              "rgb": [
+                316,
+                316,
+                316
+              ]
+            },
+            {
+              "read_begin_ms": 2734.0,
+              "response_ms": 2750.0,
+              "rgb": [
+                282,
+                282,
+                282
+              ]
+            },
+            {
+              "read_begin_ms": 2750.0,
+              "response_ms": 2781.0,
+              "rgb": [
+                260,
+                260,
+                260
+              ]
+            },
+            {
+              "read_begin_ms": 2781.0,
+              "response_ms": 2812.0,
+              "rgb": [
+                227,
+                227,
+                227
+              ]
+            },
+            {
+              "read_begin_ms": 2812.0,
+              "response_ms": 2844.0,
+              "rgb": [
+                193,
+                193,
+                193
+              ]
+            },
+            {
+              "read_begin_ms": 2844.0,
+              "response_ms": 2859.0,
+              "rgb": [
+                160,
+                160,
+                160
+              ]
+            },
+            {
+              "read_begin_ms": 2859.0,
+              "response_ms": 2890.0,
+              "rgb": [
+                126,
+                126,
+                126
+              ]
+            },
+            {
+              "read_begin_ms": 2890.0,
+              "response_ms": 2922.0,
+              "rgb": [
+                104,
+                104,
+                104
+              ]
+            },
+            {
+              "read_begin_ms": 2922.0,
+              "response_ms": 2953.0,
+              "rgb": [
+                71,
+                71,
+                71
+              ]
+            },
+            {
+              "read_begin_ms": 2953.0,
+              "response_ms": 2969.0,
+              "rgb": [
+                49,
+                49,
+                49
+              ]
+            },
+            {
+              "read_begin_ms": 2969.0,
+              "response_ms": 3000.0,
+              "rgb": [
+                15,
+                15,
+                15
+              ]
+            },
+            {
+              "read_begin_ms": 3000.0,
+              "response_ms": 3031.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3031.0,
+              "response_ms": 3062.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3062.0,
+              "response_ms": 3078.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3078.0,
+              "response_ms": 3109.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3109.0,
+              "response_ms": 3140.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3140.0,
+              "response_ms": 3156.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3156.0,
+              "response_ms": 3187.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3187.0,
+              "response_ms": 3219.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "read_begin_ms": 3219.0,
+              "response_ms": 3250.0,
+              "rgb": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "completion_bound_ms": [
+            2969.0,
+            3047.0
+          ],
+          "completion_error_bound_ms": [
+            -31.0,
+            47.0
+          ],
+          "bound_includes_LIN_and_host_latency": true,
+          "passed": true
+        }
+      ],
+      "fade_capture": [
+        {
+          "duration_ms": 500,
+          "direction": "in",
+          "points": [
+            {
+              "point": 1,
+              "sample_ms": 100,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                567,
+                567,
+                567
+              ],
+              "actual": [
+                567,
+                567,
+                567
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 2,
+              "sample_ms": 200,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1235,
+                1235,
+                1235
+              ],
+              "actual": [
+                1235,
+                1235,
+                1235
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 3,
+              "sample_ms": 300,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1903,
+                1903,
+                1903
+              ],
+              "actual": [
+                1903,
+                1903,
+                1903
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 4,
+              "sample_ms": 400,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2572,
+                2572,
+                2572
+              ],
+              "actual": [
+                2572,
+                2572,
+                2572
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 5,
+              "sample_ms": 500,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3240,
+                3240,
+                3240
+              ],
+              "actual": [
+                3240,
+                3240,
+                3240
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 6,
+              "sample_ms": 600,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3340,
+                3340,
+                3340
+              ],
+              "actual": [
+                3340,
+                3340,
+                3340
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 7,
+              "sample_ms": 700,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3340,
+                3340,
+                3340
+              ],
+              "actual": [
+                3340,
+                3340,
+                3340
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 8,
+              "sample_ms": 800,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3340,
+                3340,
+                3340
+              ],
+              "actual": [
+                3340,
+                3340,
+                3340
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 9,
+              "sample_ms": 900,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3340,
+                3340,
+                3340
+              ],
+              "actual": [
+                3340,
+                3340,
+                3340
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 10,
+              "sample_ms": 1000,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3340,
+                3340,
+                3340
+              ],
+              "actual": [
+                3340,
+                3340,
+                3340
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "response": "830503e8002f0001",
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "duration_ms": 500,
+          "direction": "out",
+          "points": [
+            {
+              "point": 1,
+              "sample_ms": 100,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2766,
+                2766,
+                2766
+              ],
+              "actual": [
+                2766,
+                2766,
+                2766
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 2,
+              "sample_ms": 200,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2098,
+                2098,
+                2098
+              ],
+              "actual": [
+                2098,
+                2098,
+                2098
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 3,
+              "sample_ms": 300,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1429,
+                1429,
+                1429
+              ],
+              "actual": [
+                1429,
+                1429,
+                1429
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 4,
+              "sample_ms": 400,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                761,
+                761,
+                761
+              ],
+              "actual": [
+                761,
+                761,
+                761
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 5,
+              "sample_ms": 500,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                93,
+                93,
+                93
+              ],
+              "actual": [
+                93,
+                93,
+                93
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 6,
+              "sample_ms": 600,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                0,
+                0,
+                0
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 7,
+              "sample_ms": 700,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                0,
+                0,
+                0
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 8,
+              "sample_ms": 800,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                0,
+                0,
+                0
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 9,
+              "sample_ms": 900,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                0,
+                0,
+                0
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 10,
+              "sample_ms": 1000,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                0,
+                0,
+                0
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "response": "830503e700320001",
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "duration_ms": 1000,
+          "direction": "in",
+          "points": [
+            {
+              "point": 1,
+              "sample_ms": 100,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                273,
+                273,
+                273
+              ],
+              "actual": [
+                273,
+                273,
+                273
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 2,
+              "sample_ms": 200,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                607,
+                607,
+                607
+              ],
+              "actual": [
+                607,
+                607,
+                607
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 3,
+              "sample_ms": 300,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                941,
+                941,
+                941
+              ],
+              "actual": [
+                941,
+                941,
+                941
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 4,
+              "sample_ms": 400,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1275,
+                1275,
+                1275
+              ],
+              "actual": [
+                1275,
+                1275,
+                1275
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 5,
+              "sample_ms": 500,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1609,
+                1609,
+                1609
+              ],
+              "actual": [
+                1609,
+                1609,
+                1609
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 6,
+              "sample_ms": 600,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1943,
+                1943,
+                1943
+              ],
+              "actual": [
+                1943,
+                1943,
+                1943
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 7,
+              "sample_ms": 700,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2278,
+                2278,
+                2278
+              ],
+              "actual": [
+                2278,
+                2278,
+                2278
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 8,
+              "sample_ms": 800,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2612,
+                2612,
+                2612
+              ],
+              "actual": [
+                2612,
+                2612,
+                2612
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 9,
+              "sample_ms": 900,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2946,
+                2946,
+                2946
+              ],
+              "actual": [
+                2946,
+                2946,
+                2946
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 10,
+              "sample_ms": 1000,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3280,
+                3280,
+                3280
+              ],
+              "actual": [
+                3280,
+                3280,
+                3280
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "response": "830503e8005c0001",
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "duration_ms": 1000,
+          "direction": "out",
+          "points": [
+            {
+              "point": 1,
+              "sample_ms": 100,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3040,
+                3040,
+                3040
+              ],
+              "actual": [
+                3040,
+                3040,
+                3040
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 2,
+              "sample_ms": 200,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2706,
+                2706,
+                2706
+              ],
+              "actual": [
+                2706,
+                2706,
+                2706
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 3,
+              "sample_ms": 300,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2372,
+                2372,
+                2372
+              ],
+              "actual": [
+                2372,
+                2372,
+                2372
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 4,
+              "sample_ms": 400,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2038,
+                2038,
+                2038
+              ],
+              "actual": [
+                2038,
+                2038,
+                2038
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 5,
+              "sample_ms": 500,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1703,
+                1703,
+                1703
+              ],
+              "actual": [
+                1703,
+                1703,
+                1703
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 6,
+              "sample_ms": 600,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1369,
+                1369,
+                1369
+              ],
+              "actual": [
+                1369,
+                1369,
+                1369
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 7,
+              "sample_ms": 700,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1035,
+                1035,
+                1035
+              ],
+              "actual": [
+                1035,
+                1035,
+                1035
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 8,
+              "sample_ms": 800,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                701,
+                701,
+                701
+              ],
+              "actual": [
+                701,
+                701,
+                701
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 9,
+              "sample_ms": 900,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                367,
+                367,
+                367
+              ],
+              "actual": [
+                367,
+                367,
+                367
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 10,
+              "sample_ms": 1000,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                33,
+                33,
+                33
+              ],
+              "actual": [
+                33,
+                33,
+                33
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "response": "830503e7005d0000",
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "duration_ms": 3000,
+          "direction": "in",
+          "points": [
+            {
+              "point": 1,
+              "sample_ms": 100,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                89,
+                89,
+                89
+              ],
+              "actual": [
+                89,
+                89,
+                89
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 2,
+              "sample_ms": 200,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                201,
+                201,
+                201
+              ],
+              "actual": [
+                201,
+                201,
+                201
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 3,
+              "sample_ms": 300,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                312,
+                312,
+                312
+              ],
+              "actual": [
+                312,
+                312,
+                312
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 4,
+              "sample_ms": 400,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                423,
+                423,
+                423
+              ],
+              "actual": [
+                423,
+                423,
+                423
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 5,
+              "sample_ms": 500,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                535,
+                535,
+                535
+              ],
+              "actual": [
+                535,
+                535,
+                535
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 6,
+              "sample_ms": 600,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                646,
+                646,
+                646
+              ],
+              "actual": [
+                646,
+                646,
+                646
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 7,
+              "sample_ms": 700,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                757,
+                757,
+                757
+              ],
+              "actual": [
+                757,
+                757,
+                757
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 8,
+              "sample_ms": 800,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                869,
+                869,
+                869
+              ],
+              "actual": [
+                869,
+                869,
+                869
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 9,
+              "sample_ms": 900,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                980,
+                980,
+                980
+              ],
+              "actual": [
+                980,
+                980,
+                980
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 10,
+              "sample_ms": 1000,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                1092,
+                1092,
+                1092
+              ],
+              "actual": [
+                1092,
+                1092,
+                1092
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "response": "830503e8005f0001",
+          "passed": true,
+          "normal_diagnostics_active": true
+        },
+        {
+          "duration_ms": 3000,
+          "direction": "out",
+          "points": [
+            {
+              "point": 1,
+              "sample_ms": 100,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3242,
+                3242,
+                3242
+              ],
+              "actual": [
+                3242,
+                3242,
+                3242
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 2,
+              "sample_ms": 200,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3131,
+                3131,
+                3131
+              ],
+              "actual": [
+                3131,
+                3131,
+                3131
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 3,
+              "sample_ms": 300,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                3020,
+                3020,
+                3020
+              ],
+              "actual": [
+                3020,
+                3020,
+                3020
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 4,
+              "sample_ms": 400,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2908,
+                2908,
+                2908
+              ],
+              "actual": [
+                2908,
+                2908,
+                2908
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 5,
+              "sample_ms": 500,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2797,
+                2797,
+                2797
+              ],
+              "actual": [
+                2797,
+                2797,
+                2797
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 6,
+              "sample_ms": 600,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2686,
+                2686,
+                2686
+              ],
+              "actual": [
+                2686,
+                2686,
+                2686
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 7,
+              "sample_ms": 700,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2574,
+                2574,
+                2574
+              ],
+              "actual": [
+                2574,
+                2574,
+                2574
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 8,
+              "sample_ms": 800,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2463,
+                2463,
+                2463
+              ],
+              "actual": [
+                2463,
+                2463,
+                2463
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 9,
+              "sample_ms": 900,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2352,
+                2352,
+                2352
+              ],
+              "actual": [
+                2352,
+                2352,
+                2352
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            },
+            {
+              "point": 10,
+              "sample_ms": 1000,
+              "sample_delay_ms": 0,
+              "OSP_read_ms": 0,
+              "expected": [
+                2240,
+                2240,
+                2240
+              ],
+              "actual": [
+                2240,
+                2240,
+                2240
+              ],
+              "absolute_error": [
+                0,
+                0,
+                0
+              ],
+              "passed": true
+            }
+          ],
+          "response": "830503e800610000",
+          "passed": true,
+          "normal_diagnostics_active": true
+        }
+      ],
+      "stability": {
+        "hz": 30,
+        "duty": 50,
+        "nominal_integer_ms": [
+          [
+            33,
+            34
+          ],
+          [
+            17,
+            17
+          ],
+          [
+            16,
+            17
+          ]
+        ],
+        "windows": [
+          {
+            "window": 1,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 2,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 3,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 4,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 5,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 6,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 7,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 8,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 9,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 10,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 11,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 12,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 13,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 14,
+            "period_ms": [
+              32,
+              35
+            ],
+            "on_ms": [
+              16,
+              17
+            ],
+            "off_ms": [
+              16,
+              18
+            ],
+            "error_ms": [
+              1,
+              1,
+              1
+            ],
+            "passed": true
+          },
+          {
+            "window": 15,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 16,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 17,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 18,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 19,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 20,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 21,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 22,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 23,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 24,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 25,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 26,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 27,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 28,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 29,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          },
+          {
+            "window": 30,
+            "period_ms": [
+              33,
+              34
+            ],
+            "on_ms": [
+              17,
+              17
+            ],
+            "off_ms": [
+              16,
+              17
+            ],
+            "error_ms": [
+              0,
+              0,
+              0
+            ],
+            "passed": true
+          }
+        ],
+        "passed": true,
+        "normal_diagnostics_active": true
+      },
+      "xcp": {
+        "passed": true,
+        "targets": [
+          {
+            "node": 1,
+            "address": "0x200000E4"
+          },
+          {
+            "node": 4,
+            "address": "0x200000EA"
+          },
+          {
+            "node": 8,
+            "address": "0x200000F2"
+          }
+        ],
+        "samples": [
+          {
+            "ms": 297.0,
+            "temperatures_C": [
+              31,
+              29,
+              30
+            ]
+          },
+          {
+            "ms": 422.0,
+            "temperatures_C": [
+              31,
+              29,
+              30
+            ]
+          },
+          {
+            "ms": 547.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 922.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 1125.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 1328.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 1531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 1734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 1922.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 2141.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 2328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 2531.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 2734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 2906.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 3125.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 3312.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 3516.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 3719.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 3922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 4125.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 4312.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 4516.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 4719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 4937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 5109.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 5328.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 5531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 5734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 5922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 6281.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 6406.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 6531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 6734.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 6937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 7125.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 7328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 7531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 7734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 7922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 8109.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 8328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 8531.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 8719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 8922.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 9109.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 9328.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 9531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 9734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 9937.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 10125.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 10312.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 10531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 10719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 10937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 11125.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 11328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 11516.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 11719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 11922.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 12281.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 12391.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 12531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 12719.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 12922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 13125.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 13312.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 13531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 13734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 13937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 14125.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 14328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 14531.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 14719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 14922.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 15109.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 15328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 15500.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 15719.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 15922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 16109.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 16312.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 16531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 16734.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 16922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 17125.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 17312.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 17531.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 17750.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 17922.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 18266.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 18391.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 18531.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 18734.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 18922.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 19125.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 19344.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 19516.0,
+            "temperatures_C": [
+              33,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 19750.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 19922.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 20125.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 20328.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 20516.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 20734.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 20922.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 21141.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 21312.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 21547.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 21734.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 21922.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 22141.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 22328.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 22531.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 22734.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 22922.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 23125.0,
+            "temperatures_C": [
+              33,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 23328.0,
+            "temperatures_C": [
+              33,
+              31,
+              32
+            ]
+          },
+          {
+            "ms": 23516.0,
+            "temperatures_C": [
+              33,
+              31,
+              32
+            ]
+          },
+          {
+            "ms": 23734.0,
+            "temperatures_C": [
+              33,
+              31,
+              32
+            ]
+          },
+          {
+            "ms": 23922.0,
+            "temperatures_C": [
+              33,
+              31,
+              32
+            ]
+          },
+          {
+            "ms": 24281.0,
+            "temperatures_C": [
+              32,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 24406.0,
+            "temperatures_C": [
+              32,
+              31,
+              31
+            ]
+          },
+          {
+            "ms": 24531.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 24734.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 24937.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 25141.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 25328.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 25531.0,
+            "temperatures_C": [
+              32,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 25734.0,
+            "temperatures_C": [
+              32,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 25937.0,
+            "temperatures_C": [
+              31,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 26141.0,
+            "temperatures_C": [
+              31,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 26328.0,
+            "temperatures_C": [
+              31,
+              30,
+              31
+            ]
+          },
+          {
+            "ms": 26531.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 26734.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 26937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 27141.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 27328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 27531.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 27719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 27937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 28141.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 28312.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 28516.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 28719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 28937.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 29125.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 29328.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 29516.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 29719.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          },
+          {
+            "ms": 29922.0,
+            "temperatures_C": [
+              31,
+              30,
+              30
+            ]
+          }
+        ],
+        "node_count": [
+          0,
+          8
+        ],
+        "error_counter_before": 0,
+        "error_counter_after": 0,
+        "mean_interval_ms": 198.8255033557047
+      },
+      "uds_rw_passed": true,
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "diagnostics": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ]
+    }
+  },
+  "updates": [],
+  "in_progress": null,
+  "GUI_tested": false,
+  "optical_tested": false,
+  "strobe_only": true,
+  "source_modified": false,
+  "readback_checks": 48,
+  "finished": "2026-11-11T10:31:54"
+}

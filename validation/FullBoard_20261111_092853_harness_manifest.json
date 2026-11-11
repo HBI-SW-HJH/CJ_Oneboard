@@ -1,0 +1,20 @@
+{
+  "temporary_harness": "C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_FullBoard_20261111_qsckv8zq\\CJConsoleVerification.exe",
+  "product_source": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\Forms\\FormUDS_Verification.cs",
+  "product_source_sha256": "98442b81a7b95fc300407e293d520e22807105095343e22920013f8b0a20ff8e",
+  "adaptations": [
+    "GUI event loop replaced with console polling; no windows or Excel COM",
+    "Stop at first failed readback or verdict",
+    "Flicker frequencies 10/30Hz per user maximum30Hz; all other algorithm/brightness/criteria unchanged",
+    "JSON report replaces Excel COM output",
+    "Old hardcoded failure RAM snapshot callback disabled"
+  ],
+  "source_files": {
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\LINFrame.cs": "669351dde16d56fc36c778076c0143bae1cca8e144a3a61d9493cd5810cb141e",
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\LINProtocol.cs": "3f495a5c67179210ac3a73edac7c0721bee2f34100477fb1825fb5ed4dec932c",
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\CJLinProtocol.cs": "920ba4ddb583370d5587fe4b31c97b5b8c672f8f7692fd92a4b11bd4b07811a1",
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\CJVerificationProtocol.cs": "cdb8963a321afa87e4ac35dd21774c730c0b3b2637074c4c8735a553e80fb5d0",
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\UDSProtocol.cs": "7eaacaf5a2ebf72d3bf47bcc622749592788346fa84727a0d364f635b0d082cd",
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\PeakLINGateway.cs": "246f67474c9baabe32922cb0913d6abfa44df18ca1afc70ab464815f4e26c544"
+  }
+}

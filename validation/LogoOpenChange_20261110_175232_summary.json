@@ -1,0 +1,143 @@
+{
+  "completed": true,
+  "image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Test_20261110_LogoOpenChange.bin",
+    "length": 29688,
+    "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+    "crc32": "1567E1F4",
+    "stack": "20010000",
+    "entry": "00017231"
+  },
+  "download_audit": {
+    "downloads": [
+      {
+        "chair": "0A",
+        "bytes": 29688,
+        "blocks": 232,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "wire_image_matches": true,
+        "device_crc_accepted": true,
+        "app_return_confirmed": true
+      },
+      {
+        "chair": "0B",
+        "bytes": 29688,
+        "blocks": 232,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "wire_image_matches": true,
+        "device_crc_accepted": true,
+        "app_return_confirmed": true
+      },
+      {
+        "chair": "0C",
+        "bytes": 29688,
+        "blocks": 232,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "wire_image_matches": true,
+        "device_crc_accepted": true,
+        "app_return_confirmed": true
+      }
+    ]
+  },
+  "boards": {
+    "0A": {
+      "period_ms": [
+        33,
+        34
+      ],
+      "on_ms": [
+        17,
+        17
+      ],
+      "off_ms": [
+        16,
+        17
+      ],
+      "logo_error_count": [
+        238,
+        278
+      ],
+      "strobe_error_count": [
+        0,
+        0
+      ],
+      "counter_seconds": 82.078,
+      "node_counts": [
+        0,
+        8
+      ],
+      "final_strobe_fault": 0,
+      "cases": 18
+    },
+    "0B": {
+      "period_ms": [
+        33,
+        34
+      ],
+      "on_ms": [
+        17,
+        17
+      ],
+      "off_ms": [
+        16,
+        17
+      ],
+      "logo_error_count": [
+        199,
+        267
+      ],
+      "strobe_error_count": [
+        0,
+        0
+      ],
+      "counter_seconds": 135.922,
+      "node_counts": [
+        0,
+        8
+      ],
+      "final_strobe_fault": 0,
+      "cases": 18
+    },
+    "0C": {
+      "period_ms": [
+        33,
+        34
+      ],
+      "on_ms": [
+        17,
+        18
+      ],
+      "off_ms": [
+        16,
+        17
+      ],
+      "logo_error_count": [
+        161,
+        255
+      ],
+      "strobe_error_count": [
+        0,
+        0
+      ],
+      "counter_seconds": 189.766,
+      "node_counts": [
+        0,
+        8
+      ],
+      "final_strobe_fault": 0,
+      "cases": 18
+    }
+  },
+  "flicker_conditions": 54,
+  "capture_windows": 180,
+  "capture_ms_each": 1000,
+  "readback_checks": 48,
+  "normal_diagnostics_active": true,
+  "verification_start_commands": 0,
+  "optical_measurement": false,
+  "final_led_state": "0A/0B/0C Strobe OFF",
+  "frame_errors": {}
+}

@@ -1,0 +1,468 @@
+{"time": "2026-11-11T10:09:08", "kind": "START", "prefix": "FullBoardRetry_20261111_1000_final", "brightness_cap": 255, "gui": false, "jlink": false}
+{"time": "2026-11-11T10:09:08", "kind": "ADAPTER", "settings": {"6": 19200, "7": 2, "21": 0}, "clients": [1, 1]}
+{"time": "2026-11-11T10:09:11", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f202ffffff", "errors": 0, "hw_us": 3632533831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102062f2023236", "errors": 0, "hw_us": 3632555830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "01214931362d3030", "errors": 0, "hw_us": 3632564830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "012230312a5a5831", "errors": 0, "hw_us": 3632582830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "01232d303032352a", "errors": 0, "hw_us": 3632591830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "012400022a0a2aae", "errors": 0, "hw_us": 3632599830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125be9602ffffff", "errors": 0, "hw_us": 3632609830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 3632617831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 3632630831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 3632650830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 3632659830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f210ffffff", "errors": 0, "hw_us": 3632668831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102662f2100000", "errors": 0, "hw_us": 3632688830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "0121010000000300", "errors": 0, "hw_us": 3632697830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "0122000000000000", "errors": 0, "hw_us": 3632708830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "0123000000000000", "errors": 0, "hw_us": 3632716830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "0124000000000003", "errors": 0, "hw_us": 3632724830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125000000020000", "errors": 0, "hw_us": 3632733830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "012673f807ffffff", "errors": 0, "hw_us": 3632742830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 10, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 3632751830}
+{"time": "2026-11-11T10:09:11", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 3632760831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 3632769831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f202ffffff", "errors": 0, "hw_us": 3632777831}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102062f2023236", "errors": 0, "hw_us": 3632798830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "02214931362d3030", "errors": 0, "hw_us": 3632806830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "022230322a5a5831", "errors": 0, "hw_us": 3632814830}
+{"time": "2026-11-11T10:09:11", "kind": "FRAME", "id": 61, "publisher": false, "data": "02232d303032352a", "errors": 0, "hw_us": 3632822830}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "022400022a0b2afb", "errors": 0, "hw_us": 3632830830}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "02253d8e91ffffff", "errors": 0, "hw_us": 3632839830}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302fb", "errors": 0, "hw_us": 3632847940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213d8e91ffffff", "errors": 0, "hw_us": 3632859940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302fb", "errors": 0, "hw_us": 3632879939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213d8e9100ffff", "errors": 0, "hw_us": 3632887939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 3632896940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 3632916939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 3632924939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 3632932939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 3632941939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 3632950939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000010000", "errors": 0, "hw_us": 3632959939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673f807ffffff", "errors": 0, "hw_us": 3632967939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 3632975939}
+{"time": "2026-11-11T10:09:12", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 3632983940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 3632991940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f202ffffff", "errors": 0, "hw_us": 3632999940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102062f2023236", "errors": 0, "hw_us": 3633019939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "03214931362d3030", "errors": 0, "hw_us": 3633027939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "032230332a5a5831", "errors": 0, "hw_us": 3633036939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "03232d303032352a", "errors": 0, "hw_us": 3633045939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "032400022a0c2ae1", "errors": 0, "hw_us": 3633052939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "03253173f1ffffff", "errors": 0, "hw_us": 3633061939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302e1", "errors": 0, "hw_us": 3633069940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213173f1ffffff", "errors": 0, "hw_us": 3633081940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302e1", "errors": 0, "hw_us": 3633102939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213173f100ffff", "errors": 0, "hw_us": 3633110939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f210ffffff", "errors": 0, "hw_us": 3633119940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102662f2100000", "errors": 0, "hw_us": 3633139939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0321010000000300", "errors": 0, "hw_us": 3633147939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0322000000000000", "errors": 0, "hw_us": 3633155939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0323000000000000", "errors": 0, "hw_us": 3633163939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0324000000000003", "errors": 0, "hw_us": 3633171939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "0325000000000000", "errors": 0, "hw_us": 3633180939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 61, "publisher": false, "data": "032673f807ffffff", "errors": 0, "hw_us": 3633188939}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 12, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 3633196939}
+{"time": "2026-11-11T10:09:12", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 3633204940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 3633213940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0500000001010000", "errors": 0, "hw_us": 3633222940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000001", "errors": 0, "hw_us": 3633239939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "LH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0501000001020000", "errors": 0, "hw_us": 3633249940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000002", "errors": 0, "hw_us": 3633266939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "RH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0502000001030000", "errors": 0, "hw_us": 3633274940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000003", "errors": 0, "hw_us": 3633291939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Head", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0503000001040000", "errors": 0, "hw_us": 3633300940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000004", "errors": 0, "hw_us": 3633318939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Back", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504000001050000", "errors": 0, "hw_us": 3633327940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000005", "errors": 0, "hw_us": 3633348939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504010001060000", "errors": 0, "hw_us": 3633362940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000006", "errors": 0, "hw_us": 3633392939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 2, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504020001070000", "errors": 0, "hw_us": 3633401940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000007", "errors": 0, "hw_us": 3633418939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 3, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504030001080000", "errors": 0, "hw_us": 3633426940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000008", "errors": 0, "hw_us": 3633443939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 4, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504040001090000", "errors": 0, "hw_us": 3633453940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000009", "errors": 0, "hw_us": 3633470939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 5, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040500010a0000", "errors": 0, "hw_us": 3633478940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000000a", "errors": 0, "hw_us": 3633495939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 6, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040600010b0000", "errors": 0, "hw_us": 3633503940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000000b", "errors": 0, "hw_us": 3633520939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 7, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040700010c0000", "errors": 0, "hw_us": 3633528940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000000c", "errors": 0, "hw_us": 3633545939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 8, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040800010d0000", "errors": 0, "hw_us": 3633556940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000000d", "errors": 0, "hw_us": 3633572939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 9, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040900010e0000", "errors": 0, "hw_us": 3633581940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000000e", "errors": 0, "hw_us": 3633600939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 10, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040a00010f0000", "errors": 0, "hw_us": 3633608940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000000f", "errors": 0, "hw_us": 3633625939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 11, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040b0001100000", "errors": 0, "hw_us": 3633633940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000010", "errors": 0, "hw_us": 3633650939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 12, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040c0001110000", "errors": 0, "hw_us": 3633658940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000011", "errors": 0, "hw_us": 3633675939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 13, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040d0001120000", "errors": 0, "hw_us": 3633685940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000012", "errors": 0, "hw_us": 3633703939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 14, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040e0001130000", "errors": 0, "hw_us": 3633712940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000013", "errors": 0, "hw_us": 3633731939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 15, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "05040f0001140000", "errors": 0, "hw_us": 3633740940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000014", "errors": 0, "hw_us": 3633758939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 16, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504100001150000", "errors": 0, "hw_us": 3633767940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000015", "errors": 0, "hw_us": 3633785939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 17, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504110001160000", "errors": 0, "hw_us": 3633794940}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000016", "errors": 0, "hw_us": 3633811939}
+{"time": "2026-11-11T10:09:12", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 18, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504120001170000", "errors": 0, "hw_us": 3633819940}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000017", "errors": 0, "hw_us": 3633836939}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 19, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504130001180000", "errors": 0, "hw_us": 3633844812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000018", "errors": 0, "hw_us": 3633862811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 20, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504140001190000", "errors": 0, "hw_us": 3633870812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000019", "errors": 0, "hw_us": 3633887811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 21, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "05041500011a0000", "errors": 0, "hw_us": 3633899812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001a", "errors": 0, "hw_us": 3633918811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 22, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "05041600011b0000", "errors": 0, "hw_us": 3633927812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001b", "errors": 0, "hw_us": 3633944811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 23, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "05041700011c0000", "errors": 0, "hw_us": 3633952812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001c", "errors": 0, "hw_us": 3633969811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Logo", "node": 24, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050000011d0000", "errors": 0, "hw_us": 3633978812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001d", "errors": 0, "hw_us": 3633994811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050100011e0000", "errors": 0, "hw_us": 3634005812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001e", "errors": 0, "hw_us": 3634024811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 2, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050200011f0000", "errors": 0, "hw_us": 3634040812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001f", "errors": 0, "hw_us": 3634057811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 3, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505030001200000", "errors": 0, "hw_us": 3634069812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000020", "errors": 0, "hw_us": 3634087811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 4, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505040001210000", "errors": 0, "hw_us": 3634096815}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000021", "errors": 0, "hw_us": 3634114811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 5, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505050001220000", "errors": 0, "hw_us": 3634123812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000022", "errors": 0, "hw_us": 3634140811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 6, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505060001230000", "errors": 0, "hw_us": 3634148812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000023", "errors": 0, "hw_us": 3634165811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 7, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505070001240000", "errors": 0, "hw_us": 3634173812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000024", "errors": 0, "hw_us": 3634190811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0A", "zone": "Strobe", "node": 8, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0500000001250000", "errors": 0, "hw_us": 3634199812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000025", "errors": 0, "hw_us": 3634216811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "LH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0501000001260000", "errors": 0, "hw_us": 3634225812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000026", "errors": 0, "hw_us": 3634243811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "RH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0502000001270000", "errors": 0, "hw_us": 3634251812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000027", "errors": 0, "hw_us": 3634268811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Head", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0503000001280000", "errors": 0, "hw_us": 3634277812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000028", "errors": 0, "hw_us": 3634294811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Back", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0504000001290000", "errors": 0, "hw_us": 3634302812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000029", "errors": 0, "hw_us": 3634319811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040100012a0000", "errors": 0, "hw_us": 3634328812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000002a", "errors": 0, "hw_us": 3634345811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 2, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040200012b0000", "errors": 0, "hw_us": 3634353812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000002b", "errors": 0, "hw_us": 3634370811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 3, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040300012c0000", "errors": 0, "hw_us": 3634378812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000002c", "errors": 0, "hw_us": 3634396811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 4, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040400012d0000", "errors": 0, "hw_us": 3634405812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000002d", "errors": 0, "hw_us": 3634421811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 5, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040500012e0000", "errors": 0, "hw_us": 3634430812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000002e", "errors": 0, "hw_us": 3634447811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 6, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040600012f0000", "errors": 0, "hw_us": 3634455812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000002f", "errors": 0, "hw_us": 3634472811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 7, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0504070001300000", "errors": 0, "hw_us": 3634480812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000030", "errors": 0, "hw_us": 3634496811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 8, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0504080001310000", "errors": 0, "hw_us": 3634504812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000031", "errors": 0, "hw_us": 3634521811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 9, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0504090001320000", "errors": 0, "hw_us": 3634530812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000032", "errors": 0, "hw_us": 3634547811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 10, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040a0001330000", "errors": 0, "hw_us": 3634555812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000033", "errors": 0, "hw_us": 3634572811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 11, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040b0001340000", "errors": 0, "hw_us": 3634580812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000034", "errors": 0, "hw_us": 3634597811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 12, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040c0001350000", "errors": 0, "hw_us": 3634605812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000035", "errors": 0, "hw_us": 3634622811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 13, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040d0001360000", "errors": 0, "hw_us": 3634632812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000036", "errors": 0, "hw_us": 3634650811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 14, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040e0001370000", "errors": 0, "hw_us": 3634661812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000037", "errors": 0, "hw_us": 3634678811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 15, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040f0001380000", "errors": 0, "hw_us": 3634687812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000038", "errors": 0, "hw_us": 3634704811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 16, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0504100001390000", "errors": 0, "hw_us": 3634713812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000039", "errors": 0, "hw_us": 3634730811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 17, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05041100013a0000", "errors": 0, "hw_us": 3634746812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000003a", "errors": 0, "hw_us": 3634765811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 18, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05041200013b0000", "errors": 0, "hw_us": 3634775812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000003b", "errors": 0, "hw_us": 3634792811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 19, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "05041300013c0000", "errors": 0, "hw_us": 3634802812}
+{"time": "2026-11-11T10:09:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000003c", "errors": 0, "hw_us": 3634819811}
+{"time": "2026-11-11T10:09:13", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 20, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "05041400013d0000", "errors": 0, "hw_us": 3634832812}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000003d", "errors": 0, "hw_us": 3634849819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 21, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "05041500013e0000", "errors": 0, "hw_us": 3634860820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000003e", "errors": 0, "hw_us": 3634877819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 22, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "05041600013f0000", "errors": 0, "hw_us": 3634886820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000003f", "errors": 0, "hw_us": 3634904819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 23, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0504170001400000", "errors": 0, "hw_us": 3634912820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000040", "errors": 0, "hw_us": 3634929819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Logo", "node": 24, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505000001410000", "errors": 0, "hw_us": 3634937820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000041", "errors": 0, "hw_us": 3634953819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505010001420000", "errors": 0, "hw_us": 3634962820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000042", "errors": 0, "hw_us": 3634979819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 2, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505020001430000", "errors": 0, "hw_us": 3634987820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000043", "errors": 0, "hw_us": 3635004819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 3, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505030001440000", "errors": 0, "hw_us": 3635013820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000044", "errors": 0, "hw_us": 3635030819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 4, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505040001450000", "errors": 0, "hw_us": 3635039820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000045", "errors": 0, "hw_us": 3635056819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 5, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505050001460000", "errors": 0, "hw_us": 3635064820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000046", "errors": 0, "hw_us": 3635081819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 6, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505060001470000", "errors": 0, "hw_us": 3635089820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000047", "errors": 0, "hw_us": 3635106819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 7, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505070001480000", "errors": 0, "hw_us": 3635114820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000048", "errors": 0, "hw_us": 3635132819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0B", "zone": "Strobe", "node": 8, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0500000001490000", "errors": 0, "hw_us": 3635140820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000049", "errors": 0, "hw_us": 3635158819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "LH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05010000014a0000", "errors": 0, "hw_us": 3635166820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000004a", "errors": 0, "hw_us": 3635183819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "RH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05020000014b0000", "errors": 0, "hw_us": 3635192820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000004b", "errors": 0, "hw_us": 3635209819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Head", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05030000014c0000", "errors": 0, "hw_us": 3635218820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000004c", "errors": 0, "hw_us": 3635234819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Back", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040000014d0000", "errors": 0, "hw_us": 3635243820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000004d", "errors": 0, "hw_us": 3635261819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040100014e0000", "errors": 0, "hw_us": 3635269820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000004e", "errors": 0, "hw_us": 3635286819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 2, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040200014f0000", "errors": 0, "hw_us": 3635294820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000004f", "errors": 0, "hw_us": 3635311819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 3, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504030001500000", "errors": 0, "hw_us": 3635320820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000050", "errors": 0, "hw_us": 3635337819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 4, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504040001510000", "errors": 0, "hw_us": 3635346820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000051", "errors": 0, "hw_us": 3635363819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 5, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504050001520000", "errors": 0, "hw_us": 3635372820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000052", "errors": 0, "hw_us": 3635390819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 6, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504060001530000", "errors": 0, "hw_us": 3635398820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000053", "errors": 0, "hw_us": 3635415819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 7, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504070001540000", "errors": 0, "hw_us": 3635424820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000054", "errors": 0, "hw_us": 3635441819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 8, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504080001550000", "errors": 0, "hw_us": 3635449820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000055", "errors": 0, "hw_us": 3635466819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 9, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504090001560000", "errors": 0, "hw_us": 3635474820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000056", "errors": 0, "hw_us": 3635491819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 10, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040a0001570000", "errors": 0, "hw_us": 3635499820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000057", "errors": 0, "hw_us": 3635516819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 11, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040b0001580000", "errors": 0, "hw_us": 3635536820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000058", "errors": 0, "hw_us": 3635554819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 12, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040c0001590000", "errors": 0, "hw_us": 3635563820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000059", "errors": 0, "hw_us": 3635580819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 13, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040d00015a0000", "errors": 0, "hw_us": 3635589820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000005a", "errors": 0, "hw_us": 3635609819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 14, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040e00015b0000", "errors": 0, "hw_us": 3635618820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000005b", "errors": 0, "hw_us": 3635636819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 15, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05040f00015c0000", "errors": 0, "hw_us": 3635645820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000005c", "errors": 0, "hw_us": 3635664819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 16, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05041000015d0000", "errors": 0, "hw_us": 3635672820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000005d", "errors": 0, "hw_us": 3635690819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 17, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05041100015e0000", "errors": 0, "hw_us": 3635700820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000005e", "errors": 0, "hw_us": 3635717819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 18, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "05041200015f0000", "errors": 0, "hw_us": 3635726820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000005f", "errors": 0, "hw_us": 3635744819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 19, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504130001600000", "errors": 0, "hw_us": 3635754820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000060", "errors": 0, "hw_us": 3635773819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 20, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504140001610000", "errors": 0, "hw_us": 3635781820}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000061", "errors": 0, "hw_us": 3635800819}
+{"time": "2026-11-11T10:09:14", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 21, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504150001620000", "errors": 0, "hw_us": 3635809820}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000062", "errors": 0, "hw_us": 3635827819}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 22, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504160001630000", "errors": 0, "hw_us": 3635836820}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000063", "errors": 0, "hw_us": 3635853861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 23, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504170001640000", "errors": 0, "hw_us": 3635861862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000064", "errors": 0, "hw_us": 3635878861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Logo", "node": 24, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505000001650000", "errors": 0, "hw_us": 3635887862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000065", "errors": 0, "hw_us": 3635904861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505010001660000", "errors": 0, "hw_us": 3635913862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000066", "errors": 0, "hw_us": 3635931861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 2, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505020001670000", "errors": 0, "hw_us": 3635940862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000067", "errors": 0, "hw_us": 3635959861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 3, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505030001680000", "errors": 0, "hw_us": 3635968862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000068", "errors": 0, "hw_us": 3635987861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 4, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505040001690000", "errors": 0, "hw_us": 3635997862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000069", "errors": 0, "hw_us": 3636015861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 5, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050500016a0000", "errors": 0, "hw_us": 3636024862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000006a", "errors": 0, "hw_us": 3636041861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 6, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050600016b0000", "errors": 0, "hw_us": 3636052862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000006b", "errors": 0, "hw_us": 3636069861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 7, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050700016c0000", "errors": 0, "hw_us": 3636078862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000006c", "errors": 0, "hw_us": 3636096861}
+{"time": "2026-11-11T10:09:15", "kind": "DETAIL", "test": "Final OFF", "chair": "0C", "zone": "Strobe", "node": 8, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 3636115862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 3636128862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 3636149861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 3636158861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f210ffffff", "errors": 0, "hw_us": 3636166862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102662f2100000", "errors": 0, "hw_us": 3636186865}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0121010000000300", "errors": 0, "hw_us": 3636194861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0122000000000000", "errors": 0, "hw_us": 3636202861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0123000000000000", "errors": 0, "hw_us": 3636210861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0124000000000003", "errors": 0, "hw_us": 3636218861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125000000020000", "errors": 0, "hw_us": 3636226861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "012673f807ffffff", "errors": 0, "hw_us": 3636234861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 10, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 3636242861}
+{"time": "2026-11-11T10:09:15", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f202ffffff", "errors": 0, "hw_us": 3636250862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102062f2023236", "errors": 0, "hw_us": 3636271861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "01214931362d3030", "errors": 0, "hw_us": 3636280861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "012230312a5a5831", "errors": 0, "hw_us": 3636288861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "01232d303032352a", "errors": 0, "hw_us": 3636296861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "012400022a0a2aae", "errors": 0, "hw_us": 3636304861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125be9602ffffff", "errors": 0, "hw_us": 3636312861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302fb", "errors": 0, "hw_us": 3636320862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213d8e91ffffff", "errors": 0, "hw_us": 3636332862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302fb", "errors": 0, "hw_us": 3636353861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213d8e9100ffff", "errors": 0, "hw_us": 3636362861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 3636370862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 3636391861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 3636399861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 3636407861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 3636415861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 3636423861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000010000", "errors": 0, "hw_us": 3636431861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673f807ffffff", "errors": 0, "hw_us": 3636439861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 3636448861}
+{"time": "2026-11-11T10:09:15", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f202ffffff", "errors": 0, "hw_us": 3636456862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102062f2023236", "errors": 0, "hw_us": 3636477861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "02214931362d3030", "errors": 0, "hw_us": 3636485861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "022230322a5a5831", "errors": 0, "hw_us": 3636493861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "02232d303032352a", "errors": 0, "hw_us": 3636501861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "022400022a0b2afb", "errors": 0, "hw_us": 3636510861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "02253d8e91ffffff", "errors": 0, "hw_us": 3636518861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302e1", "errors": 0, "hw_us": 3636527862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213173f1ffffff", "errors": 0, "hw_us": 3636539862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302e1", "errors": 0, "hw_us": 3636559861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213173f100ffff", "errors": 0, "hw_us": 3636568861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f210ffffff", "errors": 0, "hw_us": 3636578862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102662f2100000", "errors": 0, "hw_us": 3636601861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0321010000000300", "errors": 0, "hw_us": 3636612861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0322000000000000", "errors": 0, "hw_us": 3636621861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0323000000000000", "errors": 0, "hw_us": 3636629861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0324000000000003", "errors": 0, "hw_us": 3636637861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "0325000000000000", "errors": 0, "hw_us": 3636645861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "032673f807ffffff", "errors": 0, "hw_us": 3636655861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 12, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 3636663861}
+{"time": "2026-11-11T10:09:15", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f202ffffff", "errors": 0, "hw_us": 3636671862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102062f2023236", "errors": 0, "hw_us": 3636691861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "03214931362d3030", "errors": 0, "hw_us": 3636700861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "032230332a5a5831", "errors": 0, "hw_us": 3636708861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "03232d303032352a", "errors": 0, "hw_us": 3636716861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "032400022a0c2ae1", "errors": 0, "hw_us": 3636725861}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 61, "publisher": false, "data": "03253173f1ffffff", "errors": 0, "hw_us": 3636734861}
+{"time": "2026-11-11T10:09:15", "kind": "PHASE_PASS", "phase": "final", "boards": 3}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 3636742862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 3636752862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 3636762862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 3636775862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 3636785862}
+{"time": "2026-11-11T10:09:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 3636796862}
+{"time": "2026-11-11T10:09:15", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-11T10:09:15", "kind": "CLEANUP", "remove_client": 0}

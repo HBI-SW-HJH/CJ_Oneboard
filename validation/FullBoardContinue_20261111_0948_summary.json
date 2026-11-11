@@ -1,0 +1,370 @@
+{
+  "completed": false,
+  "status": "stopped_on_0C_LH_open",
+  "timing_tolerance_ms": 2,
+  "XCP_all_three_passed": true,
+  "XCP_sets_per_board": 150,
+  "temperature_addresses": [
+    "0x200000B4",
+    "0x200000CC",
+    "0x200000E4"
+  ],
+  "flicker_timing_windows_passed": 954,
+  "failed_diagnostic": {
+    "time": "2026-11-11T09:55:53",
+    "kind": "DIAGNOSTIC",
+    "chair": "0C",
+    "faults": {
+      "LH": 8,
+      "RH": 0,
+      "Head": 0,
+      "Back": 0,
+      "Logo": 0,
+      "Strobe": 0
+    }
+  },
+  "OFF_followup": {
+    "completed": true,
+    "LED_commands_sent": false,
+    "downloaded": false,
+    "samples": [
+      {
+        "index": 0,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 6,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 7,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 8,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "index": 9,
+        "diagnostics": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SRGB_fault_registers": {
+          "open": [
+            61440,
+            61440
+          ],
+          "short": [
+            32768,
+            0
+          ],
+          "short_ground": [
+            32768,
+            0
+          ],
+          "thermal": [
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+    "final_all_board_diagnostics": {
+      "0A": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "0B": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "0C": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "downloads_performed": 0,
+  "source_hashes_checked": 744,
+  "source_changes": [],
+  "project_source_modified": false,
+  "GUI_tested": false,
+  "optical_tested": false,
+  "boards": {
+    "0A": {
+      "completed_flicker_groups": 18,
+      "completed_fade_groups": 6
+    },
+    "0B": {
+      "completed_flicker_groups": 18,
+      "completed_fade_groups": 6
+    },
+    "0C": {
+      "completed_flicker_groups": 16,
+      "completed_fade_groups": 0
+    }
+  }
+}

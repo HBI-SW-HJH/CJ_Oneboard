@@ -1,0 +1,220 @@
+{
+  "completed": true,
+  "all_conditions_passed": false,
+  "findings": [
+    "0A Back 30Hz duty94.8%: one window period up to66ms, ON up to65ms; unresolved",
+    "0A second update: CRC accepted, post-reset UDS F210 request timed out once; subsequent three checks and final check normal"
+  ],
+  "started": "2026-11-11T13:08:25",
+  "finished": "2026-11-11T13:28:34",
+  "boards": [
+    {
+      "chair": "0A",
+      "flicker_windows": 288,
+      "max_period_error_ms": 32.666666666666664,
+      "max_on_off_error_ms": 33.4,
+      "outside_2ms_windows": 3,
+      "xcp_sets": 60,
+      "auto_summary": 114,
+      "auto_detail": 696,
+      "fade_step_points": 120,
+      "fade_max_pwm_difference": 0,
+      "updates": 2,
+      "final_faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0B",
+      "flicker_windows": 288,
+      "max_period_error_ms": 2.037037037037038,
+      "max_on_off_error_ms": 1.9655172413793096,
+      "outside_2ms_windows": 1,
+      "xcp_sets": 60,
+      "auto_summary": 114,
+      "auto_detail": 696,
+      "fade_step_points": 120,
+      "fade_max_pwm_difference": 0,
+      "updates": 2,
+      "final_faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0C",
+      "flicker_windows": 288,
+      "max_period_error_ms": 2.176470588235297,
+      "max_on_off_error_ms": 2.08,
+      "outside_2ms_windows": 2,
+      "xcp_sets": 60,
+      "auto_summary": 114,
+      "auto_detail": 696,
+      "fade_step_points": 120,
+      "fade_max_pwm_difference": 0,
+      "updates": 2,
+      "final_faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "targeted_flicker": [
+    {
+      "scenario": "original_pattern",
+      "windows": 60,
+      "max_error_ms": 1.518518518518519,
+      "long_period_windows": 0,
+      "outside_2ms_windows": 0
+    },
+    {
+      "scenario": "all_back_94.8",
+      "windows": 60,
+      "max_error_ms": 1.3999999999999986,
+      "long_period_windows": 0,
+      "outside_2ms_windows": 0
+    },
+    {
+      "scenario": "all_back_90",
+      "windows": 60,
+      "max_error_ms": 2.6666666666666665,
+      "long_period_windows": 0,
+      "outside_2ms_windows": 5
+    },
+    {
+      "scenario": "back_only_94.8",
+      "windows": 60,
+      "max_error_ms": 0.7333333333333334,
+      "long_period_windows": 0,
+      "outside_2ms_windows": 0
+    }
+  ],
+  "download_wire_audit": [
+    {
+      "phase": "updates1",
+      "chair": "0B",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true,
+      "post_reset_read_timeout": false,
+      "APP_later_confirmed": true
+    },
+    {
+      "phase": "updates1",
+      "chair": "0A",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true,
+      "post_reset_read_timeout": false,
+      "APP_later_confirmed": true
+    },
+    {
+      "phase": "updates1",
+      "chair": "0C",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true,
+      "post_reset_read_timeout": false,
+      "APP_later_confirmed": true
+    },
+    {
+      "phase": "updates2",
+      "chair": "0A",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true,
+      "post_reset_read_timeout": true,
+      "APP_later_confirmed": true
+    },
+    {
+      "phase": "remaining",
+      "chair": "0B",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true,
+      "post_reset_read_timeout": false,
+      "APP_later_confirmed": true
+    },
+    {
+      "phase": "remaining",
+      "chair": "0C",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true,
+      "post_reset_read_timeout": false,
+      "APP_later_confirmed": true
+    }
+  ],
+  "control_wire_audit": {
+    "intervals": 274,
+    "control_frames": 2383,
+    "diagnostic_headers_inside_control": 0,
+    "other_frames_inside_control": 0,
+    "maximum_brightness_raw": 26
+  },
+  "diagnostic_headers": [
+    {
+      "phase": "initial",
+      "time": "2026-11-11T13:08:34",
+      "id": 10
+    },
+    {
+      "phase": "initial",
+      "time": "2026-11-11T13:08:34",
+      "id": 11
+    },
+    {
+      "phase": "initial",
+      "time": "2026-11-11T13:08:34",
+      "id": 12
+    },
+    {
+      "phase": "final",
+      "time": "2026-11-11T13:28:31",
+      "id": 10
+    },
+    {
+      "phase": "final",
+      "time": "2026-11-11T13:28:32",
+      "id": 11
+    },
+    {
+      "phase": "final",
+      "time": "2026-11-11T13:28:33",
+      "id": 12
+    }
+  ],
+  "source_unchanged_count": 766,
+  "static_color_cases": 72,
+  "rapid_color_commands": 240,
+  "manual_fade_scenarios": 20,
+  "GUI": false,
+  "optical": false,
+  "final_OFF": true,
+  "exact_fade_duration_verified": false
+}

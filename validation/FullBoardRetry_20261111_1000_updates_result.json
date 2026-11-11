@@ -1,0 +1,1455 @@
+{
+  "completed": true,
+  "phase": "updates",
+  "stage": "updates completed",
+  "boards": {
+    "0A": {
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      },
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "faults_before": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "0B": {
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      },
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "faults_before": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "0C": {
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      },
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "faults_before": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "updates": [
+    {
+      "chair": "0A",
+      "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "bytes": 29688,
+      "crc32": "1567E1F4",
+      "started": "2026-11-11T10:04:30",
+      "passed": true,
+      "flash_crc_accepted": true,
+      "post_flicker": {
+        "hz": 30,
+        "duty": 50,
+        "windows": [
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ],
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ],
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ]
+        ],
+        "passed": true
+      },
+      "post_xcp": {
+        "chair": "0A",
+        "passed": true,
+        "samples": [
+          {
+            "ms": 266.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 375.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 516.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 719.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 907.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1110.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1313.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1516.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1719.0,
+            "temperatures_C": [
+              26,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1907.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "name": "Logo LED1",
+            "address": "0x200000B4"
+          },
+          {
+            "name": "Logo LED13",
+            "address": "0x200000CC"
+          },
+          {
+            "name": "Strobe LED1",
+            "address": "0x200000E4"
+          }
+        ],
+        "mean_set_interval_ms": 182.33333333333334,
+        "requested_set_period_ms": 200,
+        "counter_before": [
+          0,
+          0
+        ],
+        "counter_after": [
+          0,
+          0
+        ],
+        "GUI_tested": false
+      },
+      "seconds": 89.969,
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "runtime_after": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "blocks": 232,
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      }
+    },
+    {
+      "chair": "0B",
+      "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "bytes": 29688,
+      "crc32": "1567E1F4",
+      "started": "2026-11-11T10:06:00",
+      "passed": true,
+      "flash_crc_accepted": true,
+      "post_flicker": {
+        "hz": 30,
+        "duty": 50,
+        "windows": [
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ],
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ],
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ]
+        ],
+        "passed": true
+      },
+      "post_xcp": {
+        "chair": "0B",
+        "passed": true,
+        "samples": [
+          {
+            "ms": 265.0,
+            "temperatures_C": [
+              27,
+              24,
+              26
+            ]
+          },
+          {
+            "ms": 390.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 515.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 718.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 906.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1109.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1312.0,
+            "temperatures_C": [
+              27,
+              25,
+              26
+            ]
+          },
+          {
+            "ms": 1515.0,
+            "temperatures_C": [
+              27,
+              25,
+              27
+            ]
+          },
+          {
+            "ms": 1718.0,
+            "temperatures_C": [
+              27,
+              25,
+              27
+            ]
+          },
+          {
+            "ms": 1922.0,
+            "temperatures_C": [
+              27,
+              25,
+              27
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "name": "Logo LED1",
+            "address": "0x200000B4"
+          },
+          {
+            "name": "Logo LED13",
+            "address": "0x200000CC"
+          },
+          {
+            "name": "Strobe LED1",
+            "address": "0x200000E4"
+          }
+        ],
+        "mean_set_interval_ms": 184.11111111111111,
+        "requested_set_period_ms": 200,
+        "counter_before": [
+          0,
+          0
+        ],
+        "counter_after": [
+          0,
+          0
+        ],
+        "GUI_tested": false
+      },
+      "seconds": 90.375,
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "runtime_after": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "blocks": 232,
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      }
+    },
+    {
+      "chair": "0C",
+      "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "bytes": 29688,
+      "crc32": "1567E1F4",
+      "started": "2026-11-11T10:07:31",
+      "passed": true,
+      "flash_crc_accepted": true,
+      "post_flicker": {
+        "hz": 30,
+        "duty": 50,
+        "windows": [
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ],
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ],
+          [
+            {
+              "zone": "LH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8200212211111011",
+              "passed": true
+            },
+            {
+              "zone": "RH",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8201212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Head",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8202212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Back",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8203212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Logo",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8204212211111011",
+              "passed": true
+            },
+            {
+              "zone": "Strobe",
+              "period_ms": [
+                33,
+                34
+              ],
+              "on_ms": [
+                17,
+                17
+              ],
+              "off_ms": [
+                16,
+                17
+              ],
+              "raw": "8205212211111011",
+              "passed": true
+            }
+          ]
+        ],
+        "passed": true
+      },
+      "post_xcp": {
+        "chair": "0C",
+        "passed": true,
+        "samples": [
+          {
+            "ms": 265.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 375.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 515.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 703.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 922.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 1109.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 1312.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 1515.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 1718.0,
+            "temperatures_C": [
+              26,
+              26,
+              27
+            ]
+          },
+          {
+            "ms": 1906.0,
+            "temperatures_C": [
+              27,
+              26,
+              27
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "name": "Logo LED1",
+            "address": "0x200000B4"
+          },
+          {
+            "name": "Logo LED13",
+            "address": "0x200000CC"
+          },
+          {
+            "name": "Strobe LED1",
+            "address": "0x200000E4"
+          }
+        ],
+        "mean_set_interval_ms": 182.33333333333334,
+        "requested_set_period_ms": 200,
+        "counter_before": [
+          0,
+          0
+        ],
+        "counter_after": [
+          0,
+          0
+        ],
+        "GUI_tested": false
+      },
+      "seconds": 89.937,
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "runtime_after": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "blocks": 232,
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      }
+    }
+  ],
+  "in_progress": null,
+  "source_modified": false,
+  "timing_tolerance_ms": 2,
+  "GUI": false,
+  "optical": false,
+  "readback_checks": 540
+}

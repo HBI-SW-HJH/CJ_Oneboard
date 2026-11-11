@@ -1,0 +1,129 @@
+{
+  "completed": true,
+  "stage": "all 3 downloads completed",
+  "boards": {
+    "0A": {
+      "product": {
+        "serial": "26K10-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2046919215,
+        "raw": "32364b31302d303030312a5a58312d303032352a00022a0a2a7a01822f"
+      },
+      "runtime": "62f21000000100000003000000000000000000000000000000000000030000000000006af007",
+      "faults": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ]
+    },
+    "0B": {
+      "product": {
+        "serial": "26K10-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 1981518833,
+        "raw": "32364b31302d303030322a5a58312d303032352a00022a0b2a761b93f1"
+      },
+      "runtime": "62f21000000100000003000000000000000000000000000000000000030000000000006af007",
+      "faults": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ]
+    },
+    "0C": {
+      "product": {
+        "serial": "26K10-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 229033550,
+        "raw": "32364b31302d303030332a5a58312d303032352a00022a0c2a0da6c64e"
+      },
+      "runtime": "62f21000000100000003000000000000000000000000000000000000030000000000006af007",
+      "faults": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ]
+    }
+  },
+  "updates": [
+    {
+      "chair": "0A",
+      "image": {
+        "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Test_20261110_LogoOpenChange.bin",
+        "length": 29688,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "stack": "20010000",
+        "entry": "00017231"
+      },
+      "passed": true,
+      "started": "2026-11-10T17:52:36",
+      "flash_crc_accepted": true,
+      "seconds": 80.969,
+      "runtime": "62f21000000100000003000000000000000000000000000000000000030000000000006a4407",
+      "blocks": 232
+    },
+    {
+      "chair": "0B",
+      "image": {
+        "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Test_20261110_LogoOpenChange.bin",
+        "length": 29688,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "stack": "20010000",
+        "entry": "00017231"
+      },
+      "passed": true,
+      "started": "2026-11-10T17:53:58",
+      "flash_crc_accepted": true,
+      "seconds": 83.563,
+      "runtime": "62f21000000100000003000000000000000000000000000000000000030000000000006a4407",
+      "blocks": 232
+    },
+    {
+      "chair": "0C",
+      "image": {
+        "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Test_20261110_LogoOpenChange.bin",
+        "length": 29688,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "stack": "20010000",
+        "entry": "00017231"
+      },
+      "passed": true,
+      "started": "2026-11-10T17:55:22",
+      "flash_crc_accepted": true,
+      "seconds": 82.516,
+      "runtime": "62f21000000100000003000000000000000000000000000000000000030000000000006a4407",
+      "blocks": 232
+    }
+  ],
+  "in_progress": null,
+  "image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Test_20261110_LogoOpenChange.bin",
+    "length": 29688,
+    "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+    "crc32": "1567E1F4",
+    "stack": "20010000",
+    "entry": "00017231"
+  },
+  "gui": false,
+  "jlink": false,
+  "boot_downloaded": false,
+  "requested_downloads": 3
+}

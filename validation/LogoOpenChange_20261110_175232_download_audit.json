@@ -1,0 +1,34 @@
+{
+  "downloads": [
+    {
+      "chair": "0A",
+      "bytes": 29688,
+      "blocks": 232,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "crc32": "1567E1F4",
+      "wire_image_matches": true,
+      "device_crc_accepted": true,
+      "app_return_confirmed": true
+    },
+    {
+      "chair": "0B",
+      "bytes": 29688,
+      "blocks": 232,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "crc32": "1567E1F4",
+      "wire_image_matches": true,
+      "device_crc_accepted": true,
+      "app_return_confirmed": true
+    },
+    {
+      "chair": "0C",
+      "bytes": 29688,
+      "blocks": 232,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "crc32": "1567E1F4",
+      "wire_image_matches": true,
+      "device_crc_accepted": true,
+      "app_return_confirmed": true
+    }
+  ]
+}

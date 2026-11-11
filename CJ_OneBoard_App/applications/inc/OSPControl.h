@@ -54,6 +54,7 @@ typedef struct
 #define OSP_CMD_RESET               0x00U
 #define OSP_CMD_INIT_BIDIR          0x02U
 #define OSP_CMD_GO_ACTIVE           0x05U
+#define OSP_CMD_PING4ERROR_BIDIR     0x08U
 #define OSP_CMD_READ_TEMP_STATUS    0x42U
 #define OSP_CMD_READ_LED_STATUS     0x46U
 #define OSP_CMD_READ_SETUP          0x4CU

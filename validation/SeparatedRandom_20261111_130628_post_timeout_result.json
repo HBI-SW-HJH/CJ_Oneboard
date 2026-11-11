@@ -1,0 +1,143 @@
+{
+  "started": "2026-11-11T13:21:55",
+  "checks": [
+    {
+      "iteration": 1,
+      "chair": "0A",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 1,
+      "chair": "0B",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 1,
+      "chair": "0C",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 2,
+      "chair": "0A",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 2,
+      "chair": "0B",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 2,
+      "chair": "0C",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 3,
+      "chair": "0A",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 3,
+      "chair": "0B",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      },
+      "matches_baseline": true,
+      "passed": true
+    },
+    {
+      "iteration": 3,
+      "chair": "0C",
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      },
+      "matches_baseline": true,
+      "passed": true
+    }
+  ],
+  "GUI": false,
+  "flash_written": false,
+  "finished": "2026-11-11T13:22:01"
+}

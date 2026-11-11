@@ -1,0 +1,81 @@
+{
+  "color_conditions": 122,
+  "rapid_color_commands": 300,
+  "color_readback_checks": 3114,
+  "color_readback_failures": 0,
+  "random_flicker_rounds_completed": 47,
+  "random_flicker_rounds_planned": 48,
+  "random_flicker_zone_windows": 846,
+  "focused_zone_windows": 1152,
+  "borderline_recheck_windows": 72,
+  "low_brightness_frame_count": 3561,
+  "low_brightness_max_RGB": 26,
+  "brightness_limit_effective_from": "2026-11-11T11:46:55",
+  "project_source_unchanged": true,
+  "source_file_count": 766,
+  "final": {
+    "0A": {
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807"
+    },
+    "0B": {
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807"
+    },
+    "0C": {
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807"
+    }
+  },
+  "GUI_tested": false,
+  "optical_tested": false,
+  "downloaded": false,
+  "fade_tested_this_run": false,
+  "outcome": "TIMING_DEVIATION_REQUIRES_REVIEW",
+  "criterion": "Absolute difference from theoretical period/ON/OFF <=2ms; previous integer-range allowance reported separately in raw data, not used for final all-pass claim.",
+  "stop_note": "Random sequence was stopped after reviewing timing outliers. 47/48 saved rounds; the last result remains completed=false. Only focused timing isolation followed.",
+  "boards": {
+    "0A": {
+      "normal_max_error_ms": 3.2857142857142865,
+      "normal_max_period_error_ms": 1.6190476190476204,
+      "paused_max_error_ms": 1.2857142857142865,
+      "normal_over2_windows": 7,
+      "normal_windows": 474
+    },
+    "0B": {
+      "normal_max_error_ms": 3.0,
+      "normal_max_period_error_ms": 2.5,
+      "paused_max_error_ms": 1.0,
+      "normal_over2_windows": 5,
+      "normal_windows": 474
+    },
+    "0C": {
+      "normal_max_error_ms": 2.80952380952381,
+      "normal_max_period_error_ms": 2.5217391304347814,
+      "paused_max_error_ms": 0.941176470588232,
+      "normal_over2_windows": 4,
+      "normal_windows": 474
+    }
+  }
+}

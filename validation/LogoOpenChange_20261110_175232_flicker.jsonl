@@ -1,0 +1,912 @@
+{"time": "2026-11-10T18:01:35", "kind": "START", "prefix": "LogoOpenChange_20261110_175232_flicker", "brightness_cap": 255, "gui": false, "jlink": false}
+{"time": "2026-11-10T18:01:35", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-10T18:01:38", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120070000000000", "errors": 0, "hw_us": 2322881010458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2322881019458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220070000000000", "errors": 0, "hw_us": 2322881028458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2322881038458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420070000000000", "errors": 0, "hw_us": 2322881052458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2322881066458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f3027a", "errors": 0, "hw_us": 2322881076458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f2101822fffffff", "errors": 0, "hw_us": 2322881089458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f3027a", "errors": 0, "hw_us": 2322881110457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f2101822f00ffff", "errors": 0, "hw_us": 2322881119457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f210ffffff", "errors": 0, "hw_us": 2322881132458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102662f2100000", "errors": 0, "hw_us": 2322881153457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "0121010000000300", "errors": 0, "hw_us": 2322881164457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "0122000000000000", "errors": 0, "hw_us": 2322881174457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "0123000000000000", "errors": 0, "hw_us": 2322881183457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "0124000000000003", "errors": 0, "hw_us": 2322881192457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125000000000000", "errors": 0, "hw_us": 2322881200457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 61, "publisher": false, "data": "01266a4407ffffff", "errors": 0, "hw_us": 2322881212457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322881224457}
+{"time": "2026-11-10T18:01:38", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 32, "publisher": true, "data": "ff00000000000000", "errors": 0, "hw_us": 2322881232458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff01000808010100", "errors": 0, "hw_us": 2322881242457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 32, "publisher": true, "data": "f40400004c000020", "errors": 0, "hw_us": 2322881250458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 36, "publisher": false, "data": "ffee000000ffffff", "errors": 0, "hw_us": 2322881261457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 32, "publisher": true, "data": "f404000050000020", "errors": 0, "hw_us": 2322881272458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff00000000ffffff", "errors": 0, "hw_us": 2322881283457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 32, "publisher": true, "data": "f402000014070020", "errors": 0, "hw_us": 2322881293458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff0008ffffffffff", "errors": 0, "hw_us": 2322881306457}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 32, "publisher": true, "data": "fe00000000000000", "errors": 0, "hw_us": 2322881315458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 36, "publisher": false, "data": "ffffffffffffffff", "errors": 0, "hw_us": 2322881326457}
+{"time": 2322835.812, "kind": "COUNTERS", "chair": "0A", "logo_errors": 238, "strobe_errors": 0, "node_count": [0, 8]}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120171a1a1a0000", "errors": 0, "hw_us": 2322881335458}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505000001010000", "errors": 0, "hw_us": 2322881444893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c01", "errors": 0, "hw_us": 2322881462892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 1, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505010001020000", "errors": 0, "hw_us": 2322881470893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c02", "errors": 0, "hw_us": 2322881487892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 2, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505020001030000", "errors": 0, "hw_us": 2322881496893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c03", "errors": 0, "hw_us": 2322881515892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 3, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505030001040000", "errors": 0, "hw_us": 2322881523893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c04", "errors": 0, "hw_us": 2322881540892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 4, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505040001050000", "errors": 0, "hw_us": 2322881549893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c05", "errors": 0, "hw_us": 2322881567892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 5, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505050001060000", "errors": 0, "hw_us": 2322881578893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c06", "errors": 0, "hw_us": 2322881597892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 6, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505060001070000", "errors": 0, "hw_us": 2322881607893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c07", "errors": 0, "hw_us": 2322881624892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 7, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505070001080000", "errors": 0, "hw_us": 2322881632893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0d0c0d0c0d0c08", "errors": 0, "hw_us": 2322881650892}
+{"time": "2026-11-10T18:01:38", "kind": "DETAIL", "chair": "0A", "node": 8, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d1e", "errors": 0, "hw_us": 2322881659893}
+{"time": "2026-11-10T18:01:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322881769893}
+{"time": "2026-11-10T18:01:40", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322882838958}
+{"time": "2026-11-10T18:01:40", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322882847959}
+{"time": "2026-11-10T18:01:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322883914262}
+{"time": "2026-11-10T18:01:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322883923263}
+{"time": "2026-11-10T18:01:42", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322884993512}
+{"time": "2026-11-10T18:01:42", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322885002513}
+{"time": "2026-11-10T18:01:43", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322886071347}
+{"time": "2026-11-10T18:01:43", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322886080348}
+{"time": "2026-11-10T18:01:44", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322887148714}
+{"time": "2026-11-10T18:01:44", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322887158715}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322888226285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322888235285}
+{"time": "2026-11-10T18:01:45", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:01:45", "kind": "FLICKER_CASE", "chair": "0A", "hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120070000000000", "errors": 0, "hw_us": 2322888245286}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f30276", "errors": 0, "hw_us": 2322888253286}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f211b93f1ffffff", "errors": 0, "hw_us": 2322888266286}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f30276", "errors": 0, "hw_us": 2322888287285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f211b93f100ffff", "errors": 0, "hw_us": 2322888295285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 2322888303286}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 2322888324285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 2322888332285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 2322888340285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 2322888348285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 2322888356285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000000000", "errors": 0, "hw_us": 2322888364285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 61, "publisher": false, "data": "02266a4407ffffff", "errors": 0, "hw_us": 2322888372285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322888380285}
+{"time": "2026-11-10T18:01:45", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 33, "publisher": true, "data": "ff00000000000000", "errors": 0, "hw_us": 2322888388286}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff01000808010100", "errors": 0, "hw_us": 2322888398285}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 33, "publisher": true, "data": "f40400004c000020", "errors": 0, "hw_us": 2322888405193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 37, "publisher": false, "data": "ffc7000000ffffff", "errors": 0, "hw_us": 2322888415192}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 33, "publisher": true, "data": "f404000050000020", "errors": 0, "hw_us": 2322888423193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff00000000ffffff", "errors": 0, "hw_us": 2322888433192}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 33, "publisher": true, "data": "f402000014070020", "errors": 0, "hw_us": 2322888441193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff0008ffffffffff", "errors": 0, "hw_us": 2322888452192}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 33, "publisher": true, "data": "fe00000000000000", "errors": 0, "hw_us": 2322888460193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 37, "publisher": false, "data": "ffffffffffffffff", "errors": 0, "hw_us": 2322888470192}
+{"time": 2322842.953, "kind": "COUNTERS", "chair": "0B", "logo_errors": 199, "strobe_errors": 0, "node_count": [0, 8]}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220171a1a1a0000", "errors": 0, "hw_us": 2322888479193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505000001090000", "errors": 0, "hw_us": 2322888588193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c09", "errors": 0, "hw_us": 2322888606192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 1, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050100010a0000", "errors": 0, "hw_us": 2322888614193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c0a", "errors": 0, "hw_us": 2322888631192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 2, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050200010b0000", "errors": 0, "hw_us": 2322888640193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c0b", "errors": 0, "hw_us": 2322888657192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 3, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050300010c0000", "errors": 0, "hw_us": 2322888665193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c0c", "errors": 0, "hw_us": 2322888682192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 4, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050400010d0000", "errors": 0, "hw_us": 2322888692193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c0d", "errors": 0, "hw_us": 2322888709192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 5, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050500010e0000", "errors": 0, "hw_us": 2322888717193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c0e", "errors": 0, "hw_us": 2322888735192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 6, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050600010f0000", "errors": 0, "hw_us": 2322888743193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c0f", "errors": 0, "hw_us": 2322888762192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 7, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505070001100000", "errors": 0, "hw_us": 2322888772193}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0d0c0d0c0d0c10", "errors": 0, "hw_us": 2322888791192}
+{"time": "2026-11-10T18:01:45", "kind": "DETAIL", "chair": "0B", "node": 8, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:45", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d1e", "errors": 0, "hw_us": 2322888800193}
+{"time": "2026-11-10T18:01:46", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322888911193}
+{"time": "2026-11-10T18:01:47", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322889980402}
+{"time": "2026-11-10T18:01:47", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322889989403}
+{"time": "2026-11-10T18:01:48", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322891056484}
+{"time": "2026-11-10T18:01:48", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322891065485}
+{"time": "2026-11-10T18:01:49", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322892132690}
+{"time": "2026-11-10T18:01:49", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322892140691}
+{"time": "2026-11-10T18:01:50", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322893219835}
+{"time": "2026-11-10T18:01:50", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322893229836}
+{"time": "2026-11-10T18:01:51", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322894298457}
+{"time": "2026-11-10T18:01:51", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322894306458}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322895374558}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322895382558}
+{"time": "2026-11-10T18:01:52", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:01:52", "kind": "FLICKER_CASE", "chair": "0B", "hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220070000000000", "errors": 0, "hw_us": 2322895392559}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f3020d", "errors": 0, "hw_us": 2322895401307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21a6c64effffff", "errors": 0, "hw_us": 2322895413307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f3020d", "errors": 0, "hw_us": 2322895434306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21a6c64e00ffff", "errors": 0, "hw_us": 2322895442306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f210ffffff", "errors": 0, "hw_us": 2322895450307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102662f2100000", "errors": 0, "hw_us": 2322895471306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "0321010000000300", "errors": 0, "hw_us": 2322895479306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "0322000000000000", "errors": 0, "hw_us": 2322895487306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "0323000000000000", "errors": 0, "hw_us": 2322895496306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "0324000000000003", "errors": 0, "hw_us": 2322895504306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "0325000000000000", "errors": 0, "hw_us": 2322895513306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 61, "publisher": false, "data": "03266a4407ffffff", "errors": 0, "hw_us": 2322895524306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322895532306}
+{"time": "2026-11-10T18:01:52", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 34, "publisher": true, "data": "ff00000000000000", "errors": 0, "hw_us": 2322895541307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 38, "publisher": false, "data": "ff01000808010100", "errors": 0, "hw_us": 2322895554306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 34, "publisher": true, "data": "f40400004c000020", "errors": 0, "hw_us": 2322895562307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 38, "publisher": false, "data": "ffa1000000ffffff", "errors": 0, "hw_us": 2322895572306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 34, "publisher": true, "data": "f404000050000020", "errors": 0, "hw_us": 2322895580307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 38, "publisher": false, "data": "ff00000000ffffff", "errors": 0, "hw_us": 2322895591306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 34, "publisher": true, "data": "f402000014070020", "errors": 0, "hw_us": 2322895599307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 38, "publisher": false, "data": "ff0008ffffffffff", "errors": 0, "hw_us": 2322895610306}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 34, "publisher": true, "data": "fe00000000000000", "errors": 0, "hw_us": 2322895618307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 38, "publisher": false, "data": "ffffffffffffffff", "errors": 0, "hw_us": 2322895628306}
+{"time": 2322850.109, "kind": "COUNTERS", "chair": "0C", "logo_errors": 161, "strobe_errors": 0, "node_count": [0, 8]}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420171a1a1a0000", "errors": 0, "hw_us": 2322895636307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505000001110000", "errors": 0, "hw_us": 2322895746307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c11", "errors": 0, "hw_us": 2322895763306}
+{"time": "2026-11-10T18:01:52", "kind": "DETAIL", "chair": "0C", "node": 1, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505010001120000", "errors": 0, "hw_us": 2322895771307}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c12", "errors": 0, "hw_us": 2322895788306}
+{"time": "2026-11-10T18:01:52", "kind": "DETAIL", "chair": "0C", "node": 2, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:52", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505020001130000", "errors": 0, "hw_us": 2322895797307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c13", "errors": 0, "hw_us": 2322895814306}
+{"time": "2026-11-10T18:01:53", "kind": "DETAIL", "chair": "0C", "node": 3, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505030001140000", "errors": 0, "hw_us": 2322895822307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c14", "errors": 0, "hw_us": 2322895839306}
+{"time": "2026-11-10T18:01:53", "kind": "DETAIL", "chair": "0C", "node": 4, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505040001150000", "errors": 0, "hw_us": 2322895847307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c15", "errors": 0, "hw_us": 2322895864306}
+{"time": "2026-11-10T18:01:53", "kind": "DETAIL", "chair": "0C", "node": 5, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505050001160000", "errors": 0, "hw_us": 2322895875307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c16", "errors": 0, "hw_us": 2322895893306}
+{"time": "2026-11-10T18:01:53", "kind": "DETAIL", "chair": "0C", "node": 6, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505060001170000", "errors": 0, "hw_us": 2322895901307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c17", "errors": 0, "hw_us": 2322895918306}
+{"time": "2026-11-10T18:01:53", "kind": "DETAIL", "chair": "0C", "node": 7, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505070001180000", "errors": 0, "hw_us": 2322895932307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0d0c0d0c0d0c18", "errors": 0, "hw_us": 2322895952306}
+{"time": "2026-11-10T18:01:53", "kind": "DETAIL", "chair": "0C", "node": 8, "test": "White 10 percent readback", "expected": [3340, 3340, 3340], "actual": [3340, 3340, 3340], "status": 15, "passed": true}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d1e", "errors": 0, "hw_us": 2322895960307}
+{"time": "2026-11-10T18:01:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322896071307}
+{"time": "2026-11-10T18:01:54", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322897139296}
+{"time": "2026-11-10T18:01:54", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322897147297}
+{"time": "2026-11-10T18:01:55", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211121011", "errors": 0, "hw_us": 2322898216608}
+{"time": "2026-11-10T18:01:55", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322898225609}
+{"time": "2026-11-10T18:01:56", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211121011", "errors": 0, "hw_us": 2322899294356}
+{"time": "2026-11-10T18:01:56", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322899309357}
+{"time": "2026-11-10T18:01:57", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211121011", "errors": 0, "hw_us": 2322900378410}
+{"time": "2026-11-10T18:01:57", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322900389411}
+{"time": "2026-11-10T18:01:58", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211121011", "errors": 0, "hw_us": 2322901457535}
+{"time": "2026-11-10T18:01:58", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322901466536}
+{"time": "2026-11-10T18:01:59", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211121011", "errors": 0, "hw_us": 2322902534484}
+{"time": "2026-11-10T18:01:59", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322902542484}
+{"time": "2026-11-10T18:01:59", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:01:59", "kind": "FLICKER_CASE", "chair": "0C", "hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}], "period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "within_one_ms_band": true}
+{"time": "2026-11-10T18:01:59", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420070000000000", "errors": 0, "hw_us": 2322902552485}
+{"time": "2026-11-10T18:01:59", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2322902561485}
+{"time": "2026-11-10T18:01:59", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a1905", "errors": 0, "hw_us": 2322902571485}
+{"time": "2026-11-10T18:01:59", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322902681485}
+{"time": "2026-11-10T18:02:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2322903749694}
+{"time": "2026-11-10T18:02:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322903758695}
+{"time": "2026-11-10T18:02:02", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2322904830088}
+{"time": "2026-11-10T18:02:02", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322904843089}
+{"time": "2026-11-10T18:02:03", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2322905911437}
+{"time": "2026-11-10T18:02:03", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322905919437}
+{"time": "2026-11-10T18:02:03", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:03", "kind": "FLICKER_CASE", "chair": "0A", "hz": 5, "duty_percent": 10, "windows": [{"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}, {"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}, {"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}], "period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:03", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d05", "errors": 0, "hw_us": 2322905929438}
+{"time": "2026-11-10T18:02:03", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322906040438}
+{"time": "2026-11-10T18:02:04", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2322907106546}
+{"time": "2026-11-10T18:02:04", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322907119547}
+{"time": "2026-11-10T18:02:05", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2322908190442}
+{"time": "2026-11-10T18:02:05", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322908199443}
+{"time": "2026-11-10T18:02:06", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2322909266439}
+{"time": "2026-11-10T18:02:06", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322909280439}
+{"time": "2026-11-10T18:02:06", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:06", "kind": "FLICKER_CASE", "chair": "0A", "hz": 5, "duty_percent": 50, "windows": [{"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}, {"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}, {"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}], "period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:06", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1ae105", "errors": 0, "hw_us": 2322909294440}
+{"time": "2026-11-10T18:02:06", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322909403496}
+{"time": "2026-11-10T18:02:07", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2322910472239}
+{"time": "2026-11-10T18:02:07", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322910481240}
+{"time": "2026-11-10T18:02:08", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2322911550079}
+{"time": "2026-11-10T18:02:08", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322911567080}
+{"time": "2026-11-10T18:02:09", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2322912641716}
+{"time": "2026-11-10T18:02:09", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322912649716}
+{"time": "2026-11-10T18:02:09", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:09", "kind": "FLICKER_CASE", "chair": "0A", "hz": 5, "duty_percent": 90, "windows": [{"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}, {"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}, {"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}], "period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:09", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a190a", "errors": 0, "hw_us": 2322912662717}
+{"time": "2026-11-10T18:02:09", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322912771717}
+{"time": "2026-11-10T18:02:11", "kind": "FRAME", "id": 44, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2322913842568}
+{"time": "2026-11-10T18:02:11", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322913852568}
+{"time": "2026-11-10T18:02:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2322914925711}
+{"time": "2026-11-10T18:02:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322914934712}
+{"time": "2026-11-10T18:02:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2322916001629}
+{"time": "2026-11-10T18:02:13", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322916010629}
+{"time": "2026-11-10T18:02:13", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:13", "kind": "FLICKER_CASE", "chair": "0A", "hz": 10, "duty_percent": 10, "windows": [{"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}, {"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}, {"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}], "period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:13", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d0a", "errors": 0, "hw_us": 2322916022630}
+{"time": "2026-11-10T18:02:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322916131630}
+{"time": "2026-11-10T18:02:14", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2322917202563}
+{"time": "2026-11-10T18:02:14", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322917213564}
+{"time": "2026-11-10T18:02:15", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2322918289539}
+{"time": "2026-11-10T18:02:15", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322918298540}
+{"time": "2026-11-10T18:02:16", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2322919366507}
+{"time": "2026-11-10T18:02:16", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322919374509}
+{"time": "2026-11-10T18:02:16", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:16", "kind": "FLICKER_CASE", "chair": "0A", "hz": 10, "duty_percent": 50, "windows": [{"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}, {"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}, {"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}], "period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:16", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1ae10a", "errors": 0, "hw_us": 2322919384508}
+{"time": "2026-11-10T18:02:16", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322919494650}
+{"time": "2026-11-10T18:02:17", "kind": "FRAME", "id": 44, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2322920563268}
+{"time": "2026-11-10T18:02:17", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322920571269}
+{"time": "2026-11-10T18:02:18", "kind": "FRAME", "id": 44, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2322921638625}
+{"time": "2026-11-10T18:02:18", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322921646626}
+{"time": "2026-11-10T18:02:19", "kind": "FRAME", "id": 44, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2322922715599}
+{"time": "2026-11-10T18:02:19", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322922724599}
+{"time": "2026-11-10T18:02:19", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:19", "kind": "FLICKER_CASE", "chair": "0A", "hz": 10, "duty_percent": 90, "windows": [{"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}, {"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}, {"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}], "period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:19", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a190f", "errors": 0, "hw_us": 2322922735600}
+{"time": "2026-11-10T18:02:20", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322922844600}
+{"time": "2026-11-10T18:02:21", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2322923911944}
+{"time": "2026-11-10T18:02:21", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322923920945}
+{"time": "2026-11-10T18:02:22", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2322924987576}
+{"time": "2026-11-10T18:02:22", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322924995577}
+{"time": "2026-11-10T18:02:23", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2322926063546}
+{"time": "2026-11-10T18:02:23", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322926071546}
+{"time": "2026-11-10T18:02:23", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:23", "kind": "FLICKER_CASE", "chair": "0A", "hz": 15, "duty_percent": 10, "windows": [{"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}, {"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}, {"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}], "period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:23", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d0f", "errors": 0, "hw_us": 2322926081547}
+{"time": "2026-11-10T18:02:23", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322926190547}
+{"time": "2026-11-10T18:02:24", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2322927260578}
+{"time": "2026-11-10T18:02:24", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322927268579}
+{"time": "2026-11-10T18:02:25", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2322928337644}
+{"time": "2026-11-10T18:02:25", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322928348645}
+{"time": "2026-11-10T18:02:26", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2322929416793}
+{"time": "2026-11-10T18:02:26", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322929426793}
+{"time": "2026-11-10T18:02:26", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:26", "kind": "FLICKER_CASE", "chair": "0A", "hz": 15, "duty_percent": 50, "windows": [{"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}, {"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}, {"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}], "period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:26", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1ae10f", "errors": 0, "hw_us": 2322929436794}
+{"time": "2026-11-10T18:02:26", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322929545794}
+{"time": "2026-11-10T18:02:27", "kind": "FRAME", "id": 44, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2322930612667}
+{"time": "2026-11-10T18:02:27", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322930621668}
+{"time": "2026-11-10T18:02:28", "kind": "FRAME", "id": 44, "publisher": false, "data": "820541443b3c0608", "errors": 0, "hw_us": 2322931688680}
+{"time": "2026-11-10T18:02:28", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322931698681}
+{"time": "2026-11-10T18:02:29", "kind": "FRAME", "id": 44, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2322932767596}
+{"time": "2026-11-10T18:02:29", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322932776596}
+{"time": "2026-11-10T18:02:29", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:29", "kind": "FLICKER_CASE", "chair": "0A", "hz": 15, "duty_percent": 90, "windows": [{"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}, {"period_ms": [65, 68], "on_ms": [59, 60], "off_ms": [6, 8], "raw": "820541443b3c0608"}, {"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}], "period_ms": [65, 68], "on_ms": [59, 60], "off_ms": [6, 8], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:29", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a1914", "errors": 0, "hw_us": 2322932786597}
+{"time": "2026-11-10T18:02:30", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322932896597}
+{"time": "2026-11-10T18:02:31", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2322933963846}
+{"time": "2026-11-10T18:02:31", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322933972847}
+{"time": "2026-11-10T18:02:32", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2322935039854}
+{"time": "2026-11-10T18:02:32", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322935047855}
+{"time": "2026-11-10T18:02:33", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2322936115607}
+{"time": "2026-11-10T18:02:33", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322936124607}
+{"time": "2026-11-10T18:02:33", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:33", "kind": "FLICKER_CASE", "chair": "0A", "hz": 20, "duty_percent": 10, "windows": [{"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}, {"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}, {"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}], "period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:33", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d14", "errors": 0, "hw_us": 2322936137608}
+{"time": "2026-11-10T18:02:33", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322936246608}
+{"time": "2026-11-10T18:02:34", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2322937315920}
+{"time": "2026-11-10T18:02:34", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322937324921}
+{"time": "2026-11-10T18:02:35", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2322938393812}
+{"time": "2026-11-10T18:02:35", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322938402652}
+{"time": "2026-11-10T18:02:36", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2322939471706}
+{"time": "2026-11-10T18:02:36", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322939480706}
+{"time": "2026-11-10T18:02:36", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:36", "kind": "FLICKER_CASE", "chair": "0A", "hz": 20, "duty_percent": 50, "windows": [{"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}, {"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}, {"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}], "period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:36", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1ae114", "errors": 0, "hw_us": 2322939491707}
+{"time": "2026-11-10T18:02:36", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322939599707}
+{"time": "2026-11-10T18:02:37", "kind": "FRAME", "id": 44, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2322940668866}
+{"time": "2026-11-10T18:02:37", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322940677867}
+{"time": "2026-11-10T18:02:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2322941745863}
+{"time": "2026-11-10T18:02:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322941753864}
+{"time": "2026-11-10T18:02:40", "kind": "FRAME", "id": 44, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2322942822914}
+{"time": "2026-11-10T18:02:40", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322942830914}
+{"time": "2026-11-10T18:02:40", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:40", "kind": "FLICKER_CASE", "chair": "0A", "hz": 20, "duty_percent": 90, "windows": [{"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}, {"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}, {"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}], "period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:40", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a1919", "errors": 0, "hw_us": 2322942841915}
+{"time": "2026-11-10T18:02:40", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322942951915}
+{"time": "2026-11-10T18:02:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2322944019761}
+{"time": "2026-11-10T18:02:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322944027762}
+{"time": "2026-11-10T18:02:42", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2322945095838}
+{"time": "2026-11-10T18:02:42", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322945105839}
+{"time": "2026-11-10T18:02:43", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2322946176706}
+{"time": "2026-11-10T18:02:43", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322946184706}
+{"time": "2026-11-10T18:02:43", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:43", "kind": "FLICKER_CASE", "chair": "0A", "hz": 25, "duty_percent": 10, "windows": [{"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}, {"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}, {"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}], "period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:43", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d19", "errors": 0, "hw_us": 2322946194707}
+{"time": "2026-11-10T18:02:43", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322946304707}
+{"time": "2026-11-10T18:02:44", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2322947371881}
+{"time": "2026-11-10T18:02:44", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322947379882}
+{"time": "2026-11-10T18:02:45", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2322948448772}
+{"time": "2026-11-10T18:02:45", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322948456773}
+{"time": "2026-11-10T18:02:46", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2322949523696}
+{"time": "2026-11-10T18:02:46", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322949532696}
+{"time": "2026-11-10T18:02:46", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:46", "kind": "FLICKER_CASE", "chair": "0A", "hz": 25, "duty_percent": 50, "windows": [{"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}, {"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}, {"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}], "period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:46", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1ae119", "errors": 0, "hw_us": 2322949543697}
+{"time": "2026-11-10T18:02:46", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322949652697}
+{"time": "2026-11-10T18:02:47", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2322950721150}
+{"time": "2026-11-10T18:02:47", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322950729151}
+{"time": "2026-11-10T18:02:48", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2322951796697}
+{"time": "2026-11-10T18:02:48", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322951805698}
+{"time": "2026-11-10T18:02:50", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2322952873813}
+{"time": "2026-11-10T18:02:50", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322952885813}
+{"time": "2026-11-10T18:02:50", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:50", "kind": "FLICKER_CASE", "chair": "0A", "hz": 25, "duty_percent": 90, "windows": [{"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}, {"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}, {"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}], "period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:50", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a191e", "errors": 0, "hw_us": 2322952900814}
+{"time": "2026-11-10T18:02:50", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322953009814}
+{"time": "2026-11-10T18:02:51", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212203041d1f", "errors": 0, "hw_us": 2322954076872}
+{"time": "2026-11-10T18:02:51", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322954085873}
+{"time": "2026-11-10T18:02:52", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212203041d1f", "errors": 0, "hw_us": 2322955153777}
+{"time": "2026-11-10T18:02:52", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322955162778}
+{"time": "2026-11-10T18:02:53", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212203041d1f", "errors": 0, "hw_us": 2322956231876}
+{"time": "2026-11-10T18:02:53", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322956239876}
+{"time": "2026-11-10T18:02:53", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:53", "kind": "FLICKER_CASE", "chair": "0A", "hz": 30, "duty_percent": 10, "windows": [{"period_ms": [33, 34], "on_ms": [3, 4], "off_ms": [29, 31], "raw": "8205212203041d1f"}, {"period_ms": [33, 34], "on_ms": [3, 4], "off_ms": [29, 31], "raw": "8205212203041d1f"}, {"period_ms": [33, 34], "on_ms": [3, 4], "off_ms": [29, 31], "raw": "8205212203041d1f"}], "period_ms": [33, 34], "on_ms": [3, 4], "off_ms": [29, 31], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:53", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1a7d1e", "errors": 0, "hw_us": 2322956249877}
+{"time": "2026-11-10T18:02:53", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322956364877}
+{"time": "2026-11-10T18:02:54", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322957436484}
+{"time": "2026-11-10T18:02:54", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322957444485}
+{"time": "2026-11-10T18:02:55", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322958512856}
+{"time": "2026-11-10T18:02:55", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322958520857}
+{"time": "2026-11-10T18:02:56", "kind": "FRAME", "id": 44, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2322959588898}
+{"time": "2026-11-10T18:02:56", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322959598898}
+{"time": "2026-11-10T18:02:56", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:02:56", "kind": "FLICKER_CASE", "chair": "0A", "hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}
+{"time": "2026-11-10T18:02:56", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a1a1ae11e", "errors": 0, "hw_us": 2322959610899}
+{"time": "2026-11-10T18:02:56", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322959720899}
+{"time": "2026-11-10T18:02:57", "kind": "FRAME", "id": 44, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2322960793909}
+{"time": "2026-11-10T18:02:57", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322960807910}
+{"time": "2026-11-10T18:02:59", "kind": "FRAME", "id": 44, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2322961877988}
+{"time": "2026-11-10T18:02:59", "kind": "FRAME", "id": 40, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322961886989}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2322962953894}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322962962894}
+{"time": "2026-11-10T18:03:00", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:00", "kind": "FLICKER_CASE", "chair": "0A", "hz": 30, "duty_percent": 90, "windows": [{"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}, {"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}, {"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}], "period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120070000000000", "errors": 0, "hw_us": 2322962972895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505000001190000", "errors": 0, "hw_us": 2322963085895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000019", "errors": 0, "hw_us": 2322963103894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 1, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050100011a0000", "errors": 0, "hw_us": 2322963111895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001a", "errors": 0, "hw_us": 2322963128894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 2, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050200011b0000", "errors": 0, "hw_us": 2322963137895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001b", "errors": 0, "hw_us": 2322963156894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 3, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050300011c0000", "errors": 0, "hw_us": 2322963166895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001c", "errors": 0, "hw_us": 2322963183894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 4, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050400011d0000", "errors": 0, "hw_us": 2322963192895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001d", "errors": 0, "hw_us": 2322963210894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 5, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050500011e0000", "errors": 0, "hw_us": 2322963218895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001e", "errors": 0, "hw_us": 2322963241894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 6, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "05050600011f0000", "errors": 0, "hw_us": 2322963252895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f0000000000001f", "errors": 0, "hw_us": 2322963269894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 7, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505070001200000", "errors": 0, "hw_us": 2322963278895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000020", "errors": 0, "hw_us": 2322963296894}
+{"time": "2026-11-10T18:03:00", "kind": "DETAIL", "chair": "0A", "node": 8, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2322963309895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 32, "publisher": true, "data": "ff00000000000000", "errors": 0, "hw_us": 2322963318895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff01000808010100", "errors": 0, "hw_us": 2322963329894}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 32, "publisher": true, "data": "f40400004c000020", "errors": 0, "hw_us": 2322963339895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff16010000ffffff", "errors": 0, "hw_us": 2322963351894}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 32, "publisher": true, "data": "f404000050000020", "errors": 0, "hw_us": 2322963359895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff00000000ffffff", "errors": 0, "hw_us": 2322963370894}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 32, "publisher": true, "data": "f402000014070020", "errors": 0, "hw_us": 2322963379895}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 36, "publisher": false, "data": "ff0008ffffffffff", "errors": 0, "hw_us": 2322963389894}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 32, "publisher": true, "data": "fe00000000000000", "errors": 0, "hw_us": 2322963399429}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 36, "publisher": false, "data": "ffffffffffffffff", "errors": 0, "hw_us": 2322963409428}
+{"time": 2322917.89, "kind": "COUNTERS", "chair": "0A", "logo_errors": 278, "strobe_errors": 0, "node_count": [0, 8]}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f3027a", "errors": 0, "hw_us": 2322963417429}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f2101822fffffff", "errors": 0, "hw_us": 2322963429429}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f3027a", "errors": 0, "hw_us": 2322963450428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f2101822f00ffff", "errors": 0, "hw_us": 2322963459428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f210ffffff", "errors": 0, "hw_us": 2322963469429}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102662f2100000", "errors": 0, "hw_us": 2322963490428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "0121010000000300", "errors": 0, "hw_us": 2322963501428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "0122000000000000", "errors": 0, "hw_us": 2322963509428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "0123000000000000", "errors": 0, "hw_us": 2322963519428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "0124000000000003", "errors": 0, "hw_us": 2322963529428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125000000000000", "errors": 0, "hw_us": 2322963537428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 61, "publisher": false, "data": "01266a4407ffffff", "errors": 0, "hw_us": 2322963547428}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 10, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322963555428}
+{"time": "2026-11-10T18:03:00", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:00", "kind": "BOARD_FLICKER_PASS", "chair": "0A", "cases": 18, "check30": {"hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2322963566429}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a1905", "errors": 0, "hw_us": 2322963582429}
+{"time": "2026-11-10T18:03:00", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322963695429}
+{"time": "2026-11-10T18:03:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2322964762837}
+{"time": "2026-11-10T18:03:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322964771838}
+{"time": "2026-11-10T18:03:03", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2322965839876}
+{"time": "2026-11-10T18:03:03", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322965847877}
+{"time": "2026-11-10T18:03:04", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2322966915964}
+{"time": "2026-11-10T18:03:04", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322966924964}
+{"time": "2026-11-10T18:03:04", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:04", "kind": "FLICKER_CASE", "chair": "0B", "hz": 5, "duty_percent": 10, "windows": [{"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}, {"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}, {"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}], "period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:04", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d05", "errors": 0, "hw_us": 2322966935965}
+{"time": "2026-11-10T18:03:04", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322967044965}
+{"time": "2026-11-10T18:03:05", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2322968113121}
+{"time": "2026-11-10T18:03:05", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322968121122}
+{"time": "2026-11-10T18:03:06", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2322969187989}
+{"time": "2026-11-10T18:03:06", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322969196990}
+{"time": "2026-11-10T18:03:07", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2322970264371}
+{"time": "2026-11-10T18:03:07", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322970272371}
+{"time": "2026-11-10T18:03:07", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:07", "kind": "FLICKER_CASE", "chair": "0B", "hz": 5, "duty_percent": 50, "windows": [{"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}, {"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}, {"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}], "period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:07", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1ae105", "errors": 0, "hw_us": 2322970282372}
+{"time": "2026-11-10T18:03:07", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322970391372}
+{"time": "2026-11-10T18:03:08", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2322971458883}
+{"time": "2026-11-10T18:03:08", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322971466884}
+{"time": "2026-11-10T18:03:09", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2322972533871}
+{"time": "2026-11-10T18:03:09", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322972541872}
+{"time": "2026-11-10T18:03:10", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2322973609216}
+{"time": "2026-11-10T18:03:10", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322973618216}
+{"time": "2026-11-10T18:03:10", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:10", "kind": "FLICKER_CASE", "chair": "0B", "hz": 5, "duty_percent": 90, "windows": [{"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}, {"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}, {"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}], "period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:10", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a190a", "errors": 0, "hw_us": 2322973630217}
+{"time": "2026-11-10T18:03:10", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322973739217}
+{"time": "2026-11-10T18:03:11", "kind": "FRAME", "id": 45, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2322974809995}
+{"time": "2026-11-10T18:03:12", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322974818996}
+{"time": "2026-11-10T18:03:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2322975885871}
+{"time": "2026-11-10T18:03:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322975893872}
+{"time": "2026-11-10T18:03:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2322976962009}
+{"time": "2026-11-10T18:03:14", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322976971009}
+{"time": "2026-11-10T18:03:14", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:14", "kind": "FLICKER_CASE", "chair": "0B", "hz": 10, "duty_percent": 10, "windows": [{"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}, {"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}, {"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}], "period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:14", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d0a", "errors": 0, "hw_us": 2322976984010}
+{"time": "2026-11-10T18:03:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322977093010}
+{"time": "2026-11-10T18:03:15", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2322978159960}
+{"time": "2026-11-10T18:03:15", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322978167961}
+{"time": "2026-11-10T18:03:16", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2322979234940}
+{"time": "2026-11-10T18:03:16", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322979243941}
+{"time": "2026-11-10T18:03:17", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2322980310947}
+{"time": "2026-11-10T18:03:17", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322980318947}
+{"time": "2026-11-10T18:03:17", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:17", "kind": "FLICKER_CASE", "chair": "0B", "hz": 10, "duty_percent": 50, "windows": [{"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}, {"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}, {"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}], "period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:17", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1ae10a", "errors": 0, "hw_us": 2322980329948}
+{"time": "2026-11-10T18:03:17", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322980438997}
+{"time": "2026-11-10T18:03:18", "kind": "FRAME", "id": 45, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2322981506427}
+{"time": "2026-11-10T18:03:18", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322981514428}
+{"time": "2026-11-10T18:03:19", "kind": "FRAME", "id": 45, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2322982581065}
+{"time": "2026-11-10T18:03:19", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322982591066}
+{"time": "2026-11-10T18:03:20", "kind": "FRAME", "id": 45, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2322983659998}
+{"time": "2026-11-10T18:03:20", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322983668998}
+{"time": "2026-11-10T18:03:20", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:20", "kind": "FLICKER_CASE", "chair": "0B", "hz": 10, "duty_percent": 90, "windows": [{"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}, {"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}, {"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}], "period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:20", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a190f", "errors": 0, "hw_us": 2322983679999}
+{"time": "2026-11-10T18:03:20", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322983789999}
+{"time": "2026-11-10T18:03:22", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2322984857062}
+{"time": "2026-11-10T18:03:22", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322984866063}
+{"time": "2026-11-10T18:03:23", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2322985933060}
+{"time": "2026-11-10T18:03:23", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322985945061}
+{"time": "2026-11-10T18:03:24", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2322987013145}
+{"time": "2026-11-10T18:03:24", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322987021145}
+{"time": "2026-11-10T18:03:24", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:24", "kind": "FLICKER_CASE", "chair": "0B", "hz": 15, "duty_percent": 10, "windows": [{"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}, {"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}, {"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}], "period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:24", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d0f", "errors": 0, "hw_us": 2322987032146}
+{"time": "2026-11-10T18:03:24", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322987141146}
+{"time": "2026-11-10T18:03:25", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2322988209003}
+{"time": "2026-11-10T18:03:25", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322988217004}
+{"time": "2026-11-10T18:03:26", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2322989286009}
+{"time": "2026-11-10T18:03:26", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322989294010}
+{"time": "2026-11-10T18:03:27", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2322990362148}
+{"time": "2026-11-10T18:03:27", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322990370149}
+{"time": "2026-11-10T18:03:27", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:27", "kind": "FLICKER_CASE", "chair": "0B", "hz": 15, "duty_percent": 50, "windows": [{"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}, {"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}, {"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}], "period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:27", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1ae10f", "errors": 0, "hw_us": 2322990382149}
+{"time": "2026-11-10T18:03:27", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322990490102}
+{"time": "2026-11-10T18:03:28", "kind": "FRAME", "id": 45, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2322991557009}
+{"time": "2026-11-10T18:03:28", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322991565010}
+{"time": "2026-11-10T18:03:29", "kind": "FRAME", "id": 45, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2322992636035}
+{"time": "2026-11-10T18:03:29", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322992644036}
+{"time": "2026-11-10T18:03:30", "kind": "FRAME", "id": 45, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2322993712134}
+{"time": "2026-11-10T18:03:30", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322993720134}
+{"time": "2026-11-10T18:03:30", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:30", "kind": "FLICKER_CASE", "chair": "0B", "hz": 15, "duty_percent": 90, "windows": [{"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}, {"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}, {"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}], "period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:30", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a1914", "errors": 0, "hw_us": 2322993731135}
+{"time": "2026-11-10T18:03:31", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322993840135}
+{"time": "2026-11-10T18:03:32", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2322994908056}
+{"time": "2026-11-10T18:03:32", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322994916057}
+{"time": "2026-11-10T18:03:33", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2322995983008}
+{"time": "2026-11-10T18:03:33", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322995991009}
+{"time": "2026-11-10T18:03:34", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2322997059088}
+{"time": "2026-11-10T18:03:34", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2322997067088}
+{"time": "2026-11-10T18:03:34", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:34", "kind": "FLICKER_CASE", "chair": "0B", "hz": 20, "duty_percent": 10, "windows": [{"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}, {"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}, {"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}], "period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:34", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d14", "errors": 0, "hw_us": 2322997078089}
+{"time": "2026-11-10T18:03:34", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322997187089}
+{"time": "2026-11-10T18:03:35", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2322998254996}
+{"time": "2026-11-10T18:03:35", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322998263997}
+{"time": "2026-11-10T18:03:36", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2322999331231}
+{"time": "2026-11-10T18:03:36", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2322999340232}
+{"time": "2026-11-10T18:03:37", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2323000410600}
+{"time": "2026-11-10T18:03:37", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323000418600}
+{"time": "2026-11-10T18:03:37", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:37", "kind": "FLICKER_CASE", "chair": "0B", "hz": 20, "duty_percent": 50, "windows": [{"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}, {"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}, {"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}], "period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:37", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1ae114", "errors": 0, "hw_us": 2323000428601}
+{"time": "2026-11-10T18:03:37", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323000538601}
+{"time": "2026-11-10T18:03:38", "kind": "FRAME", "id": 45, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2323001606206}
+{"time": "2026-11-10T18:03:38", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323001615207}
+{"time": "2026-11-10T18:03:39", "kind": "FRAME", "id": 45, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2323002687281}
+{"time": "2026-11-10T18:03:39", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323002698282}
+{"time": "2026-11-10T18:03:40", "kind": "FRAME", "id": 45, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2323003766276}
+{"time": "2026-11-10T18:03:40", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323003776276}
+{"time": "2026-11-10T18:03:40", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:40", "kind": "FLICKER_CASE", "chair": "0B", "hz": 20, "duty_percent": 90, "windows": [{"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}, {"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}, {"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}], "period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:40", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a1919", "errors": 0, "hw_us": 2323003787277}
+{"time": "2026-11-10T18:03:41", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323003896277}
+{"time": "2026-11-10T18:03:42", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2323004965253}
+{"time": "2026-11-10T18:03:42", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323004973254}
+{"time": "2026-11-10T18:03:43", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2323006041205}
+{"time": "2026-11-10T18:03:43", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323006049206}
+{"time": "2026-11-10T18:03:44", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2323007116122}
+{"time": "2026-11-10T18:03:44", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323007124122}
+{"time": "2026-11-10T18:03:44", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:44", "kind": "FLICKER_CASE", "chair": "0B", "hz": 25, "duty_percent": 10, "windows": [{"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}, {"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}, {"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}], "period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:44", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d19", "errors": 0, "hw_us": 2323007136123}
+{"time": "2026-11-10T18:03:44", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323007246123}
+{"time": "2026-11-10T18:03:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2323008313317}
+{"time": "2026-11-10T18:03:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323008321318}
+{"time": "2026-11-10T18:03:46", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2323009391111}
+{"time": "2026-11-10T18:03:46", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323009399359}
+{"time": "2026-11-10T18:03:47", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2323010468355}
+{"time": "2026-11-10T18:03:47", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323010476355}
+{"time": "2026-11-10T18:03:47", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:47", "kind": "FLICKER_CASE", "chair": "0B", "hz": 25, "duty_percent": 50, "windows": [{"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}, {"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}, {"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}], "period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:47", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1ae119", "errors": 0, "hw_us": 2323010499356}
+{"time": "2026-11-10T18:03:47", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323010609356}
+{"time": "2026-11-10T18:03:48", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2323011680209}
+{"time": "2026-11-10T18:03:48", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323011689210}
+{"time": "2026-11-10T18:03:49", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2323012759446}
+{"time": "2026-11-10T18:03:49", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323012768447}
+{"time": "2026-11-10T18:03:51", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205282824250304", "errors": 0, "hw_us": 2323013844880}
+{"time": "2026-11-10T18:03:51", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323013852880}
+{"time": "2026-11-10T18:03:51", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:51", "kind": "FLICKER_CASE", "chair": "0B", "hz": 25, "duty_percent": 90, "windows": [{"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}, {"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}, {"period_ms": [40, 40], "on_ms": [36, 37], "off_ms": [3, 4], "raw": "8205282824250304"}], "period_ms": [40, 40], "on_ms": [36, 37], "off_ms": [3, 4], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:51", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a191e", "errors": 0, "hw_us": 2323013863881}
+{"time": "2026-11-10T18:03:51", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323013972881}
+{"time": "2026-11-10T18:03:52", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212203031e1f", "errors": 0, "hw_us": 2323015040248}
+{"time": "2026-11-10T18:03:52", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323015048249}
+{"time": "2026-11-10T18:03:53", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212203031e1f", "errors": 0, "hw_us": 2323016122711}
+{"time": "2026-11-10T18:03:53", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323016130712}
+{"time": "2026-11-10T18:03:54", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212203031e1f", "errors": 0, "hw_us": 2323017195418}
+{"time": "2026-11-10T18:03:54", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323017209418}
+{"time": "2026-11-10T18:03:54", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:54", "kind": "FLICKER_CASE", "chair": "0B", "hz": 30, "duty_percent": 10, "windows": [{"period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "raw": "8205212203031e1f"}, {"period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "raw": "8205212203031e1f"}, {"period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "raw": "8205212203031e1f"}], "period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1a7d1e", "errors": 0, "hw_us": 2323017221419}
+{"time": "2026-11-10T18:03:54", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323017333419}
+{"time": "2026-11-10T18:03:55", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2323018401840}
+{"time": "2026-11-10T18:03:55", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323018410841}
+{"time": "2026-11-10T18:03:56", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2323019481469}
+{"time": "2026-11-10T18:03:56", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323019490470}
+{"time": "2026-11-10T18:03:57", "kind": "FRAME", "id": 45, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2323020558602}
+{"time": "2026-11-10T18:03:57", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323020566602}
+{"time": "2026-11-10T18:03:57", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:03:57", "kind": "FLICKER_CASE", "chair": "0B", "hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}
+{"time": "2026-11-10T18:03:57", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220161a1a1ae11e", "errors": 0, "hw_us": 2323020577603}
+{"time": "2026-11-10T18:03:57", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323020697603}
+{"time": "2026-11-10T18:03:58", "kind": "FRAME", "id": 45, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2323021767329}
+{"time": "2026-11-10T18:03:58", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323021775330}
+{"time": "2026-11-10T18:04:00", "kind": "FRAME", "id": 45, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2323022846314}
+{"time": "2026-11-10T18:04:00", "kind": "FRAME", "id": 41, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323022855315}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2323023923451}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323023931451}
+{"time": "2026-11-10T18:04:01", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:01", "kind": "FLICKER_CASE", "chair": "0B", "hz": 30, "duty_percent": 90, "windows": [{"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}, {"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}, {"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}], "period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 1, "publisher": true, "data": "0220070000000000", "errors": 0, "hw_us": 2323023942452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505000001210000", "errors": 0, "hw_us": 2323024052452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000021", "errors": 0, "hw_us": 2323024070451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 1, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505010001220000", "errors": 0, "hw_us": 2323024079452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000022", "errors": 0, "hw_us": 2323024095451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 2, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505020001230000", "errors": 0, "hw_us": 2323024114452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000023", "errors": 0, "hw_us": 2323024130451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 3, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505030001240000", "errors": 0, "hw_us": 2323024138452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000024", "errors": 0, "hw_us": 2323024155451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 4, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505040001250000", "errors": 0, "hw_us": 2323024167452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000025", "errors": 0, "hw_us": 2323024186451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 5, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505050001260000", "errors": 0, "hw_us": 2323024197452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000026", "errors": 0, "hw_us": 2323024214451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 6, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505060001270000", "errors": 0, "hw_us": 2323024225452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000027", "errors": 0, "hw_us": 2323024243451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 7, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0505070001280000", "errors": 0, "hw_us": 2323024252452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000028", "errors": 0, "hw_us": 2323024269451}
+{"time": "2026-11-10T18:04:01", "kind": "DETAIL", "chair": "0B", "node": 8, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2323024279452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 33, "publisher": true, "data": "ff00000000000000", "errors": 0, "hw_us": 2323024287452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff01000808010100", "errors": 0, "hw_us": 2323024299451}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 33, "publisher": true, "data": "f40400004c000020", "errors": 0, "hw_us": 2323024309452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff0b010000ffffff", "errors": 0, "hw_us": 2323024319451}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 33, "publisher": true, "data": "f404000050000020", "errors": 0, "hw_us": 2323024327452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff00000000ffffff", "errors": 0, "hw_us": 2323024337451}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 33, "publisher": true, "data": "f402000014070020", "errors": 0, "hw_us": 2323024346452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 37, "publisher": false, "data": "ff0008ffffffffff", "errors": 0, "hw_us": 2323024361451}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 33, "publisher": true, "data": "fe00000000000000", "errors": 0, "hw_us": 2323024370452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 37, "publisher": false, "data": "ffffffffffffffff", "errors": 0, "hw_us": 2323024386451}
+{"time": 2322978.875, "kind": "COUNTERS", "chair": "0B", "logo_errors": 267, "strobe_errors": 0, "node_count": [0, 8]}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f30276", "errors": 0, "hw_us": 2323024396452}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f211b93f1ffffff", "errors": 0, "hw_us": 2323024410250}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f30276", "errors": 0, "hw_us": 2323024432249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f211b93f100ffff", "errors": 0, "hw_us": 2323024443249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 2323024451250}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 2323024473249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 2323024483249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 2323024497249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 2323024506249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 2323024515249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000000000", "errors": 0, "hw_us": 2323024523249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 61, "publisher": false, "data": "02266a4407ffffff", "errors": 0, "hw_us": 2323024531249}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 11, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323024539249}
+{"time": "2026-11-10T18:04:01", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:01", "kind": "BOARD_FLICKER_PASS", "chair": "0B", "cases": 18, "check30": {"hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2323024550250}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a1905", "errors": 0, "hw_us": 2323024559250}
+{"time": "2026-11-10T18:04:01", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323024668250}
+{"time": "2026-11-10T18:04:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2323025737541}
+{"time": "2026-11-10T18:04:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323025748542}
+{"time": "2026-11-10T18:04:04", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2323026814283}
+{"time": "2026-11-10T18:04:04", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323026822284}
+{"time": "2026-11-10T18:04:05", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c81414b4b4", "errors": 0, "hw_us": 2323027892512}
+{"time": "2026-11-10T18:04:05", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323027901512}
+{"time": "2026-11-10T18:04:05", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:05", "kind": "FLICKER_CASE", "chair": "0C", "hz": 5, "duty_percent": 10, "windows": [{"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}, {"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}, {"period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "raw": "8205c8c81414b4b4"}], "period_ms": [200, 200], "on_ms": [20, 20], "off_ms": [180, 180], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:05", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d05", "errors": 0, "hw_us": 2323027916513}
+{"time": "2026-11-10T18:04:05", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323028026513}
+{"time": "2026-11-10T18:04:06", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2323029095735}
+{"time": "2026-11-10T18:04:06", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323029104736}
+{"time": "2026-11-10T18:04:07", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2323030171520}
+{"time": "2026-11-10T18:04:07", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323030179521}
+{"time": "2026-11-10T18:04:08", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c864646464", "errors": 0, "hw_us": 2323031248341}
+{"time": "2026-11-10T18:04:08", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323031257341}
+{"time": "2026-11-10T18:04:08", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:08", "kind": "FLICKER_CASE", "chair": "0C", "hz": 5, "duty_percent": 50, "windows": [{"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}, {"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}, {"period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "raw": "8205c8c864646464"}], "period_ms": [200, 200], "on_ms": [100, 100], "off_ms": [100, 100], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:08", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1ae105", "errors": 0, "hw_us": 2323031270342}
+{"time": "2026-11-10T18:04:08", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323031382342}
+{"time": "2026-11-10T18:04:09", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2323032451564}
+{"time": "2026-11-10T18:04:09", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323032460563}
+{"time": "2026-11-10T18:04:10", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2323033529589}
+{"time": "2026-11-10T18:04:10", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323033537590}
+{"time": "2026-11-10T18:04:11", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205c8c8b4b41414", "errors": 0, "hw_us": 2323034604366}
+{"time": "2026-11-10T18:04:11", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323034615366}
+{"time": "2026-11-10T18:04:11", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:11", "kind": "FLICKER_CASE", "chair": "0C", "hz": 5, "duty_percent": 90, "windows": [{"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}, {"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}, {"period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "raw": "8205c8c8b4b41414"}], "period_ms": [200, 200], "on_ms": [180, 180], "off_ms": [20, 20], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:11", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a190a", "errors": 0, "hw_us": 2323034631367}
+{"time": "2026-11-10T18:04:11", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323034740367}
+{"time": "2026-11-10T18:04:12", "kind": "FRAME", "id": 46, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2323035810618}
+{"time": "2026-11-10T18:04:13", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323035819619}
+{"time": "2026-11-10T18:04:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2323036892451}
+{"time": "2026-11-10T18:04:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323036900452}
+{"time": "2026-11-10T18:04:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "820564640a0a5a5a", "errors": 0, "hw_us": 2323037969581}
+{"time": "2026-11-10T18:04:15", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323037978581}
+{"time": "2026-11-10T18:04:15", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:15", "kind": "FLICKER_CASE", "chair": "0C", "hz": 10, "duty_percent": 10, "windows": [{"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}, {"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}, {"period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "raw": "820564640a0a5a5a"}], "period_ms": [100, 100], "on_ms": [10, 10], "off_ms": [90, 90], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:15", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d0a", "errors": 0, "hw_us": 2323037990582}
+{"time": "2026-11-10T18:04:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323038100582}
+{"time": "2026-11-10T18:04:16", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2323039167481}
+{"time": "2026-11-10T18:04:16", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323039177482}
+{"time": "2026-11-10T18:04:17", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2323040247011}
+{"time": "2026-11-10T18:04:17", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323040261012}
+{"time": "2026-11-10T18:04:18", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205646432323232", "errors": 0, "hw_us": 2323041329538}
+{"time": "2026-11-10T18:04:18", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323041338538}
+{"time": "2026-11-10T18:04:18", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:18", "kind": "FLICKER_CASE", "chair": "0C", "hz": 10, "duty_percent": 50, "windows": [{"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}, {"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}, {"period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "raw": "8205646432323232"}], "period_ms": [100, 100], "on_ms": [50, 50], "off_ms": [50, 50], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1ae10a", "errors": 0, "hw_us": 2323041350539}
+{"time": "2026-11-10T18:04:18", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323041460514}
+{"time": "2026-11-10T18:04:19", "kind": "FRAME", "id": 46, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2323042527511}
+{"time": "2026-11-10T18:04:19", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323042535512}
+{"time": "2026-11-10T18:04:20", "kind": "FRAME", "id": 46, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2323043602497}
+{"time": "2026-11-10T18:04:20", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323043611498}
+{"time": "2026-11-10T18:04:21", "kind": "FRAME", "id": 46, "publisher": false, "data": "820564645a5a0a0a", "errors": 0, "hw_us": 2323044679551}
+{"time": "2026-11-10T18:04:21", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323044693551}
+{"time": "2026-11-10T18:04:21", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:21", "kind": "FLICKER_CASE", "chair": "0C", "hz": 10, "duty_percent": 90, "windows": [{"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}, {"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}, {"period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "raw": "820564645a5a0a0a"}], "period_ms": [100, 100], "on_ms": [90, 90], "off_ms": [10, 10], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:21", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a190f", "errors": 0, "hw_us": 2323044704552}
+{"time": "2026-11-10T18:04:22", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323044814552}
+{"time": "2026-11-10T18:04:23", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2323045885528}
+{"time": "2026-11-10T18:04:23", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323045894529}
+{"time": "2026-11-10T18:04:24", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2323046962565}
+{"time": "2026-11-10T18:04:24", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323046970566}
+{"time": "2026-11-10T18:04:25", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205424307073b3c", "errors": 0, "hw_us": 2323048038470}
+{"time": "2026-11-10T18:04:25", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323048046470}
+{"time": "2026-11-10T18:04:25", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:25", "kind": "FLICKER_CASE", "chair": "0C", "hz": 15, "duty_percent": 10, "windows": [{"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}, {"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}, {"period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "raw": "8205424307073b3c"}], "period_ms": [66, 67], "on_ms": [7, 7], "off_ms": [59, 60], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:25", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d0f", "errors": 0, "hw_us": 2323048057471}
+{"time": "2026-11-10T18:04:25", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323048169472}
+{"time": "2026-11-10T18:04:26", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2323049237547}
+{"time": "2026-11-10T18:04:26", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323049246548}
+{"time": "2026-11-10T18:04:27", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2323050316399}
+{"time": "2026-11-10T18:04:27", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323050325400}
+{"time": "2026-11-10T18:04:28", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205424321212122", "errors": 0, "hw_us": 2323051393478}
+{"time": "2026-11-10T18:04:28", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323051400422}
+{"time": "2026-11-10T18:04:28", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:28", "kind": "FLICKER_CASE", "chair": "0C", "hz": 15, "duty_percent": 50, "windows": [{"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}, {"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}, {"period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "raw": "8205424321212122"}], "period_ms": [66, 67], "on_ms": [33, 33], "off_ms": [33, 34], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:28", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1ae10f", "errors": 0, "hw_us": 2323051411423}
+{"time": "2026-11-10T18:04:28", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323051521423}
+{"time": "2026-11-10T18:04:29", "kind": "FRAME", "id": 46, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2323052591499}
+{"time": "2026-11-10T18:04:29", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323052600500}
+{"time": "2026-11-10T18:04:30", "kind": "FRAME", "id": 46, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2323053667537}
+{"time": "2026-11-10T18:04:30", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323053677538}
+{"time": "2026-11-10T18:04:31", "kind": "FRAME", "id": 46, "publisher": false, "data": "820542433c3c0607", "errors": 0, "hw_us": 2323054744596}
+{"time": "2026-11-10T18:04:31", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323054753596}
+{"time": "2026-11-10T18:04:31", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:31", "kind": "FLICKER_CASE", "chair": "0C", "hz": 15, "duty_percent": 90, "windows": [{"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}, {"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}, {"period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "raw": "820542433c3c0607"}], "period_ms": [66, 67], "on_ms": [60, 60], "off_ms": [6, 7], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a1914", "errors": 0, "hw_us": 2323054767597}
+{"time": "2026-11-10T18:04:32", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323054876597}
+{"time": "2026-11-10T18:04:33", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2323055945208}
+{"time": "2026-11-10T18:04:33", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323055953209}
+{"time": "2026-11-10T18:04:34", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2323057020610}
+{"time": "2026-11-10T18:04:34", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323057030611}
+{"time": "2026-11-10T18:04:35", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205323205052d2d", "errors": 0, "hw_us": 2323058100652}
+{"time": "2026-11-10T18:04:35", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323058109652}
+{"time": "2026-11-10T18:04:35", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:35", "kind": "FLICKER_CASE", "chair": "0C", "hz": 20, "duty_percent": 10, "windows": [{"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}, {"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}, {"period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "raw": "8205323205052d2d"}], "period_ms": [50, 50], "on_ms": [5, 5], "off_ms": [45, 45], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:35", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d14", "errors": 0, "hw_us": 2323058120653}
+{"time": "2026-11-10T18:04:35", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323058229653}
+{"time": "2026-11-10T18:04:36", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2323059296557}
+{"time": "2026-11-10T18:04:36", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323059304558}
+{"time": "2026-11-10T18:04:37", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2323060371483}
+{"time": "2026-11-10T18:04:37", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323060385484}
+{"time": "2026-11-10T18:04:38", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205323219191919", "errors": 0, "hw_us": 2323061455640}
+{"time": "2026-11-10T18:04:38", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323061464640}
+{"time": "2026-11-10T18:04:38", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:38", "kind": "FLICKER_CASE", "chair": "0C", "hz": 20, "duty_percent": 50, "windows": [{"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}, {"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}, {"period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "raw": "8205323219191919"}], "period_ms": [50, 50], "on_ms": [25, 25], "off_ms": [25, 25], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:38", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1ae114", "errors": 0, "hw_us": 2323061476641}
+{"time": "2026-11-10T18:04:38", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323061585641}
+{"time": "2026-11-10T18:04:39", "kind": "FRAME", "id": 46, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2323062654626}
+{"time": "2026-11-10T18:04:39", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323062663627}
+{"time": "2026-11-10T18:04:40", "kind": "FRAME", "id": 46, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2323063731610}
+{"time": "2026-11-10T18:04:40", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323063739611}
+{"time": "2026-11-10T18:04:41", "kind": "FRAME", "id": 46, "publisher": false, "data": "820532322d2d0505", "errors": 0, "hw_us": 2323064808627}
+{"time": "2026-11-10T18:04:42", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323064817627}
+{"time": "2026-11-10T18:04:42", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:42", "kind": "FLICKER_CASE", "chair": "0C", "hz": 20, "duty_percent": 90, "windows": [{"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}, {"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}, {"period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "raw": "820532322d2d0505"}], "period_ms": [50, 50], "on_ms": [45, 45], "off_ms": [5, 5], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:42", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a1919", "errors": 0, "hw_us": 2323064828628}
+{"time": "2026-11-10T18:04:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323064937628}
+{"time": "2026-11-10T18:04:43", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2323066004696}
+{"time": "2026-11-10T18:04:43", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323066015697}
+{"time": "2026-11-10T18:04:44", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2323067082556}
+{"time": "2026-11-10T18:04:44", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323067090557}
+{"time": "2026-11-10T18:04:45", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282804042424", "errors": 0, "hw_us": 2323068157929}
+{"time": "2026-11-10T18:04:45", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323068165929}
+{"time": "2026-11-10T18:04:45", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:45", "kind": "FLICKER_CASE", "chair": "0C", "hz": 25, "duty_percent": 10, "windows": [{"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}, {"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}, {"period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "raw": "8205282804042424"}], "period_ms": [40, 40], "on_ms": [4, 4], "off_ms": [36, 36], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:45", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d19", "errors": 0, "hw_us": 2323068177930}
+{"time": "2026-11-10T18:04:45", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323068286930}
+{"time": "2026-11-10T18:04:46", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2323069355024}
+{"time": "2026-11-10T18:04:46", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323069363025}
+{"time": "2026-11-10T18:04:47", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2323070429555}
+{"time": "2026-11-10T18:04:47", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323070437556}
+{"time": "2026-11-10T18:04:48", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282814141414", "errors": 0, "hw_us": 2323071504567}
+{"time": "2026-11-10T18:04:48", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323071513567}
+{"time": "2026-11-10T18:04:48", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:48", "kind": "FLICKER_CASE", "chair": "0C", "hz": 25, "duty_percent": 50, "windows": [{"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}, {"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}, {"period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "raw": "8205282814141414"}], "period_ms": [40, 40], "on_ms": [20, 20], "off_ms": [20, 20], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:48", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1ae119", "errors": 0, "hw_us": 2323071534568}
+{"time": "2026-11-10T18:04:48", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323071643568}
+{"time": "2026-11-10T18:04:49", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2323072713915}
+{"time": "2026-11-10T18:04:49", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323072721916}
+{"time": "2026-11-10T18:04:50", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2323073789616}
+{"time": "2026-11-10T18:04:50", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323073798617}
+{"time": "2026-11-10T18:04:52", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205282824240404", "errors": 0, "hw_us": 2323074866604}
+{"time": "2026-11-10T18:04:52", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323074874604}
+{"time": "2026-11-10T18:04:52", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:52", "kind": "FLICKER_CASE", "chair": "0C", "hz": 25, "duty_percent": 90, "windows": [{"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}, {"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}, {"period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "raw": "8205282824240404"}], "period_ms": [40, 40], "on_ms": [36, 36], "off_ms": [4, 4], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:52", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a191e", "errors": 0, "hw_us": 2323074886605}
+{"time": "2026-11-10T18:04:52", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323074996605}
+{"time": "2026-11-10T18:04:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212203031e1f", "errors": 0, "hw_us": 2323076064674}
+{"time": "2026-11-10T18:04:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323076072675}
+{"time": "2026-11-10T18:04:54", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212203031e1f", "errors": 0, "hw_us": 2323077140646}
+{"time": "2026-11-10T18:04:54", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323077148647}
+{"time": "2026-11-10T18:04:55", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212203031e1f", "errors": 0, "hw_us": 2323078216670}
+{"time": "2026-11-10T18:04:55", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323078224670}
+{"time": "2026-11-10T18:04:55", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:55", "kind": "FLICKER_CASE", "chair": "0C", "hz": 30, "duty_percent": 10, "windows": [{"period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "raw": "8205212203031e1f"}, {"period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "raw": "8205212203031e1f"}, {"period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "raw": "8205212203031e1f"}], "period_ms": [33, 34], "on_ms": [3, 3], "off_ms": [30, 31], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:55", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1a7d1e", "errors": 0, "hw_us": 2323078236671}
+{"time": "2026-11-10T18:04:55", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323078345671}
+{"time": "2026-11-10T18:04:56", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2323079413857}
+{"time": "2026-11-10T18:04:56", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323079424858}
+{"time": "2026-11-10T18:04:57", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2323080497477}
+{"time": "2026-11-10T18:04:57", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323080506478}
+{"time": "2026-11-10T18:04:58", "kind": "FRAME", "id": 46, "publisher": false, "data": "8205212211111011", "errors": 0, "hw_us": 2323081571840}
+{"time": "2026-11-10T18:04:58", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323081580840}
+{"time": "2026-11-10T18:04:58", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:04:58", "kind": "FLICKER_CASE", "chair": "0C", "hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}], "period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "within_one_ms_band": true}
+{"time": "2026-11-10T18:04:58", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420161a1a1ae11e", "errors": 0, "hw_us": 2323081595841}
+{"time": "2026-11-10T18:04:58", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323081705841}
+{"time": "2026-11-10T18:04:59", "kind": "FRAME", "id": 46, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2323082775090}
+{"time": "2026-11-10T18:04:59", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323082785091}
+{"time": "2026-11-10T18:05:01", "kind": "FRAME", "id": 46, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2323083853270}
+{"time": "2026-11-10T18:05:01", "kind": "FRAME", "id": 42, "publisher": true, "data": "0205000000e80300", "errors": 0, "hw_us": 2323083865271}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "820521221e1e0304", "errors": 0, "hw_us": 2323084933738}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323084941738}
+{"time": "2026-11-10T18:05:02", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:05:02", "kind": "FLICKER_CASE", "chair": "0C", "hz": 30, "duty_percent": 90, "windows": [{"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}, {"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}, {"period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "raw": "820521221e1e0304"}], "period_ms": [33, 34], "on_ms": [30, 30], "off_ms": [3, 4], "within_one_ms_band": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 1, "publisher": true, "data": "0420070000000000", "errors": 0, "hw_us": 2323084952739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505000001290000", "errors": 0, "hw_us": 2323085061739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000029", "errors": 0, "hw_us": 2323085081738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 1, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050100012a0000", "errors": 0, "hw_us": 2323085093739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000002a", "errors": 0, "hw_us": 2323085115738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 2, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050200012b0000", "errors": 0, "hw_us": 2323085123739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000002b", "errors": 0, "hw_us": 2323085140738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 3, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050300012c0000", "errors": 0, "hw_us": 2323085148739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000002c", "errors": 0, "hw_us": 2323085165738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 4, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050400012d0000", "errors": 0, "hw_us": 2323085174739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000002d", "errors": 0, "hw_us": 2323085191738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 5, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050500012e0000", "errors": 0, "hw_us": 2323085200739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000002e", "errors": 0, "hw_us": 2323085218738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 6, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "05050600012f0000", "errors": 0, "hw_us": 2323085226739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000002f", "errors": 0, "hw_us": 2323085244738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 7, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505070001300000", "errors": 0, "hw_us": 2323085253739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000030", "errors": 0, "hw_us": 2323085271738}
+{"time": "2026-11-10T18:05:02", "kind": "DETAIL", "chair": "0C", "node": 8, "test": "Final OFF", "expected": [0, 0, 0], "actual": [0, 0, 0], "status": 15, "passed": true}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 2323085280739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 34, "publisher": true, "data": "ff00000000000000", "errors": 0, "hw_us": 2323085289739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 38, "publisher": false, "data": "ff01000808010100", "errors": 0, "hw_us": 2323085302738}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 34, "publisher": true, "data": "f40400004c000020", "errors": 0, "hw_us": 2323085313739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 38, "publisher": false, "data": "ffff000000ffffff", "errors": 0, "hw_us": 2323085326738}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 34, "publisher": true, "data": "f404000050000020", "errors": 0, "hw_us": 2323085336739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 38, "publisher": false, "data": "ff00000000ffffff", "errors": 0, "hw_us": 2323085349738}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 34, "publisher": true, "data": "f402000014070020", "errors": 0, "hw_us": 2323085359739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 38, "publisher": false, "data": "ff0008ffffffffff", "errors": 0, "hw_us": 2323085370738}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 34, "publisher": true, "data": "fe00000000000000", "errors": 0, "hw_us": 2323085378739}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 38, "publisher": false, "data": "ffffffffffffffff", "errors": 0, "hw_us": 2323085389738}
+{"time": 2323039.875, "kind": "COUNTERS", "chair": "0C", "logo_errors": 255, "strobe_errors": 0, "node_count": [0, 8]}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f3020d", "errors": 0, "hw_us": 2323085402009}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21a6c64effffff", "errors": 0, "hw_us": 2323085415009}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f3020d", "errors": 0, "hw_us": 2323085437008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21a6c64e00ffff", "errors": 0, "hw_us": 2323085454008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f210ffffff", "errors": 0, "hw_us": 2323085462009}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102662f2100000", "errors": 0, "hw_us": 2323085485008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "0321010000000300", "errors": 0, "hw_us": 2323085496008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "0322000000000000", "errors": 0, "hw_us": 2323085507008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "0323000000000000", "errors": 0, "hw_us": 2323085518008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "0324000000000003", "errors": 0, "hw_us": 2323085529008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "0325000000000000", "errors": 0, "hw_us": 2323085540008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 61, "publisher": false, "data": "03266a4407ffffff", "errors": 0, "hw_us": 2323085550008}
+{"time": "2026-11-10T18:05:02", "kind": "FRAME", "id": 12, "publisher": false, "data": "1030507090a00000", "errors": 0, "hw_us": 2323085561008}
+{"time": "2026-11-10T18:05:02", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 16, "RH": 16, "Head": 16, "Back": 16, "Logo": 16, "Strobe": 0}}
+{"time": "2026-11-10T18:05:02", "kind": "BOARD_FLICKER_PASS", "chair": "0C", "cases": 18, "check30": {"hz": 30, "duty_percent": 50, "windows": [{"period_ms": [33, 34], "on_ms": [17, 17], "off_ms": [16, 17], "raw": "8205212211111011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}, {"period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "raw": "8205212211121011"}], "period_ms": [33, 34], "on_ms": [17, 18], "off_ms": [16, 17], "within_one_ms_band": true}}
+{"time": "2026-11-10T18:05:02", "kind": "ADAPTER_DISABLED", "result": 0}
+{"time": "2026-11-10T18:05:02", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-10T18:05:02", "kind": "CLEANUP", "remove_client": 0}

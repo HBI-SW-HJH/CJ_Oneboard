@@ -1,0 +1,173 @@
+{
+  "completed": true,
+  "tolerance_ms": 2,
+  "boards": [
+    {
+      "chair": "0A",
+      "serial": "26I16-0001",
+      "xcp_sets": 150,
+      "temperature_ranges_C": [
+        [
+          26,
+          29
+        ],
+        [
+          25,
+          28
+        ],
+        [
+          26,
+          29
+        ]
+      ],
+      "xcp_counter_increase": [
+        0,
+        0
+      ],
+      "flicker_conditions": 108,
+      "flicker_windows": 324,
+      "fade_conditions": 36,
+      "automatic_judgments": 114,
+      "automatic_detail_rows": 696,
+      "updates": 1,
+      "update_seconds_including_postchecks": 89.969,
+      "final_diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807"
+    },
+    {
+      "chair": "0B",
+      "serial": "26I16-0002",
+      "xcp_sets": 150,
+      "temperature_ranges_C": [
+        [
+          26,
+          29
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          26,
+          29
+        ]
+      ],
+      "xcp_counter_increase": [
+        0,
+        0
+      ],
+      "flicker_conditions": 108,
+      "flicker_windows": 324,
+      "fade_conditions": 36,
+      "automatic_judgments": 114,
+      "automatic_detail_rows": 696,
+      "updates": 1,
+      "update_seconds_including_postchecks": 90.375,
+      "final_diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807"
+    },
+    {
+      "chair": "0C",
+      "serial": "26I16-0003",
+      "xcp_sets": 150,
+      "temperature_ranges_C": [
+        [
+          25,
+          28
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          26,
+          30
+        ]
+      ],
+      "xcp_counter_increase": [
+        0,
+        0
+      ],
+      "flicker_conditions": 108,
+      "flicker_windows": 324,
+      "fade_conditions": 36,
+      "automatic_judgments": 114,
+      "automatic_detail_rows": 696,
+      "updates": 1,
+      "update_seconds_including_postchecks": 89.937,
+      "final_diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807"
+    }
+  ],
+  "download_audit": {
+    "downloads": [
+      {
+        "chair": "0A",
+        "bytes": 29688,
+        "blocks": 232,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "wire_image_matches": true,
+        "device_crc_accepted": true
+      },
+      {
+        "chair": "0B",
+        "bytes": 29688,
+        "blocks": 232,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "wire_image_matches": true,
+        "device_crc_accepted": true
+      },
+      {
+        "chair": "0C",
+        "bytes": 29688,
+        "blocks": 232,
+        "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+        "crc32": "1567E1F4",
+        "wire_image_matches": true,
+        "device_crc_accepted": true
+      }
+    ],
+    "checked_source_files": 744,
+    "source_changes": [],
+    "bin_unchanged": true
+  },
+  "GUI_tested": false,
+  "optical_tested": false,
+  "project_source_modified": false,
+  "effect_sources": {
+    "0A": "FullBoardContinue_20261111_0948_effects_result.json",
+    "0B": "FullBoardContinue_20261111_0948_effects_result.json",
+    "0C": "FullBoardRetry_20261111_1000_retest_result.json"
+  },
+  "automatic_source": "FullBoard_20261111_092853_auto_*_report.json",
+  "previous_open_fault": "0C LH Open was observed once at 09:55:53. Retest and post-update checks did not reproduce it; cause is not established.",
+  "notes": [
+    "Initial PC automatic tests used +/-1ms; general-operation retests used +/-2ms per user. No post-update PC automatic rerun is claimed.",
+    "XCP writes are not supported by this project; UDS write/read/restore passed in the preceding test.",
+    "Initial automated tests and UDS/zone color evidence retained under FullBoard_20261111_092853.",
+    "No old-firmware reflashing/A-B benchmark was performed; comparison is with earlier functional readbacks and specified behavior."
+  ]
+}

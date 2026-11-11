@@ -1,0 +1,29 @@
+{
+  "completed": false,
+  "started": "2026-11-11T13:19:38",
+  "stage": "update 0A",
+  "maximum_brightness": 26,
+  "GUI": false,
+  "optical": false,
+  "updates": [],
+  "in_progress": {
+    "chair": "0A",
+    "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+    "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+    "bytes": 29688,
+    "crc32": "1567E1F4",
+    "started": "2026-11-11T13:19:43",
+    "passed": false,
+    "flash_crc_accepted": true
+  },
+  "order": [
+    "0A",
+    "0B",
+    "0C"
+  ],
+  "error": "UDS timeout NAD=01 request=22f210",
+  "readback_checks": 0,
+  "readback_failures": 0,
+  "source_unchanged": true,
+  "finished": "2026-11-11T13:21:08"
+}

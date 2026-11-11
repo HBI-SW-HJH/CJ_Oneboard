@@ -1,0 +1,317 @@
+{
+  "completed": true,
+  "boards": [
+    {
+      "chair": "0A",
+      "serial": "26K10-0001",
+      "flicker_windows": 84,
+      "max_extra_timing_error_ms": 1,
+      "fade_cases": 6,
+      "fade_samples": 60,
+      "max_fade_pwm_error": 0,
+      "max_fade_sampling_delay_ms": 0,
+      "xcp_sets": 150,
+      "xcp_temp_min_C": 30,
+      "xcp_temp_max_C": 34,
+      "auto_rows_passed": 19,
+      "auto_detail_passed": 148,
+      "updates": 2,
+      "final_diagnostics": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ],
+      "theoretical_max_error_ms": [
+        1.333,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "chair": "0B",
+      "serial": "26K10-0002",
+      "flicker_windows": 84,
+      "max_extra_timing_error_ms": 0,
+      "fade_cases": 6,
+      "fade_samples": 60,
+      "max_fade_pwm_error": 0,
+      "max_fade_sampling_delay_ms": 0,
+      "xcp_sets": 150,
+      "xcp_temp_min_C": 30,
+      "xcp_temp_max_C": 34,
+      "auto_rows_passed": 19,
+      "auto_detail_passed": 148,
+      "updates": 2,
+      "final_diagnostics": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ],
+      "theoretical_max_error_ms": [
+        0.667,
+        0.333,
+        1.0
+      ]
+    },
+    {
+      "chair": "0C",
+      "serial": "26K10-0003",
+      "flicker_windows": 84,
+      "max_extra_timing_error_ms": 1,
+      "fade_cases": 6,
+      "fade_samples": 60,
+      "max_fade_pwm_error": 0,
+      "max_fade_sampling_delay_ms": 0,
+      "xcp_sets": 150,
+      "xcp_temp_min_C": 29,
+      "xcp_temp_max_C": 33,
+      "auto_rows_passed": 19,
+      "auto_detail_passed": 148,
+      "updates": 2,
+      "final_diagnostics": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        0
+      ],
+      "theoretical_max_error_ms": [
+        1.667,
+        0.667,
+        1.333
+      ]
+    }
+  ],
+  "downloads": [
+    {
+      "phase": "initial",
+      "chair": "0A",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true
+    },
+    {
+      "phase": "initial",
+      "chair": "0B",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true
+    },
+    {
+      "phase": "initial",
+      "chair": "0C",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true
+    },
+    {
+      "phase": "final",
+      "chair": "0A",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true
+    },
+    {
+      "phase": "final",
+      "chair": "0B",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true
+    },
+    {
+      "phase": "final",
+      "chair": "0C",
+      "blocks": 232,
+      "bytes": 29688,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "wire_matches_bin": true,
+      "device_crc_accepted": true
+    }
+  ],
+  "fade_completion_bounds": [
+    {
+      "chair": "0A",
+      "direction": "in",
+      "duration_ms": 500,
+      "command_us": 4564164145,
+      "completion_lower_ms": 493.0,
+      "completion_upper_ms": 549.999,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0A",
+      "direction": "out",
+      "duration_ms": 500,
+      "command_us": 4567312279,
+      "completion_lower_ms": 483.997,
+      "completion_upper_ms": 540.996,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0A",
+      "direction": "in",
+      "duration_ms": 1000,
+      "command_us": 4570481490,
+      "completion_lower_ms": 991.66,
+      "completion_upper_ms": 1047.659,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0A",
+      "direction": "out",
+      "duration_ms": 1000,
+      "command_us": 4574113286,
+      "completion_lower_ms": 972.031,
+      "completion_upper_ms": 1038.03,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0A",
+      "direction": "in",
+      "duration_ms": 3000,
+      "command_us": 4577949898,
+      "completion_lower_ms": 2992.296,
+      "completion_upper_ms": 3048.295,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0A",
+      "direction": "out",
+      "duration_ms": 3000,
+      "command_us": 4583646364,
+      "completion_lower_ms": 2993.096,
+      "completion_upper_ms": 3054.095,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0B",
+      "direction": "in",
+      "duration_ms": 500,
+      "command_us": 4713766601,
+      "completion_lower_ms": 482.174,
+      "completion_upper_ms": 549.173,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0B",
+      "direction": "out",
+      "duration_ms": 500,
+      "command_us": 4717035122,
+      "completion_lower_ms": 493.0,
+      "completion_upper_ms": 551.999,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0B",
+      "direction": "in",
+      "duration_ms": 1000,
+      "command_us": 4720250041,
+      "completion_lower_ms": 971.984,
+      "completion_upper_ms": 1028.983,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0B",
+      "direction": "out",
+      "duration_ms": 1000,
+      "command_us": 4723949091,
+      "completion_lower_ms": 971.899,
+      "completion_upper_ms": 1030.898,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0B",
+      "direction": "in",
+      "duration_ms": 3000,
+      "command_us": 4727735987,
+      "completion_lower_ms": 2982.172,
+      "completion_upper_ms": 3050.171,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0B",
+      "direction": "out",
+      "duration_ms": 3000,
+      "command_us": 4733424178,
+      "completion_lower_ms": 2997.995,
+      "completion_upper_ms": 3059.994,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0C",
+      "direction": "in",
+      "duration_ms": 500,
+      "command_us": 4938956476,
+      "completion_lower_ms": 490.0,
+      "completion_upper_ms": 549.999,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0C",
+      "direction": "out",
+      "duration_ms": 500,
+      "command_us": 4942208685,
+      "completion_lower_ms": 477.0,
+      "completion_upper_ms": 535.999,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0C",
+      "direction": "in",
+      "duration_ms": 1000,
+      "command_us": 4945365668,
+      "completion_lower_ms": 999.779,
+      "completion_upper_ms": 1062.778,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0C",
+      "direction": "out",
+      "duration_ms": 1000,
+      "command_us": 4949213510,
+      "completion_lower_ms": 986.833,
+      "completion_upper_ms": 1048.832,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0C",
+      "direction": "in",
+      "duration_ms": 3000,
+      "command_us": 4952902401,
+      "completion_lower_ms": 2991.127,
+      "completion_upper_ms": 3053.126,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    },
+    {
+      "chair": "0C",
+      "direction": "out",
+      "duration_ms": 3000,
+      "command_us": 4958677646,
+      "completion_lower_ms": 2988.081,
+      "completion_upper_ms": 3050.08,
+      "uncertainty": "PLIN hardware timestamps; request/response bracket plus 7ms frame timestamp margin each side; not optical"
+    }
+  ],
+  "source_files_unchanged": 766,
+  "GUI_tested": false,
+  "optical_tested": false,
+  "initial_started": "2026-11-11T10:18:26",
+  "final_finished": "2026-11-11T10:39:06"
+}

@@ -1,0 +1,11 @@
+{"time":"2026-11-11T10:33:02.8922431+09:00","name":"DIAGNOSTIC_PASS","value":{"chair":12,"data":"10-30-50-70-90-A0-00-00"}}
+{"time":"2026-11-11T10:33:02.8922431+09:00","name":"AUTO_START","value":{"chair":12,"maximumBrightnessIncluded":true,"gui":false,"originalPcAlgorithm":true,"strobeOnly":true}}
+{"time":"2026-11-11T10:33:02.8959140+09:00","name":"STATUS","value":"LED 자동검사 시작"}
+{"time":"2026-11-11T10:33:05.8013081+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 50% / 누적 12건"}
+{"time":"2026-11-11T10:33:11.2746134+09:00","name":"LOG","value":"검사 8.4s: 구역 0.5s, RGBW 2.6s, Fade 3.9s, Flicker 1.3s"}
+{"time":"2026-11-11T10:33:11.2746134+09:00","name":"LOG","value":"LIN 왕복 대기: RGB read 3.7s, 효과 계측 2.6s / TX 244, 응답 211, 헤더 219 (효과 대기에는 실제 계측시간 포함)"}
+{"time":"2026-11-11T10:33:11.2887987+09:00","name":"LOG","value":"성적서 저장 0.0s / 전체 8.4s"}
+{"time":"2026-11-11T10:33:11.2887987+09:00","name":"STATUS","value":"검사 완료: Pass 19 / Fail 0\r\nD:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\StrobeOnly_20261111_1014_auto_0C_report.json"}
+{"time":"2026-11-11T10:33:11.2887987+09:00","name":"LOG","value":"성적서: D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\StrobeOnly_20261111_1014_auto_0C_report.json"}
+{"time":"2026-11-11T10:33:11.3242787+09:00","name":"DIAGNOSTIC_PASS","value":{"chair":12,"data":"10-30-50-70-90-A0-00-00"}}
+{"time":"2026-11-11T10:33:11.3242787+09:00","name":"AUTO_PASS","value":{"chair":12,"rows":19,"detailRows":148}}

@@ -1,0 +1,219 @@
+{
+  "status": "stopped_pending_review",
+  "scope": "0x0A,0x0B,0x0C fully populated boards; no GUI; no production source changes",
+  "baseline": {
+    "0A": {
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      },
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "0B": {
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      },
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "0C": {
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      },
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "functional": {
+    "completed": true,
+    "stage": "UDS and all zone colors passed",
+    "boards": {
+      "0A": {
+        "uds_write_read_restored": true,
+        "color_readback_checks": 372,
+        "completed": true
+      },
+      "0B": {
+        "uds_write_read_restored": true,
+        "color_readback_checks": 372,
+        "completed": true
+      },
+      "0C": {
+        "uds_write_read_restored": true,
+        "color_readback_checks": 372,
+        "completed": true
+      }
+    },
+    "normal_diagnostics_active": true,
+    "brightness_raw": 26,
+    "gui": false,
+    "readback_checks": 1116
+  },
+  "automatic": {
+    "0A": {
+      "passed": true,
+      "judgments": 114,
+      "detail_rows": 696,
+      "started": "2026-11-11T09:31:47.3477243+09:00"
+    },
+    "0B": {
+      "passed": true,
+      "judgments": 114,
+      "detail_rows": 696,
+      "started": "2026-11-11T09:32:12.6835586+09:00"
+    },
+    "0C": {
+      "passed": true,
+      "judgments": 114,
+      "detail_rows": 696,
+      "started": "2026-11-11T09:32:37.8533120+09:00"
+    }
+  },
+  "node_scan": [
+    {
+      "slot": 0,
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      }
+    },
+    {
+      "slot": 9,
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      }
+    },
+    {
+      "slot": 14,
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      }
+    }
+  ],
+  "normal_flicker_failure": {
+    "chair": "0A",
+    "frequency_hz": 20,
+    "duty_percent": 50,
+    "expected_period_ms": 50,
+    "expected_on_ms": 25,
+    "expected_off_ms": 25,
+    "tolerance_ms": 1,
+    "zone": "LH",
+    "period_ms": [
+      50,
+      50
+    ],
+    "on_ms": [
+      25,
+      25
+    ],
+    "off_ms": [
+      23,
+      25
+    ],
+    "passed": false,
+    "raw": "8200323219191719"
+  },
+  "failure_limitations": "MCU software timing only; actual optical output and cause are unconfirmed. Normal diagnostics active; automatic test disables periodic diagnostics.",
+  "xcp_review": {
+    "source": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\applications\\inc\\OSPControl.h",
+    "source_sha256": "2160a1b983c57290a5f68ab281be4bf24578810d453c2b850790d85daa952952",
+    "raw_logs_unchanged": true,
+    "description": "The test script used temperature offset 116 instead of 120. This is a test-script labeling/address error, not evidence of a firmware fault.",
+    "base_address": "0x2000003C",
+    "temperatureC_offset": 120,
+    "struct_size": 1768,
+    "correct_targets": {
+      "logo_led1": "0x200000B4",
+      "logo_led13": "0x200000CC",
+      "strobe_led1": "0x200000E4"
+    },
+    "actual_sampled_fields": {
+      "logo_led1": {
+        "address": "0x200000B0",
+        "field": "pwmBlue[0]",
+        "offset": 116
+      },
+      "logo_led13": {
+        "address": "0x200000C8",
+        "field": "temperatureC[0][10]",
+        "offset": 140
+      },
+      "strobe_led1": {
+        "address": "0x200000E0",
+        "field": "temperatureC[0][22]",
+        "offset": 164
+      }
+    },
+    "valid_scope": "0x0A XCP connect, memory read responses of 1/2/4 bytes, rejected invalid requests, disconnect. Intended three-temperature validation and GUI graph validation are incomplete.",
+    "boards_0B_0C": "not tested"
+  },
+  "downloads_performed": 0,
+  "download_image_not_used": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+    "bytes": 29688,
+    "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+    "crc32": "1567E1F4"
+  },
+  "cleanup": "OFF and verification STOP sent to all three boards; LIN adapter disabled and disconnected.",
+  "checked_sources_and_image_unchanged": {
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\LINFrame.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\LINProtocol.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\CJLinProtocol.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\CJVerificationProtocol.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\UDSProtocol.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\LIN\\PeakLINGateway.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\PC_CJ_20261012\\Forms\\FormUDS_Verification.cs": true,
+    "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin": true
+  }
+}

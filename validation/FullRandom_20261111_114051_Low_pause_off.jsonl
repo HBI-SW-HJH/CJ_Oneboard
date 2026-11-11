@@ -1,0 +1,72 @@
+{"time": "2026-11-11T11:49:38", "kind": "START", "prefix": "FullRandom_20261111_114051_Low_pause_off", "brightness_cap": 255, "gui": false, "jlink": false}
+{"time": "2026-11-11T11:49:38", "kind": "BRIGHTNESS_LIMIT", "maximum_RGB": 26, "percent": 10.196078431372548}
+{"time": "2026-11-11T11:49:38", "kind": "ADAPTER", "settings": {"6": 19200, "7": 2, "21": 0}, "clients": [2, 1, 2]}
+{"time": "2026-11-11T11:49:41", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 9662487741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 9662496741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 9662515741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 9662524741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 9662533741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 9662542741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0500000001010000", "errors": 0, "hw_us": 9662601741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000001", "errors": 0, "hw_us": 9662620740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0A", "zone": "LH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0501000001020000", "errors": 0, "hw_us": 9662631741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000002", "errors": 0, "hw_us": 9662649740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0A", "zone": "RH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0502000001030000", "errors": 0, "hw_us": 9662658741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000003", "errors": 0, "hw_us": 9662676740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0A", "zone": "Head", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0503000001040000", "errors": 0, "hw_us": 9662687741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000004", "errors": 0, "hw_us": 9662705740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0A", "zone": "Back", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0504000001050000", "errors": 0, "hw_us": 9662714741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000005", "errors": 0, "hw_us": 9662732740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0A", "zone": "Logo", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0505000001060000", "errors": 0, "hw_us": 9662742741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "0f00000000000006", "errors": 0, "hw_us": 9662761740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0A", "zone": "Strobe", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 10, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 9662771740}
+{"time": "2026-11-11T11:49:41", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 41, "publisher": true, "data": "0500000001070000", "errors": 0, "hw_us": 9662783741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000007", "errors": 0, "hw_us": 9662801740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0B", "zone": "LH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 41, "publisher": true, "data": "0501000001080000", "errors": 0, "hw_us": 9662809741}
+{"time": "2026-11-11T11:49:41", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000008", "errors": 0, "hw_us": 9662826740}
+{"time": "2026-11-11T11:49:41", "kind": "DETAIL", "test": "Pause OFF", "chair": "0B", "zone": "RH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 41, "publisher": true, "data": "0502000001090000", "errors": 0, "hw_us": 9662834741}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f00000000000009", "errors": 0, "hw_us": 9662852740}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0B", "zone": "Head", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 41, "publisher": true, "data": "05030000010a0000", "errors": 0, "hw_us": 9662861741}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000000a", "errors": 0, "hw_us": 9662879740}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0B", "zone": "Back", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 41, "publisher": true, "data": "05040000010b0000", "errors": 0, "hw_us": 9662890488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000000b", "errors": 0, "hw_us": 9662910487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0B", "zone": "Logo", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 41, "publisher": true, "data": "05050000010c0000", "errors": 0, "hw_us": 9662920488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 45, "publisher": false, "data": "0f0000000000000c", "errors": 0, "hw_us": 9662939487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0B", "zone": "Strobe", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 9662949487}
+{"time": "2026-11-11T11:49:42", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "05000000010d0000", "errors": 0, "hw_us": 9662957488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000000d", "errors": 0, "hw_us": 9662975487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0C", "zone": "LH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "05010000010e0000", "errors": 0, "hw_us": 9662984488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000000e", "errors": 0, "hw_us": 9663003487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0C", "zone": "RH", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "05020000010f0000", "errors": 0, "hw_us": 9663012488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f0000000000000f", "errors": 0, "hw_us": 9663032487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0C", "zone": "Head", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "0503000001100000", "errors": 0, "hw_us": 9663042488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000010", "errors": 0, "hw_us": 9663060487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0C", "zone": "Back", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "0504000001110000", "errors": 0, "hw_us": 9663070488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000011", "errors": 0, "hw_us": 9663091487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0C", "zone": "Logo", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "0505000001120000", "errors": 0, "hw_us": 9663100488}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "0f00000000000012", "errors": 0, "hw_us": 9663119487}
+{"time": "2026-11-11T11:49:42", "kind": "DETAIL", "test": "Pause OFF", "chair": "0C", "zone": "Strobe", "node": 1, "status": 15, "actual": [0, 0, 0], "expected": [0, 0, 0], "passed": true}
+{"time": "2026-11-11T11:49:42", "kind": "FRAME", "id": 12, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 9663130487}
+{"time": "2026-11-11T11:49:42", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T11:49:42", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-11T11:49:42", "kind": "CLEANUP", "remove_client": 0}

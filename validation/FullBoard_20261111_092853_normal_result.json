@@ -1,0 +1,3450 @@
+{
+  "completed": false,
+  "stage": "0A normal flicker 20Hz 50%",
+  "boards": {
+    "0A": {
+      "flicker": [
+        {
+          "hz": 5,
+          "duty_percent": 10,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8200c8c81414b4b4"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8201c8c81414b4b4"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8202c8c81414b4b4"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8203c8c81414b4b4"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8204c8c81414b4b4"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8205c8c81414b4b4"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8200c8c81414b4b4"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8201c8c81414b4b4"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8202c8c81414b4b4"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8203c8c81414b4b4"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8204c8c81414b4b4"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8205c8c81414b4b4"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8200c8c81414b4b4"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8201c8c81414b4b4"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8202c8c81414b4b4"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8203c8c81414b4b4"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8204c8c81414b4b4"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  20,
+                  20
+                ],
+                "off_ms": [
+                  180,
+                  180
+                ],
+                "passed": true,
+                "raw": "8205c8c81414b4b4"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 5,
+          "duty_percent": 50,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8200c8c864646464"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8201c8c864646464"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8202c8c864646464"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8203c8c864646464"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8204c8c864646464"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8205c8c864646464"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8200c8c864646464"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8201c8c864646464"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8202c8c864646464"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8203c8c864646464"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8204c8c864646464"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8205c8c864646464"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8200c8c864646464"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8201c8c864646464"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8202c8c864646464"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8203c8c864646464"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8204c8c864646464"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  100,
+                  100
+                ],
+                "off_ms": [
+                  100,
+                  100
+                ],
+                "passed": true,
+                "raw": "8205c8c864646464"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 5,
+          "duty_percent": 90,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8200c8c8b4b41414"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8201c8c8b4b41414"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8202c8c8b4b41414"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8203c8c8b4b41414"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8204c8c8b4b41414"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8205c8c8b4b41414"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8200c8c8b4b41414"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8201c8c8b4b41414"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8202c8c8b4b41414"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8203c8c8b4b41414"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8204c8c8b4b41414"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8205c8c8b4b41414"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8200c8c8b4b41414"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8201c8c8b4b41414"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8202c8c8b4b41414"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8203c8c8b4b41414"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8204c8c8b4b41414"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  200,
+                  200
+                ],
+                "on_ms": [
+                  180,
+                  180
+                ],
+                "off_ms": [
+                  20,
+                  20
+                ],
+                "passed": true,
+                "raw": "8205c8c8b4b41414"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 10,
+          "duty_percent": 10,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820064640a0a5a5a"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820164640a0a5a5a"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820264640a0a5a5a"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820364640a0a5a5a"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820464640a0a5a5a"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820564640a0a5a5a"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820064640a0a5a5a"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820164640a0a5a5a"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820264640a0a5a5a"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820364640a0a5a5a"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820464640a0a5a5a"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820564640a0a5a5a"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820064640a0a5a5a"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820164640a0a5a5a"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820264640a0a5a5a"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820364640a0a5a5a"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820464640a0a5a5a"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  10,
+                  10
+                ],
+                "off_ms": [
+                  90,
+                  90
+                ],
+                "passed": true,
+                "raw": "820564640a0a5a5a"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 10,
+          "duty_percent": 50,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8200646432323232"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8201646432323232"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8202646432323232"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8203646432323232"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8204646432323232"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8205646432323232"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8200646432323232"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8201646432323232"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8202646432323232"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8203646432323232"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8204646432323232"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8205646432323232"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8200646432323232"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8201646432323232"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8202646432323232"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8203646432323232"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8204646432323232"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  50,
+                  50
+                ],
+                "off_ms": [
+                  50,
+                  50
+                ],
+                "passed": true,
+                "raw": "8205646432323232"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 10,
+          "duty_percent": 90,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820064645a5a0a0a"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820164645a5a0a0a"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820264645a5a0a0a"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820364645a5a0a0a"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820464645a5a0a0a"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820564645a5a0a0a"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820064645a5a0a0a"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820164645a5a0a0a"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820264645a5a0a0a"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820364645a5a0a0a"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820464645a5a0a0a"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820564645a5a0a0a"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820064645a5a0a0a"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820164645a5a0a0a"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820264645a5a0a0a"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820364645a5a0a0a"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820464645a5a0a0a"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  100,
+                  100
+                ],
+                "on_ms": [
+                  90,
+                  90
+                ],
+                "off_ms": [
+                  10,
+                  10
+                ],
+                "passed": true,
+                "raw": "820564645a5a0a0a"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 15,
+          "duty_percent": 10,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8200424307073b3c"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8201424307073b3c"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8202424307073b3c"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8203424307073b3c"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8204424307073b3c"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8205424307073b3c"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8200424307073b3c"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8201424307073b3c"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8202424307073b3c"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8203424307073b3c"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8204424307073b3c"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8205424307073b3c"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8200424307073b3c"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8201424307073b3c"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8202424307073b3c"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8203424307073b3c"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8204424307073b3c"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  7,
+                  7
+                ],
+                "off_ms": [
+                  59,
+                  60
+                ],
+                "passed": true,
+                "raw": "8205424307073b3c"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 15,
+          "duty_percent": 50,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8200424321212122"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8201424321212122"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8202424321212122"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8203424321212122"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8204424321212122"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8205424321212122"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8200424321212122"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8201424321212122"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8202424321212122"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8203424321212122"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8204424321212122"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8205424321212122"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8200424321212122"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8201424321212122"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8202424321212122"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8203424321212122"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8204424321212122"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  33,
+                  33
+                ],
+                "off_ms": [
+                  33,
+                  34
+                ],
+                "passed": true,
+                "raw": "8205424321212122"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 15,
+          "duty_percent": 90,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820042433c3c0607"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820142433c3c0607"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820242433c3c0607"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820342433c3c0607"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820442433c3c0607"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820542433c3c0607"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820042433c3c0607"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820142433c3c0607"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820242433c3c0607"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820342433c3c0607"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820442433c3c0607"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820542433c3c0607"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820042433c3c0607"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820142433c3c0607"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820242433c3c0607"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820342433c3c0607"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820442433c3c0607"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  66,
+                  67
+                ],
+                "on_ms": [
+                  60,
+                  60
+                ],
+                "off_ms": [
+                  6,
+                  7
+                ],
+                "passed": true,
+                "raw": "820542433c3c0607"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 20,
+          "duty_percent": 10,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8200313304052d2e"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8201313304052d2e"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8202313304052d2e"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8203313304052d2e"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8204313304052d2e"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8205313304052d2e"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8200313304052d2e"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8201313304052d2e"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8202313304052d2e"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8203313304052d2e"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8204313304052d2e"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8205313304052d2e"
+              }
+            ],
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8200313304052d2e"
+              },
+              {
+                "zone": "RH",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8201313304052d2e"
+              },
+              {
+                "zone": "Head",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8202313304052d2e"
+              },
+              {
+                "zone": "Back",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8203313304052d2e"
+              },
+              {
+                "zone": "Logo",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8204313304052d2e"
+              },
+              {
+                "zone": "Strobe",
+                "period_ms": [
+                  49,
+                  51
+                ],
+                "on_ms": [
+                  4,
+                  5
+                ],
+                "off_ms": [
+                  45,
+                  46
+                ],
+                "passed": true,
+                "raw": "8205313304052d2e"
+              }
+            ]
+          ]
+        },
+        {
+          "hz": 20,
+          "duty_percent": 50,
+          "windows": [
+            [
+              {
+                "zone": "LH",
+                "period_ms": [
+                  50,
+                  50
+                ],
+                "on_ms": [
+                  25,
+                  25
+                ],
+                "off_ms": [
+                  23,
+                  25
+                ],
+                "passed": false,
+                "raw": "8200323219191719"
+              }
+            ]
+          ]
+        }
+      ],
+      "xcp_samples": [
+        {
+          "ms": 125.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 312.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 515.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 703.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 921.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 1125.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 1312.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 1515.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 1718.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 1921.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 2125.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 2328.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 2515.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 2718.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 2906.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 3109.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 3328.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 3515.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 3703.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 3921.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 4109.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 4312.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 4515.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 4718.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 4921.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 5109.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 5312.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 5515.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 5734.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        },
+        {
+          "ms": 5906.0,
+          "logo_led1": 0,
+          "logo_led13": 27,
+          "strobe_led1": 27
+        }
+      ],
+      "node_count": [
+        24,
+        8
+      ],
+      "errors_before": [
+        326,
+        176,
+        0
+      ],
+      "power": [
+        1,
+        0
+      ]
+    }
+  },
+  "discovery": [
+    {
+      "slot": 0,
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      }
+    },
+    {
+      "slot": 9,
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      }
+    },
+    {
+      "slot": 14,
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      }
+    }
+  ],
+  "normal_diagnostics_active": true,
+  "gui": false,
+  "optical": false,
+  "xcp_request_to_header_delay_ms": 20,
+  "error": "0A LH 20Hz 50% window1: period=[50, 50], ON=[25, 25], OFF=[23, 25]; outside nominal integer-ms band +/-1ms"
+}

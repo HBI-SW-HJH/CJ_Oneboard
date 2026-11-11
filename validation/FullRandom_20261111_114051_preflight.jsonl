@@ -1,0 +1,71 @@
+{"time": "2026-11-11T11:40:53", "kind": "START", "prefix": "FullRandom_20261111_114051_preflight", "brightness_cap": 255, "gui": false, "jlink": false}
+{"time": "2026-11-11T11:40:53", "kind": "ADAPTER", "settings": {"6": 19200, "7": 2, "21": 0}, "clients": [1, 1]}
+{"time": "2026-11-11T11:40:56", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f202ffffff", "errors": 0, "hw_us": 9137017524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102062f2023236", "errors": 0, "hw_us": 9137038523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "01214931362d3030", "errors": 0, "hw_us": 9137047523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "012230312a5a5831", "errors": 0, "hw_us": 9137057523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "01232d303032352a", "errors": 0, "hw_us": 9137065523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "012400022a0a2aae", "errors": 0, "hw_us": 9137074523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125be9602ffffff", "errors": 0, "hw_us": 9137083523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 10, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 9137092523}
+{"time": "2026-11-11T11:40:56", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T11:40:56", "kind": "BOARD", "chair": "0A", "product": {"serial": "26I16-0001", "part": "ZX1-0025", "version": 2, "chair": 10, "init": 2931725826, "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"}, "faults": [0, 0, 0, 0, 0, 0]}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f202ffffff", "errors": 0, "hw_us": 9137100524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102062f2023236", "errors": 0, "hw_us": 9137120523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "02214931362d3030", "errors": 0, "hw_us": 9137128523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "022230322a5a5831", "errors": 0, "hw_us": 9137136523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "02232d303032352a", "errors": 0, "hw_us": 9137144523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "022400022a0b2afb", "errors": 0, "hw_us": 9137152523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "02253d8e91ffffff", "errors": 0, "hw_us": 9137160523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 9137169523}
+{"time": "2026-11-11T11:40:56", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T11:40:56", "kind": "BOARD", "chair": "0B", "product": {"serial": "26I16-0002", "part": "ZX1-0025", "version": 2, "chair": 11, "init": 4215115409, "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"}, "faults": [0, 0, 0, 0, 0, 0]}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f202ffffff", "errors": 0, "hw_us": 9137184524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102062f2023236", "errors": 0, "hw_us": 9137205523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "03214931362d3030", "errors": 0, "hw_us": 9137216523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "032230332a5a5831", "errors": 0, "hw_us": 9137228523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "03232d303032352a", "errors": 0, "hw_us": 9137236523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "032400022a0c2ae1", "errors": 0, "hw_us": 9137253523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "03253173f1ffffff", "errors": 0, "hw_us": 9137266523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 12, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 9137277523}
+{"time": "2026-11-11T11:40:56", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-11T11:40:56", "kind": "BOARD", "chair": "0C", "product": {"serial": "26I16-0003", "part": "ZX1-0025", "version": 2, "chair": 12, "init": 3778114545, "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"}, "faults": [0, 0, 0, 0, 0, 0]}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 9137290524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 9137306524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 9137329523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 9137337523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f210ffffff", "errors": 0, "hw_us": 9137348524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102662f2100000", "errors": 0, "hw_us": 9137372523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0121010000000300", "errors": 0, "hw_us": 9137382523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0122000000000000", "errors": 0, "hw_us": 9137394523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0123000000000000", "errors": 0, "hw_us": 9137405523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0124000000000003", "errors": 0, "hw_us": 9137418523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125000000020000", "errors": 0, "hw_us": 9137430523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "012673f807ffffff", "errors": 0, "hw_us": 9137439523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302fb", "errors": 0, "hw_us": 9137450524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213d8e91ffffff", "errors": 0, "hw_us": 9137466524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302fb", "errors": 0, "hw_us": 9137491523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213d8e9100ffff", "errors": 0, "hw_us": 9137503523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 9137515524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 9137540523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 9137549523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 9137560523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 9137574523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 9137586523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000010000", "errors": 0, "hw_us": 9137595523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673f807ffffff", "errors": 0, "hw_us": 9137606523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302e1", "errors": 0, "hw_us": 9137618524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213173f1ffffff", "errors": 0, "hw_us": 9137634524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302e1", "errors": 0, "hw_us": 9137658523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213173f100ffff", "errors": 0, "hw_us": 9137670523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f210ffffff", "errors": 0, "hw_us": 9137681524}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102662f2100000", "errors": 0, "hw_us": 9137703523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0321010000000300", "errors": 0, "hw_us": 9137715523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0322000000000000", "errors": 0, "hw_us": 9137728523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0323000000000000", "errors": 0, "hw_us": 9137740523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0324000000000003", "errors": 0, "hw_us": 9137749523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "0325000000000000", "errors": 0, "hw_us": 9137760523}
+{"time": "2026-11-11T11:40:56", "kind": "FRAME", "id": 61, "publisher": false, "data": "032673f807ffffff", "errors": 0, "hw_us": 9137771523}
+{"time": "2026-11-11T11:40:56", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-11T11:40:56", "kind": "CLEANUP", "remove_client": 0}

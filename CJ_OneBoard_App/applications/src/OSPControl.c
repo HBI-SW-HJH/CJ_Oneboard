@@ -490,15 +490,26 @@ static uint8_t OSP_DecodeManchester(const uint8_t *levels, uint16_t levelCount, 
     for (offset = 0U; offset <= (uint16_t)(levelCount - requiredLevels); offset++)
     {
         invert = levels[offset];
-        if (memcmp(&levels[offset], headerLevels[invert], 48U) != 0)
+        if (command == OSP_CMD_PING4ERROR_BIDIR)
+        {
+            // PING may reply from any node; match preamble, PSI and command.
+            if ((memcmp(&levels[offset], headerLevels[invert], 8U) != 0) || (memcmp(&levels[offset + 28U], &headerLevels[invert][28U], 20U) != 0))
+            {
+                continue;
+            }
+        }
+        else if (memcmp(&levels[offset], headerLevels[invert], 48U) != 0)
         {
             continue;
         }
-        // Header, address, PSI and command matched. Decode payload and CRC.
+        // Decode the PING address too so CRC covers the actual response header.
         (void)memset(raw, 0, rawLength);
-        (void)memcpy(raw, header, sizeof(header));
+        if (command != OSP_CMD_PING4ERROR_BIDIR)
+        {
+            (void)memcpy(raw, header, sizeof(header));
+        }
         valid = 1U;
-        for (bit = 24U; bit < ((uint16_t)rawLength * 8U); bit++)
+        for (bit = (command == OSP_CMD_PING4ERROR_BIDIR) ? 0U : 24U; bit < ((uint16_t)rawLength * 8U); bit++)
         {
             first = (uint8_t)(levels[offset + (bit * 2U)] ^ invert);
             second = (uint8_t)(levels[offset + (bit * 2U) + 1U] ^ invert);
@@ -963,9 +974,15 @@ void OSPControl_Read(OSP_Port_t port)
 
 void OSPControl_CheckLogoOpen(void)
 {
+    uint8_t response[OSP_RESPONSE_TEMP_STATUS];
     uint8_t node;
 
     if ((gOSPControl.nodeCount[OSP_PORT_LOGO] == OSP_LOGO_NODE_COUNT) && ((gOSPControl.ledStatus[OSP_PORT_LOGO][OSP_LOGO_FIRST_NODE] & OSP_LED_OPEN_MASK) == 0U) && (gOSPControl.dynamicValid[OSP_PORT_LOGO][OSP_LOGO_FIRST_NODE] != 0U) && ((gOSPControl.status[OSP_PORT_LOGO][OSP_LOGO_FIRST_NODE] & OSP_STATUS_COMM_ERROR) == 0U) && ((gOSPControl.ledStatus[OSP_PORT_LOGO][OSP_LOGO_SECOND_NODE] & OSP_LED_OPEN_MASK) == 0U) && (gOSPControl.dynamicValid[OSP_PORT_LOGO][OSP_LOGO_SECOND_NODE] != 0U) && ((gOSPControl.status[OSP_PORT_LOGO][OSP_LOGO_SECOND_NODE] & OSP_STATUS_COMM_ERROR) == 0U))
+    {
+        return;
+    }
+
+    if ((OSP_Transfer(OSP_PORT_LOGO, OSP_ADDR_FIRST, OSP_CMD_PING4ERROR_BIDIR, NULL, 0U, response, OSP_RESPONSE_TEMP_STATUS, 1000U) == 0U) || ((response[0U] & 0x0FU) != 0U) || ((response[1U] >> 2U) < OSP_ADDR_FIRST) || ((response[1U] >> 2U) > OSP_LOGO_NODE_COUNT))
     {
         return;
     }
@@ -979,6 +996,8 @@ void OSPControl_CheckLogoOpen(void)
         gOSPControl.dynamicValid[OSP_PORT_LOGO][node] = 0U;
     }
     OSP_InitPort(OSP_PORT_LOGO);
+    // PING clears reported fault flags; retain them until the next status read.
+    gOSPControl.status[OSP_PORT_LOGO][(response[1U] >> 2U) - 1U] |= (response[4U] & 0x0FU);
     for (node = 0U; node < gOSPControl.nodeCount[OSP_PORT_LOGO]; node++)
     {
         gOSPControl.dynamicValid[OSP_PORT_LOGO][node] = 1U;
@@ -988,9 +1007,15 @@ void OSPControl_CheckLogoOpen(void)
 
 void OSPControl_CheckStrobeOpen(void)
 {
+    uint8_t response[OSP_RESPONSE_TEMP_STATUS];
     uint8_t node;
 
     if ((gOSPControl.nodeCount[OSP_PORT_STROBE] == OSP_STROBE_NODE_COUNT) && ((gOSPControl.ledStatus[OSP_PORT_STROBE][0U] & OSP_LED_OPEN_MASK) == 0U) && (gOSPControl.dynamicValid[OSP_PORT_STROBE][0U] != 0U) && ((gOSPControl.status[OSP_PORT_STROBE][0U] & OSP_STATUS_COMM_ERROR) == 0U))
+    {
+        return;
+    }
+
+    if ((OSP_Transfer(OSP_PORT_STROBE, OSP_ADDR_FIRST, OSP_CMD_PING4ERROR_BIDIR, NULL, 0U, response, OSP_RESPONSE_TEMP_STATUS, 1000U) == 0U) || ((response[0U] & 0x0FU) != 0U) || ((response[1U] >> 2U) < OSP_ADDR_FIRST) || ((response[1U] >> 2U) > OSP_STROBE_NODE_COUNT))
     {
         return;
     }
@@ -1004,6 +1029,8 @@ void OSPControl_CheckStrobeOpen(void)
         gOSPControl.dynamicValid[OSP_PORT_STROBE][node] = 0U;
     }
     OSP_InitPort(OSP_PORT_STROBE);
+    // PING clears reported fault flags; retain them until the next status read.
+    gOSPControl.status[OSP_PORT_STROBE][(response[1U] >> 2U) - 1U] |= (response[4U] & 0x0FU);
     for (node = 0U; node < gOSPControl.nodeCount[OSP_PORT_STROBE]; node++)
     {
         gOSPControl.dynamicValid[OSP_PORT_STROBE][node] = 1U;

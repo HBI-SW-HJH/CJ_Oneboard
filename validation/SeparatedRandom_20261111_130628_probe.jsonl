@@ -1,0 +1,799 @@
+{"time": "2026-11-11T13:23:27", "kind": "START", "prefix": "SeparatedRandom_20261111_130628_probe", "brightness_cap": 255, "gui": false, "jlink": false}
+{"time": "2026-11-11T13:23:27", "kind": "TEST_POLICY", "maximum_RGB": 26, "no_diagnostic_during_control": true, "GUI": false}
+{"time": "2026-11-11T13:23:27", "kind": "ADAPTER", "settings": {"6": 19200, "7": 2, "21": 0}, "clients": [1, 1]}
+{"time": "2026-11-11T13:23:30", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-11T13:23:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 15291789190}
+{"time": "2026-11-11T13:23:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 15291801190}
+{"time": "2026-11-11T13:23:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 15291822189}
+{"time": "2026-11-11T13:23:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 15291831189}
+{"time": "2026-11-11T13:23:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "010322f210ffffff", "errors": 0, "hw_us": 15291840190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "01102662f2100000", "errors": 0, "hw_us": 15291860189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0121010000000300", "errors": 0, "hw_us": 15291869189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0122000000000000", "errors": 0, "hw_us": 15291877189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0123000000000000", "errors": 0, "hw_us": 15291888189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0124000000000003", "errors": 0, "hw_us": 15291897189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0125000000020000", "errors": 0, "hw_us": 15291905189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "012673f807ffffff", "errors": 0, "hw_us": 15291914189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15291922190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 15291933190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302fb", "errors": 0, "hw_us": 15291942190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213d8e91ffffff", "errors": 0, "hw_us": 15291954190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302fb", "errors": 0, "hw_us": 15291975189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213d8e9100ffff", "errors": 0, "hw_us": 15291983189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 15291992190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 15292013189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 15292022189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 15292031189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 15292039189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 15292048189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000010000", "errors": 0, "hw_us": 15292056189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673f807ffffff", "errors": 0, "hw_us": 15292065189}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15292073190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 15292082190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302e1", "errors": 0, "hw_us": 15292091190}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f213173f1ffffff", "errors": 0, "hw_us": 15292101773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302e1", "errors": 0, "hw_us": 15292121772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f213173f100ffff", "errors": 0, "hw_us": 15292129772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 60, "publisher": true, "data": "030322f210ffffff", "errors": 0, "hw_us": 15292137773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "03102662f2100000", "errors": 0, "hw_us": 15292157772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0321010000000300", "errors": 0, "hw_us": 15292165772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0322000000000000", "errors": 0, "hw_us": 15292174772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0323000000000000", "errors": 0, "hw_us": 15292182772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0324000000000003", "errors": 0, "hw_us": 15292190772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "0325000000000000", "errors": 0, "hw_us": 15292199772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 61, "publisher": false, "data": "032673f807ffffff", "errors": 0, "hw_us": 15292207772}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15292217773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 15292226773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15292265773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 15292274773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15292283773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 15292292773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15292304773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 15292313773}
+{"time": "2026-11-11T13:23:31", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern configure"}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "01011600001a190f", "errors": 0, "hw_us": 15292325773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "010216001a00ed07", "errors": 0, "hw_us": 15292334773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0104161a1a1a190f", "errors": 0, "hw_us": 15292343773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0108161a1a1aed1e", "errors": 0, "hw_us": 15292352773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0110161a1a1abb0d", "errors": 0, "hw_us": 15292363773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a0000bb1e", "errors": 0, "hw_us": 15292372773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0201161a0000bb1b", "errors": 0, "hw_us": 15292384773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "02021600001a190f", "errors": 0, "hw_us": 15292394773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "020416001a003e0f", "errors": 0, "hw_us": 15292403773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "020816001a007d1b", "errors": 0, "hw_us": 15292414773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0210161a00003e17", "errors": 0, "hw_us": 15292423773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "02201600001ae111", "errors": 0, "hw_us": 15292432773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "04011600001ae114", "errors": 0, "hw_us": 15292442773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0402161a1a1ae107", "errors": 0, "hw_us": 15292451773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "040416001a000c1b", "errors": 0, "hw_us": 15292459773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "04081600001a7d14", "errors": 0, "hw_us": 15292468773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "0410161a00003e0d", "errors": 0, "hw_us": 15292477773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 1, "publisher": true, "data": "042016001a00ed07", "errors": 0, "hw_us": 15292486773}
+{"time": "2026-11-11T13:23:31", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15292557773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15292569773}
+{"time": "2026-11-11T13:23:31", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15292577773}
+{"time": "2026-11-11T13:23:31", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 1"}
+{"time": "2026-11-11T13:23:32", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:32", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15293665939}
+{"time": "2026-11-11T13:23:32", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15293683939}
+{"time": "2026-11-11T13:23:32", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15293706939}
+{"time": "2026-11-11T13:23:32", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15293719940}
+{"time": "2026-11-11T13:23:32", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15293731940}
+{"time": "2026-11-11T13:23:32", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15293742940}
+{"time": "2026-11-11T13:23:32", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 2"}
+{"time": "2026-11-11T13:23:33", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:33", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15294830748}
+{"time": "2026-11-11T13:23:34", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15294849748}
+{"time": "2026-11-11T13:23:34", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15294866748}
+{"time": "2026-11-11T13:23:34", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15294879749}
+{"time": "2026-11-11T13:23:34", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15294887749}
+{"time": "2026-11-11T13:23:34", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15294898749}
+{"time": "2026-11-11T13:23:34", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 3"}
+{"time": "2026-11-11T13:23:35", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:35", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15295988507}
+{"time": "2026-11-11T13:23:35", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15296009507}
+{"time": "2026-11-11T13:23:35", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15296027507}
+{"time": "2026-11-11T13:23:35", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15296041508}
+{"time": "2026-11-11T13:23:35", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15296049508}
+{"time": "2026-11-11T13:23:35", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15296063508}
+{"time": "2026-11-11T13:23:35", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 4"}
+{"time": "2026-11-11T13:23:36", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:36", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15297153776}
+{"time": "2026-11-11T13:23:36", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15297172776}
+{"time": "2026-11-11T13:23:36", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15297191776}
+{"time": "2026-11-11T13:23:36", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15297200777}
+{"time": "2026-11-11T13:23:36", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15297209777}
+{"time": "2026-11-11T13:23:36", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15297219777}
+{"time": "2026-11-11T13:23:36", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 5"}
+{"time": "2026-11-11T13:23:37", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:37", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15298314231}
+{"time": "2026-11-11T13:23:37", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613141113", "errors": 0, "hw_us": 15298331231}
+{"time": "2026-11-11T13:23:37", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15298348231}
+{"time": "2026-11-11T13:23:37", "kind": "PROBE_PROGRESS", "scenario": "original_pattern", "windows": 15, "max_error_ms": 1.518518518518519, "long_period_windows": 0}
+{"time": "2026-11-11T13:23:37", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15298359232}
+{"time": "2026-11-11T13:23:37", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15298368232}
+{"time": "2026-11-11T13:23:37", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15298378232}
+{"time": "2026-11-11T13:23:37", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 6"}
+{"time": "2026-11-11T13:23:38", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15299464772}
+{"time": "2026-11-11T13:23:38", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15299481772}
+{"time": "2026-11-11T13:23:38", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15299499772}
+{"time": "2026-11-11T13:23:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15299509773}
+{"time": "2026-11-11T13:23:38", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15299518773}
+{"time": "2026-11-11T13:23:38", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15299527773}
+{"time": "2026-11-11T13:23:38", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 7"}
+{"time": "2026-11-11T13:23:39", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:39", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15300616382}
+{"time": "2026-11-11T13:23:39", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15300633382}
+{"time": "2026-11-11T13:23:39", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15300651382}
+{"time": "2026-11-11T13:23:39", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15300660383}
+{"time": "2026-11-11T13:23:39", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15300669383}
+{"time": "2026-11-11T13:23:39", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15300678383}
+{"time": "2026-11-11T13:23:39", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 8"}
+{"time": "2026-11-11T13:23:40", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:40", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15301763858}
+{"time": "2026-11-11T13:23:40", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15301781858}
+{"time": "2026-11-11T13:23:40", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15301798858}
+{"time": "2026-11-11T13:23:40", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15301810859}
+{"time": "2026-11-11T13:23:40", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15301819859}
+{"time": "2026-11-11T13:23:40", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15301828859}
+{"time": "2026-11-11T13:23:40", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 9"}
+{"time": "2026-11-11T13:23:42", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:42", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15302916978}
+{"time": "2026-11-11T13:23:42", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15302932978}
+{"time": "2026-11-11T13:23:42", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15302949978}
+{"time": "2026-11-11T13:23:42", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15302962979}
+{"time": "2026-11-11T13:23:42", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15302970979}
+{"time": "2026-11-11T13:23:42", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15302978979}
+{"time": "2026-11-11T13:23:42", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 10"}
+{"time": "2026-11-11T13:23:43", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:43", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15304065818}
+{"time": "2026-11-11T13:23:43", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15304083818}
+{"time": "2026-11-11T13:23:43", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15304107649}
+{"time": "2026-11-11T13:23:43", "kind": "PROBE_PROGRESS", "scenario": "original_pattern", "windows": 30, "max_error_ms": 1.518518518518519, "long_period_windows": 0}
+{"time": "2026-11-11T13:23:43", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15304122650}
+{"time": "2026-11-11T13:23:43", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15304135650}
+{"time": "2026-11-11T13:23:43", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15304144650}
+{"time": "2026-11-11T13:23:43", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 11"}
+{"time": "2026-11-11T13:23:44", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:44", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15305231901}
+{"time": "2026-11-11T13:23:44", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15305248901}
+{"time": "2026-11-11T13:23:44", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15305268901}
+{"time": "2026-11-11T13:23:44", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15305278902}
+{"time": "2026-11-11T13:23:44", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15305289902}
+{"time": "2026-11-11T13:23:44", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15305298902}
+{"time": "2026-11-11T13:23:44", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 12"}
+{"time": "2026-11-11T13:23:45", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:45", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15306386865}
+{"time": "2026-11-11T13:23:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15306406865}
+{"time": "2026-11-11T13:23:45", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15306423865}
+{"time": "2026-11-11T13:23:45", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15306435866}
+{"time": "2026-11-11T13:23:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15306444866}
+{"time": "2026-11-11T13:23:45", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15306457866}
+{"time": "2026-11-11T13:23:45", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 13"}
+{"time": "2026-11-11T13:23:46", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:46", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15307549150}
+{"time": "2026-11-11T13:23:46", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252513141112", "errors": 0, "hw_us": 15307568150}
+{"time": "2026-11-11T13:23:46", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15307585150}
+{"time": "2026-11-11T13:23:46", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15307598151}
+{"time": "2026-11-11T13:23:46", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15307607151}
+{"time": "2026-11-11T13:23:46", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15307616151}
+{"time": "2026-11-11T13:23:46", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 14"}
+{"time": "2026-11-11T13:23:47", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:47", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15308704882}
+{"time": "2026-11-11T13:23:47", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15308722882}
+{"time": "2026-11-11T13:23:47", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15308746882}
+{"time": "2026-11-11T13:23:47", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15308758883}
+{"time": "2026-11-11T13:23:47", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15308771883}
+{"time": "2026-11-11T13:23:47", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15308783883}
+{"time": "2026-11-11T13:23:47", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 15"}
+{"time": "2026-11-11T13:23:49", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:49", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15309872200}
+{"time": "2026-11-11T13:23:49", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15309888200}
+{"time": "2026-11-11T13:23:49", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15309905200}
+{"time": "2026-11-11T13:23:49", "kind": "PROBE_PROGRESS", "scenario": "original_pattern", "windows": 45, "max_error_ms": 1.518518518518519, "long_period_windows": 0}
+{"time": "2026-11-11T13:23:49", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15309916201}
+{"time": "2026-11-11T13:23:49", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15309925201}
+{"time": "2026-11-11T13:23:49", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15309934201}
+{"time": "2026-11-11T13:23:49", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 16"}
+{"time": "2026-11-11T13:23:50", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:50", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15311021804}
+{"time": "2026-11-11T13:23:50", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15311037804}
+{"time": "2026-11-11T13:23:50", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15311054804}
+{"time": "2026-11-11T13:23:50", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15311064805}
+{"time": "2026-11-11T13:23:50", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15311072805}
+{"time": "2026-11-11T13:23:50", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15311080805}
+{"time": "2026-11-11T13:23:50", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 17"}
+{"time": "2026-11-11T13:23:51", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:51", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15312168819}
+{"time": "2026-11-11T13:23:51", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613141113", "errors": 0, "hw_us": 15312185819}
+{"time": "2026-11-11T13:23:51", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15312202819}
+{"time": "2026-11-11T13:23:51", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15312213820}
+{"time": "2026-11-11T13:23:51", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15312222820}
+{"time": "2026-11-11T13:23:51", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15312235820}
+{"time": "2026-11-11T13:23:51", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 18"}
+{"time": "2026-11-11T13:23:52", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:52", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15313323883}
+{"time": "2026-11-11T13:23:52", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15313340883}
+{"time": "2026-11-11T13:23:52", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15313357883}
+{"time": "2026-11-11T13:23:52", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15313372884}
+{"time": "2026-11-11T13:23:52", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15313381884}
+{"time": "2026-11-11T13:23:52", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15313390884}
+{"time": "2026-11-11T13:23:52", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 19"}
+{"time": "2026-11-11T13:23:53", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:53", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15314477790}
+{"time": "2026-11-11T13:23:53", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15314495790}
+{"time": "2026-11-11T13:23:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15314511790}
+{"time": "2026-11-11T13:23:53", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15314523791}
+{"time": "2026-11-11T13:23:53", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15314532791}
+{"time": "2026-11-11T13:23:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15314540791}
+{"time": "2026-11-11T13:23:53", "kind": "CONTROL_ONLY_BEGIN", "label": "original_pattern capture 20"}
+{"time": "2026-11-11T13:23:54", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15315627885}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203252613131213", "errors": 0, "hw_us": 15315643885}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203323219191919", "errors": 0, "hw_us": 15315660885}
+{"time": "2026-11-11T13:23:54", "kind": "PROBE_PROGRESS", "scenario": "original_pattern", "windows": 60, "max_error_ms": 1.518518518518519, "long_period_windows": 0}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15315671886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 15315681886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15315689886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 15315698886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15315707886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 15315715886}
+{"time": "2026-11-11T13:23:54", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 configure"}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "01011600001a190f", "errors": 0, "hw_us": 15315724886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "010216001a00ed07", "errors": 0, "hw_us": 15315732886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0104161a1a1a190f", "errors": 0, "hw_us": 15315741886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0108161a1a1aed1e", "errors": 0, "hw_us": 15315750886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0110161a1a1abb0d", "errors": 0, "hw_us": 15315758886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a0000bb1e", "errors": 0, "hw_us": 15315767886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0201161a0000bb1b", "errors": 0, "hw_us": 15315776886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "02021600001a190f", "errors": 0, "hw_us": 15315785886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "020416001a003e0f", "errors": 0, "hw_us": 15315794886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "020816001a00ed1e", "errors": 0, "hw_us": 15315802886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "0210161a00003e17", "errors": 0, "hw_us": 15315822886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "02201600001ae111", "errors": 0, "hw_us": 15315831886}
+{"time": "2026-11-11T13:23:54", "kind": "FRAME", "id": 1, "publisher": true, "data": "04011600001ae114", "errors": 0, "hw_us": 15315839886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 1, "publisher": true, "data": "0402161a1a1ae107", "errors": 0, "hw_us": 15315848886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 1, "publisher": true, "data": "040416001a000c1b", "errors": 0, "hw_us": 15315856886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 1, "publisher": true, "data": "04081600001aed1e", "errors": 0, "hw_us": 15315866886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 1, "publisher": true, "data": "0410161a00003e0d", "errors": 0, "hw_us": 15315875886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 1, "publisher": true, "data": "042016001a00ed07", "errors": 0, "hw_us": 15315884886}
+{"time": "2026-11-11T13:23:55", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15315954886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15315962886}
+{"time": "2026-11-11T13:23:55", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15315977886}
+{"time": "2026-11-11T13:23:55", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 1"}
+{"time": "2026-11-11T13:23:56", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:56", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15317066892}
+{"time": "2026-11-11T13:23:56", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15317087892}
+{"time": "2026-11-11T13:23:56", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15317102828}
+{"time": "2026-11-11T13:23:56", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15317115829}
+{"time": "2026-11-11T13:23:56", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15317124829}
+{"time": "2026-11-11T13:23:56", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15317133829}
+{"time": "2026-11-11T13:23:56", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 2"}
+{"time": "2026-11-11T13:23:57", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:57", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15318220899}
+{"time": "2026-11-11T13:23:57", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15318237899}
+{"time": "2026-11-11T13:23:57", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15318254899}
+{"time": "2026-11-11T13:23:57", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15318264900}
+{"time": "2026-11-11T13:23:57", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15318272900}
+{"time": "2026-11-11T13:23:57", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15318281900}
+{"time": "2026-11-11T13:23:57", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 3"}
+{"time": "2026-11-11T13:23:58", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:58", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220210102", "errors": 0, "hw_us": 15319369913}
+{"time": "2026-11-11T13:23:58", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15319385913}
+{"time": "2026-11-11T13:23:58", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15319402913}
+{"time": "2026-11-11T13:23:58", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15319412914}
+{"time": "2026-11-11T13:23:58", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15319421914}
+{"time": "2026-11-11T13:23:58", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15319430914}
+{"time": "2026-11-11T13:23:58", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 4"}
+{"time": "2026-11-11T13:23:59", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:23:59", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15320519820}
+{"time": "2026-11-11T13:23:59", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15320538820}
+{"time": "2026-11-11T13:23:59", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15320555820}
+{"time": "2026-11-11T13:23:59", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15320567821}
+{"time": "2026-11-11T13:23:59", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15320576821}
+{"time": "2026-11-11T13:23:59", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15320585821}
+{"time": "2026-11-11T13:23:59", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 5"}
+{"time": "2026-11-11T13:24:00", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220210102", "errors": 0, "hw_us": 15321673577}
+{"time": "2026-11-11T13:24:00", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15321690577}
+{"time": "2026-11-11T13:24:00", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15321707577}
+{"time": "2026-11-11T13:24:00", "kind": "PROBE_PROGRESS", "scenario": "all_back_94.8", "windows": 15, "max_error_ms": 1.3999999999999986, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15321718578}
+{"time": "2026-11-11T13:24:00", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15321726578}
+{"time": "2026-11-11T13:24:00", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15321736578}
+{"time": "2026-11-11T13:24:00", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 6"}
+{"time": "2026-11-11T13:24:01", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:01", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15322822862}
+{"time": "2026-11-11T13:24:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15322839862}
+{"time": "2026-11-11T13:24:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15322856862}
+{"time": "2026-11-11T13:24:02", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15322869863}
+{"time": "2026-11-11T13:24:02", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15322878863}
+{"time": "2026-11-11T13:24:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15322887863}
+{"time": "2026-11-11T13:24:02", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 7"}
+{"time": "2026-11-11T13:24:03", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:03", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15323975890}
+{"time": "2026-11-11T13:24:03", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15323991890}
+{"time": "2026-11-11T13:24:03", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15324008890}
+{"time": "2026-11-11T13:24:03", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15324018891}
+{"time": "2026-11-11T13:24:03", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15324027891}
+{"time": "2026-11-11T13:24:03", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15324035891}
+{"time": "2026-11-11T13:24:03", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 8"}
+{"time": "2026-11-11T13:24:04", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:04", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15325122951}
+{"time": "2026-11-11T13:24:04", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15325139951}
+{"time": "2026-11-11T13:24:04", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15325155951}
+{"time": "2026-11-11T13:24:04", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15325166952}
+{"time": "2026-11-11T13:24:04", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15325176957}
+{"time": "2026-11-11T13:24:04", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15325185952}
+{"time": "2026-11-11T13:24:04", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 9"}
+{"time": "2026-11-11T13:24:05", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:05", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15326272930}
+{"time": "2026-11-11T13:24:05", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15326294930}
+{"time": "2026-11-11T13:24:05", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15326312930}
+{"time": "2026-11-11T13:24:05", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15326325931}
+{"time": "2026-11-11T13:24:05", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15326335931}
+{"time": "2026-11-11T13:24:05", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15326344931}
+{"time": "2026-11-11T13:24:05", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 10"}
+{"time": "2026-11-11T13:24:06", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:06", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220210102", "errors": 0, "hw_us": 15327433027}
+{"time": "2026-11-11T13:24:06", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15327450027}
+{"time": "2026-11-11T13:24:06", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15327467027}
+{"time": "2026-11-11T13:24:06", "kind": "PROBE_PROGRESS", "scenario": "all_back_94.8", "windows": 30, "max_error_ms": 1.3999999999999986, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:06", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15327478028}
+{"time": "2026-11-11T13:24:06", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15327487028}
+{"time": "2026-11-11T13:24:06", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15327498028}
+{"time": "2026-11-11T13:24:06", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 11"}
+{"time": "2026-11-11T13:24:07", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:07", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15328586079}
+{"time": "2026-11-11T13:24:07", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15328602079}
+{"time": "2026-11-11T13:24:07", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15328618079}
+{"time": "2026-11-11T13:24:07", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15328628080}
+{"time": "2026-11-11T13:24:07", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15328636080}
+{"time": "2026-11-11T13:24:07", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15328644080}
+{"time": "2026-11-11T13:24:07", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 12"}
+{"time": "2026-11-11T13:24:08", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:08", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220210102", "errors": 0, "hw_us": 15329730913}
+{"time": "2026-11-11T13:24:08", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15329747910}
+{"time": "2026-11-11T13:24:08", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15329764910}
+{"time": "2026-11-11T13:24:08", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15329777911}
+{"time": "2026-11-11T13:24:08", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15329787911}
+{"time": "2026-11-11T13:24:08", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15329796911}
+{"time": "2026-11-11T13:24:08", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 13"}
+{"time": "2026-11-11T13:24:10", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:10", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15330886453}
+{"time": "2026-11-11T13:24:10", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15330906453}
+{"time": "2026-11-11T13:24:10", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15330926453}
+{"time": "2026-11-11T13:24:10", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15330939454}
+{"time": "2026-11-11T13:24:10", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15330953454}
+{"time": "2026-11-11T13:24:10", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15330963454}
+{"time": "2026-11-11T13:24:10", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 14"}
+{"time": "2026-11-11T13:24:11", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:11", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220210102", "errors": 0, "hw_us": 15332051387}
+{"time": "2026-11-11T13:24:11", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15332075387}
+{"time": "2026-11-11T13:24:11", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15332100401}
+{"time": "2026-11-11T13:24:11", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15332124402}
+{"time": "2026-11-11T13:24:11", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15332134402}
+{"time": "2026-11-11T13:24:11", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15332142402}
+{"time": "2026-11-11T13:24:11", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 15"}
+{"time": "2026-11-11T13:24:12", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:12", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220210102", "errors": 0, "hw_us": 15333229076}
+{"time": "2026-11-11T13:24:12", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15333251076}
+{"time": "2026-11-11T13:24:12", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15333271076}
+{"time": "2026-11-11T13:24:12", "kind": "PROBE_PROGRESS", "scenario": "all_back_94.8", "windows": 45, "max_error_ms": 1.3999999999999986, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:12", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15333287077}
+{"time": "2026-11-11T13:24:12", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15333298077}
+{"time": "2026-11-11T13:24:12", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15333310077}
+{"time": "2026-11-11T13:24:12", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 16"}
+{"time": "2026-11-11T13:24:13", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:13", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15334398146}
+{"time": "2026-11-11T13:24:13", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15334419146}
+{"time": "2026-11-11T13:24:13", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15334441146}
+{"time": "2026-11-11T13:24:13", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15334456147}
+{"time": "2026-11-11T13:24:13", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15334469147}
+{"time": "2026-11-11T13:24:13", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15334478147}
+{"time": "2026-11-11T13:24:13", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 17"}
+{"time": "2026-11-11T13:24:14", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:14", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15335567774}
+{"time": "2026-11-11T13:24:14", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15335584774}
+{"time": "2026-11-11T13:24:14", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15335601774}
+{"time": "2026-11-11T13:24:14", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15335611775}
+{"time": "2026-11-11T13:24:14", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15335623775}
+{"time": "2026-11-11T13:24:14", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15335632775}
+{"time": "2026-11-11T13:24:14", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 18"}
+{"time": "2026-11-11T13:24:15", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:15", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15336725899}
+{"time": "2026-11-11T13:24:15", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15336746899}
+{"time": "2026-11-11T13:24:15", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15336768899}
+{"time": "2026-11-11T13:24:15", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15336785900}
+{"time": "2026-11-11T13:24:15", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15336794900}
+{"time": "2026-11-11T13:24:15", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15336803900}
+{"time": "2026-11-11T13:24:15", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 19"}
+{"time": "2026-11-11T13:24:17", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:17", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15337892019}
+{"time": "2026-11-11T13:24:17", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15337910019}
+{"time": "2026-11-11T13:24:17", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15337927019}
+{"time": "2026-11-11T13:24:17", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15337940020}
+{"time": "2026-11-11T13:24:17", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15337949020}
+{"time": "2026-11-11T13:24:17", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15337958020}
+{"time": "2026-11-11T13:24:17", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_94.8 capture 20"}
+{"time": "2026-11-11T13:24:18", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15339047371}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15339065371}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15339085371}
+{"time": "2026-11-11T13:24:18", "kind": "PROBE_PROGRESS", "scenario": "all_back_94.8", "windows": 60, "max_error_ms": 1.3999999999999986, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15339097372}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 15339106797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15339122797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 15339130797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15339139797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 15339154797}
+{"time": "2026-11-11T13:24:18", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 configure"}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "01011600001a190f", "errors": 0, "hw_us": 15339169797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "010216001a00ed07", "errors": 0, "hw_us": 15339182797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0104161a1a1a190f", "errors": 0, "hw_us": 15339194797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0108161a1a1ae11e", "errors": 0, "hw_us": 15339203797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0110161a1a1abb0d", "errors": 0, "hw_us": 15339216797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0120161a0000bb1e", "errors": 0, "hw_us": 15339228797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0201161a0000bb1b", "errors": 0, "hw_us": 15339243797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "02021600001a190f", "errors": 0, "hw_us": 15339256797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "020416001a003e0f", "errors": 0, "hw_us": 15339268797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "020816001a00e11e", "errors": 0, "hw_us": 15339280797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0210161a00003e17", "errors": 0, "hw_us": 15339292797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "02201600001ae111", "errors": 0, "hw_us": 15339303797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "04011600001ae114", "errors": 0, "hw_us": 15339318797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0402161a1a1ae107", "errors": 0, "hw_us": 15339328797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "040416001a000c1b", "errors": 0, "hw_us": 15339341797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "04081600001ae11e", "errors": 0, "hw_us": 15339352797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "0410161a00003e0d", "errors": 0, "hw_us": 15339368797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 1, "publisher": true, "data": "042016001a00ed07", "errors": 0, "hw_us": 15339376797}
+{"time": "2026-11-11T13:24:18", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15339448797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15339462797}
+{"time": "2026-11-11T13:24:18", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15339476797}
+{"time": "2026-11-11T13:24:18", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 1"}
+{"time": "2026-11-11T13:24:19", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:19", "kind": "FRAME", "id": 44, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15340564966}
+{"time": "2026-11-11T13:24:19", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15340583966}
+{"time": "2026-11-11T13:24:19", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15340600966}
+{"time": "2026-11-11T13:24:19", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15340614967}
+{"time": "2026-11-11T13:24:19", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15340625967}
+{"time": "2026-11-11T13:24:19", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15340634967}
+{"time": "2026-11-11T13:24:19", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 2"}
+{"time": "2026-11-11T13:24:20", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:20", "kind": "FRAME", "id": 44, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15341723086}
+{"time": "2026-11-11T13:24:20", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15341745086}
+{"time": "2026-11-11T13:24:20", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15341762086}
+{"time": "2026-11-11T13:24:20", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15341776087}
+{"time": "2026-11-11T13:24:20", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15341785087}
+{"time": "2026-11-11T13:24:20", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15341794087}
+{"time": "2026-11-11T13:24:20", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 3"}
+{"time": "2026-11-11T13:24:22", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:22", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15342883350}
+{"time": "2026-11-11T13:24:22", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15342905350}
+{"time": "2026-11-11T13:24:22", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15342925350}
+{"time": "2026-11-11T13:24:22", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15342941351}
+{"time": "2026-11-11T13:24:22", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15342955355}
+{"time": "2026-11-11T13:24:22", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15342965351}
+{"time": "2026-11-11T13:24:22", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 4"}
+{"time": "2026-11-11T13:24:23", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:23", "kind": "FRAME", "id": 44, "publisher": false, "data": "820321221e1e0204", "errors": 0, "hw_us": 15344057127}
+{"time": "2026-11-11T13:24:23", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15344074127}
+{"time": "2026-11-11T13:24:23", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15344091127}
+{"time": "2026-11-11T13:24:23", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15344103993}
+{"time": "2026-11-11T13:24:23", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15344112993}
+{"time": "2026-11-11T13:24:23", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15344121993}
+{"time": "2026-11-11T13:24:23", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 5"}
+{"time": "2026-11-11T13:24:24", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:24", "kind": "FRAME", "id": 44, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15345210287}
+{"time": "2026-11-11T13:24:24", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15345227287}
+{"time": "2026-11-11T13:24:24", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15345244287}
+{"time": "2026-11-11T13:24:24", "kind": "PROBE_PROGRESS", "scenario": "all_back_90", "windows": 15, "max_error_ms": 1.6666666666666665, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:24", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15345260288}
+{"time": "2026-11-11T13:24:24", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15345272288}
+{"time": "2026-11-11T13:24:24", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15345280288}
+{"time": "2026-11-11T13:24:24", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 6"}
+{"time": "2026-11-11T13:24:25", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:25", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320241d1e0306", "errors": 0, "hw_us": 15346368124}
+{"time": "2026-11-11T13:24:25", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15346385124}
+{"time": "2026-11-11T13:24:25", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15346401124}
+{"time": "2026-11-11T13:24:25", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15346415125}
+{"time": "2026-11-11T13:24:25", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15346423125}
+{"time": "2026-11-11T13:24:25", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15346432125}
+{"time": "2026-11-11T13:24:25", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 7"}
+{"time": "2026-11-11T13:24:26", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:26", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1f0205", "errors": 0, "hw_us": 15347520140}
+{"time": "2026-11-11T13:24:26", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15347538140}
+{"time": "2026-11-11T13:24:26", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15347557140}
+{"time": "2026-11-11T13:24:26", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15347576141}
+{"time": "2026-11-11T13:24:26", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15347585141}
+{"time": "2026-11-11T13:24:26", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15347594141}
+{"time": "2026-11-11T13:24:26", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 8"}
+{"time": "2026-11-11T13:24:27", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:27", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15348682116}
+{"time": "2026-11-11T13:24:27", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15348702116}
+{"time": "2026-11-11T13:24:27", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15348719116}
+{"time": "2026-11-11T13:24:27", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15348735117}
+{"time": "2026-11-11T13:24:27", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15348745117}
+{"time": "2026-11-11T13:24:27", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15348754117}
+{"time": "2026-11-11T13:24:27", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 9"}
+{"time": "2026-11-11T13:24:28", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:28", "kind": "FRAME", "id": 44, "publisher": false, "data": "82031f241c1e0306", "errors": 0, "hw_us": 15349843260}
+{"time": "2026-11-11T13:24:29", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15349861260}
+{"time": "2026-11-11T13:24:29", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15349879260}
+{"time": "2026-11-11T13:24:29", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15349891261}
+{"time": "2026-11-11T13:24:29", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15349900261}
+{"time": "2026-11-11T13:24:29", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15349909261}
+{"time": "2026-11-11T13:24:29", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 10"}
+{"time": "2026-11-11T13:24:30", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:30", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15350995163}
+{"time": "2026-11-11T13:24:30", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15351011163}
+{"time": "2026-11-11T13:24:30", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15351028163}
+{"time": "2026-11-11T13:24:30", "kind": "PROBE_PROGRESS", "scenario": "all_back_90", "windows": 30, "max_error_ms": 2.6666666666666665, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:30", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15351043164}
+{"time": "2026-11-11T13:24:30", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15351054164}
+{"time": "2026-11-11T13:24:30", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15351063164}
+{"time": "2026-11-11T13:24:30", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 11"}
+{"time": "2026-11-11T13:24:31", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:31", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231e1e0205", "errors": 0, "hw_us": 15352151184}
+{"time": "2026-11-11T13:24:31", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15352167184}
+{"time": "2026-11-11T13:24:31", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15352185184}
+{"time": "2026-11-11T13:24:31", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15352197185}
+{"time": "2026-11-11T13:24:31", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15352207185}
+{"time": "2026-11-11T13:24:31", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15352215185}
+{"time": "2026-11-11T13:24:31", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 12"}
+{"time": "2026-11-11T13:24:32", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:32", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15353303095}
+{"time": "2026-11-11T13:24:32", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15353320095}
+{"time": "2026-11-11T13:24:32", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15353336095}
+{"time": "2026-11-11T13:24:32", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15353348096}
+{"time": "2026-11-11T13:24:32", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15353357096}
+{"time": "2026-11-11T13:24:32", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15353366096}
+{"time": "2026-11-11T13:24:32", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 13"}
+{"time": "2026-11-11T13:24:33", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:33", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15354454246}
+{"time": "2026-11-11T13:24:33", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15354471246}
+{"time": "2026-11-11T13:24:33", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15354496246}
+{"time": "2026-11-11T13:24:33", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15354515247}
+{"time": "2026-11-11T13:24:33", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15354524247}
+{"time": "2026-11-11T13:24:33", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15354534247}
+{"time": "2026-11-11T13:24:33", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 14"}
+{"time": "2026-11-11T13:24:34", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:34", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15355621155}
+{"time": "2026-11-11T13:24:34", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15355640155}
+{"time": "2026-11-11T13:24:34", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15355660155}
+{"time": "2026-11-11T13:24:34", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15355676156}
+{"time": "2026-11-11T13:24:34", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15355685156}
+{"time": "2026-11-11T13:24:34", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15355695156}
+{"time": "2026-11-11T13:24:34", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 15"}
+{"time": "2026-11-11T13:24:35", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:35", "kind": "FRAME", "id": 44, "publisher": false, "data": "82031f241c1e0306", "errors": 0, "hw_us": 15356783924}
+{"time": "2026-11-11T13:24:35", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15356799924}
+{"time": "2026-11-11T13:24:35", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15356816924}
+{"time": "2026-11-11T13:24:35", "kind": "PROBE_PROGRESS", "scenario": "all_back_90", "windows": 45, "max_error_ms": 2.6666666666666665, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:35", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15356828925}
+{"time": "2026-11-11T13:24:35", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15356839925}
+{"time": "2026-11-11T13:24:36", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15356850925}
+{"time": "2026-11-11T13:24:36", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 16"}
+{"time": "2026-11-11T13:24:37", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:37", "kind": "FRAME", "id": 44, "publisher": false, "data": "820320231d1e0305", "errors": 0, "hw_us": 15357937163}
+{"time": "2026-11-11T13:24:37", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15357954163}
+{"time": "2026-11-11T13:24:37", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15357970163}
+{"time": "2026-11-11T13:24:37", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15357984164}
+{"time": "2026-11-11T13:24:37", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15357993164}
+{"time": "2026-11-11T13:24:37", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15358002164}
+{"time": "2026-11-11T13:24:37", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 17"}
+{"time": "2026-11-11T13:24:38", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:38", "kind": "FRAME", "id": 44, "publisher": false, "data": "82031f241c1e0306", "errors": 0, "hw_us": 15359090844}
+{"time": "2026-11-11T13:24:38", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15359107093}
+{"time": "2026-11-11T13:24:38", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15359124093}
+{"time": "2026-11-11T13:24:38", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15359137094}
+{"time": "2026-11-11T13:24:38", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15359146094}
+{"time": "2026-11-11T13:24:38", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15359154094}
+{"time": "2026-11-11T13:24:38", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 18"}
+{"time": "2026-11-11T13:24:39", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:39", "kind": "FRAME", "id": 44, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15360243082}
+{"time": "2026-11-11T13:24:39", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15360260082}
+{"time": "2026-11-11T13:24:39", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15360278082}
+{"time": "2026-11-11T13:24:39", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15360290083}
+{"time": "2026-11-11T13:24:39", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15360302083}
+{"time": "2026-11-11T13:24:39", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15360311083}
+{"time": "2026-11-11T13:24:39", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 19"}
+{"time": "2026-11-11T13:24:40", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:40", "kind": "FRAME", "id": 44, "publisher": false, "data": "82031f241c1e0306", "errors": 0, "hw_us": 15361397187}
+{"time": "2026-11-11T13:24:40", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15361418187}
+{"time": "2026-11-11T13:24:40", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15361435187}
+{"time": "2026-11-11T13:24:40", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15361448188}
+{"time": "2026-11-11T13:24:40", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15361457188}
+{"time": "2026-11-11T13:24:40", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15361466188}
+{"time": "2026-11-11T13:24:40", "kind": "CONTROL_ONLY_BEGIN", "label": "all_back_90 capture 20"}
+{"time": "2026-11-11T13:24:41", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 44, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15362554778}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 45, "publisher": false, "data": "820321221e1e0304", "errors": 0, "hw_us": 15362570778}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 46, "publisher": false, "data": "820321221e1f0204", "errors": 0, "hw_us": 15362587778}
+{"time": "2026-11-11T13:24:41", "kind": "PROBE_PROGRESS", "scenario": "all_back_90", "windows": 60, "max_error_ms": 2.6666666666666665, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15362603779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 15362612779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15362621779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 15362630779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15362638779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 15362648779}
+{"time": "2026-11-11T13:24:41", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 configure"}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "0108161a1a1aed1e", "errors": 0, "hw_us": 15362666779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "020816001a00ed1e", "errors": 0, "hw_us": 15362675779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 1, "publisher": true, "data": "04081600001aed1e", "errors": 0, "hw_us": 15362684779}
+{"time": "2026-11-11T13:24:41", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15362753779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15362765779}
+{"time": "2026-11-11T13:24:41", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15362774779}
+{"time": "2026-11-11T13:24:41", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 1"}
+{"time": "2026-11-11T13:24:42", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:43", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15363863196}
+{"time": "2026-11-11T13:24:43", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15363880196}
+{"time": "2026-11-11T13:24:43", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15363897196}
+{"time": "2026-11-11T13:24:43", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15363908197}
+{"time": "2026-11-11T13:24:43", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15363918197}
+{"time": "2026-11-11T13:24:43", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15363927197}
+{"time": "2026-11-11T13:24:43", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 2"}
+{"time": "2026-11-11T13:24:44", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:44", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15365017291}
+{"time": "2026-11-11T13:24:44", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15365036291}
+{"time": "2026-11-11T13:24:44", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15365053291}
+{"time": "2026-11-11T13:24:44", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15365067292}
+{"time": "2026-11-11T13:24:44", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15365077292}
+{"time": "2026-11-11T13:24:44", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15365086292}
+{"time": "2026-11-11T13:24:44", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 3"}
+{"time": "2026-11-11T13:24:45", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:45", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15366175266}
+{"time": "2026-11-11T13:24:45", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15366192266}
+{"time": "2026-11-11T13:24:45", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15366209266}
+{"time": "2026-11-11T13:24:45", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15366222267}
+{"time": "2026-11-11T13:24:45", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15366231267}
+{"time": "2026-11-11T13:24:45", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15366240267}
+{"time": "2026-11-11T13:24:45", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 4"}
+{"time": "2026-11-11T13:24:46", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:46", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15367328172}
+{"time": "2026-11-11T13:24:46", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15367345172}
+{"time": "2026-11-11T13:24:46", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15367363172}
+{"time": "2026-11-11T13:24:46", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15367380173}
+{"time": "2026-11-11T13:24:46", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15367389173}
+{"time": "2026-11-11T13:24:46", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15367398173}
+{"time": "2026-11-11T13:24:46", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 5"}
+{"time": "2026-11-11T13:24:47", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:47", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15368485193}
+{"time": "2026-11-11T13:24:47", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15368503193}
+{"time": "2026-11-11T13:24:47", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15368521193}
+{"time": "2026-11-11T13:24:47", "kind": "PROBE_PROGRESS", "scenario": "back_only_94.8", "windows": 15, "max_error_ms": 0.7333333333333334, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:47", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15368537194}
+{"time": "2026-11-11T13:24:47", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15368545194}
+{"time": "2026-11-11T13:24:47", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15368554194}
+{"time": "2026-11-11T13:24:47", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 6"}
+{"time": "2026-11-11T13:24:48", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:48", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15369641293}
+{"time": "2026-11-11T13:24:48", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15369658293}
+{"time": "2026-11-11T13:24:48", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15369675293}
+{"time": "2026-11-11T13:24:48", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15369687294}
+{"time": "2026-11-11T13:24:48", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15369695294}
+{"time": "2026-11-11T13:24:48", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15369704294}
+{"time": "2026-11-11T13:24:48", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 7"}
+{"time": "2026-11-11T13:24:49", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:49", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15370791193}
+{"time": "2026-11-11T13:24:49", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15370810193}
+{"time": "2026-11-11T13:24:49", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15370827193}
+{"time": "2026-11-11T13:24:49", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15370839194}
+{"time": "2026-11-11T13:24:50", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15370852194}
+{"time": "2026-11-11T13:24:50", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15370863194}
+{"time": "2026-11-11T13:24:50", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 8"}
+{"time": "2026-11-11T13:24:51", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:51", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15371953736}
+{"time": "2026-11-11T13:24:51", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15371971736}
+{"time": "2026-11-11T13:24:51", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15371988736}
+{"time": "2026-11-11T13:24:51", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15372000737}
+{"time": "2026-11-11T13:24:51", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15372008737}
+{"time": "2026-11-11T13:24:51", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15372017737}
+{"time": "2026-11-11T13:24:51", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 9"}
+{"time": "2026-11-11T13:24:52", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:52", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15373106273}
+{"time": "2026-11-11T13:24:52", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15373123273}
+{"time": "2026-11-11T13:24:52", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15373140273}
+{"time": "2026-11-11T13:24:52", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15373155274}
+{"time": "2026-11-11T13:24:52", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15373164274}
+{"time": "2026-11-11T13:24:52", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15373172274}
+{"time": "2026-11-11T13:24:52", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 10"}
+{"time": "2026-11-11T13:24:53", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:53", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15374260289}
+{"time": "2026-11-11T13:24:53", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15374277289}
+{"time": "2026-11-11T13:24:53", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15374294289}
+{"time": "2026-11-11T13:24:53", "kind": "PROBE_PROGRESS", "scenario": "back_only_94.8", "windows": 30, "max_error_ms": 0.7333333333333334, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:53", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15374313290}
+{"time": "2026-11-11T13:24:53", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15374322290}
+{"time": "2026-11-11T13:24:53", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15374331290}
+{"time": "2026-11-11T13:24:53", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 11"}
+{"time": "2026-11-11T13:24:54", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:54", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15375419831}
+{"time": "2026-11-11T13:24:54", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15375437831}
+{"time": "2026-11-11T13:24:54", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15375455831}
+{"time": "2026-11-11T13:24:54", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15375478832}
+{"time": "2026-11-11T13:24:54", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15375487832}
+{"time": "2026-11-11T13:24:54", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15375496832}
+{"time": "2026-11-11T13:24:54", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 12"}
+{"time": "2026-11-11T13:24:55", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:55", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15376584339}
+{"time": "2026-11-11T13:24:55", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15376603339}
+{"time": "2026-11-11T13:24:55", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15376620339}
+{"time": "2026-11-11T13:24:55", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15376638340}
+{"time": "2026-11-11T13:24:55", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15376647340}
+{"time": "2026-11-11T13:24:55", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15376656340}
+{"time": "2026-11-11T13:24:55", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 13"}
+{"time": "2026-11-11T13:24:56", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:56", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15377746214}
+{"time": "2026-11-11T13:24:56", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15377763214}
+{"time": "2026-11-11T13:24:56", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15377780214}
+{"time": "2026-11-11T13:24:56", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15377800215}
+{"time": "2026-11-11T13:24:56", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15377809215}
+{"time": "2026-11-11T13:24:56", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15377818215}
+{"time": "2026-11-11T13:24:56", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 14"}
+{"time": "2026-11-11T13:24:58", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:58", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15378905333}
+{"time": "2026-11-11T13:24:58", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15378921333}
+{"time": "2026-11-11T13:24:58", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15378939333}
+{"time": "2026-11-11T13:24:58", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15378954334}
+{"time": "2026-11-11T13:24:58", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15378963334}
+{"time": "2026-11-11T13:24:58", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15378971334}
+{"time": "2026-11-11T13:24:58", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 15"}
+{"time": "2026-11-11T13:24:59", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:24:59", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15380057509}
+{"time": "2026-11-11T13:24:59", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15380075509}
+{"time": "2026-11-11T13:24:59", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15380095509}
+{"time": "2026-11-11T13:24:59", "kind": "PROBE_PROGRESS", "scenario": "back_only_94.8", "windows": 45, "max_error_ms": 0.7333333333333334, "long_period_windows": 0}
+{"time": "2026-11-11T13:24:59", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15380111372}
+{"time": "2026-11-11T13:24:59", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15380120372}
+{"time": "2026-11-11T13:24:59", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15380130372}
+{"time": "2026-11-11T13:24:59", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 16"}
+{"time": "2026-11-11T13:25:00", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:25:00", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15381220233}
+{"time": "2026-11-11T13:25:00", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15381246233}
+{"time": "2026-11-11T13:25:00", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15381281233}
+{"time": "2026-11-11T13:25:00", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15381310234}
+{"time": "2026-11-11T13:25:00", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15381320234}
+{"time": "2026-11-11T13:25:00", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15381330234}
+{"time": "2026-11-11T13:25:00", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 17"}
+{"time": "2026-11-11T13:25:01", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:25:01", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15382416327}
+{"time": "2026-11-11T13:25:01", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15382434327}
+{"time": "2026-11-11T13:25:01", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15382452327}
+{"time": "2026-11-11T13:25:01", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15382468328}
+{"time": "2026-11-11T13:25:01", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15382477328}
+{"time": "2026-11-11T13:25:01", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15382486328}
+{"time": "2026-11-11T13:25:01", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 18"}
+{"time": "2026-11-11T13:25:02", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:25:02", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15383576301}
+{"time": "2026-11-11T13:25:02", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15383593301}
+{"time": "2026-11-11T13:25:02", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15383612301}
+{"time": "2026-11-11T13:25:02", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15383627302}
+{"time": "2026-11-11T13:25:02", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15383636302}
+{"time": "2026-11-11T13:25:02", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15383645302}
+{"time": "2026-11-11T13:25:02", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 19"}
+{"time": "2026-11-11T13:25:03", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:25:03", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15384733387}
+{"time": "2026-11-11T13:25:03", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15384752387}
+{"time": "2026-11-11T13:25:03", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15384769387}
+{"time": "2026-11-11T13:25:03", "kind": "FRAME", "id": 40, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15384788388}
+{"time": "2026-11-11T13:25:03", "kind": "FRAME", "id": 41, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15384797388}
+{"time": "2026-11-11T13:25:03", "kind": "FRAME", "id": 42, "publisher": true, "data": "0203000000e80300", "errors": 0, "hw_us": 15384811388}
+{"time": "2026-11-11T13:25:03", "kind": "CONTROL_ONLY_BEGIN", "label": "back_only_94.8 capture 20"}
+{"time": "2026-11-11T13:25:05", "kind": "CONTROL_ONLY_END"}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 44, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15385899348}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 45, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15385917348}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 46, "publisher": false, "data": "8203212220200102", "errors": 0, "hw_us": 15385933348}
+{"time": "2026-11-11T13:25:05", "kind": "PROBE_PROGRESS", "scenario": "back_only_94.8", "windows": 60, "max_error_ms": 0.7333333333333334, "long_period_windows": 0}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 40, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15385946349}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 1, "publisher": true, "data": "013f070000000000", "errors": 0, "hw_us": 15385955349}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 41, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15385967349}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 1, "publisher": true, "data": "023f070000000000", "errors": 0, "hw_us": 15385976349}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 42, "publisher": true, "data": "0400000000000000", "errors": 0, "hw_us": 15385985349}
+{"time": "2026-11-11T13:25:05", "kind": "FRAME", "id": 1, "publisher": true, "data": "043f070000000000", "errors": 0, "hw_us": 15386001349}
+{"time": "2026-11-11T13:25:05", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-11T13:25:05", "kind": "CLEANUP", "remove_client": 0}

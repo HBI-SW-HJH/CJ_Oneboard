@@ -1,0 +1,17 @@
+{"time":"2026-11-11T13:17:23.7962785+09:00","name":"AUTO_START","value":{"chair":11,"maximumBrightnessIncluded":false,"brightnessLevels":"2/5/10%","gui":false,"originalPcAlgorithm":true}}
+{"time":"2026-11-11T13:17:23.7962785+09:00","name":"STATUS","value":"LED 자동검사 시작"}
+{"time":"2026-11-11T13:17:27.2974137+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 2% / 누적 12건"}
+{"time":"2026-11-11T13:17:28.8933051+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 10% / 누적 24건"}
+{"time":"2026-11-11T13:17:30.4953473+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 5% / 누적 36건"}
+{"time":"2026-11-11T13:17:32.0629812+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 2% / 누적 48건"}
+{"time":"2026-11-11T13:17:33.7099354+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 10% / 누적 60건"}
+{"time":"2026-11-11T13:17:35.4496185+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 5% / 누적 72건"}
+{"time":"2026-11-11T13:17:42.4180549+09:00","name":"STATUS","value":"Strobe LED 1: Fade In 10% / 누적 84건"}
+{"time":"2026-11-11T13:17:48.8520688+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 10% / 누적 96건"}
+{"time":"2026-11-11T13:17:49.6703175+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 10% / 누적 108건"}
+{"time":"2026-11-11T13:17:49.9384537+09:00","name":"LOG","value":"검사 26.1s: 구역 2.7s, RGBW 9.8s, Fade 12.0s, Flicker 1.6s"}
+{"time":"2026-11-11T13:17:49.9384537+09:00","name":"LOG","value":"LIN 왕복 대기: RGB read 18.2s, 효과 계측 4.9s / TX 1118, 응답 1075, 헤더 1085 (효과 대기에는 실제 계측시간 포함)"}
+{"time":"2026-11-11T13:17:49.9623001+09:00","name":"LOG","value":"성적서 저장 0.0s / 전체 26.2s"}
+{"time":"2026-11-11T13:17:49.9623001+09:00","name":"STATUS","value":"검사 완료: Pass 114 / Fail 0\r\nD:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\SeparatedRandom_20261111_130628_auto_0B_report.json"}
+{"time":"2026-11-11T13:17:49.9623001+09:00","name":"LOG","value":"성적서: D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\SeparatedRandom_20261111_130628_auto_0B_report.json"}
+{"time":"2026-11-11T13:17:49.9623001+09:00","name":"AUTO_PASS","value":{"chair":11,"rows":114,"detailRows":696}}

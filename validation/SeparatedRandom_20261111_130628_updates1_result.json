@@ -1,0 +1,89 @@
+{
+  "completed": true,
+  "started": "2026-11-11T13:10:42",
+  "stage": "update 0C",
+  "maximum_brightness": 26,
+  "GUI": false,
+  "optical": false,
+  "updates": [
+    {
+      "chair": "0B",
+      "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "bytes": 29688,
+      "crc32": "1567E1F4",
+      "started": "2026-11-11T13:10:47",
+      "passed": true,
+      "flash_crc_accepted": true,
+      "diagnostics": null,
+      "seconds": 84.984,
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "runtime_after": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "blocks": 232,
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      }
+    },
+    {
+      "chair": "0A",
+      "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "bytes": 29688,
+      "crc32": "1567E1F4",
+      "started": "2026-11-11T13:12:13",
+      "passed": true,
+      "flash_crc_accepted": true,
+      "diagnostics": null,
+      "seconds": 86.765,
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "runtime_after": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "blocks": 232,
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      }
+    },
+    {
+      "chair": "0C",
+      "file": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_mass_OnlyStrobe_20261111.bin",
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a",
+      "bytes": 29688,
+      "crc32": "1567E1F4",
+      "started": "2026-11-11T13:13:41",
+      "passed": true,
+      "flash_crc_accepted": true,
+      "diagnostics": null,
+      "seconds": 89.063,
+      "runtime_before": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "runtime_after": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "blocks": 232,
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      }
+    }
+  ],
+  "in_progress": null,
+  "order": [
+    "0B",
+    "0A",
+    "0C"
+  ],
+  "readback_checks": 108,
+  "readback_failures": 0,
+  "source_unchanged": true,
+  "finished": "2026-11-11T13:15:12"
+}

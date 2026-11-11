@@ -1,0 +1,324 @@
+{
+  "completed": true,
+  "LED_commands_sent": false,
+  "downloaded": false,
+  "samples": [
+    {
+      "index": 0,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "SRGB_fault_registers": {
+        "open": [
+          61440,
+          61440
+        ],
+        "short": [
+          32768,
+          0
+        ],
+        "short_ground": [
+          32768,
+          0
+        ],
+        "thermal": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+  "final_all_board_diagnostics": {
+    "0A": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "0B": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "0C": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "completed": true,
+  "stage": "UDS and all zone colors passed",
+  "boards": {
+    "0A": {
+      "uds_write_read_restored": true,
+      "color_readback_checks": 372,
+      "completed": true
+    },
+    "0B": {
+      "uds_write_read_restored": true,
+      "color_readback_checks": 372,
+      "completed": true
+    },
+    "0C": {
+      "uds_write_read_restored": true,
+      "color_readback_checks": 372,
+      "completed": true
+    }
+  },
+  "normal_diagnostics_active": true,
+  "brightness_raw": 26,
+  "gui": false,
+  "readback_checks": 1116
+}

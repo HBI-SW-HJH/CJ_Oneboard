@@ -1,0 +1,1608 @@
+{
+  "completed": true,
+  "started": "2026-11-11T13:15:37",
+  "stage": "0B UDS and XCP read",
+  "maximum_brightness": 26,
+  "GUI": false,
+  "optical": false,
+  "updates": [],
+  "in_progress": null,
+  "node_scan": {
+    "0A": {
+      "serial": "26I16-0001",
+      "part": "ZX1-0025",
+      "version": 2,
+      "chair": 10,
+      "init": 2931725826,
+      "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+    },
+    "0C": {
+      "serial": "26I16-0003",
+      "part": "ZX1-0025",
+      "version": 2,
+      "chair": 12,
+      "init": 3778114545,
+      "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+    },
+    "0B": {
+      "serial": "26I16-0002",
+      "part": "ZX1-0025",
+      "version": 2,
+      "chair": 11,
+      "init": 4215115409,
+      "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+    }
+  },
+  "boards": {
+    "0A": {
+      "product": {
+        "serial": "26I16-0001",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 2931725826,
+        "raw": "32364931362d303030312a5a58312d303032352a00022a0a2aaebe9602"
+      },
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+      "xcp_samples": [
+        {
+          "ms": 140.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 328.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 515.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1140.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1343.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2328.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2515.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2718.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2922.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3312.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3718.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3906.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4312.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4515.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4922.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5328.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6328.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6922.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 7125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 7328.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 7515.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 7734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 7937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 8125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 8328.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 8531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 8718.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 8937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9140.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9312.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9515.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9718.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10312.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10750.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10922.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11125.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11343.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11531.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11734.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11937.0,
+          "temperatures_C": [
+            26,
+            26,
+            27
+          ]
+        }
+      ],
+      "targets": [
+        [
+          "Logo LED1",
+          4,
+          0,
+          536871092
+        ],
+        [
+          "Logo LED13",
+          4,
+          12,
+          536871116
+        ],
+        [
+          "Strobe LED1",
+          5,
+          0,
+          536871140
+        ]
+      ],
+      "error_counters_before": [
+        0,
+        0
+      ],
+      "error_counters_after": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    "0C": {
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 3778114545,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2ae13173f1"
+      },
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000000000073f807",
+      "xcp_samples": [
+        {
+          "ms": 109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 734.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 906.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 1125.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 1328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 1515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 1718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 1922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 2109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 2328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 2515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 2734.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 2922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 3109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 3328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 3515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 3734.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 3922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 4125.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 4312.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 4515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 4718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 4922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 5109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 5328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 5531.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 5703.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 5922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 6125.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 6328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 6515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 6703.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 6922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 7109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 7328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 7515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 7718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 7937.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 8125.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 8328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 8515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 8718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 8937.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 9109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 9328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 9515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 9718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 9922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 10109.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 10328.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 10515.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 10718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 10937.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 11125.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 11312.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 11547.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 11718.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        },
+        {
+          "ms": 11922.0,
+          "temperatures_C": [
+            27,
+            26,
+            26
+          ]
+        }
+      ],
+      "targets": [
+        [
+          "Logo LED1",
+          4,
+          0,
+          536871092
+        ],
+        [
+          "Logo LED13",
+          4,
+          12,
+          536871116
+        ],
+        [
+          "Strobe LED1",
+          5,
+          0,
+          536871140
+        ]
+      ],
+      "error_counters_before": [
+        0,
+        0
+      ],
+      "error_counters_after": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    "0B": {
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 4215115409,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2afb3d8e91"
+      },
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "xcp_samples": [
+        {
+          "ms": 125.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 312.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 515.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 734.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 921.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1125.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1328.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1531.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1718.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 1921.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2125.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2328.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2515.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2718.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 2921.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3125.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3328.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3515.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3718.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 3921.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4109.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4312.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4531.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4703.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 4937.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5125.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5328.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5515.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5734.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 5937.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6109.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 6343.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 6515.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 6718.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 6921.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 7140.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 7328.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 7531.0,
+          "temperatures_C": [
+            28,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 7718.0,
+          "temperatures_C": [
+            27,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 7921.0,
+          "temperatures_C": [
+            27,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 8125.0,
+          "temperatures_C": [
+            27,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 8343.0,
+          "temperatures_C": [
+            27,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 8531.0,
+          "temperatures_C": [
+            27,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 8734.0,
+          "temperatures_C": [
+            27,
+            25,
+            27
+          ]
+        },
+        {
+          "ms": 8937.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9125.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9312.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9531.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9718.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 9921.0,
+          "temperatures_C": [
+            27,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10125.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10328.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10515.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10734.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 10921.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11109.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11343.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11515.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11718.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        },
+        {
+          "ms": 11921.0,
+          "temperatures_C": [
+            28,
+            26,
+            27
+          ]
+        }
+      ],
+      "targets": [
+        [
+          "Logo LED1",
+          4,
+          0,
+          536871092
+        ],
+        [
+          "Logo LED13",
+          4,
+          12,
+          536871116
+        ],
+        [
+          "Strobe LED1",
+          5,
+          0,
+          536871140
+        ]
+      ],
+      "error_counters_before": [
+        0,
+        0
+      ],
+      "error_counters_after": [
+        0,
+        0
+      ],
+      "passed": true
+    }
+  },
+  "readback_checks": 0,
+  "readback_failures": 0,
+  "source_unchanged": true,
+  "finished": "2026-11-11T13:16:22"
+}

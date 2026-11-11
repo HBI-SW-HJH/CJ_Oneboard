@@ -1,0 +1,19 @@
+{"time":"2026-11-11T09:31:47.3407227+09:00","name":"DIAGNOSTIC_PASS","value":{"chair":10,"data":"00-20-40-60-80-A0-00-00"}}
+{"time":"2026-11-11T09:31:47.3417496+09:00","name":"AUTO_START","value":{"chair":10,"maximumBrightnessIncluded":true,"gui":false,"originalPcAlgorithm":true}}
+{"time":"2026-11-11T09:31:47.3477243+09:00","name":"STATUS","value":"LED 자동검사 시작"}
+{"time":"2026-11-11T09:31:50.6424266+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 10% / 누적 12건"}
+{"time":"2026-11-11T09:31:52.2074754+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 100% / 누적 24건"}
+{"time":"2026-11-11T09:31:53.7995966+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 50% / 누적 36건"}
+{"time":"2026-11-11T09:31:55.3644157+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 10% / 누적 48건"}
+{"time":"2026-11-11T09:31:57.0312343+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 100% / 누적 60건"}
+{"time":"2026-11-11T09:31:58.5816819+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 50% / 누적 72건"}
+{"time":"2026-11-11T09:32:04.9121405+09:00","name":"STATUS","value":"Strobe LED 1: Fade In 100% / 누적 84건"}
+{"time":"2026-11-11T09:32:10.7062551+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 50% / 누적 96건"}
+{"time":"2026-11-11T09:32:11.5129355+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 50% / 누적 108건"}
+{"time":"2026-11-11T09:32:11.7875913+09:00","name":"LOG","value":"검사 24.4s: 구역 2.5s, RGBW 9.5s, Fade 10.8s, Flicker 1.6s"}
+{"time":"2026-11-11T09:32:11.7875913+09:00","name":"LOG","value":"LIN 왕복 대기: RGB read 16.9s, 효과 계측 4.6s / TX 1118, 응답 1075, 헤더 1083 (효과 대기에는 실제 계측시간 포함)"}
+{"time":"2026-11-11T09:32:11.8167333+09:00","name":"LOG","value":"성적서 저장 0.0s / 전체 24.5s"}
+{"time":"2026-11-11T09:32:11.8167333+09:00","name":"STATUS","value":"검사 완료: Pass 114 / Fail 0\r\nD:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\FullBoard_20261111_092853_auto_0A_report.json"}
+{"time":"2026-11-11T09:32:11.8167333+09:00","name":"LOG","value":"성적서: D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\FullBoard_20261111_092853_auto_0A_report.json"}
+{"time":"2026-11-11T09:32:11.8419111+09:00","name":"DIAGNOSTIC_PASS","value":{"chair":10,"data":"00-20-40-60-80-A0-00-00"}}
+{"time":"2026-11-11T09:32:11.8419111+09:00","name":"AUTO_PASS","value":{"chair":10,"rows":114,"detailRows":696}}

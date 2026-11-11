@@ -1,0 +1,33 @@
+{
+  "source": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App\\applications\\inc\\OSPControl.h",
+  "source_sha256": "2160a1b983c57290a5f68ab281be4bf24578810d453c2b850790d85daa952952",
+  "raw_logs_unchanged": true,
+  "description": "The test script used temperature offset 116 instead of 120. This is a test-script labeling/address error, not evidence of a firmware fault.",
+  "base_address": "0x2000003C",
+  "temperatureC_offset": 120,
+  "struct_size": 1768,
+  "correct_targets": {
+    "logo_led1": "0x200000B4",
+    "logo_led13": "0x200000CC",
+    "strobe_led1": "0x200000E4"
+  },
+  "actual_sampled_fields": {
+    "logo_led1": {
+      "address": "0x200000B0",
+      "field": "pwmBlue[0]",
+      "offset": 116
+    },
+    "logo_led13": {
+      "address": "0x200000C8",
+      "field": "temperatureC[0][10]",
+      "offset": 140
+    },
+    "strobe_led1": {
+      "address": "0x200000E0",
+      "field": "temperatureC[0][22]",
+      "offset": 164
+    }
+  },
+  "valid_scope": "0x0A XCP connect, memory read responses of 1/2/4 bytes, rejected invalid requests, disconnect. Intended three-temperature validation and GUI graph validation are incomplete.",
+  "boards_0B_0C": "not tested"
+}
