@@ -1,0 +1,74 @@
+{
+  "time": "2026-11-16T11:56:09.414145",
+  "method": "hardware breakpoints on unchanged downloaded App; read DO and R0 before inversion/rotation; no Flash patch or injected electrical faults",
+  "captures": [
+    {
+      "kind": "open",
+      "first_DO_before_clock": 0,
+      "pins_before": "0x40410091",
+      "raw_read_array1": "1FFE",
+      "raw_read_array0": "1FFE",
+      "DO_after_32_clocks": 0,
+      "aligned_faults_from_first_bit": [
+        "F000",
+        "F000"
+      ],
+      "actual_stored_faults": [
+        "F000",
+        "F000"
+      ]
+    },
+    {
+      "kind": "short",
+      "first_DO_before_clock": 1,
+      "pins_before": "0x40410891",
+      "raw_read_array1": "FFFF",
+      "raw_read_array0": "FFFE",
+      "DO_after_32_clocks": 0,
+      "aligned_faults_from_first_bit": [
+        "0000",
+        "0000"
+      ],
+      "actual_stored_faults": [
+        "8000",
+        "0000"
+      ]
+    },
+    {
+      "kind": "short_ground",
+      "first_DO_before_clock": 1,
+      "pins_before": "0x40410891",
+      "raw_read_array1": "FFFF",
+      "raw_read_array0": "FFFE",
+      "DO_after_32_clocks": 0,
+      "aligned_faults_from_first_bit": [
+        "0000",
+        "0000"
+      ],
+      "actual_stored_faults": [
+        "8000",
+        "0000"
+      ]
+    }
+  ],
+  "completed": true,
+  "fp_before": [
+    65,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "dhcsr_after": "0x1000001",
+  "fp_after": [
+    65,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "app_unchanged": true,
+  "app_running": true
+}

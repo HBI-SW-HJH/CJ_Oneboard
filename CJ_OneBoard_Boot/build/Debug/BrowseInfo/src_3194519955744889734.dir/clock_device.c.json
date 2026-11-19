@@ -2,7 +2,7 @@
 	"arguments" : 
 	[
 		"C:\\iar\\ewarm-9.70.4\\arm\\bin\\iccarm.exe",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\drivers\\src\\clock_device.c",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\drivers\\src\\clock_device.c",
 		"-nostdinc",
 		"-undef",
 		"-Wno-unaligned-access",
@@ -16,13 +16,13 @@
 		"-isystem",
 		"C:\\iar\\ewarm-9.70.4\\arm\\inc\\c",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\applications\\inc\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\applications\\inc\\",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\drivers\\inc\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\drivers\\inc\\",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\startup\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\startup\\",
 		"-I",
-		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\Inc\\",
+		"D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\Inc\\",
 		"--target=armv7m-none-eabi",
 		"-D",
 		"__CHAR_BITS__=8",
@@ -857,7 +857,7 @@
 		"-x",
 		"c"
 	],
-	"directory" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\drivers\\src",
-	"file" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\drivers\\src\\clock_device.c",
-	"output" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261109\\CJ_OneBoard_Boot\\build\\Debug\\Obj\\src_3123715753699466016.dir\\clock_device.o"
+	"directory" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\drivers\\src",
+	"file" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\drivers\\src\\clock_device.c",
+	"output" : "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261119_3차납품\\CJ_OneBoard_Boot\\build\\Debug\\Obj\\src_3123715753699466016.dir\\clock_device.o"
 }

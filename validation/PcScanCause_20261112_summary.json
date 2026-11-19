@@ -1,0 +1,72 @@
+{
+  "actual": [
+    {
+      "chair": 10,
+      "serial": "26J07-0021",
+      "part": "ZX1-0025",
+      "version": 2,
+      "init": "4729D1C4"
+    },
+    {
+      "chair": 11,
+      "serial": "26I16-0002",
+      "part": "ZX1-0025",
+      "version": 2,
+      "init": "AEBE9602"
+    },
+    {
+      "chair": 12,
+      "serial": "26I16-0003",
+      "part": "ZX1-0025",
+      "version": 2,
+      "init": "FB3D8E91"
+    },
+    {
+      "chair": 13,
+      "serial": "26I16-0004",
+      "part": "ZX1-0025",
+      "version": 2,
+      "init": "E13173F1"
+    }
+  ],
+  "pc_scan": [
+    {
+      "product": {
+        "chair": 10,
+        "serial": "26H06-0000",
+        "part": "ZX1-0025",
+        "version": 2,
+        "init": "06289000"
+      },
+      "matches_actual_uid": false
+    },
+    {
+      "product": {
+        "chair": 13,
+        "serial": "26I16-0004",
+        "part": "ZX1-0025",
+        "version": 2,
+        "init": "E13173F1"
+      },
+      "matches_actual_uid": true
+    },
+    {
+      "product": {
+        "chair": 12,
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "init": "FB3D8E91"
+      },
+      "matches_actual_uid": true
+    }
+  ],
+  "real_0A_uid": "4729D1C4",
+  "ghost_0A_uid": "06289000",
+  "collision_slot": 0,
+  "original_pc_source_unchanged": true,
+  "GUI": false,
+  "firmware_download": false,
+  "settings_unchanged": true,
+  "log": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\validation\\PcScanCause_20261112_102521.jsonl"
+}

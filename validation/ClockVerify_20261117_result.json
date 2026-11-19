@@ -1,0 +1,4032 @@
+{
+  "started": "2026-11-17T10:54:47.205151",
+  "chair": "0B",
+  "cycles": [
+    {
+      "mode": "normal",
+      "cycle": 1,
+      "injection": [],
+      "before": {
+        "time_ms": 3290,
+        "gclk0": "0x10307",
+        "gclk1": "0x10307",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 2,
+        "dpll_status": 3,
+        "xosc_ctrl": 31494,
+        "osc_status": 273,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        4,
+        0,
+        0
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5595,
+        "gclk0": "0x10307",
+        "gclk1": "0x10307",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 2,
+        "dpll_status": 3,
+        "xosc_ctrl": 31494,
+        "osc_status": 273,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "normal",
+      "cycle": 2,
+      "injection": [],
+      "before": {
+        "time_ms": 3290,
+        "gclk0": "0x10307",
+        "gclk1": "0x10307",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 2,
+        "dpll_status": 3,
+        "xosc_ctrl": 31494,
+        "osc_status": 273,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        0,
+        4,
+        0
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5650,
+        "gclk0": "0x10307",
+        "gclk1": "0x10307",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 2,
+        "dpll_status": 3,
+        "xosc_ctrl": 31494,
+        "osc_status": 273,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "normal",
+      "cycle": 3,
+      "injection": [],
+      "before": {
+        "time_ms": 3286,
+        "gclk0": "0x10307",
+        "gclk1": "0x10307",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 2,
+        "dpll_status": 3,
+        "xosc_ctrl": 31494,
+        "osc_status": 273,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        0,
+        0,
+        4
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5650,
+        "gclk0": "0x10307",
+        "gclk1": "0x10307",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 2,
+        "dpll_status": 3,
+        "xosc_ctrl": 31494,
+        "osc_status": 273,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "xosc_timeout",
+      "cycle": 1,
+      "injection": [
+        {
+          "attempt": 1,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        },
+        {
+          "attempt": 2,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        },
+        {
+          "attempt": 3,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        }
+      ],
+      "before": {
+        "time_ms": 3285,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x0",
+        "dpll_ctrla": 128,
+        "dpll_status": 0,
+        "xosc_ctrl": 0,
+        "osc_status": 16,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        4,
+        0,
+        0
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5621,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x0",
+        "dpll_ctrla": 128,
+        "dpll_status": 0,
+        "xosc_ctrl": 0,
+        "osc_status": 16,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "xosc_timeout",
+      "cycle": 2,
+      "injection": [
+        {
+          "attempt": 1,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        },
+        {
+          "attempt": 2,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        },
+        {
+          "attempt": 3,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        }
+      ],
+      "before": {
+        "time_ms": 3285,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x0",
+        "dpll_ctrla": 128,
+        "dpll_status": 0,
+        "xosc_ctrl": 0,
+        "osc_status": 16,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        0,
+        4,
+        0
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5623,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x0",
+        "dpll_ctrla": 128,
+        "dpll_status": 0,
+        "xosc_ctrl": 0,
+        "osc_status": 16,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "xosc_timeout",
+      "cycle": 3,
+      "injection": [
+        {
+          "attempt": 1,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        },
+        {
+          "attempt": 2,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        },
+        {
+          "attempt": 3,
+          "instruction": "0x1437e",
+          "original": 31494,
+          "injected": 31492,
+          "actual_control": 31492
+        }
+      ],
+      "before": {
+        "time_ms": 3292,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x0",
+        "dpll_ctrla": 128,
+        "dpll_status": 0,
+        "xosc_ctrl": 0,
+        "osc_status": 16,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        0,
+        0,
+        4
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5656,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x0",
+        "dpll_ctrla": 128,
+        "dpll_status": 0,
+        "xosc_ctrl": 0,
+        "osc_status": 16,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "dpll_timeout",
+      "cycle": 1,
+      "injection": [
+        {
+          "attempt": 1,
+          "instruction": "0x143d6",
+          "original": 2,
+          "injected": 0,
+          "actual_control": 0
+        }
+      ],
+      "before": {
+        "time_ms": 3292,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 0,
+        "dpll_status": 0,
+        "xosc_ctrl": 31494,
+        "osc_status": 17,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        4,
+        0,
+        0
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            1028,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            513,
+            0,
+            0
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5609,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 0,
+        "dpll_status": 0,
+        "xosc_ctrl": 31494,
+        "osc_status": 17,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "dpll_timeout",
+      "cycle": 2,
+      "injection": [
+        {
+          "attempt": 1,
+          "instruction": "0x143d6",
+          "original": 2,
+          "injected": 0,
+          "actual_control": 0
+        }
+      ],
+      "before": {
+        "time_ms": 3291,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 0,
+        "dpll_status": 0,
+        "xosc_ctrl": 31494,
+        "osc_status": 17,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        0,
+        4,
+        0
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            0,
+            1028,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            0,
+            513,
+            0
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5682,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 0,
+        "dpll_status": 0,
+        "xosc_ctrl": 31494,
+        "osc_status": 17,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    },
+    {
+      "mode": "dpll_timeout",
+      "cycle": 3,
+      "injection": [
+        {
+          "attempt": 1,
+          "instruction": "0x143d6",
+          "original": 2,
+          "injected": 0,
+          "actual_control": 0
+        }
+      ],
+      "before": {
+        "time_ms": 3291,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 0,
+        "dpll_status": 0,
+        "xosc_ctrl": 31494,
+        "osc_status": 17,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_before": "0020406080a00000",
+      "rgb": [
+        0,
+        0,
+        4
+      ],
+      "readbacks": [
+        {
+          "zone": 0,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 1,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 2,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 3,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            1028
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 1,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 2,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 3,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 4,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 5,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 6,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 7,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 8,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 9,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 10,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 11,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 12,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 13,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 14,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 15,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 16,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 17,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 18,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 19,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 20,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 21,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 22,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 4,
+          "node": 23,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 0,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 1,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 2,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 3,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 4,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 5,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 6,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        },
+        {
+          "zone": 5,
+          "node": 7,
+          "rgb": [
+            0,
+            0,
+            513
+          ]
+        }
+      ],
+      "after": {
+        "time_ms": 5628,
+        "gclk0": "0x10306",
+        "gclk1": "0x10306",
+        "dpll_ctrlb": "0x31010",
+        "dpll_ctrla": 0,
+        "dpll_status": 0,
+        "xosc_ctrl": 31494,
+        "osc_status": 17,
+        "osc48m_ctrl": 2,
+        "osc48m_div": 0,
+        "cpudiv": 1,
+        "wdt": 2,
+        "halted": false,
+        "reset_cause": 64,
+        "bootprot": 4,
+        "region_locks": 0,
+        "nodes": [
+          24,
+          8
+        ],
+        "osp_errors": [
+          0,
+          0
+        ],
+        "osp_crc": [
+          0,
+          0
+        ],
+        "osp_manchester": [
+          0,
+          0
+        ],
+        "srgb_errors": 0,
+        "srgb_valid": 1,
+        "osp_valid": [
+          24,
+          8
+        ],
+        "max_temperature": 27,
+        "power_fault": 0,
+        "lin_errors": 0,
+        "lin_drops": 0
+      },
+      "diagnosis_after": "0020406080a00000"
+    }
+  ],
+  "failures": [],
+  "physical_low_temperature_test": false,
+  "initial": {
+    "time_ms": 47933,
+    "gclk0": "0x10307",
+    "gclk1": "0x10307",
+    "dpll_ctrlb": "0x31010",
+    "dpll_ctrla": 2,
+    "dpll_status": 3,
+    "xosc_ctrl": 31494,
+    "osc_status": 273,
+    "osc48m_ctrl": 2,
+    "osc48m_div": 0,
+    "cpudiv": 1,
+    "wdt": 2,
+    "halted": false,
+    "reset_cause": 64,
+    "bootprot": 4,
+    "region_locks": 0,
+    "nodes": [
+      24,
+      8
+    ],
+    "osp_errors": [
+      0,
+      0
+    ],
+    "osp_crc": [
+      0,
+      0
+    ],
+    "osp_manchester": [
+      0,
+      0
+    ],
+    "srgb_errors": 0,
+    "srgb_valid": 1,
+    "osp_valid": [
+      24,
+      8
+    ],
+    "max_temperature": 27,
+    "power_fault": 0,
+    "lin_errors": 0,
+    "lin_drops": 0
+  },
+  "initial_lin": "0020406080a00000",
+  "passed": true,
+  "final_lin": "0020406080a00000",
+  "final_external": {
+    "time_ms": 3412,
+    "gclk0": "0x10307",
+    "gclk1": "0x10307",
+    "dpll_ctrlb": "0x31010",
+    "dpll_ctrla": 2,
+    "dpll_status": 3,
+    "xosc_ctrl": 31494,
+    "osc_status": 273,
+    "osc48m_ctrl": 2,
+    "osc48m_div": 0,
+    "cpudiv": 1,
+    "wdt": 2,
+    "halted": false,
+    "reset_cause": 64,
+    "bootprot": 4,
+    "region_locks": 0,
+    "nodes": [
+      24,
+      8
+    ],
+    "osp_errors": [
+      0,
+      0
+    ],
+    "osp_crc": [
+      0,
+      0
+    ],
+    "osp_manchester": [
+      0,
+      0
+    ],
+    "srgb_errors": 0,
+    "srgb_valid": 1,
+    "osp_valid": [
+      24,
+      8
+    ],
+    "max_temperature": 27,
+    "power_fault": 0,
+    "lin_errors": 0,
+    "lin_drops": 0
+  },
+  "preserved": {
+    "boot": true,
+    "backup": true,
+    "reserved": true,
+    "data": true,
+    "userrow": true
+  },
+  "final_app_matches": true,
+  "finished": "2026-11-17T10:55:50.135198"
+}

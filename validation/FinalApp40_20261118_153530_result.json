@@ -1,0 +1,374 @@
+{
+  "started": "2026-11-18T15:37:08.390577",
+  "requested_per_chair": 10,
+  "requested_total": 40,
+  "image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App.bin",
+    "length": 29692,
+    "sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+    "crc32": "C69C9150"
+  },
+  "initial": [
+    {
+      "product": {
+        "serial": "26J07-0021",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 1193923012,
+        "raw": "32364a30372d303032312a5a58312d303032352a00022a0a2a4729d1c4"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 2931725826,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2aaebe9602"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 3,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 4215115409,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2afb3d8e91"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 2,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "product": {
+        "serial": "26I16-0004",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 13,
+        "init": 3778114545,
+        "raw": "32364931362d303030342a5a58312d303032352a00022a0d2ae13173f1"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "completed": [
+    {
+      "cycle": 1,
+      "chair": "0A",
+      "serial": "26J07-0021",
+      "init_number": "4729D1C4",
+      "started": "2026-11-18T15:37:12.639942",
+      "before": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 7
+      },
+      "phase": "complete",
+      "bytes_acknowledged": 29692,
+      "blocks_acknowledged": 232,
+      "boot_nad": 125,
+      "crc_accepted": true,
+      "crc32": "C69C9150",
+      "reset_acknowledged": true,
+      "after": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "finished": "2026-11-18T15:38:36.611425",
+      "seconds": 83.969,
+      "frames": 5632,
+      "read_retries": [],
+      "clean_first_attempt": true
+    },
+    {
+      "cycle": 1,
+      "chair": "0B",
+      "serial": "26I16-0002",
+      "init_number": "AEBE9602",
+      "started": "2026-11-18T15:38:36.812227",
+      "before": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 3,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "phase": "complete",
+      "bytes_acknowledged": 29692,
+      "blocks_acknowledged": 232,
+      "boot_nad": 125,
+      "crc_accepted": true,
+      "crc32": "C69C9150",
+      "reset_acknowledged": true,
+      "after": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 3,
+        "backup_length": 29692,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "finished": "2026-11-18T15:40:00.679980",
+      "seconds": 83.875,
+      "frames": 5629,
+      "read_retries": [],
+      "clean_first_attempt": true
+    },
+    {
+      "cycle": 1,
+      "chair": "0C",
+      "serial": "26I16-0003",
+      "init_number": "FB3D8E91",
+      "started": "2026-11-18T15:40:00.892356",
+      "before": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 2,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "phase": "complete",
+      "bytes_acknowledged": 29692,
+      "blocks_acknowledged": 232,
+      "boot_nad": 125,
+      "crc_accepted": true,
+      "crc32": "C69C9150",
+      "reset_acknowledged": true,
+      "after": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 2,
+        "backup_length": 29692,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "finished": "2026-11-18T15:41:19.943278",
+      "seconds": 79.047,
+      "frames": 5633,
+      "read_retries": [],
+      "clean_first_attempt": true
+    },
+    {
+      "cycle": 1,
+      "chair": "0D",
+      "serial": "26I16-0004",
+      "init_number": "E13173F1",
+      "started": "2026-11-18T15:41:20.173522",
+      "before": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "phase": "complete",
+      "bytes_acknowledged": 29692,
+      "blocks_acknowledged": 232,
+      "boot_nad": 125,
+      "crc_accepted": true,
+      "crc32": "C69C9150",
+      "reset_acknowledged": true,
+      "after": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "finished": "2026-11-18T15:42:43.658321",
+      "seconds": 83.485,
+      "frames": 5630,
+      "read_retries": [],
+      "clean_first_attempt": true
+    }
+  ],
+  "in_progress": {
+    "cycle": 2,
+    "chair": "0A",
+    "serial": "26J07-0021",
+    "init_number": "4729D1C4",
+    "started": "2026-11-18T15:42:43.877777",
+    "before": {
+      "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+      "mode": 0,
+      "flag": 0,
+      "backup_flag": 0,
+      "fault_count": 0,
+      "backup_fault_count": 0,
+      "valid": 3,
+      "restores": 1,
+      "backup_length": 29688,
+      "bits": 7
+    },
+    "phase": "transfer",
+    "bytes_acknowledged": 256,
+    "blocks_acknowledged": 2,
+    "boot_nad": 125,
+    "pending_block": 3,
+    "read_retries": []
+  },
+  "passed": false,
+  "method": "Headless PLIN LIN UDS, original firmware protocol. No GUI or SWD operations. No fault injection, Boot download, product write, or firmware source edits. LEDs OFF.",
+  "error": "RuntimeError('UDS timeout NAD=7D request=360381b001000dd0')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\FinalApp40_20261118.py\", line 104, in <module>\n    response = test.uds(nad,bytes([0x36,seq])+block)\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\old\\CJ_Onboard_20261027\\validation\\FullFourChairTest.py\", line 206, in uds\n    raise RuntimeError(f\"UDS timeout NAD={nad:02X} request={payload[:8].hex()}\")\nRuntimeError: UDS timeout NAD=7D request=360381b001000dd0\n",
+  "finished": "2026-11-18T15:42:47.196784",
+  "bin_unchanged": true
+}

@@ -1,0 +1,11 @@
+
+     IAR C-SPY Command Line Utility V9.4.7.1892
+     Copyright 2000-2026 IAR Systems AB.
+
+CJ: BOOTPROT will be configured and Main Flash write protection enabled. Original User Row saved: $PROJ_DIR$/debugger/UserRow_0.hex
+CJ: BOOTPROT and REGION_LOCKS verified. Continuing normal IAR download.
+CJ: BOOTPROT will be configured and Main Flash write protection enabled. Original User Row saved: $PROJ_DIR$/debugger/UserRow_1986.hex
+CJ: Boot protection saved. It takes effect on the next reset.
+
+     CSpyBat terminating.
+

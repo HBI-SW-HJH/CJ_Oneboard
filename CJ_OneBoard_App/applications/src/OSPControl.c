@@ -1,13 +1,8 @@
 // @file    OSPControl.c
 // @brief   Independent Logo and Strobe OSP Manchester control
 
-#include "OSPControl.h"
-#include "Verification.h"
-#include "power_device.h"
-#include "sys_init.h"
-#include "device.h"
-#include <stddef.h>
-#include <string.h>
+#include "appConfig.h"
+
 __ALIGNED(16) dmac_descriptor_registers_t s_dmaDescriptor[OSP_DMA_CHANNEL_COUNT];
 __ALIGNED(16) dmac_descriptor_registers_t s_dmaWriteback[OSP_DMA_CHANNEL_COUNT];
 uint8_t s_txBytes[OSP_MAX_TX_BYTES];
@@ -127,7 +122,7 @@ static void OSP_InitHardware(void)
     uint32_t retry = 0U;
 
     MCLK_REGS->MCLK_APBAMASK |= MCLK_APBAMASK_GCLK_Msk;
-    GCLK_REGS->GCLK_GENCTRL[1U] = GCLK_GENCTRL_SRC_FDPLL96M | GCLK_GENCTRL_DIV(1U) | GCLK_GENCTRL_IDC_Msk | GCLK_GENCTRL_GENEN_Msk;
+    GCLK_REGS->GCLK_GENCTRL[1U] = (GCLK_REGS->GCLK_GENCTRL[0U] & GCLK_GENCTRL_SRC_Msk) | GCLK_GENCTRL_DIV(1U) | GCLK_GENCTRL_IDC_Msk | GCLK_GENCTRL_GENEN_Msk;
     while ((GCLK_REGS->GCLK_SYNCBUSY & GCLK_SYNCBUSY_GENCTRL1_Msk) != 0U)
     {
         __NOP();

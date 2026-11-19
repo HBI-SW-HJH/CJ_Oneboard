@@ -1,0 +1,8 @@
+{"time": "2026-11-18T13:30:57", "kind": "START", "prefix": "BinCompare_20261118_0A_delivery_resume2", "brightness_cap": 12, "gui": false, "jlink": false}
+{"time": "2026-11-18T13:30:57", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T13:31:00", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T13:31:00", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T13:31:41", "kind": "XCP_PASS", "chair": "0A", "image": "delivery", "samples": 1000, "mean_ms": 40.61172722722723, "max_ms": 71.44230000000107}
+{"time": "2026-11-18T13:31:41", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T13:31:41", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T13:31:41", "kind": "CLEANUP", "remove_client": 0}

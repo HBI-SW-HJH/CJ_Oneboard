@@ -5,10 +5,9 @@
 #define PDS_H
 
 #include <stdint.h>
+#include "device.h"
 
-#ifndef APP_CONFIG_H
 typedef struct ConFig ConFig_t;
-#endif
 
 #define PDS_CONFIG_MAGIC        0x434A4346UL
 #define PDS_CONFIG_FORMAT       2U

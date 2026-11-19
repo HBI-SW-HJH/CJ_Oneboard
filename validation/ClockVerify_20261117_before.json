@@ -1,0 +1,47 @@
+{
+  "did": "0x11060203",
+  "halted": false,
+  "app_matches": false,
+  "expected_sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+  "boot_sha256": "f55544ee5bf443b97d2b2529e8ba29ebd8c47e20600fd0f7b19e6e95a3c5de60",
+  "backup_sha256": "f2ed998354213cdd7421359f8fb1e80958996388d7e7511ba175d2c6e58a8744",
+  "reserved_sha256": "71189f7fb6aed638640078fba3a35fda6c39c8962e74dcc75935aac948da9063",
+  "data_sha256": "e86d132cdbd800284e11ec53d85332685f4790a098a0c87dcd8095573697462f",
+  "pds": {
+    "crc_valid": true,
+    "index": 59,
+    "magic": "434A4346",
+    "length": 27,
+    "format": 2,
+    "serial": "26I16-0002",
+    "part": "ZX1-0025",
+    "chair": "0B"
+  },
+  "reprogram": {
+    "crc": 2872439154,
+    "magic": 1128940116,
+    "index": 513,
+    "flag": 0,
+    "address": 65536,
+    "length": 29688,
+    "imageCrc": 359129588,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29688,
+    "recoveryCrc": 359129588,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "userrow_sha256": "b6edbff6622598d72881d4d4fcecf54142a62d5e4fae133125897e81b3505cb4",
+  "bootprot": 4,
+  "nvm_lock": "0x0",
+  "clock": {
+    "gclk0": "0x10307",
+    "gclk1": "0x10307",
+    "dpll_ctrlb": "0x30010",
+    "dpll_status": "0x3"
+  },
+  "time": "2026-11-17T10:47:32"
+}

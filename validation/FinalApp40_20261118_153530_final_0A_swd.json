@@ -1,0 +1,47 @@
+{
+  "time": "2026-11-18T16:40:35.300587",
+  "operations": "Final read-only SWD; no reset/halt/resume/download/write",
+  "halted": false,
+  "pds": {
+    "crc_valid": true,
+    "index": 7,
+    "magic": "434A4346",
+    "length": 27,
+    "format": 2,
+    "serial": "26J07-0021",
+    "part": "ZX1-0025",
+    "chair": "0A"
+  },
+  "update_record": {
+    "crc": 1218749958,
+    "magic": 1128940116,
+    "index": 387,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 1,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "record_copies_equal": true,
+  "app_matches": true,
+  "backup_matches": true,
+  "app_sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+  "backup_sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+  "boot_matches": true,
+  "clock": {
+    "gclk0": "0x10307",
+    "gclk1": "0x10307",
+    "dpll_ctrlb": "0x31010",
+    "dpll_status": "0x3"
+  },
+  "bootprot": 4,
+  "nvm_lock": 0,
+  "passed": true
+}

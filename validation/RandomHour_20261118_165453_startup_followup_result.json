@@ -1,0 +1,427 @@
+{
+  "started": "2026-11-18T17:55:12.026835",
+  "brightness": 3.9215686274509802,
+  "hz": 30,
+  "duty_raw": 188,
+  "zone": "LH",
+  "rows": [
+    {
+      "repetition": 1,
+      "stage": "including_start",
+      "chair": "0A",
+      "actual_ms": [
+        29,
+        34,
+        20,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "including_start",
+      "chair": "0B",
+      "actual_ms": [
+        30,
+        34,
+        21,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "including_start",
+      "chair": "0C",
+      "actual_ms": [
+        23,
+        34,
+        14,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "including_start",
+      "chair": "0D",
+      "actual_ms": [
+        24,
+        34,
+        15,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "after_250ms",
+      "chair": "0A",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "after_250ms",
+      "chair": "0B",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "after_250ms",
+      "chair": "0C",
+      "actual_ms": [
+        32,
+        34,
+        24,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 1,
+      "stage": "after_250ms",
+      "chair": "0D",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "including_start",
+      "chair": "0A",
+      "actual_ms": [
+        25,
+        34,
+        16,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "including_start",
+      "chair": "0B",
+      "actual_ms": [
+        26,
+        34,
+        17,
+        26,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "including_start",
+      "chair": "0C",
+      "actual_ms": [
+        23,
+        34,
+        14,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "including_start",
+      "chair": "0D",
+      "actual_ms": [
+        23,
+        34,
+        14,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "after_250ms",
+      "chair": "0A",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "after_250ms",
+      "chair": "0B",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "after_250ms",
+      "chair": "0C",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 2,
+      "stage": "after_250ms",
+      "chair": "0D",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "including_start",
+      "chair": "0A",
+      "actual_ms": [
+        32,
+        34,
+        23,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "including_start",
+      "chair": "0B",
+      "actual_ms": [
+        23,
+        34,
+        14,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "including_start",
+      "chair": "0C",
+      "actual_ms": [
+        27,
+        36,
+        18,
+        25,
+        8,
+        11
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "including_start",
+      "chair": "0D",
+      "actual_ms": [
+        28,
+        34,
+        19,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "after_250ms",
+      "chair": "0A",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "after_250ms",
+      "chair": "0B",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "after_250ms",
+      "chair": "0C",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 3,
+      "stage": "after_250ms",
+      "chair": "0D",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "including_start",
+      "chair": "0A",
+      "actual_ms": [
+        30,
+        34,
+        21,
+        26,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "including_start",
+      "chair": "0B",
+      "actual_ms": [
+        31,
+        34,
+        22,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "including_start",
+      "chair": "0C",
+      "actual_ms": [
+        24,
+        34,
+        15,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "including_start",
+      "chair": "0D",
+      "actual_ms": [
+        24,
+        34,
+        15,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "after_250ms",
+      "chair": "0A",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        26,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "after_250ms",
+      "chair": "0B",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "after_250ms",
+      "chair": "0C",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    },
+    {
+      "repetition": 4,
+      "stage": "after_250ms",
+      "chair": "0D",
+      "actual_ms": [
+        33,
+        34,
+        25,
+        25,
+        8,
+        9
+      ]
+    }
+  ],
+  "completed": true,
+  "finished": "2026-11-18T17:55:28.152364"
+}

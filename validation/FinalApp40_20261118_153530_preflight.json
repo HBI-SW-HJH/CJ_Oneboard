@@ -1,0 +1,134 @@
+{
+  "started": "2026-11-18T15:35:30.472513",
+  "boards": [
+    {
+      "product": {
+        "serial": "26J07-0021",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 1193923012,
+        "raw": "32364a30372d303032312a5a58312d303032352a00022a0a2a4729d1c4"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 2931725826,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2aaebe9602"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 3,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 4215115409,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2afb3d8e91"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000002000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 2,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "product": {
+        "serial": "26I16-0004",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 13,
+        "init": 3778114545,
+        "raw": "32364931362d303030342a5a58312d303032352a00022a0d2ae13173f1"
+      },
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29688,
+        "bits": 7
+      },
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "download_performed": false,
+  "image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App.bin",
+    "length": 29692,
+    "sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+    "crc32": "C69C9150"
+  },
+  "passed": true,
+  "finished": "2026-11-18T15:35:35.285028"
+}

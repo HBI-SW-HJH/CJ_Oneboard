@@ -4,34 +4,6 @@
 #ifndef SRGB_CONTROL_H
 #define SRGB_CONTROL_H
 
-#include <stdint.h>
-
-#ifndef LED_CONTROL_TYPES_DEFINED
-#define LED_CONTROL_TYPES_DEFINED
-typedef struct
-{
-    uint8_t chairMask;
-    uint8_t ledMask;
-    uint8_t colorMode;
-    uint8_t fadeEnabled;
-    uint8_t active;
-    uint8_t sync;
-    uint8_t mode;
-    uint8_t color1;
-    uint8_t color2;
-    uint8_t color3;
-    uint8_t effect1;
-    uint8_t effect2;
-    uint16_t red;
-    uint16_t green;
-    uint16_t blue;
-    uint32_t timeMs;
-} LedControlCommand_t;
-
-#define LED_FLICKER_FADE_TIME_MS 500U
-#define LED_CONTROL_TICK_US      1000U
-#endif
-
 #define SRGB_DEVICE_COUNT       2U
 #define SRGB_CHANNEL_COUNT      16U
 #define SRGB_ZONE_COUNT         4U
@@ -41,7 +13,9 @@ typedef struct
 #define SRGB_LAT_PIN                10U
 #define SRGB_DO_PIN                 11U
 #define SRGB_PIN_GROUP              0U
+//#define SRGB_COMMAND_DEFAULT        0x240CU // 3.3mA x 2, short threshold 4.5V
 #define SRGB_COMMAND_DEFAULT        0x26ACU // 25mA x 2, short threshold 4.5V
+//#define SRGB_COMMAND_DEFAULT        0x27FCU // 49.5mA x 2, short threshold 4.5V
 #define SRGB_INSTR_ERROR_MODE       14U
 #define SRGB_INSTR_DATA_LATCH       1U
 #define SRGB_INSTR_GLOBAL_LATCH     2U

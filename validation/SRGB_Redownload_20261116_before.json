@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-16T11:52:56.069411",
+  "operation": "pre-download read-only fingerprint",
+  "out_sha256": "1d276ddffb117e4ea004d81ec21edcc1b2f7ec24ce55ff5b6e2fd542447a345c",
+  "boot_sha256": "f55544ee5bf443b97d2b2529e8ba29ebd8c47e20600fd0f7b19e6e95a3c5de60",
+  "data_sha256": "e86d132cdbd800284e11ec53d85332685f4790a098a0c87dcd8095573697462f",
+  "user_row_sha256": "b6edbff6622598d72881d4d4fcecf54142a62d5e4fae133125897e81b3505cb4",
+  "bootprot": 4,
+  "did": "0x11060203",
+  "dhcsr": "0x30003",
+  "nvm_lock": "0x0",
+  "uid": "e7e74120313854512020203610300cff",
+  "app_matches": true
+}

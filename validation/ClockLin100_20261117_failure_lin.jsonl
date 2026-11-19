@@ -1,0 +1,7 @@
+{"time": "2026-11-17T11:51:11", "kind": "START", "prefix": "ClockLin100_20261117_failure_lin", "brightness_cap": 12, "gui": false, "jlink": false}
+{"time": "2026-11-17T11:51:11", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-17T11:51:14", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-17T11:51:14", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311567152917}
+{"time": "2026-11-17T11:51:14", "kind": "ADAPTER_DISABLED", "result": 0}
+{"time": "2026-11-17T11:51:14", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-17T11:51:14", "kind": "CLEANUP", "remove_client": 0}

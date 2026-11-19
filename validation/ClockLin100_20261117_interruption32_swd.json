@@ -1,0 +1,52 @@
+{
+  "did": "0x11060203",
+  "halted": false,
+  "vtor": "0x20000e00",
+  "record_main": {
+    "crc": 3371296013,
+    "magic": 1128940116,
+    "index": 703,
+    "flag": 1,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 0,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 0,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "record_backup": {
+    "crc": 3371296013,
+    "magic": 1128940116,
+    "index": 703,
+    "flag": 1,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 0,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 0,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "pds": {
+    "crc_valid": true,
+    "index": 59,
+    "magic": "434A4346",
+    "length": 27,
+    "format": 2,
+    "serial": "26I16-0002",
+    "part": "ZX1-0025",
+    "chair": "0B"
+  },
+  "app_matches": true,
+  "backup_matches": true,
+  "boot_sha256": "f55544ee5bf443b97d2b2529e8ba29ebd8c47e20600fd0f7b19e6e95a3c5de60"
+}

@@ -1,0 +1,57 @@
+{
+  "started": "2026-11-18T15:25:40.595727",
+  "operations": "Read-only SWD plus 0x0A Logo-only LIN RGB at <=12/255. No GUI, reset, halt, resume, download, RAM or Flash writes. Original Logo OFF restored.",
+  "samples": [],
+  "did": "0x11060203",
+  "dhcsr_initial": "0x1000001",
+  "vtor": "0x20001e00",
+  "candidate_images": [
+    {
+      "project": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\CJ_OneBoard_App",
+      "length": 29692,
+      "match": false,
+      "sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2"
+    },
+    {
+      "project": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App",
+      "length": 29688,
+      "match": true,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a"
+    }
+  ],
+  "matched_project": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App",
+  "chair": "0xa",
+  "serial": "26J07-0021",
+  "init_number": "0x4729d1c4",
+  "clock": {
+    "gclk0": "0x10307",
+    "gclk1": "0x10307",
+    "dpll_ctrlb": "0x30010",
+    "dpll_status": "0x3"
+  },
+  "ram_symbols": {
+    "gOSPControl": [
+      536870972,
+      1768
+    ],
+    "oAppTimer": [
+      536870912,
+      32
+    ],
+    "gConFig": [
+      536870944,
+      27
+    ],
+    "gPowerData": [
+      536879258,
+      2
+    ],
+    "gVerification": [
+      536872740,
+      1232
+    ]
+  },
+  "error": "Do not reconfigure shared LIN adapter",
+  "completed": false,
+  "finished": "2026-11-18T15:25:41.230061"
+}

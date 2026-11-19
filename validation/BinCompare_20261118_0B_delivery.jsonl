@@ -1,0 +1,28 @@
+{"time": "2026-11-18T13:36:35", "kind": "START", "prefix": "BinCompare_20261118_0B_delivery", "brightness_cap": 12, "gui": false, "jlink": false}
+{"time": "2026-11-18T13:36:35", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T13:36:38", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T13:36:38", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T13:36:59", "kind": "UPDATE_PROGRESS", "chair": "0B", "image": "delivery", "bytes": 7424, "length": 29688}
+{"time": "2026-11-18T13:37:15", "kind": "UPDATE_PROGRESS", "chair": "0B", "image": "delivery", "bytes": 14848, "length": 29688}
+{"time": "2026-11-18T13:37:33", "kind": "UPDATE_PROGRESS", "chair": "0B", "image": "delivery", "bytes": 22272, "length": 29688}
+{"time": "2026-11-18T13:37:51", "kind": "UPDATE_PROGRESS", "chair": "0B", "image": "delivery", "bytes": 29688, "length": 29688}
+{"time": "2026-11-18T13:37:54", "kind": "UPDATE_PASS", "chair": "0B", "image": "delivery", "crc": "1567E1F4"}
+{"time": "2026-11-18T13:37:56", "kind": "CONTROL_ZONE_PASS", "chair": "0B", "zone": 0, "colors": 5, "nodes": 1}
+{"time": "2026-11-18T13:37:57", "kind": "CONTROL_ZONE_PASS", "chair": "0B", "zone": 1, "colors": 5, "nodes": 1}
+{"time": "2026-11-18T13:37:58", "kind": "CONTROL_ZONE_PASS", "chair": "0B", "zone": 2, "colors": 5, "nodes": 1}
+{"time": "2026-11-18T13:38:00", "kind": "CONTROL_ZONE_PASS", "chair": "0B", "zone": 3, "colors": 5, "nodes": 1}
+{"time": "2026-11-18T13:38:04", "kind": "CONTROL_ZONE_PASS", "chair": "0B", "zone": 4, "colors": 5, "nodes": 24}
+{"time": "2026-11-18T13:38:06", "kind": "CONTROL_ZONE_PASS", "chair": "0B", "zone": 5, "colors": 5, "nodes": 8}
+{"time": "2026-11-18T13:38:12", "kind": "FADE_PASS", "chair": "0B", "direction": "in"}
+{"time": "2026-11-18T13:38:17", "kind": "FADE_PASS", "chair": "0B", "direction": "out"}
+{"time": "2026-11-18T13:38:23", "kind": "FLICKER_ZONE_PASS", "chair": "0B", "zone": 0, "hz": [10, 20, 30], "duties": [10, 50, 90]}
+{"time": "2026-11-18T13:38:30", "kind": "FLICKER_ZONE_PASS", "chair": "0B", "zone": 1, "hz": [10, 20, 30], "duties": [10, 50, 90]}
+{"time": "2026-11-18T13:38:36", "kind": "FLICKER_ZONE_PASS", "chair": "0B", "zone": 2, "hz": [10, 20, 30], "duties": [10, 50, 90]}
+{"time": "2026-11-18T13:38:42", "kind": "FLICKER_ZONE_PASS", "chair": "0B", "zone": 3, "hz": [10, 20, 30], "duties": [10, 50, 90]}
+{"time": "2026-11-18T13:38:49", "kind": "FLICKER_ZONE_PASS", "chair": "0B", "zone": 4, "hz": [10, 20, 30], "duties": [10, 50, 90]}
+{"time": "2026-11-18T13:38:55", "kind": "FLICKER_ZONE_PASS", "chair": "0B", "zone": 5, "hz": [10, 20, 30], "duties": [10, 50, 90]}
+{"time": "2026-11-18T13:38:56", "kind": "PRODUCT_RESTORED", "chair": "0B"}
+{"time": "2026-11-18T13:39:36", "kind": "XCP_PASS", "chair": "0B", "image": "delivery", "samples": 1000, "mean_ms": 40.056623423423446, "max_ms": 63.941600000021026}
+{"time": "2026-11-18T13:39:36", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T13:39:37", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T13:39:37", "kind": "CLEANUP", "remove_client": 0}

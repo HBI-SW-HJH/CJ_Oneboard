@@ -4,37 +4,6 @@
 #ifndef OSP_CONTROL_H
 #define OSP_CONTROL_H
 
-#include <stdint.h>
-#if defined(__ICCARM__)
-#include "device.h"
-#endif
-
-#ifndef LED_CONTROL_TYPES_DEFINED
-#define LED_CONTROL_TYPES_DEFINED
-typedef struct
-{
-    uint8_t chairMask;
-    uint8_t ledMask;
-    uint8_t colorMode;
-    uint8_t fadeEnabled;
-    uint8_t active;
-    uint8_t sync;
-    uint8_t mode;
-    uint8_t color1;
-    uint8_t color2;
-    uint8_t color3;
-    uint8_t effect1;
-    uint8_t effect2;
-    uint16_t red;
-    uint16_t green;
-    uint16_t blue;
-    uint32_t timeMs;
-} LedControlCommand_t;
-
-#define LED_FLICKER_FADE_TIME_MS 500U
-#define LED_CONTROL_TICK_US      1000U
-#endif
-
 #define OSP_PORT_COUNT          2U
 #define OSP_LOGO_NODE_COUNT     24U
 #define OSP_STROBE_NODE_COUNT   8U
@@ -151,10 +120,8 @@ typedef struct
 } OSP_Control_t;
 
 extern OSP_Control_t gOSPControl;
-#if defined(__ICCARM__)
 extern dmac_descriptor_registers_t s_dmaDescriptor[OSP_DMA_CHANNEL_COUNT];
 extern dmac_descriptor_registers_t s_dmaWriteback[OSP_DMA_CHANNEL_COUNT];
-#endif
 extern uint8_t s_txBytes[OSP_MAX_TX_BYTES];
 extern uint16_t s_capturePeriods[OSP_CAPTURE_COUNT];
 

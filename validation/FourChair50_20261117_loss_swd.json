@@ -1,0 +1,34 @@
+{
+  "time": "2026-11-17T16:47:58.608299",
+  "reset_or_download": false,
+  "pds": {
+    "crc_valid": true,
+    "index": 59,
+    "magic": "434A4346",
+    "length": 27,
+    "format": 2,
+    "serial": "26I16-0002",
+    "part": "ZX1-0025",
+    "chair": "0B"
+  },
+  "halted": true,
+  "demcr": "0x1000000",
+  "vtor": "0x20001e00",
+  "record": {
+    "crc": 1619059869,
+    "magic": 1128940116,
+    "index": 1214,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 3,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  }
+}

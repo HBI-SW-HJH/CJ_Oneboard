@@ -1,0 +1,8 @@
+{"time": "2026-11-18T15:43:20", "kind": "START", "prefix": "FinalApp40_20261118_153530_incident_A2_readonly", "brightness_cap": 12, "gui": false, "jlink": false, "lin_flash_write": true}
+{"time": "2026-11-18T15:43:20", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T15:43:23", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T15:43:23", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:43:23", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:43:24", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:43:24", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T15:43:24", "kind": "CLEANUP", "remove_client": 0}

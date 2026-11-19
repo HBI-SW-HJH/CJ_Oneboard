@@ -1,0 +1,147 @@
+{
+  "time": "2026-11-17T14:57:19.531631",
+  "completed": 100,
+  "unique_numbers": 100,
+  "transfer_attempts": 101,
+  "interrupted_attempts": [
+    {
+      "number": 32,
+      "cause": "Windows sleep: 12:24:24 to 13:04:16; System event 42/1",
+      "error": "RuntimeError('UDS timeout NAD=7D request=36b304002000c0b2')",
+      "in_progress": {
+        "number": 32,
+        "started": "2026-11-17T12:23:30.310831",
+        "phase": "transfer",
+        "bytes_acknowledged": 22272
+      }
+    }
+  ],
+  "read_incidents": [
+    {
+      "number": 13,
+      "prior_error": "RuntimeError('UDS timeout NAD=7F request=3101f302aebe9602')",
+      "retries": [],
+      "lin_errors": 1,
+      "last_status": 4
+    },
+    {
+      "number": 54,
+      "prior_error": "RuntimeError('LIN error ID=3D, flags=10')",
+      "retries": [],
+      "lin_errors": 0,
+      "last_status": null
+    },
+    {
+      "number": 76,
+      "prior_error": null,
+      "retries": [
+        {
+          "time": "2026-11-17T14:21:37.582186",
+          "retry": 1,
+          "error": "UDS timeout NAD=7F request=3101f302aebe9602"
+        }
+      ],
+      "lin_errors": 1,
+      "last_status": 4
+    },
+    {
+      "number": 97,
+      "prior_error": null,
+      "retries": [
+        {
+          "time": "2026-11-17T14:52:25.848423",
+          "retry": 1,
+          "error": "UDS timeout NAD=7F request=3101f302aebe9602"
+        }
+      ],
+      "lin_errors": 1,
+      "last_status": 4
+    },
+    {
+      "number": 100,
+      "prior_error": null,
+      "retries": [
+        {
+          "time": "2026-11-17T14:56:46.251445",
+          "retry": 1,
+          "error": "LIN error ID=3D, flags=10"
+        }
+      ],
+      "lin_errors": 0,
+      "last_status": null
+    }
+  ],
+  "rgb_readbacks": 3600,
+  "clock_modes": {
+    "normal": 100,
+    "xosc_timeout": 100,
+    "dpll_timeout": 100
+  },
+  "clock_readbacks": 10800,
+  "source_file_count": 283,
+  "source_changed": [],
+  "image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Clock_20261117.bin",
+    "length": 29692,
+    "sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+    "crc32": "C69C9150"
+  },
+  "final_hardware": {
+    "tick_ms": 15770,
+    "halted": false,
+    "gclk0": "0x10307",
+    "gclk1": "0x10307",
+    "dpll_ctrlb": "0x31010",
+    "dpll_status": 3,
+    "wdt": 2,
+    "bootprot": 4,
+    "locks": 0,
+    "nodes": [
+      24,
+      8
+    ],
+    "osp_valid": [
+      24,
+      8
+    ],
+    "osp_errors": [
+      0,
+      0
+    ],
+    "osp_crc": [
+      0,
+      0
+    ],
+    "osp_manchester": [
+      0,
+      0
+    ],
+    "srgb_errors": 0,
+    "srgb_valid": 1,
+    "lin_errors": 0,
+    "lin_drops": 0,
+    "power_fault": 0,
+    "max_temperature": 25
+  },
+  "final_record": {
+    "crc": 1630634434,
+    "magic": 1128940116,
+    "index": 1114,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "max_temperature": 27,
+  "result_file": "ClockLin100_20261117_resume4_result.json",
+  "clock_result_file": "ClockStress100_20261117_result.json",
+  "reset_or_download_during_audit": false
+}

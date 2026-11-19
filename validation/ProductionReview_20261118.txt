@@ -1,0 +1,305 @@
+CJ 양산 동작·프로그램 검토 — 2026-11-18
+
+후속 검토 반영: 아래 1~5는 최초 검토 기록이다. 사용자 설명에 따라 최대 부하 검사,
+PC 재연결 운영, 모듈 시작 LED만 재초기화, 연속 3~4시간 운전, 133℃ 고장 판단을
+의도된 사양/운영 조건으로 확인했다. 따라서 1~5를 필수 수정 항목으로 분류하지 않는다.
+추가 검토 결과는 9절에 기록했다. 펌웨어 및 PC 소스는 변경하지 않았다.
+
+대상: D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261116
+PC: D:\jhhan\program\PC\PC_Lan8661_20261111
+기준: D:\jhhan\program\CJ_OneBoard\Program\납품\CJ_Git_20261111 (읽기만)
+방법: 코드 정적 검토, 사용 부품 데이터시트·CPU 에라타 대조, 회로도 확인, 경계값 계산.
+이번 검토에서는 소스·설정·BIN 수정, GUI 조작, 보드 다운로드, 고장 주입을 하지 않았다.
+모든 미사용 CPU 기능을 검증한 것이 아니라 실제 사용하는 기능·전기적 조건과 에라타를 대조했다.
+기존 비교 시험 통과와 아래 미시험 예외 조건은 구분한다.
+
+1. 자동검사 백색 100%에서 전원 용량 여유가 없음
+판정: 코드 확인 / 전류는 데이터시트 기반 계산 추정, 실측 아님.
+
+PC Forms\FormUDS_Verification.cs:21,169~180은 밝기 10/50/100%, zoneMask=0x3F로 6구역을 동시에 켠다.
+App applications\src\Verification.c:104는 ActiveFlag=1로 설정한다.
+App applications\src\OSPControl.c:692는 ActiveFlag=0일 때만 Logo 41mA 평균 전류 제한을 적용한다.
+따라서 검사에서는 Logo도 R/G/B 각 50mA로 명령할 수 있다.
+
+한 제어기(Logo 24 + Strobe 8 + SRGB 4구역)의 계산:
+  OSP LED 출력: 32 × 3 × 50mA = 4,800mA.
+  OSP IC 자체: 32 × (2.05 + 1.5 + 150 × 0.11)mA = 641.6mA(typ).
+  SRGB: 0x26AC / REXT 510Ω → 약 25.305mA/채널 × 24채널 = 607.3mA.
+  합계 약 6,048.9mA. 외부 OSP PCB의 CAN 트랜시버 전류 등은 별도다.
+회로도 p1의 +5V_LED 전원 BD9P608MFF-C는 출력 6A 사양이다.
+전형값 계산만으로도 여유가 없어 편차·온도·배선에 따라 전압 진단 또는 검사 중단 가능성이 있다.
+일반 모드의 Logo 제한 적용 상태는 같은 방식으로 약 3.15A(트랜시버 등 별도)다.
+앞선 2/5/10% 저밝기 비교 시험은 이 100% 조건을 검증한 것이 아니다.
+
+최소 개선 방향: PC 검사에서 구역을 나눠 점등하거나 밝기를 전원 범위에 맞춘다.
+검사에서도 Logo 제한을 적용한다면 PC의 기대 PWM도 제한값에 맞춰야 한다.
+근거: OSIRE 데이터시트 p7,p30 / AL58263 p11 / BD9P608MFF-C p1 / 회로도 p1.
+
+2. 검사 도중 PC/LIN 연결이 사라지면 검사 모드가 남음
+판정: 코드 경로 확인. 이번 검토에서 연결 제거 실물 시험은 하지 않음.
+
+조건: START 수신 후 케이블 분리 또는 PC 비정상 종료로 STOP이 전달되지 않음.
+Verification.c:102~120은 START에서 ActiveFlag=1, STOP에서 0으로 설정한다(초기화 제외).
+main.c:48~75는 ActiveFlag=1이면 SRGB/OSP 정기 진단과 2초 재연결 확인을 실행하지 않는다.
+OSPControl.c:692에 따라 Logo 전류 제한도 적용되지 않는다.
+개별 측정 종료는 EnableFlag를 해제하지만 ActiveFlag는 해제하지 않는다.
+PC 정상 종료·취소 경로는 finally에서 STOP과 OFF를 보내지만 STOP 응답을 확인하지 않는다.
+연결이 끊긴 상태에서는 전송 시도만으로 복귀를 보장할 수 없다.
+CPU 전체 정지가 아니라 검사 예외 상태가 남는 문제이며, 일반 제어 프레임만으로 해제되지 않는다.
+유효한 STOP 수신 또는 전원 재인가로 해제된다.
+
+최소 개선 방향: 검사 통신 중단 시 검사 예외만 해제하고 진단과 전류 제한을 복구한다.
+일반 LIN 통신 두절 시 점등 유지 사양은 유지할 수 있다.
+제한 복구 시 현재 PWM도 다시 적용해야 한다. Flag만 변경하면 기존 PWM이 남을 수 있다.
+
+3. OSP Open/Short에 의해 SLEEP이 된 LED의 복귀 조건 누락
+판정: 문서·코드 대조로 확인한 경로. 고장 해제 후 실물 재현은 추가 확인 필요.
+
+OSP_SETUP_DEFAULT=0x24는 CRC_EN=1, LOS_FSAVE=1, OT_SAVE=0, UV_FSAVE=0이다.
+LOS_FSAVE=1이면 내부 RGB Open/Short 검출 시 해당 OSP IC가 SLEEP으로 들어간다.
+SLEEP에서도 통신과 PWM 값 갱신은 가능하지만 발광 드라이버는 꺼져 있으며 GOACTIVE 등이 필요하다.
+
+현재 OSPControl_CheckLogoOpen()(OSPControl.c:970)은 Logo LED1/LED13의 Open·통신·유효성·노드 수를 확인한다.
+OSPControl_CheckStrobeOpen()(OSPControl.c:1003)은 Strobe LED1만 같은 방식으로 확인한다.
+Short 비트(0x07)와 STATUS[7:6]의 SLEEP 상태를 직접 확인하지 않는다.
+
+예: Strobe 노드 수 8개, 통신 정상, Open 없음, Short만 발생하여 SLEEP 진입.
+복구 함수의 조기 return 조건은 만족한다. 다른 복구 원인이 없으면 GOACTIVE를 다시 보내지 않는다.
+일반 색상 명령 SETPWM은 SLEEP 해제 명령이 아니므로 고장 해제 후에도 재점등하지 못할 수 있다.
+Logo LED1/13 이외 또는 Strobe LED1 이외 노드의 개별 Open에도 복구 확인이 빠질 수 있다.
+커넥터 전체 미연결과 LED 내부 RGB Open/Short는 다른 조건이다.
+
+최소 개선 방향: 전 노드 상태와 고장 해제 조건을 확인한 뒤 정상 재활성화한다.
+고장이 지속되는 동안 무조건 재점등하는 방식으로 단순 변경하면 안 된다.
+근거: OSIRE Startup Guide p13~14, p19~20, p36, p39~40.
+
+4. 약 49.7일간 같은 Fade 명령을 유지하면 완료된 Fade가 다시 계산됨
+판정: 코드 및 수학적 경계값 확인. 49.7일 실시간 실물 시험은 하지 않음.
+
+AppTimer_t.timeMs는 uint32_t, 1ms 단위이며 2^32ms=49.7103일에 순환한다.
+OSPControl.c:650,889~893 / SRGBControl.c:215,347~351:
+elapsedMs = timeMs - startTimeMs를 계속 계산하고 durationMs와 비교한다.
+동일 명령은 Set 함수에서 continue하므로 startTimeMs도 갱신하지 않는다.
+Fade 완료 후에도 시작색과 duration을 유지한다.
+마지막 Fade 시작 후 2^32ms가 경과하면 elapsed가 다시 0으로 돌아간다.
+
+예(시작 0, 목표 65535, Fade 1000ms):
+  충분한 시간 경과: 65535
+  2^32ms 경과: 0
+  그 뒤 500ms: 32767
+  그 뒤 1000ms: 65535
+전원 재인가나 다른 명령 없이 이 기간을 유지하면 갑자기 어두워졌다가 다시 Fade될 수 있다.
+Fade 시간이 0이거나 그 전에 전원/명령이 바뀌면 해당하지 않는다.
+매번 시각을 갱신하는 플리커 위상 계산 자체와는 구분된다.
+최소 개선 방향: Fade 완료 시 시작값을 목표값으로 확정하는 등 완료된 보간을 반복하지 않도록 한다.
+
+5. 고온 사용 시 OSP 진단 기준과 부품 정격 확인 필요
+판정: 사양 대조. 사용 환경에서 실제 과열이 발생했다는 판정은 아님.
+
+OSPControl.h:62의 온도 기준은 133℃, OSPControl.c:1065는 온도 >133℃ 또는 OT_FLAG를 진단으로 표시한다.
+SETUP=0x24의 OT_SAVE=0이므로 과열 플래그에 의한 자동 SLEEP은 해제되어 있다.
+현재 코드에서 진단 표시 자체가 감광/차단을 실행하는 것은 아니다.
+OSIRE 데이터시트 p6~7의 IC 접합온도 최대는 125℃, p23 온도 센서 정확도는 ±5℃다.
+'133℃ 진단이 없으므로 부품 정격 이내'라는 출하 판정은 할 수 없다.
+외기온도와 IC 접합온도를 구분하여 고객 최대 밝기·사용 온도에서 열 여유를 확인해야 한다.
+고객 사양 없이 새로운 감광 기능을 정하자는 결론은 아니다.
+
+6. 함께 확인한 설정 및 기존 제한
+
+[CPU·클럭]
+- 16MHz /8 ×24 =48MHz, Flash 2 wait states 선설정.
+- FDPLL LBYPASS 및 CLKRDY 확인은 DS80001000H 2.8.1 우회 방법과 일치.
+- 외부 클럭 기동 실패 시 GCLK0 내부 OSC48M을 OSP GCLK1도 따라가도록 구성.
+- 동작 중 외부 크리스탈이 멈췄을 때의 자동 전환까지 구현되었다는 의미는 아님.
+- EVSYS 비동기, TC PWP 캡처, OSP SPI Host, LIN Slave 사용.
+  미사용 I2C/CAN/PDEC/TCC/Standby 관련 에라타를 현재 결함으로 계산하지 않음.
+- SERCOM SWRST(2.10.1)는 실리콘 제약이나 최초 초기화에서 설정을 직접 기록함.
+  이 항목만으로 현재 동작 불량을 확정하지 않음.
+- OSC48M 전원 기동 실패(2.16.1)는 기존 제조사 기재 사항.
+  정상 운전에서 OSC48M을 반복적으로 껐다 켜는 코드는 없음.
+
+[내부 클럭 OSP 속도]
+- 확장 온도 범위 OSC48M 46.1~49.9MHz(DS60001632H p1168).
+- SPI BAUD=4: Manchester half-bit=Fcpu/10, OSP bit=Fcpu/20.
+- 2.305~2.495Mbps는 명시된 MCU→slave 허용 2.21~2.59Mbps(OSIRE p28) 안에 듦.
+- Manchester 최대 4.99Mbps는 BD41044FJ-C의 5Mbps 사양 이내.
+- OSIRE p29 일반 CAN FD 속도표를 MCU 입력 허용 범위로 단정하지 않음.
+- 내부 클럭 시간 오차와 실제 하네스·수신 파형은 별도 실물 확인 항목.
+
+[통신·초기화]
+- LIN 19200bps는 BD41030FJ-C 20kbps 이내. Slave 자동 baud, PID parity, checksum 사용.
+- Ring 각 32개, UDS 길이·순서·timeout, XCP 범위 검사를 확인.
+- OSP inter-frame gap 15us. 24노드/80bit/반대패리티 문서 계산값 약 12.055us보다 큼.
+- PING4ERROR는 POR 후 미초기화 상태에도 응답하도록 Startup Guide p35에 명시됨.
+  INIT 전 PING이라는 이유만으로 복구가 불가능하다고 판단하지 않음.
+- SRGB 데이터·진단 명령 수, 채널 매핑, 지연 NOP 및 미사용 채널 mask 확인.
+
+[전원·LED]
+- CPU/AL58263은 +5V, 외부 LED는 별도 +5V_LED(회로도 p1).
+  외부 SRGB 전원 손실이 내부 AL58263 재부팅을 뜻한다고 가정하지 않음.
+- SRGB 약25.3mA/채널은 AL58263 5V 출력 범위 2~55mA 이내.
+  병렬 약50.6mA/색은 S6RTB-THG p2의 DC 절대 최대 250mA보다 낮음.
+  이 비교만으로 PCB 열설계나 밝기 편차까지 합격이라고 판정하지 않음.
+- 전압 진단은 CPU ADC 측정이 아니라 BD9P608 RESET 신호 입력임.
+  임계값에는 저항비, 부품 오차, 히스테리시스, 지연이 포함됨.
+- DSX321G 16MHz 표준 규격은 확인했으나 실제 주문품 전체 품번/CL은 회로도만으로 확정 불가.
+  C51/C52=6pF와 실장 기생 용량을 포함한 발진 여유는 실제 BOM/보드 확인 항목.
+
+[설정 저장 — 기존 논의 사항]
+- PDS는 변경 시 두 복사본을 순서대로 기록하고 CRC/readback 및 재시도를 사용.
+- Flash_WaitReady는 여전히 1000회 뒤 종료하고 timeout 결과를 호출부에 전달하지 않음.
+- Data Flash는 Main 실행과 동시에 쓸 수 있으므로(p407), CPU가 항상 자동 정지하여 기다려준다고 단정할 수 없음.
+- 기존 논의 항목으로 분리함. 단순 retry 증가를 새 개선안으로 제안하지 않음.
+  필요시 timeout 실패 전달과 기존 정상 저장본 유지 흐름부터 확인해야 함.
+- NVMCTRL MANW reset value는 1이며 클럭 코드가 보존함.
+  자동/수동 페이지 쓰기가 중복된다는 문제는 이번 코드에서 확인되지 않음.
+
+7. 추가 시험 우선순위 — 이번에 수행하지 않은 시험
+
+1) 한 보드의 PC 기본 White 100% 부하 실측과 구역별 검사 검토.
+2) 저밝기 검사 중 PC/LIN 연결 상실 후 일반 진단·전류 제한 복귀.
+3) OSP 개별 노드 SLEEP → 고장 원인 제거 → 재활성화.
+4) 별도 시험 환경에서 32비트 시간 경계 Fade.
+5) 고객 최대 사용 밝기·온도·하네스에서 전원/온도/통신.
+6) 출하 Chair ID/Serial/Init Number 및 전원 재인가 후 정상 제어.
+
+1~4의 관련 펌웨어 함수는 납품 CJ_Git_20261111과 비교하여 동일했다.
+최근 클럭 우회·헤더 정리로 새로 생긴 문제로 분류하지 않는다.
+Boot 복원 프로토콜이나 기존 Flag 구조를 새로 설계하는 제안은 하지 않았다.
+
+8. 검토 문서 및 공식 출처
+
+Microchip CPU DS60001632H (1226p):
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/PIC32CM-JH00-JH01-Family-Data-Sheet-DS60001632.pdf
+Microchip Errata DS80001000H (29p):
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/Errata/PIC32CM-JH00-JH01-Family-Silicon-Errata-and-Data-Sheet-Clarifications-DS80001000.pdf
+AL58263 DS46310 Rev4-2 May2026 (29p):
+D:\jhhan\program\CJ_OneBoard\데이터시트\AL58263.pdf
+https://www.diodes.com/datasheet/download/AL58263.pdf
+OSIRE KRTBI D2LM31.31 v1.2 2025-04-30 (40p):
+D:\jhhan\program\CJ_OneBoard\데이터시트\KRTBI D2LM31.31 (250430).pdf
+OSIRE Startup Guide AN078 2025-09-09 (59p):
+D:\jhhan\program\CJ_OneBoard\데이터시트\OSIRE™ E3731i - Startup Guide.pdf
+Open System Protocol AN162 2025-11-10 (52p):
+D:\jhhan\program\CJ_OneBoard\데이터시트\OSIRE™ E3731i - Open System Protocol.pdf
+ROHM BD41030FJ-C/HFN-C Rev003:
+https://fscdn.rohm.com/en/products/databook/datasheet/ic/interface/transceiver/bd41030fj-c-e.pdf
+  회로도 U3의 BZ suffix와 실제 구매품은 최종 BOM 확인 대상. 공개 FJ-C 문서로 대조함.
+ROHM BD41044FJ-C Rev002:
+https://fscdn.rohm.com/en/products/databook/datasheet/ic/interface/transceiver/bd41044fj-c-e.pdf
+ROHM BD9P608MFF-C Rev002:
+https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9p608mff-c-e.pdf
+ROHM BD4xxS5-C(BD450S5FP-C 포함):
+https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bd4xxs5efj-e.pdf
+DOMINANT S6RTB-THG V5:
+https://dominant-opto.oss-ap-southeast-1.aliyuncs.com/S6RTB-THG/SpicePlus%203030%20Multi%20Color%20S6RTB-THG%20-%20v5.pdf
+KDS DSX321G 16MHz 표준 규격:
+https://www.kds.info/en/products/dsx321g-c-std2/
+https://www.kds.info/wp-content/themes/kds/asset/img/pdf/DSX321G_7AD01600A7U.pdf
+회로도 (6p): D:\jhhan\program\CJ_OneBoard\사양서\CJ_ZX1_261020.pdf
+
+계산은 typ/nominal 값이며 측정값 및 보증 최대 소비전류와 구분한다.
+
+9. 합의된 조건을 제외한 정상 운전 경로 재검토
+
+방법: 현행 소스 재확인, 기존 납품 소스와 대조, 정수 계산/링 인덱스 경계 확인.
+GUI, 보드 접속, 다운로드, 실물 오류 주입 및 새 빌드는 수행하지 않았다.
+
+[확인 범위]
+- LIN ISR의 Break/오류 후 상태 복귀, 8바이트 수신 및 checksum 처리.
+- RX/TX ring의 32개 용량 및 uint8_t head/tail 순환.
+- CIE 좌표 변환의 분모 검사, SRGB/OSP Fade 계산의 정수 범위.
+- OSP Manchester/DMA 송수신 버퍼 크기, 응답 실패 경로.
+- UDS/XCP/Verification 요청의 길이·주소·zone/node 제한.
+- 주기 함수와 인터럽트 금지/복원, 정상 색상 제어에서 Flash 쓰기 호출 여부.
+
+계산 확인(펌웨어 실행 시험과 구분):
+- Fade 최대 곱 65535×24999=1,638,309,465로 int32_t 범위 이내.
+- Flicker 주파수 1~100Hz × duty 0~250, 25,100조합 계산 범위 확인.
+- Ring tail 0~255 × 점유 0~32, 8,448상태에서 인덱스 순환 확인.
+- CIE1976 u/v 0~250 전 조합 검사; 허용 38,854좌표에 대해 밝기 1/127/255 계산 범위 확인.
+이 검토 범위에서 정상 명령만으로 CPU가 멈추는 추가 원인은 확인하지 못했다.
+
+[보완 후보: OSP가 송신 실패를 반환해도 재송신 표시를 지움]
+후속 사용자 결정: 주기 지연 방지를 위해 재송신을 의도적으로 제외한 사양.
+이 항목 역시 수정 대상으로 분류하지 않고 현재 방식을 유지한다.
+위치: applications/src/OSPControl.c:709~710.
+  (void)OSP_Transfer(... OSP_CMD_SET_PWM ...);
+  gOSPControl.dirty[port] = 0U;
+
+OSP_SendManchester()가 DMA 완료 또는 SPI TX 완료 대기에서 실패하면
+OSP_Transfer()는 0을 반환한다. 그러나 OSP_WriteColor()는 이를 버리고 dirty를 0으로 만든다.
+같은 LIN 명령(sync=0)은 Set():634~637에서 제외하고, 정적 색상이 안정되면
+Process()도 목표 출력이 같다는 이유로 다시 전송하지 않는다.
+
+가능한 조건:
+1) Normal 모드에서 최종 색상 또는 OFF 명령을 보내는 순간 송신이 실패.
+2) LED에 실제 명령이 전달되지 않아 이전 출력이 남음.
+3) 모듈 시작 LED에서 초기화 사유가 검출되지 않고, 같은 LIN 명령만 반복 수신.
+4) 다른 출력 변화나 재초기화가 없으면 재전송되지 않을 수 있음.
+
+CPU 전체 정지나 실물에서 발생한 고장을 확인했다는 의미는 아니다.
+Fade/Flicker로 다음 출력이 바뀌거나, 2초 점검이 재초기화를 실행하면 다시 전송될 수 있다.
+실제로 이런 송신 실패가 얼마나 발생하는지는 이번 정적 검토로 판단할 수 없다.
+납품 CJ_Git_20261111의 OSP_WriteColor()에도 동일한 처리다.
+
+최소 보완 방향(코드 미수정): OSP_Transfer 성공 시에만 dirty를 해제하도록 검토.
+추가 LED Read나 전체 LED 재초기화가 아니라 이미 반환되는 CPU 송신 결과를 활용하는 것.
+이 방법도 송신 성공 뒤 LED가 수신하지 못한 경우까지 보장하지는 않는다.
+지속 실패 시 반복 송신이 주기에 미치는 영향도 수정 검토 시 함께 확인해야 한다.
+
+10. 1ms 주기 우선 조건에 따른 추가 검토
+
+코드 변경, 빌드 및 보드 시험은 하지 않았다. 아래 두 조건은 기존 납품 소스에도 동일하다.
+
+[A: 정상 OSP 진단도 Main을 1ms 이상 점유하는 경로]
+applications/src/OSPControl.c:936~939:
+  한 노드마다 READ_TEMP_STATUS / READ_PWM / READ_LED_STATUS 세 명령을 연속 실행.
+  각 명령의 대기시간 = (노드 번호 ×16 +40) us.
+OSP_Transfer():578~593은 정해진 시간이 경과할 때까지 대기한 뒤 캡처를 디코딩한다.
+응답이 먼저 도착했다고 대기 루프를 조기 종료하는 조건은 없다.
+
+Logo LED24: (24×16+40)×3 = 1,272us = 1.272ms.
+이것은 대기만 합친 값이며 송신/캡처 설정/디코딩 시간은 별도다.
+노드19~24는 대기 합계만으로 각각 1.032~1.272ms다.
+48MHz 정상 클럭과 현재 SysTick 설정 기준 계산이며 새 실물 측정값은 아니다.
+OSP_WAIT_LIMIT=80000 반복 제한도 존재하나, 정상 루프의 424us 대기를 줄이는 응답 완료 조건은 아니다.
+
+main.c:56~60의 정상 정기 진단에서 실행되므로 LED 고장이나 PC 진단 요청이 없어도 해당한다.
+이 동안 SysTick 인터럽트는 가능하지만 Main의 다음 SRGB/OSP 제어 호출은 기다린다.
+1.272ms가 그대로 매 출력의 오차라는 뜻은 아니다. 처리 시작 시점에 따라 제어 마감이 밀릴 수 있다는 뜻이다.
+실제 출력 에지 지연 크기는 실물 계측이 필요하며, 평균 주파수 유지와 개별 에지 지연은 구분한다.
+
+[B: 공유 tick10ms를 각각 확인하고 Main에서 지워 Fade 계산을 놓칠 수 있음]
+SRGBControl.c:340과 OSPControl.c:882가 tick10ms<10이면 각각 Fade 계산을 생략한다.
+그 뒤 main.c:42~45는 tick10ms>=10이면 두 함수의 계산 여부와 무관하게 0으로 만든다.
+
+가능한 실행 순서:
+  SRGB가 9를 읽어 계산 생략
+  → SysTick이 발생하여 10이 됨
+  → OSP는 10을 읽어 계산 실행
+  → Main은 tick10ms를 0으로 만듦
+  → SRGB의 해당 10ms 계산 기회를 놓침.
+
+두 Process가 모두 9를 확인한 후 Main이 10을 확인하는 순서도 가능하며,
+이 경우 두 드라이버 모두 해당 계산을 하지 않은 채 카운터가 지워진다.
+플리커 위상 계산 전체가 정지한다는 의미는 아니며, 10ms 색상/Fade 갱신 경로의 문제다.
+
+PC 모형 확인:
+현재 C 함수 본문을 기존 Main1msTimingModel.cjs 방식으로 JS에 변환하고,
+타이머 인터럽트 1회를 해당 경계에 삽입했다. GPIO/SPI는 대체 함수로 처리했다.
+기존 모형의 누락된 zone/2 정수 나눗셈과 zone mapping만 메모리상의 시험 어댑터에서 보완했다.
+프로젝트의 실제 테스트 파일이나 펌웨어 소스는 수정하지 않았다.
+
+1초 Fade, 목표 Red=65535 조건의 내부 보간값:
+  정상 t=10ms: SRGB=655 / OSP=655.
+  중간 인터럽트 삽입 t=10ms: SRGB=0 / OSP=655, tick10ms=0.
+  두 함수 뒤 인터럽트 삽입 t=10ms: SRGB=0 / OSP=0, tick10ms=0.
+  이후 정상적으로 처리하면 t=20ms 계산 시 두 값 모두 1310으로 갱신된다.
+예시에서 10ms 갱신 1회를 건너뛰거나 두 드라이버의 갱신 시점이 달라지는 것을 확인했다.
+
+이는 인터럽트 순서에 대한 소프트웨어 모형 확인이며 IAR 바이너리 실행이나 보드 재현이 아니다.
+실제 발생 빈도는 이번 검토로 판단하지 않는다.
+공통 10ms 실행 여부를 한 번 확정하고 두 드라이버가 같은 기준으로 처리하도록 검토할 부분이다.
+
+재검토 종료 시 기존 소스/설정/BIN 300파일의 SHA-256은 이전 검토 manifest와 모두 일치했다.

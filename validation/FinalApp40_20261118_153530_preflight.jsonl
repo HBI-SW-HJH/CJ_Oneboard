@@ -1,0 +1,9 @@
+{"time": "2026-11-18T15:35:30", "kind": "START", "prefix": "FinalApp40_20261118_153530_preflight", "brightness_cap": 12, "gui": false, "jlink": false, "lin_flash_write": true}
+{"time": "2026-11-18T15:35:30", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T15:35:33", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T15:35:33", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:35:34", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:35:34", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:35:35", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T15:35:35", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T15:35:35", "kind": "CLEANUP", "remove_client": 0}

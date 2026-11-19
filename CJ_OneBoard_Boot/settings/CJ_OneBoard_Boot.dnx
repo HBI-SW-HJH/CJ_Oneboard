@@ -5,7 +5,7 @@
         <MemConfigValue>C:\iar\ewarm-9.70.4\arm\config\debugger\Microchip\PIC32CM5164JH01032.ddf</MemConfigValue>
     </PlDriver>
     <DebugChecksum>
-        <Checksum>1086612619</Checksum>
+        <Checksum>329899095</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>

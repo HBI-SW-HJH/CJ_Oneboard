@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "boards": [
+    {
+      "chair": "0B",
+      "color_records_equal": 204,
+      "max_flicker_difference_ms": 2,
+      "automatic_runs": 2,
+      "automatic_rows": 252,
+      "automatic_details": 1392,
+      "xcp_samples": 2000,
+      "xcp_mean_ms": [
+        40.056623423423446,
+        42.17551371371374
+      ],
+      "final_image": "current",
+      "final_diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0C",
+      "color_records_equal": 204,
+      "max_flicker_difference_ms": 2,
+      "automatic_runs": 2,
+      "automatic_rows": 252,
+      "automatic_details": 1392,
+      "xcp_samples": 2000,
+      "xcp_mean_ms": [
+        41.83011581581577,
+        40.40020070070071
+      ],
+      "final_image": "current",
+      "final_diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0D",
+      "color_records_equal": 204,
+      "max_flicker_difference_ms": 2,
+      "automatic_runs": 2,
+      "automatic_rows": 252,
+      "automatic_details": 1392,
+      "xcp_samples": 2000,
+      "xcp_mean_ms": [
+        40.70795915915917,
+        41.04177587587592
+      ],
+      "final_image": "current",
+      "final_diagnostics": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "updates": 6,
+  "source_and_bin_hashes_unchanged": true,
+  "pc_sources_unchanged": true,
+  "excluded": [
+    "0A"
+  ],
+  "completed": "2026-11-18T13:59:14.285188"
+}

@@ -1,0 +1,320 @@
+{
+  "time": "2026-11-16T11:43:34.037422",
+  "operations": "read only; no halt/reset/resume/write/download",
+  "samples": [
+    {
+      "time": "2026-11-16T11:43:37.868539",
+      "timer_ms": 545831,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:38.198498",
+      "timer_ms": 546160,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:38.505216",
+      "timer_ms": 546467,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:38.811155",
+      "timer_ms": 546773,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:39.202358",
+      "timer_ms": 547164,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:39.510004",
+      "timer_ms": 547471,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:39.813399",
+      "timer_ms": 547775,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    },
+    {
+      "time": "2026-11-16T11:43:40.245557",
+      "timer_ms": 548212,
+      "dhcsr": "0x1000001",
+      "tx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "rx_command": [
+        "0x27fc",
+        "0x27fc"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "open": [
+        "0xF000",
+        "0xF000"
+      ],
+      "short": [
+        "0x8000",
+        "0x0000"
+      ],
+      "short_ground": [
+        "0x8000",
+        "0x0000"
+      ],
+      "smart": [
+        "0xF000",
+        "0xF000"
+      ],
+      "thermal": [
+        "0x0000",
+        "0x0000"
+      ],
+      "rext": [
+        "0x0000",
+        "0x0000"
+      ]
+    }
+  ],
+  "completed": true,
+  "firmware_matches_current_build": true
+}

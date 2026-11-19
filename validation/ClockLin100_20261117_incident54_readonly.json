@@ -1,0 +1,247 @@
+{
+  "time": "2026-11-17T13:47:46.215505",
+  "reset_or_download": false,
+  "samples": [
+    {
+      "index": 0,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 85282,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 1,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 85540,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 2,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 85820,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 3,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 86076,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 4,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 86348,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 5,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 86625,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 6,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 86884,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 7,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 87122,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 8,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 87360,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    },
+    {
+      "index": 9,
+      "nad": 2,
+      "mode": 0,
+      "status": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "faults": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "tick": 87602,
+      "lin_errors": 0,
+      "lin_last_status": 0
+    }
+  ],
+  "halted": false,
+  "app_match": true,
+  "backup_match": true,
+  "record_main": {
+    "crc": 2781513474,
+    "magic": 1128940116,
+    "index": 838,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "record_backup": {
+    "crc": 2781513474,
+    "magic": 1128940116,
+    "index": 838,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "pds": {
+    "crc_valid": true,
+    "index": 59,
+    "magic": "434A4346",
+    "length": 27,
+    "format": 2,
+    "serial": "26I16-0002",
+    "part": "ZX1-0025",
+    "chair": "0B"
+  },
+  "hashes": {
+    "boot": "f55544ee5bf443b97d2b2529e8ba29ebd8c47e20600fd0f7b19e6e95a3c5de60",
+    "reserved": "71189f7fb6aed638640078fba3a35fda6c39c8962e74dcc75935aac948da9063",
+    "userrow": "b6edbff6622598d72881d4d4fcecf54142a62d5e4fae133125897e81b3505cb4",
+    "pds_main": "dfb1154d2d69404e09701eceb49025bab5a14c34e5b0ef3011892815ff06bb16",
+    "pds_backup": "dfb1154d2d69404e09701eceb49025bab5a14c34e5b0ef3011892815ff06bb16"
+  },
+  "registers": {
+    "0xe000edf0": "0x1000001",
+    "0xe000ed08": "0x20001e00",
+    "0x40001024": "0x31010",
+    "0x40001030": "0x3",
+    "0x40001c20": "0x10307",
+    "0x40001c24": "0x10307",
+    "0x40002000": "0xb0702",
+    "0x41004020": "0x0"
+  },
+  "initial_counters": {
+    "oAppTimer": 82134,
+    "g_dbg_lin_error_count": 0,
+    "g_dbg_lin_drop_count": 0,
+    "g_dbg_lin_last_status": 0
+  },
+  "passed": true
+}

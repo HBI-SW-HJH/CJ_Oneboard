@@ -1,0 +1,207 @@
+﻿최종 판정 및 추가 확인 사항
+
+1. 16:55:00~17:55:00 실제 1시간 무작위 시험 완료(3600.047초).
+   957개 시나리오, RGB 비교 33,811회, 플리커 구역 계측 1,665회, Fade 샘플 5,390개.
+   최대 밝기 25/255=9.804%, 플리커 5~30Hz.
+   본시험에서 A Logo 예외 외 색상값 불일치, Fade 진행 이상, LIN 오류/응답 누락은 검출되지 않음.
+   안정된 반복 구간 플리커 주기/ON/OFF 오차는 모두 2ms 이내(최대 1.92ms).
+
+2. 요청하신 A Logo 예외는 137개 읽기에서 상태 0x8F로 기록됨.
+   RGB 읽기값은 목표와 같았으며, 온도/전원 이상을 함께 나타내는 상태 비트가 추가된 것임.
+   이 읽기 상태만으로 온도와 전원 중 어느 쪽인지 구분하지 못함. 137회의 독립 고장 발생을 의미하지 않음.
+   종료 시 4개 의자의 표준 진단은 모두 0이고, APP 동작 및 제품정보/복원 횟수 유지 확인.
+
+3. 시작 순간은 별도로 확인할 점이 있음(본시험 종료 후 17:55:12~17:55:28 추가 계측).
+   조건: A/B/C/D LH, 30Hz, duty=188/250(75.2%), 밝기 10/255(3.922%).
+   각 의자에서 시작 포함 4회, 시작 250ms 후 4회씩, 총 32개 계측 결과 비교.
+   - 시작 포함 계측: 네 의자 모두 ON 최솟값 14~23ms 관측. 설정상 안정 ON은 약 25ms.
+   - 시작 250ms 후 계측: ON 24~26ms, 주기 32~34ms. 모두 오차 2ms 이내.
+   - 코드상 플리커 위상은 명령 수신 때 시작하지만 색상 크기는 10ms 처리에서 갱신하므로,
+     첫 ON이 늦게 시작하며 짧아지는 결과와 일치함. 정확한 빛의 파형을 측정한 결과는 아님.
+   - 별도로 0C의 시작 포함 3번째 계측에서 최대 주기 36ms, 최대 OFF 11ms가 한 번 기록됨.
+     기준 33.333ms / 8.267ms보다 각각 약 2.67ms / 2.73ms 길어 2ms 허용 범위를 넘음.
+     최소/최대 집계이므로 이 최댓값이 첫 주기였는지는 알 수 없음. 원인은 확정하지 않음.
+   따라서 '시작과 전환 순간까지 모두 2ms 이내'라고 판정할 수는 없음.
+
+4. 이번 작업에서 펌웨어/PC 프로젝트 코드는 변경하지 않음. 소스/설정/BIN 300개 해시 변화 없음.
+   추가 계측 종료 후에도 네 의자 전체 OFF, 계측 중지, LIN 클라이언트 연결 해제 완료.
+   이번 1시간 시험은 다운로드 반복 시험이 아니며, 앞선 다운로드 응답 누락 해결을 보증하지 않음.
+
+기록 도구에 관한 사항:
+16:51 예비 실행은 기록 함수 오류로 중단됨. 해당 기록은 보존했고, 본시험 1시간에는 포함하지 않음.
+본시험은 플리커 명령 250ms 뒤 계측을 시작하여 안정된 반복 구간을 평가함.
+시작 직후 동작은 위의 별도 계측으로 분리해 기록함.
+
+아래는 본시험 상세 기록임.
+--------------------------------------------------------------------
+
+CJ A/B/C/D 1시간 무작위 실물 LIN 시험
+
+시간: 2026-11-18T16:55:00.561267 ~ 2026-11-18T17:55:00.602407 (3600.047초)
+대상: 0A / 0B / 0C / 0D, BIN SHA-256: 84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2
+시나리오: 957개 / LIN 제어 명령: 10922회 / 송수신 프레임: 101171개
+밝기 최댓값: 25/255 (9.804%) / 플리커 최댓값: 30Hz
+RGB 읽기 비교: 33811회 / 플리커 구역 계측: 1665회 / Fade 샘플: 5390개 / XCP 읽기: 380회
+예외 제외 이상 기록: 0건 / A Logo 예외 기록: 137건
+시나리오 분포: {'burst': 119, 'flicker': 286, 'static': 304, 'fade': 247, 'final_hold': 1}
+제어 명령 분포: {'off': 6104, 'fade': 1110, 'flicker': 1464, 'static': 2244}
+플리커 최대 절대 오차 [주기 min/max, ON min/max, OFF min/max] ms: [1.8571428571428612, 1.6666666666666643, 1.4285714285714306, 1.92, 1.9200000000000017, 1.5714285714285694]
+프로젝트 소스/설정/BIN 300개 해시 검사: 변경 0개
+종료 시 전체 OFF 명령 전송: True
+
+최종 상태:
+0A: APP mode=0, 진단=[0, 0, 0, 0, 0, 0], 복원 횟수=1, 제품정보=26J07-0021
+0B: APP mode=0, 진단=[0, 0, 0, 0, 0, 0], 복원 횟수=3, 제품정보=26I16-0002
+0C: APP mode=0, 진단=[0, 0, 0, 0, 0, 0], 복원 횟수=2, 제품정보=26I16-0003
+0D: APP mode=0, 진단=[0, 0, 0, 0, 0, 0], 복원 횟수=1, 제품정보=26I16-0004
+
+제외하지 않은 이상 기록:
+없음
+
+A Logo 예외 기록(요청에 따라 합격 판단에서 제외):
+{"time": "2026-11-18T16:58:09.924673", "elapsed_s": 189.359, "case": 56, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T16:58:30.832637", "elapsed_s": 210.266, "case": 62, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 13, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:32.897362", "elapsed_s": 332.328, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 5, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:32.924201", "elapsed_s": 332.359, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 6, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:32.950092", "elapsed_s": 332.391, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 7, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:32.976597", "elapsed_s": 332.422, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 8, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.002215", "elapsed_s": 332.437, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 9, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.028170", "elapsed_s": 332.469, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 10, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.055094", "elapsed_s": 332.5, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 11, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.080556", "elapsed_s": 332.516, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 12, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.105713", "elapsed_s": 332.547, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 13, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.131156", "elapsed_s": 332.562, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 14, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.157207", "elapsed_s": 332.594, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 15, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.183656", "elapsed_s": 332.625, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.211901", "elapsed_s": 332.656, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 17, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.237671", "elapsed_s": 332.672, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 18, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.265421", "elapsed_s": 332.703, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 19, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.294080", "elapsed_s": 332.734, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 20, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.320473", "elapsed_s": 332.766, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 21, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.345303", "elapsed_s": 332.781, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 22, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:33.370657", "elapsed_s": 332.812, "case": 96, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 23, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:00:45.073790", "elapsed_s": 344.516, "case": 99, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 8, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:05:06.101850", "elapsed_s": 605.547, "case": 169, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 18, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:05:15.616742", "elapsed_s": 615.062, "case": 171, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:05:15.674433", "elapsed_s": 615.109, "case": 171, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:07:47.834677", "elapsed_s": 767.266, "case": 209, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:08:59.297864", "elapsed_s": 838.734, "case": 227, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:08:59.361560", "elapsed_s": 838.797, "case": 227, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:10:27.540074", "elapsed_s": 926.984, "case": 251, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:10:34.713144", "elapsed_s": 934.156, "case": 253, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:10:34.768368", "elapsed_s": 934.203, "case": 253, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:11:25.165379", "elapsed_s": 984.609, "case": 268, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:24.488473", "elapsed_s": 1103.922, "case": 301, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:24.519306", "elapsed_s": 1103.953, "case": 301, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 6, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:24.547064", "elapsed_s": 1103.984, "case": 301, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:31.443843", "elapsed_s": 1110.875, "case": 303, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:31.472550", "elapsed_s": 1110.906, "case": 303, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 20, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:31.503012", "elapsed_s": 1110.937, "case": 303, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:48.490636", "elapsed_s": 1127.922, "case": 307, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "fade point 0"}
+{"time": "2026-11-18T17:13:57.861447", "elapsed_s": 1137.297, "case": 308, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:13:57.953815", "elapsed_s": 1137.391, "case": 308, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:14:21.684694", "elapsed_s": 1161.125, "case": 315, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:14:21.747156", "elapsed_s": 1161.187, "case": 315, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:15:17.052580", "elapsed_s": 1216.484, "case": 331, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:15:20.241866", "elapsed_s": 1219.687, "case": 332, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:15:20.268242", "elapsed_s": 1219.703, "case": 332, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 7, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:15:20.293976", "elapsed_s": 1219.734, "case": 332, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:16:01.618410", "elapsed_s": 1261.062, "case": 342, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:16:17.577029", "elapsed_s": 1277.016, "case": 347, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:16:17.604097", "elapsed_s": 1277.047, "case": 347, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:16:17.629395", "elapsed_s": 1277.062, "case": 347, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:16:47.134900", "elapsed_s": 1306.578, "case": 354, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:17:05.812591", "elapsed_s": 1325.25, "case": 359, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:17:05.837307", "elapsed_s": 1325.281, "case": 359, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 4, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:17:05.863089", "elapsed_s": 1325.297, "case": 359, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:17:37.660274", "elapsed_s": 1357.094, "case": 367, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:17:37.686749", "elapsed_s": 1357.125, "case": 367, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 12, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:17:37.714816", "elapsed_s": 1357.156, "case": 367, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:18:18.516785", "elapsed_s": 1397.953, "case": 378, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 17, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:18:38.300766", "elapsed_s": 1417.734, "case": 385, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:18:45.118629", "elapsed_s": 1424.562, "case": 388, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:18:45.143352", "elapsed_s": 1424.578, "case": 388, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 15, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:18:45.167083", "elapsed_s": 1424.609, "case": 388, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:20:19.227025", "elapsed_s": 1518.672, "case": 412, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:20:19.251347", "elapsed_s": 1518.687, "case": 412, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 15, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:20:19.277540", "elapsed_s": 1518.719, "case": 412, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:21:44.024520", "elapsed_s": 1603.469, "case": 436, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:21:44.051689", "elapsed_s": 1603.484, "case": 436, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 15, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:21:44.081534", "elapsed_s": 1603.516, "case": 436, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:28.266776", "elapsed_s": 1647.703, "case": 448, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:28.296879", "elapsed_s": 1647.734, "case": 448, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 3, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:28.323882", "elapsed_s": 1647.766, "case": 448, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:46.436072", "elapsed_s": 1665.875, "case": 453, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:46.462352", "elapsed_s": 1665.906, "case": 453, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 14, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:46.488653", "elapsed_s": 1665.922, "case": 453, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:22:48.847096", "elapsed_s": 1668.281, "case": 454, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "fade point 0"}
+{"time": "2026-11-18T17:23:06.367156", "elapsed_s": 1685.812, "case": 458, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:23:06.393030", "elapsed_s": 1685.828, "case": 458, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:23:42.333926", "elapsed_s": 1721.766, "case": 470, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:24:14.668875", "elapsed_s": 1754.109, "case": 480, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:24:14.723606", "elapsed_s": 1754.156, "case": 480, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 18, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:25:06.643428", "elapsed_s": 1806.078, "case": 494, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 13, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:25:59.229664", "elapsed_s": 1858.672, "case": 510, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:26:48.415997", "elapsed_s": 1907.859, "case": 521, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:26:48.509934", "elapsed_s": 1907.953, "case": 521, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:27:50.480460", "elapsed_s": 1969.922, "case": 537, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:27:50.507032", "elapsed_s": 1969.953, "case": 537, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 2, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:27:50.532110", "elapsed_s": 1969.969, "case": 537, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:29:42.952738", "elapsed_s": 2082.391, "case": 564, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "fade point 8"}
+{"time": "2026-11-18T17:29:44.263298", "elapsed_s": 2083.703, "case": 564, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 22, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:29:44.309366", "elapsed_s": 2083.75, "case": 564, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 23, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:29:44.356393", "elapsed_s": 2083.797, "case": 564, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:29:46.090523", "elapsed_s": 2085.531, "case": 565, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.459868", "elapsed_s": 2129.891, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 7, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.522558", "elapsed_s": 2129.969, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 8, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.584813", "elapsed_s": 2130.016, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 9, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.679573", "elapsed_s": 2130.125, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 11, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.726085", "elapsed_s": 2130.172, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 12, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.772484", "elapsed_s": 2130.219, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 13, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.818278", "elapsed_s": 2130.25, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 14, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.864902", "elapsed_s": 2130.297, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 15, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.911622", "elapsed_s": 2130.344, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:30.958223", "elapsed_s": 2130.391, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 17, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:31.004982", "elapsed_s": 2130.437, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 18, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:30:31.099369", "elapsed_s": 2130.531, "case": 576, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 20, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:31:18.509559", "elapsed_s": 2177.953, "case": 588, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 23, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:31:39.838012", "elapsed_s": 2199.281, "case": 592, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:33:16.770696", "elapsed_s": 2296.203, "case": 617, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:33:21.431371", "elapsed_s": 2300.875, "case": 618, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:33:21.492228", "elapsed_s": 2300.937, "case": 618, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:35:19.382244", "elapsed_s": 2418.828, "case": 646, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 21, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:36:01.863291", "elapsed_s": 2461.297, "case": 656, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:36:01.917516", "elapsed_s": 2461.359, "case": 656, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:38:14.545693", "elapsed_s": 2593.984, "case": 693, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 14, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:38:27.726308", "elapsed_s": 2607.172, "case": 696, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:38:27.792124", "elapsed_s": 2607.234, "case": 696, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 18, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:38:27.848777", "elapsed_s": 2607.281, "case": 696, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 20, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:39:13.938787", "elapsed_s": 2653.375, "case": 706, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:39:17.197631", "elapsed_s": 2656.641, "case": 707, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:39:17.257427", "elapsed_s": 2656.703, "case": 707, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:39:17.307778", "elapsed_s": 2656.75, "case": 707, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:41:27.039101", "elapsed_s": 2786.484, "case": 743, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:41:27.066961", "elapsed_s": 2786.5, "case": 743, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 4, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:41:27.096089", "elapsed_s": 2786.531, "case": 743, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:43:12.016437", "elapsed_s": 2891.453, "case": 771, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:43:12.049245", "elapsed_s": 2891.484, "case": 771, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 8, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:43:12.079314", "elapsed_s": 2891.516, "case": 771, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:43:19.998827", "elapsed_s": 2899.437, "case": 773, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:43:20.026133", "elapsed_s": 2899.469, "case": 773, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 22, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:43:20.053174", "elapsed_s": 2899.484, "case": 773, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:16.622680", "elapsed_s": 3076.062, "case": 822, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:16.649452", "elapsed_s": 3076.094, "case": 822, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 5, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:16.678868", "elapsed_s": 3076.125, "case": 822, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:38.182133", "elapsed_s": 3097.625, "case": 827, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:38.207950", "elapsed_s": 3097.641, "case": 827, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 16, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:38.233677", "elapsed_s": 3097.672, "case": 827, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 24, "status": "8F", "label": "settled output"}
+{"time": "2026-11-18T17:46:42.609925", "elapsed_s": 3102.047, "case": 828, "kind": "LED_READ_STATUS", "chair": "0A", "zone": 4, "ignored": true, "node": 1, "status": "8F", "label": "settled output"}
+
+검증 범위와 한계:
+실제 LIN으로 제어 및 드라이버 RGB 값 읽기 수행. 화면 조작이나 시뮬레이션이 아님.
+본시험의 플리커 주기는 제어 명령 250ms 후부터 1초간 계측함. 시작 직후 첫 펄스는 이 안정 구간 판정에 포함하지 않음.
+플리커 계측은 MCU 출력 데이터의 시간값이며 광센서/오실로스코프로 빛의 파형을 측정한 결과는 아님.
+Fade는 기존 펌웨어의 10개 시점 샘플 기능으로 목표 RGB와 드라이버 읽기 값을 비교함.
+진단 프레임은 시작과 끝에만 요청. 제어/계측 구간에 PC 진단 읽기를 섞지 않음. 펌웨어 자체의 주기 진단은 평소대로 동작함.
+업데이트/리셋/제품정보 쓰기와 펌웨어 변경은 이번 1시간 시험에 포함하지 않음.
+앞선 업데이트 시험에서 발생한 간헐적 LIN 응답 누락의 해결을 보증하는 시험은 아님.

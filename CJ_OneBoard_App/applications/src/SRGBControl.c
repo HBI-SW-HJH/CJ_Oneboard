@@ -1,12 +1,8 @@
 // @file    SRGBControl.c
 // @brief   AL58263 two-device sRGB LED control
 
-#include "SRGBControl.h"
-#include "power_device.h"
-#include "sys_init.h"
-#include "device.h"
-#include <stddef.h>
-#include <string.h>
+#include "appConfig.h"
+
 // Immediate frame latch; disable zero-data sleep (up to 4ms wake-up).
 
 SRGB_Control_t gSRGBControl;
@@ -24,9 +20,7 @@ static void SRGB_SetPin(uint8_t pin, uint8_t high)
     }
 }
 
-#if defined(__ICCARM__)
 #pragma inline=forced
-#endif
 static __INLINE uint8_t SRGB_ClockBit(uint8_t txBit, uint8_t latHigh)
 {
     uint32_t highMask = ((txBit != 0U) ? (1UL << SRGB_DI_PIN) : 0U) | ((latHigh != 0U) ? (1UL << SRGB_LAT_PIN) : 0U);

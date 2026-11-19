@@ -1,0 +1,401 @@
+{
+  "time": "2026-11-16T11:07:43.447527",
+  "project": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116",
+  "operations": "read only, no target writes/halt/reset/resume/download",
+  "samples": [
+    {
+      "host_time": "2026-11-16T11:07:47.203252",
+      "dhcsr": "0x1000001",
+      "timer_ms": 240381,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:47.559892",
+      "dhcsr": "0x1000001",
+      "timer_ms": 240738,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:47.915885",
+      "dhcsr": "0x1000001",
+      "timer_ms": 241095,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:48.275155",
+      "dhcsr": "0x1000001",
+      "timer_ms": 241454,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:48.632871",
+      "dhcsr": "0x1000001",
+      "timer_ms": 241812,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:48.990058",
+      "dhcsr": "0x1000001",
+      "timer_ms": 242169,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:49.346461",
+      "dhcsr": "0x1000001",
+      "timer_ms": 242525,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:49.704302",
+      "dhcsr": "0x1000001",
+      "timer_ms": 242883,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:50.061771",
+      "dhcsr": "0x1000001",
+      "timer_ms": 243241,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    },
+    {
+      "host_time": "2026-11-16T11:07:50.420549",
+      "dhcsr": "0x1000001",
+      "timer_ms": 243599,
+      "tx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "rx_command": [
+        "0x26ac",
+        "0x26ac"
+      ],
+      "dynamic_valid": 1,
+      "communication_errors": 0,
+      "R": [
+        1028,
+        1028,
+        1028,
+        1028
+      ],
+      "G": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_matches": true,
+      "thermal": [
+        0,
+        0
+      ],
+      "power": "0100"
+    }
+  ],
+  "firmware_matches_current_build": true,
+  "running": true,
+  "tx_rx_match_all_samples": true,
+  "completed": true
+}

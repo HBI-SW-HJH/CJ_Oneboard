@@ -1,0 +1,142 @@
+{"time": "2026-11-18T16:11:39", "kind": "START", "prefix": "FinalApp40_20261118_153530_resume2", "brightness_cap": 12, "gui": false, "jlink": false, "lin_flash_write": true}
+{"time": "2026-11-18T16:11:39", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T16:11:42", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T16:11:43", "kind": "UPDATE_BEGIN", "chair": "0B", "cycle": 6, "completed": 21, "total": 40}
+{"time": "2026-11-18T16:12:01", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 6, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:12:18", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 6, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:12:35", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 6, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:12:52", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 6, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:13:03", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:13:03", "kind": "UPDATE_PASS", "chair": "0B", "cycle": 6, "completed": 22, "total": 40, "seconds": 79.719, "read_retries": 0}
+{"time": "2026-11-18T16:13:03", "kind": "UPDATE_BEGIN", "chair": "0C", "cycle": 6, "completed": 22, "total": 40}
+{"time": "2026-11-18T16:13:22", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 6, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:13:40", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 6, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:13:57", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 6, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:14:14", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 6, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:14:25", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:14:25", "kind": "UPDATE_PASS", "chair": "0C", "cycle": 6, "completed": 23, "total": 40, "seconds": 82.062, "read_retries": 0}
+{"time": "2026-11-18T16:14:25", "kind": "UPDATE_BEGIN", "chair": "0D", "cycle": 6, "completed": 23, "total": 40}
+{"time": "2026-11-18T16:14:44", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 6, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:15:01", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 6, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:15:19", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 6, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:15:37", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 6, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:15:47", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:15:47", "kind": "UPDATE_PASS", "chair": "0D", "cycle": 6, "completed": 24, "total": 40, "seconds": 81.766, "read_retries": 0}
+{"time": "2026-11-18T16:15:47", "kind": "UPDATE_BEGIN", "chair": "0A", "cycle": 7, "completed": 24, "total": 40}
+{"time": "2026-11-18T16:16:06", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 7, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:16:24", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 7, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:16:41", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 7, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:16:58", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 7, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:17:09", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:17:09", "kind": "UPDATE_PASS", "chair": "0A", "cycle": 7, "completed": 25, "total": 40, "seconds": 81.812, "read_retries": 0}
+{"time": "2026-11-18T16:17:09", "kind": "UPDATE_BEGIN", "chair": "0B", "cycle": 7, "completed": 25, "total": 40}
+{"time": "2026-11-18T16:17:29", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 7, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:17:47", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 7, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:18:05", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 7, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:18:21", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 7, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:18:32", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:18:32", "kind": "UPDATE_PASS", "chair": "0B", "cycle": 7, "completed": 26, "total": 40, "seconds": 82.609, "read_retries": 0}
+{"time": "2026-11-18T16:18:32", "kind": "UPDATE_BEGIN", "chair": "0C", "cycle": 7, "completed": 26, "total": 40}
+{"time": "2026-11-18T16:18:51", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 7, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:19:08", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 7, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:19:27", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 7, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:19:46", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 7, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:19:57", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:19:57", "kind": "UPDATE_PASS", "chair": "0C", "cycle": 7, "completed": 27, "total": 40, "seconds": 84.782, "read_retries": 0}
+{"time": "2026-11-18T16:19:57", "kind": "UPDATE_BEGIN", "chair": "0D", "cycle": 7, "completed": 27, "total": 40}
+{"time": "2026-11-18T16:20:16", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 7, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:20:34", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 7, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:20:51", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 7, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:21:08", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 7, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:21:18", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:21:18", "kind": "UPDATE_PASS", "chair": "0D", "cycle": 7, "completed": 28, "total": 40, "seconds": 81.172, "read_retries": 0}
+{"time": "2026-11-18T16:21:19", "kind": "UPDATE_BEGIN", "chair": "0A", "cycle": 8, "completed": 28, "total": 40}
+{"time": "2026-11-18T16:21:38", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 8, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:21:57", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 8, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:22:15", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 8, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:22:32", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 8, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:22:42", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:22:42", "kind": "UPDATE_PASS", "chair": "0A", "cycle": 8, "completed": 29, "total": 40, "seconds": 83.671, "read_retries": 0}
+{"time": "2026-11-18T16:22:43", "kind": "UPDATE_BEGIN", "chair": "0B", "cycle": 8, "completed": 29, "total": 40}
+{"time": "2026-11-18T16:23:02", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 8, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:23:19", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 8, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:23:37", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 8, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:23:55", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 8, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:24:06", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:24:06", "kind": "UPDATE_PASS", "chair": "0B", "cycle": 8, "completed": 30, "total": 40, "seconds": 82.953, "read_retries": 0}
+{"time": "2026-11-18T16:24:06", "kind": "UPDATE_BEGIN", "chair": "0C", "cycle": 8, "completed": 30, "total": 40}
+{"time": "2026-11-18T16:24:25", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 8, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:24:42", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 8, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:25:00", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 8, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:25:18", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 8, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:25:29", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:25:29", "kind": "UPDATE_PASS", "chair": "0C", "cycle": 8, "completed": 31, "total": 40, "seconds": 83.204, "read_retries": 0}
+{"time": "2026-11-18T16:25:29", "kind": "UPDATE_BEGIN", "chair": "0D", "cycle": 8, "completed": 31, "total": 40}
+{"time": "2026-11-18T16:25:48", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 8, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:26:06", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 8, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:26:26", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 8, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:26:44", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 8, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:26:55", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:26:55", "kind": "UPDATE_PASS", "chair": "0D", "cycle": 8, "completed": 32, "total": 40, "seconds": 86.125, "read_retries": 0}
+{"time": "2026-11-18T16:26:56", "kind": "UPDATE_BEGIN", "chair": "0A", "cycle": 9, "completed": 32, "total": 40}
+{"time": "2026-11-18T16:27:14", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 9, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:27:31", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 9, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:27:49", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 9, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:28:05", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 9, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:28:16", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:28:16", "kind": "UPDATE_PASS", "chair": "0A", "cycle": 9, "completed": 33, "total": 40, "seconds": 80.578, "read_retries": 0}
+{"time": "2026-11-18T16:28:16", "kind": "UPDATE_BEGIN", "chair": "0B", "cycle": 9, "completed": 33, "total": 40}
+{"time": "2026-11-18T16:28:35", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 9, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:28:54", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 9, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:29:12", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 9, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:29:29", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 9, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:29:40", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:29:40", "kind": "UPDATE_PASS", "chair": "0B", "cycle": 9, "completed": 34, "total": 40, "seconds": 83.656, "read_retries": 0}
+{"time": "2026-11-18T16:29:40", "kind": "UPDATE_BEGIN", "chair": "0C", "cycle": 9, "completed": 34, "total": 40}
+{"time": "2026-11-18T16:29:59", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 9, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:30:18", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 9, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:30:37", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 9, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:30:55", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 9, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:31:06", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:31:06", "kind": "UPDATE_PASS", "chair": "0C", "cycle": 9, "completed": 35, "total": 40, "seconds": 85.953, "read_retries": 0}
+{"time": "2026-11-18T16:31:06", "kind": "UPDATE_BEGIN", "chair": "0D", "cycle": 9, "completed": 35, "total": 40}
+{"time": "2026-11-18T16:31:25", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 9, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:31:43", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 9, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:32:00", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 9, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:32:18", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 9, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:32:29", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:32:29", "kind": "UPDATE_PASS", "chair": "0D", "cycle": 9, "completed": 36, "total": 40, "seconds": 82.328, "read_retries": 0}
+{"time": "2026-11-18T16:32:29", "kind": "UPDATE_BEGIN", "chair": "0A", "cycle": 10, "completed": 36, "total": 40}
+{"time": "2026-11-18T16:32:49", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 10, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:33:07", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 10, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:33:25", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 10, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:33:42", "kind": "UPDATE_PROGRESS", "chair": "0A", "cycle": 10, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:33:53", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:33:53", "kind": "UPDATE_PASS", "chair": "0A", "cycle": 10, "completed": 37, "total": 40, "seconds": 84.031, "read_retries": 0}
+{"time": "2026-11-18T16:33:53", "kind": "UPDATE_BEGIN", "chair": "0B", "cycle": 10, "completed": 37, "total": 40}
+{"time": "2026-11-18T16:34:13", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 10, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:34:30", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 10, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:34:48", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 10, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:35:05", "kind": "UPDATE_PROGRESS", "chair": "0B", "cycle": 10, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:35:16", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:35:16", "kind": "UPDATE_PASS", "chair": "0B", "cycle": 10, "completed": 38, "total": 40, "seconds": 82.703, "read_retries": 0}
+{"time": "2026-11-18T16:35:16", "kind": "UPDATE_BEGIN", "chair": "0C", "cycle": 10, "completed": 38, "total": 40}
+{"time": "2026-11-18T16:35:35", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 10, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:35:54", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 10, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:36:36", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 10, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:37:19", "kind": "UPDATE_PROGRESS", "chair": "0C", "cycle": 10, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:37:30", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:37:30", "kind": "UPDATE_PASS", "chair": "0C", "cycle": 10, "completed": 39, "total": 40, "seconds": 133.578, "read_retries": 0}
+{"time": "2026-11-18T16:37:30", "kind": "UPDATE_BEGIN", "chair": "0D", "cycle": 10, "completed": 39, "total": 40}
+{"time": "2026-11-18T16:38:14", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 10, "percent": 25, "blocks": 58}
+{"time": "2026-11-18T16:38:56", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 10, "percent": 50, "blocks": 116}
+{"time": "2026-11-18T16:39:14", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 10, "percent": 75, "blocks": 174}
+{"time": "2026-11-18T16:39:32", "kind": "UPDATE_PROGRESS", "chair": "0D", "cycle": 10, "percent": 100, "blocks": 232}
+{"time": "2026-11-18T16:39:43", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:39:43", "kind": "UPDATE_PASS", "chair": "0D", "cycle": 10, "completed": 40, "total": 40, "seconds": 132.719, "read_retries": 0}
+{"time": "2026-11-18T16:39:43", "kind": "DIAGNOSTIC", "chair": "0A", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:39:43", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:39:44", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:39:44", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T16:39:44", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T16:39:44", "kind": "CLEANUP", "remove_client": 0}

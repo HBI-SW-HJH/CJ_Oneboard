@@ -1,0 +1,39 @@
+{
+  "source_changes_during_campaign": [],
+  "no_reset_or_flash_write_for_failure_analysis": true,
+  "preserved": {
+    "boot": true,
+    "reserved": true,
+    "userrow": true,
+    "pds_main": true,
+    "pds_backup": true
+  },
+  "outputs_off": true,
+  "halted": false,
+  "clock": [
+    "0x10307",
+    "0x10307",
+    "0x31010"
+  ],
+  "bootprot": 4,
+  "locks": 0,
+  "lin_error_count": 1,
+  "record": {
+    "crc": 1409637369,
+    "magic": 1128940116,
+    "index": 591,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "max_temperature": 27
+}

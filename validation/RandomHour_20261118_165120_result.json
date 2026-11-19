@@ -1,0 +1,699 @@
+{
+  "created": "2026-11-18T16:51:20.767931",
+  "duration_requested_s": 3600.0,
+  "seed": 202611181650,
+  "brightness_max_raw": 25,
+  "brightness_max_percent": 9.803921568627452,
+  "frequency_range_hz": [
+    5,
+    30
+  ],
+  "flicker_tolerance_ms": 2,
+  "ignored_scope": "Only chair 0A Logo-local fault/PWM/timing anomalies; retain their records.",
+  "method": "Headless actual LIN. Control/capture phases contain no LIN diagnostic reads. Readback follows the control hold/capture. Firmware Fade capture performs ten built-in LED read samples. Regular firmware diagnostics remain enabled. Optical light output is not measured.",
+  "cases": [
+    {
+      "number": 1,
+      "started": "2026-11-18T16:51:27.812544",
+      "elapsed_s": 0.031,
+      "kind": "burst",
+      "burst_commands": [
+        [
+          12,
+          52,
+          [
+            3,
+            0,
+            3
+          ],
+          55,
+          3,
+          5
+        ],
+        [
+          11,
+          57,
+          [
+            0,
+            18,
+            18
+          ],
+          39,
+          2,
+          5
+        ],
+        [
+          11,
+          5,
+          [
+            0,
+            12,
+            12
+          ],
+          22,
+          63,
+          15
+        ],
+        [
+          11,
+          19,
+          [
+            0,
+            0,
+            5
+          ],
+          55,
+          7,
+          1
+        ],
+        [
+          11,
+          6,
+          [
+            5,
+            5,
+            0
+          ],
+          39,
+          5,
+          3
+        ],
+        [
+          13,
+          51,
+          [
+            18,
+            18,
+            0
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          11,
+          49,
+          [
+            0,
+            0,
+            18
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          13,
+          26,
+          [
+            1,
+            1,
+            0
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          10,
+          50,
+          [
+            0,
+            8,
+            0
+          ],
+          22,
+          25,
+          25
+        ],
+        [
+          11,
+          38,
+          [
+            8,
+            8,
+            0
+          ],
+          22,
+          63,
+          30
+        ],
+        [
+          12,
+          5,
+          [
+            1,
+            2,
+            0
+          ],
+          39,
+          7,
+          5
+        ],
+        [
+          13,
+          17,
+          [
+            1,
+            0,
+            1
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          12,
+          42,
+          [
+            0,
+            18,
+            18
+          ],
+          22,
+          188,
+          20
+        ],
+        [
+          13,
+          35,
+          [
+            5,
+            5,
+            0
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          10,
+          6,
+          [
+            12,
+            12,
+            0
+          ],
+          55,
+          1,
+          1
+        ],
+        [
+          11,
+          26,
+          [
+            25,
+            0,
+            25
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          13,
+          39,
+          [
+            8,
+            8,
+            8
+          ],
+          39,
+          5,
+          4
+        ],
+        [
+          11,
+          25,
+          [
+            0,
+            3,
+            0
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          11,
+          52,
+          [
+            1,
+            0,
+            1
+          ],
+          22,
+          125,
+          15
+        ],
+        [
+          11,
+          2,
+          [
+            1,
+            1,
+            1
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          10,
+          17,
+          [
+            0,
+            3,
+            1
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          10,
+          48,
+          [
+            0,
+            12,
+            0
+          ],
+          39,
+          1,
+          6
+        ],
+        [
+          10,
+          35,
+          [
+            0,
+            18,
+            18
+          ],
+          23,
+          0,
+          0
+        ]
+      ],
+      "completed": true,
+      "seconds": 3.984,
+      "incidents_added": 0
+    },
+    {
+      "number": 2,
+      "started": "2026-11-18T16:51:31.803546",
+      "elapsed_s": 4.015,
+      "kind": "burst",
+      "burst_commands": [
+        [
+          12,
+          34,
+          [
+            3,
+            0,
+            0
+          ],
+          39,
+          2,
+          7
+        ],
+        [
+          13,
+          36,
+          [
+            0,
+            0,
+            0
+          ],
+          55,
+          5,
+          4
+        ],
+        [
+          10,
+          42,
+          [
+            3,
+            3,
+            3
+          ],
+          55,
+          4,
+          3
+        ],
+        [
+          12,
+          11,
+          [
+            5,
+            0,
+            5
+          ],
+          39,
+          5,
+          3
+        ],
+        [
+          10,
+          26,
+          [
+            18,
+            0,
+            0
+          ],
+          22,
+          25,
+          15
+        ],
+        [
+          12,
+          24,
+          [
+            0,
+            0,
+            8
+          ],
+          55,
+          5,
+          6
+        ],
+        [
+          11,
+          39,
+          [
+            12,
+            12,
+            0
+          ],
+          39,
+          3,
+          5
+        ],
+        [
+          11,
+          41,
+          [
+            3,
+            3,
+            2
+          ],
+          22,
+          225,
+          25
+        ],
+        [
+          12,
+          13,
+          [
+            18,
+            18,
+            0
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          11,
+          32,
+          [
+            0,
+            0,
+            12
+          ],
+          55,
+          4,
+          7
+        ],
+        [
+          10,
+          2,
+          [
+            0,
+            0,
+            3
+          ],
+          22,
+          125,
+          30
+        ],
+        [
+          12,
+          53,
+          [
+            0,
+            25,
+            25
+          ],
+          55,
+          7,
+          4
+        ],
+        [
+          13,
+          10,
+          [
+            0,
+            0,
+            3
+          ],
+          55,
+          7,
+          6
+        ],
+        [
+          11,
+          1,
+          [
+            1,
+            0,
+            0
+          ],
+          55,
+          8,
+          8
+        ],
+        [
+          10,
+          4,
+          [
+            0,
+            25,
+            0
+          ],
+          39,
+          1,
+          1
+        ],
+        [
+          13,
+          2,
+          [
+            1,
+            1,
+            0
+          ],
+          22,
+          125,
+          25
+        ],
+        [
+          10,
+          42,
+          [
+            0,
+            3,
+            3
+          ],
+          39,
+          2,
+          4
+        ],
+        [
+          11,
+          60,
+          [
+            12,
+            0,
+            12
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          10,
+          14,
+          [
+            0,
+            5,
+            0
+          ],
+          23,
+          0,
+          0
+        ],
+        [
+          12,
+          26,
+          [
+            0,
+            18,
+            0
+          ],
+          39,
+          7,
+          7
+        ]
+      ],
+      "completed": true,
+      "seconds": 3.328,
+      "incidents_added": 0
+    }
+  ],
+  "incidents": [
+    {
+      "time": "2026-11-18T16:51:38.034429",
+      "elapsed_s": 10.25,
+      "case": 3,
+      "kind": "FLICKER_TIMING",
+      "chair": "0C",
+      "zone": 0,
+      "ignored": false,
+      "hz": 30,
+      "duty_raw": 188,
+      "actual_ms": [
+        26,
+        34,
+        18,
+        26,
+        8,
+        9
+      ],
+      "expected_ms": [
+        33.333333333333336,
+        33.333333333333336,
+        25.066666666666666,
+        25.066666666666666,
+        8.26666666666667,
+        8.26666666666667
+      ]
+    },
+    {
+      "time": "2026-11-18T16:51:38.035672",
+      "elapsed_s": 10.25,
+      "case": 3,
+      "kind": "TEST_OR_TRANSPORT_EXCEPTION",
+      "chair": null,
+      "zone": null,
+      "ignored": false,
+      "error": "TypeError(\"log() got multiple values for argument 'kind'\")",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 307, in <module>\n    {'static':static_case,'fade':fade_case,'flicker':flicker_case,'burst':burst_case}[current['kind']]()\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 246, in flicker_case\n    incident('FLICKER_TIMING',chair,zone,hz=hz,duty_raw=duty,actual_ms=actual,expected_ms=target)\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 75, in incident\n    test.log('INCIDENT',**item)\nTypeError: log() got multiple values for argument 'kind'\n"
+    }
+  ],
+  "initial": [
+    {
+      "chair": "0A",
+      "product": {
+        "serial": "26J07-0021",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 10,
+        "init": 1193923012,
+        "raw": "32364a30372d303032312a5a58312d303032352a00022a0a2a4729d1c4"
+      },
+      "mode": 0,
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+      "restores": 1,
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0B",
+      "product": {
+        "serial": "26I16-0002",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 11,
+        "init": 2931725826,
+        "raw": "32364931362d303030322a5a58312d303032352a00022a0b2aaebe9602"
+      },
+      "mode": 0,
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000003000073fc07",
+      "restores": 3,
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0C",
+      "product": {
+        "serial": "26I16-0003",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 12,
+        "init": 4215115409,
+        "raw": "32364931362d303030332a5a58312d303032352a00022a0c2afb3d8e91"
+      },
+      "mode": 0,
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+      "restores": 2,
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "chair": "0D",
+      "product": {
+        "serial": "26I16-0004",
+        "part": "ZX1-0025",
+        "version": 2,
+        "chair": 13,
+        "init": 3778114545,
+        "raw": "32364931362d303030342a5a58312d303032352a00022a0d2ae13173f1"
+      },
+      "mode": 0,
+      "runtime": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+      "restores": 1,
+      "diagnosis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "final": [],
+  "commands": 75,
+  "rgb_checks": 78,
+  "flicker_checks": 1,
+  "fade_points": 0,
+  "xcp_checks": 0,
+  "passed": false,
+  "completed": false,
+  "image_sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+  "started": "2026-11-18T16:51:27.776204",
+  "elapsed_s": 10.343,
+  "fatal": "TypeError(\"log() got multiple values for argument 'kind'\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 307, in <module>\n    {'static':static_case,'fade':fade_case,'flicker':flicker_case,'burst':burst_case}[current['kind']]()\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 246, in flicker_case\n    incident('FLICKER_TIMING',chair,zone,hz=hz,duty_raw=duty,actual_ms=actual,expected_ms=target)\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 75, in incident\n    test.log('INCIDENT',**item)\nTypeError: log() got multiple values for argument 'kind'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 311, in <module>\n    current['error']=repr(exc);incident('TEST_OR_TRANSPORT_EXCEPTION',error=repr(exc),traceback=traceback.format_exc())\n  File \"C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_ProductionReview_20261118\\RandomHour_20261118.py\", line 75, in incident\n    test.log('INCIDENT',**item)\nTypeError: log() got multiple values for argument 'kind'\n",
+  "final_off_sent": true,
+  "finished": "2026-11-18T16:51:38.122115"
+}

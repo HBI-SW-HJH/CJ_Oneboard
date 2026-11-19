@@ -1,0 +1,6 @@
+{"time": "2026-11-12T10:25:21", "kind": "START", "prefix": "PcScanCause_20261112_102521_connection", "brightness_cap": 255, "gui": false, "jlink": false}
+{"time": "2026-11-12T10:25:21", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-12T10:25:24", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-12T10:25:36", "kind": "ADAPTER_DISABLED", "result": 0}
+{"time": "2026-11-12T10:25:36", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-12T10:25:36", "kind": "CLEANUP", "remove_client": 0}

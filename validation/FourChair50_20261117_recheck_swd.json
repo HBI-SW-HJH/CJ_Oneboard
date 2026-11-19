@@ -1,0 +1,5 @@
+{
+  "time": "2026-11-17T16:50:35.414733",
+  "reset_halt_run_or_write": false,
+  "error": "RuntimeError('SWD attach failed')"
+}

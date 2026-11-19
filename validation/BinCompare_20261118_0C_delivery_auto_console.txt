@@ -1,0 +1,18 @@
+{"time":"2026-11-18T13:47:51.7801912+09:00","name":"AUTO_START","value":{"chair":12,"maximumBrightnessIncluded":false,"brightnessLevels":"2/5/10%","gui":false,"originalPcAlgorithm":true}}
+{"time":"2026-11-18T13:47:51.7849874+09:00","name":"STATUS","value":"LED 자동검사 시작"}
+{"time":"2026-11-18T13:47:55.4613770+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 2% / 누적 12건"}
+{"time":"2026-11-18T13:47:56.9997155+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 10% / 누적 24건"}
+{"time":"2026-11-18T13:47:58.6914519+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 5% / 누적 36건"}
+{"time":"2026-11-18T13:48:00.2592597+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 2% / 누적 48건"}
+{"time":"2026-11-18T13:48:01.8958327+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 10% / 누적 60건"}
+{"time":"2026-11-18T13:48:03.5496987+09:00","name":"STATUS","value":"Strobe LED 1: RGBW 5% / 누적 72건"}
+{"time":"2026-11-18T13:48:10.1142172+09:00","name":"STATUS","value":"Strobe LED 1: Fade In 10% / 누적 84건"}
+{"time":"2026-11-18T13:48:16.0501620+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 10% / 누적 96건"}
+{"time":"2026-11-18T13:48:16.9248938+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 10% / 누적 108건"}
+{"time":"2026-11-18T13:48:17.5219848+09:00","name":"STATUS","value":"Strobe LED 1: Flicker 10% / 누적 120건"}
+{"time":"2026-11-18T13:48:17.7990941+09:00","name":"LOG","value":"검사 26.0s: 구역 2.8s, RGBW 9.8s, Fade 11.1s, Flicker 2.3s"}
+{"time":"2026-11-18T13:48:17.8005662+09:00","name":"LOG","value":"LIN 왕복 대기: RGB read 17.7s, 효과 계측 5.2s / TX 1132, 응답 1087, 헤더 1100 (효과 대기에는 실제 계측시간 포함)"}
+{"time":"2026-11-18T13:48:17.8346659+09:00","name":"LOG","value":"성적서 저장 0.0s / 전체 26.0s"}
+{"time":"2026-11-18T13:48:17.8346659+09:00","name":"STATUS","value":"검사 완료: Pass 126 / Fail 0\r\nD:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\BinCompare_20261118_0C_delivery_auto_report.json"}
+{"time":"2026-11-18T13:48:17.8346659+09:00","name":"LOG","value":"성적서: D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\BinCompare_20261118_0C_delivery_auto_report.json"}
+{"time":"2026-11-18T13:48:17.8346659+09:00","name":"AUTO_PASS","value":{"chair":12,"rows":126,"detailRows":696}}

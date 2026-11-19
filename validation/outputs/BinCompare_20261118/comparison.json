@@ -1,0 +1,41 @@
+{
+  "completed": true,
+  "comparisons": [
+    {
+      "chair": "0A",
+      "color": "비교 제외",
+      "verdict": "비교 제외",
+      "maxTimingDifferenceMs": null,
+      "deliveryXcpMeanMs": 40.61172722722723,
+      "currentXcpMeanMs": null
+    },
+    {
+      "chair": "0B",
+      "color": "동일",
+      "verdict": "동일",
+      "maxTimingDifferenceMs": 2,
+      "deliveryXcpMeanMs": 40.056623423423446,
+      "currentXcpMeanMs": 42.17551371371374
+    },
+    {
+      "chair": "0C",
+      "color": "동일",
+      "verdict": "동일",
+      "maxTimingDifferenceMs": 2,
+      "deliveryXcpMeanMs": 41.83011581581577,
+      "currentXcpMeanMs": 40.40020070070071
+    },
+    {
+      "chair": "0D",
+      "color": "동일",
+      "verdict": "동일",
+      "maxTimingDifferenceMs": 2,
+      "deliveryXcpMeanMs": 40.70795915915917,
+      "currentXcpMeanMs": 41.04177587587592
+    }
+  ],
+  "controlRows": 1224,
+  "timingRows": 324,
+  "automaticRows": 4932,
+  "xcpRows": 6000
+}

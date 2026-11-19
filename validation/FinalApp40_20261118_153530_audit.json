@@ -1,0 +1,131 @@
+{
+  "time": "2026-11-18T16:41:02.906856",
+  "completed": 40,
+  "download_attempts": 42,
+  "interrupted_attempts": 2,
+  "accepted_crc_responses": 40,
+  "reset_acknowledgments": 40,
+  "block_acknowledgments_including_interrupted_attempts": 9514,
+  "frames": 231860,
+  "per_chair": [
+    {
+      "chair": "0A",
+      "completed": 10,
+      "read_retries": 0,
+      "restarted_transfers": 1,
+      "seconds_min": 80.578,
+      "seconds_max": 84.031
+    },
+    {
+      "chair": "0B",
+      "completed": 10,
+      "read_retries": 0,
+      "restarted_transfers": 1,
+      "seconds_min": 79.719,
+      "seconds_max": 85.468
+    },
+    {
+      "chair": "0C",
+      "completed": 10,
+      "read_retries": 1,
+      "restarted_transfers": 0,
+      "seconds_min": 79.047,
+      "seconds_max": 133.578
+    },
+    {
+      "chair": "0D",
+      "completed": 10,
+      "read_retries": 0,
+      "restarted_transfers": 0,
+      "seconds_min": 81.172,
+      "seconds_max": 132.719
+    }
+  ],
+  "update_interruptions": [
+    {
+      "error": "RuntimeError('UDS timeout NAD=7D request=360381b001000dd0')",
+      "attempt": {
+        "cycle": 2,
+        "chair": "0A",
+        "serial": "26J07-0021",
+        "init_number": "4729D1C4",
+        "started": "2026-11-18T15:42:43.877777",
+        "before": {
+          "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073f807",
+          "mode": 0,
+          "flag": 0,
+          "backup_flag": 0,
+          "fault_count": 0,
+          "backup_fault_count": 0,
+          "valid": 3,
+          "restores": 1,
+          "backup_length": 29688,
+          "bits": 7
+        },
+        "phase": "transfer",
+        "bytes_acknowledged": 256,
+        "blocks_acknowledged": 2,
+        "boot_nad": 125,
+        "pending_block": 3,
+        "read_retries": []
+      },
+      "original_result": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FinalApp40_20261118_153530_result.json",
+      "readonly_audit": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FinalApp40_20261118_153530_incident_A2_swd.json",
+      "action": "Restart interrupted A2 from byte zero; retain failed attempt. No timing/protocol/firmware changes."
+    },
+    {
+      "category": "test_host_report_write_error",
+      "error": "PermissionError(13, '액세스가 거부되었습니다')",
+      "attempt": {
+        "cycle": 6,
+        "chair": "0B",
+        "serial": "26I16-0002",
+        "init_number": "AEBE9602",
+        "started": "2026-11-18T16:08:53.519056",
+        "before": {
+          "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073fc07",
+          "mode": 0,
+          "flag": 0,
+          "backup_flag": 0,
+          "fault_count": 0,
+          "backup_fault_count": 0,
+          "valid": 3,
+          "restores": 3,
+          "backup_length": 29692,
+          "bits": 7
+        },
+        "phase": "verify_image_crc",
+        "bytes_acknowledged": 29692,
+        "blocks_acknowledged": 232,
+        "boot_nad": 125,
+        "pending_block": 232,
+        "read_retries": []
+      },
+      "original_result": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FinalApp40_20261118_153530_resume1_result.json",
+      "action": "Restart B6 from byte zero after host report replacement failure before CRC request. No firmware/protocol/timing change."
+    }
+  ],
+  "postboot_query_retries": [
+    {
+      "chair": "0C",
+      "cycle": 3,
+      "events": [
+        {
+          "time": "2026-11-18T15:55:06.026680",
+          "chair": "0C",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "LIN error ID=3D, flags=10"
+        }
+      ]
+    }
+  ],
+  "host_report_save_retry_count": 1,
+  "sources_checked": 300,
+  "changed_sources": [],
+  "source_unchanged": true,
+  "bin_unchanged": true,
+  "elapsed_seconds": 3755.928953,
+  "duration_median_seconds": 82.69550000000001,
+  "completed_with_incidents": true
+}

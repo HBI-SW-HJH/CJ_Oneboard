@@ -1,0 +1,31 @@
+{
+  "reset_or_download": false,
+  "product": {
+    "serial": "26I16-0002",
+    "part": "ZX1-0025",
+    "version": 2,
+    "chair": 11,
+    "init": 2931725826,
+    "raw": "32364931362d303030322a5a58312d303032352a00022a0b2aaebe9602"
+  },
+  "runtime": {
+    "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073fc07",
+    "mode": 0,
+    "flag": 0,
+    "backup_flag": 0,
+    "fault_count": 0,
+    "backup_fault_count": 0,
+    "valid": 3,
+    "restores": 3,
+    "backup_length": 29692,
+    "bits": 7
+  },
+  "diagnosis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

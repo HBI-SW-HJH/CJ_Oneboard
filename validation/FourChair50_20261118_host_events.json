@@ -1,0 +1,38 @@
+[
+  {
+    "TimeCreated": "2026-11-18T08:56:05.8782841+09:00",
+    "Id": 41,
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Message": "시스템이 비정상적으로 종료된 후 다시 부팅되었습니다. 이 오류는 시스템이 응답을 멈추었거나 손상되었거나 예기치 않게 전원 공급이 중단되면 발생할 수 있습니다."
+  },
+  {
+    "TimeCreated": "2026-11-18T08:56:22.0527287+09:00",
+    "Id": 6005,
+    "ProviderName": "EventLog",
+    "Message": "이벤트 로그 서비스가 시작되었습니다."
+  },
+  {
+    "TimeCreated": "2026-11-18T08:47:15.3739639+09:00",
+    "Id": 1,
+    "ProviderName": "Microsoft-Windows-Power-Troubleshooter",
+    "Message": "시스템이 저전원 상태에서 복귀되었습니다.\r\n\r\n절전 모드 시간: ‎2026‎-‎11‎-‎17T10:10:49.395609500Z\r\n절전 모드 해제 시간: ‎2026‎-‎11‎-‎17T23:47:13.988591300Z\r\n\r\n절전 모드 해제 원본: Unknown"
+  },
+  {
+    "TimeCreated": "2026-11-17T19:10:50.1761605+09:00",
+    "Id": 1,
+    "ProviderName": "Microsoft-Windows-Power-Troubleshooter",
+    "Message": "시스템이 저전원 상태에서 복귀되었습니다.\r\n\r\n절전 모드 시간: ‎2026‎-‎11‎-‎17T10:10:49.395609500Z\r\n절전 모드 해제 시간: ‎2026‎-‎11‎-‎17T10:10:49.395609500Z\r\n\r\n절전 모드 해제 원본: S4 Doze to Hibernate"
+  },
+  {
+    "TimeCreated": "2026-11-17T19:10:49.7065683+09:00",
+    "Id": 42,
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Message": "시스템이 절전 모드로 전환하는 중입니다.\r\n\r\n절전 모드 전환 이유: Hibernate from Sleep - Fixed Timeout"
+  },
+  {
+    "TimeCreated": "2026-11-17T18:10:15.5167435+09:00",
+    "Id": 42,
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Message": "시스템이 절전 모드로 전환하는 중입니다.\r\n\r\n절전 모드 전환 이유: Button or Lid"
+  }
+]

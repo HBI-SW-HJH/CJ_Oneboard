@@ -1,0 +1,92 @@
+{
+  "did": "0x11060203",
+  "halted": false,
+  "registers": {
+    "0xe000edf0": "0x1000001",
+    "0xe000ed08": "0x20001e00",
+    "0xe000ed04": "0x0",
+    "0x40000c00": "0x40",
+    "0x4000100c": "0x111",
+    "0x40001024": "0x31010",
+    "0x40001030": "0x3",
+    "0x40001c20": "0x10307",
+    "0x40001c24": "0x10307",
+    "0x40002000": "0xb0702",
+    "0x41004020": "0x0"
+  },
+  "app_match": true,
+  "backup_match": true,
+  "record_main": {
+    "crc": 1409637369,
+    "magic": 1128940116,
+    "index": 591,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "record_backup": {
+    "crc": 1409637369,
+    "magic": 1128940116,
+    "index": 591,
+    "flag": 0,
+    "address": 65536,
+    "length": 29692,
+    "imageCrc": 3332149584,
+    "faultCount": 0,
+    "recoveryMagic": 1128944177,
+    "recoveryLength": 29692,
+    "recoveryCrc": 3332149584,
+    "restoreCount": 2,
+    "appConfirmed": 1,
+    "recoveryUsed": 0,
+    "valid": true
+  },
+  "pds": {
+    "crc_valid": true,
+    "index": 59,
+    "magic": "434A4346",
+    "length": 27,
+    "format": 2,
+    "serial": "26I16-0002",
+    "part": "ZX1-0025",
+    "chair": "0B"
+  },
+  "ram_config": "020032364931362d30303032005a58312d30303235000b0296beae",
+  "lin_counters": {
+    "g_dbg_lin_irq_count": 2651,
+    "g_dbg_lin_error_count": 1,
+    "g_dbg_lin_drop_count": 0,
+    "g_dbg_lin_rx_cb_count": 0
+  },
+  "samples": [
+    {
+      "tick": 49090,
+      "dhcsr": "0x1000001"
+    },
+    {
+      "tick": 49342,
+      "dhcsr": "0x1000001"
+    },
+    {
+      "tick": 49593,
+      "dhcsr": "0x1000001"
+    },
+    {
+      "tick": 49844,
+      "dhcsr": "0x1000001"
+    },
+    {
+      "tick": 50096,
+      "dhcsr": "0x1000001"
+    }
+  ]
+}

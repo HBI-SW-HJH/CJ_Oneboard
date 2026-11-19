@@ -1,0 +1,5 @@
+{"time": "2026-11-17T13:06:25", "kind": "START", "prefix": "ClockLin100_20261117_resume2", "brightness_cap": 12, "gui": false, "jlink": true, "jlink_flash_write": false, "lin_flash_write": true}
+{"time": "2026-11-17T13:06:25", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-17T13:06:28", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-17T13:06:28", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-17T13:06:28", "kind": "CLEANUP", "remove_client": 0}

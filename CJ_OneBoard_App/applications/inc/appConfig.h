@@ -12,14 +12,16 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+#include <stddef.h>
 #include <string.h>
 #include "device.h"
+#include "pds.h"
 
 // ===========================================================
 //  Product identity
 //  Append new fields; do not reorder existing fields.
 // ===========================================================
-#define CONFIG_SERIAL_NUMBER       "26K10-0001"
+#define CONFIG_SERIAL_NUMBER       "26K19-0001"
 #define CONFIG_PART_NUMBER         "ZX1-0025"
 #define CONFIG_VERSION             0x0002U
 #define CONFIG_CHAIR_NUMBER        0x0AU
@@ -36,7 +38,7 @@
 
 // Fixed byte layout prevents old tail padding from overwriting appended defaults.
 #pragma pack(push, 1)
-typedef struct ConFig
+struct ConFig
 {
     uint16_t version;                 // Four nibbles: major.minor.patch.build (0..15).
     char Serial_Number[CONFIG_SERIAL_LENGTH + 1U];
@@ -45,7 +47,7 @@ typedef struct ConFig
     uint32_t Init_Number;             // Permanent board key; never used as Chair ID/NAD.
     // Append fields here. New fields default to zero unless added to CONFIG_DEFAULTS.
     // PDS reserves the rest of the existing 256-byte row automatically.
-} ConFig_t;
+};
 #pragma pack(pop)
 
 // ===========================================================
@@ -61,6 +63,29 @@ typedef struct ConFig
 #define TRUE                    1U
 
 #define FALSE                   0U
+
+typedef struct
+{
+    uint8_t chairMask;
+    uint8_t ledMask;
+    uint8_t colorMode;
+    uint8_t fadeEnabled;
+    uint8_t active;
+    uint8_t sync;
+    uint8_t mode;
+    uint8_t color1;
+    uint8_t color2;
+    uint8_t color3;
+    uint8_t effect1;
+    uint8_t effect2;
+    uint16_t red;
+    uint16_t green;
+    uint16_t blue;
+    uint32_t timeMs;
+} LedControlCommand_t;
+
+#define LED_FLICKER_FADE_TIME_MS 500U
+#define LED_CONTROL_TICK_US      1000U
 
 // ===========================================================
 //  PIC32CM5164JH01032 Data Flash PDS layout
@@ -116,7 +141,6 @@ typedef struct ConFig
 #include "UDS.h"
 #include "Verification.h"
 #include "XCP.h"
-#include "pds.h"
 #include "lin_task.h"
 #include "sys_init.h"
 

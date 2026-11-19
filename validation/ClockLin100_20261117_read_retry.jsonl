@@ -1,0 +1,145 @@
+{"time": "2026-11-17T11:52:23", "kind": "START", "prefix": "ClockLin100_20261117_read_retry", "brightness_cap": 12, "gui": false, "jlink": false}
+{"time": "2026-11-17T11:52:24", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-17T11:52:27", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311639753259}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311639784259}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311639831258}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311639856258}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311639878259}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311639925251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311639941251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311639956251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311639972251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311639987251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311640003251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311640019251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311640034251}
+{"time": "2026-11-17T11:52:27", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311640159252}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311640189252}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311640236251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311640252251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311640267252}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311640314251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311640328251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311640344251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311640360251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311640376251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311640392251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311640407251}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311640423251}
+{"time": "2026-11-17T11:52:27", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311640549252}
+{"time": "2026-11-17T11:52:27", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311640580252}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311640626251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311640642251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311640657255}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311640704251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311640720251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311640735251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311640750251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311640766251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311640781251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311640797251}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311640812251}
+{"time": "2026-11-17T11:52:28", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311640937720}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311640968720}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311641015719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311641031719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311641046720}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311641093719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311641109719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311641125719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311641141719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311641157719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311641171719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311641187719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311641202719}
+{"time": "2026-11-17T11:52:28", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311641328720}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311641359720}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311641406719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311641421719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311641437720}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311641483719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311641499719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311641515719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311641531719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311641546719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311641563719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311641578719}
+{"time": "2026-11-17T11:52:28", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311641594719}
+{"time": "2026-11-17T11:52:28", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311641719720}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311641750720}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311641797719}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311641812719}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311641829720}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311641875719}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311641891719}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311641906719}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311641921719}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311641936413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311641951413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311641967413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311641983413}
+{"time": "2026-11-17T11:52:29", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311642108414}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311642139414}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311642186413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311642202413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311642218414}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311642264413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311642280413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311642305413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311642327413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311642342413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311642358413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311642374413}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311642389413}
+{"time": "2026-11-17T11:52:29", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311642513414}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311642544414}
+{"time": "2026-11-17T11:52:29", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311642589413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311642605413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311642620414}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311642667413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311642682413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311642697413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311642714413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311642728413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311642744413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311642759413}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311642775413}
+{"time": "2026-11-17T11:52:30", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311642901414}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311642931278}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311642978277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311642993277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311643009278}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311643055277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311643071277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311643086277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311643102277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311643118277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311643134277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311643149277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311643165277}
+{"time": "2026-11-17T11:52:30", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f10083101f302ae", "errors": 0, "hw_us": 311643290278}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "7f21be9602ffffff", "errors": 0, "hw_us": 311643320278}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f10097101f302ae", "errors": 0, "hw_us": 311643367277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "7f21be960200ffff", "errors": 0, "hw_us": 311643384277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 60, "publisher": true, "data": "020322f210ffffff", "errors": 0, "hw_us": 311643398278}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "02102662f2100000", "errors": 0, "hw_us": 311643445277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0221010000000300", "errors": 0, "hw_us": 311643461277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0222000000000000", "errors": 0, "hw_us": 311643476277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0223000000000000", "errors": 0, "hw_us": 311643492277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0224000000000003", "errors": 0, "hw_us": 311643508277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "0225000000020000", "errors": 0, "hw_us": 311643524277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 61, "publisher": false, "data": "022673fc07ffffff", "errors": 0, "hw_us": 311643540277}
+{"time": "2026-11-17T11:52:30", "kind": "FRAME", "id": 11, "publisher": false, "data": "0020406080a00000", "errors": 0, "hw_us": 311643555277}
+{"time": "2026-11-17T11:52:30", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T11:52:31", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-17T11:52:31", "kind": "CLEANUP", "remove_client": 0}

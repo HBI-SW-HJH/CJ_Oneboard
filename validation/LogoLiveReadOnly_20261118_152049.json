@@ -1,0 +1,25 @@
+{
+  "started": "2026-11-18T15:20:49.556336",
+  "operations": "Read only SWD attach/read. No GUI, reset, halt, resume, firmware download, Flash/RAM/peripheral writes, or LIN commands.",
+  "samples": [],
+  "did": "0x11060203",
+  "dhcsr_initial": "0x1000001",
+  "vtor": "0x20001e00",
+  "candidate_images": [
+    {
+      "project": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\CJ_OneBoard_App",
+      "length": 29692,
+      "match": false,
+      "sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2"
+    },
+    {
+      "project": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\납품\\CJ_Git_20261111\\CJ_OneBoard_App",
+      "length": 29688,
+      "match": true,
+      "sha256": "534cac48edeb1978f82171d25da766f70826c45ce93fbe185a045244b8630c1a"
+    }
+  ],
+  "error": "'utf-8' codec can't decode byte 0xb3 in position 274: invalid start byte",
+  "completed": false,
+  "finished": "2026-11-18T15:20:50.210960"
+}

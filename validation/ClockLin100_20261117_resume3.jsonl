@@ -1,0 +1,186 @@
+{"time": "2026-11-17T13:06:46", "kind": "START", "prefix": "ClockLin100_20261117_resume3", "brightness_cap": 12, "gui": false, "jlink": true, "jlink_flash_write": false, "lin_flash_write": true}
+{"time": "2026-11-17T13:06:46", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-17T13:06:49", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-17T13:06:49", "kind": "UPDATE_BEGIN", "number": 32, "total": 100}
+{"time": "2026-11-17T13:07:07", "kind": "UPDATE_PROGRESS", "number": 32, "percent": 25}
+{"time": "2026-11-17T13:07:25", "kind": "UPDATE_PROGRESS", "number": 32, "percent": 50}
+{"time": "2026-11-17T13:07:42", "kind": "UPDATE_PROGRESS", "number": 32, "percent": 75}
+{"time": "2026-11-17T13:08:00", "kind": "UPDATE_PROGRESS", "number": 32, "percent": 100}
+{"time": "2026-11-17T13:08:13", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:08:15", "kind": "UPDATE_PASS", "number": 32, "seconds": 86.25, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:08:16", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:08:16", "kind": "UPDATE_BEGIN", "number": 33, "total": 100}
+{"time": "2026-11-17T13:08:35", "kind": "UPDATE_PROGRESS", "number": 33, "percent": 25}
+{"time": "2026-11-17T13:08:52", "kind": "UPDATE_PROGRESS", "number": 33, "percent": 50}
+{"time": "2026-11-17T13:09:10", "kind": "UPDATE_PROGRESS", "number": 33, "percent": 75}
+{"time": "2026-11-17T13:09:28", "kind": "UPDATE_PROGRESS", "number": 33, "percent": 100}
+{"time": "2026-11-17T13:09:41", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:09:43", "kind": "UPDATE_PASS", "number": 33, "seconds": 87.797, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:09:44", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:09:44", "kind": "UPDATE_BEGIN", "number": 34, "total": 100}
+{"time": "2026-11-17T13:10:05", "kind": "UPDATE_PROGRESS", "number": 34, "percent": 25}
+{"time": "2026-11-17T13:10:23", "kind": "UPDATE_PROGRESS", "number": 34, "percent": 50}
+{"time": "2026-11-17T13:10:40", "kind": "UPDATE_PROGRESS", "number": 34, "percent": 75}
+{"time": "2026-11-17T13:10:57", "kind": "UPDATE_PROGRESS", "number": 34, "percent": 100}
+{"time": "2026-11-17T13:11:10", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:11:13", "kind": "UPDATE_PASS", "number": 34, "seconds": 89.125, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:11:13", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:11:13", "kind": "UPDATE_BEGIN", "number": 35, "total": 100}
+{"time": "2026-11-17T13:11:31", "kind": "UPDATE_PROGRESS", "number": 35, "percent": 25}
+{"time": "2026-11-17T13:11:48", "kind": "UPDATE_PROGRESS", "number": 35, "percent": 50}
+{"time": "2026-11-17T13:12:04", "kind": "UPDATE_PROGRESS", "number": 35, "percent": 75}
+{"time": "2026-11-17T13:12:22", "kind": "UPDATE_PROGRESS", "number": 35, "percent": 100}
+{"time": "2026-11-17T13:12:35", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:12:38", "kind": "UPDATE_PASS", "number": 35, "seconds": 84.907, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:12:38", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:12:38", "kind": "UPDATE_BEGIN", "number": 36, "total": 100}
+{"time": "2026-11-17T13:12:57", "kind": "UPDATE_PROGRESS", "number": 36, "percent": 25}
+{"time": "2026-11-17T13:13:15", "kind": "UPDATE_PROGRESS", "number": 36, "percent": 50}
+{"time": "2026-11-17T13:13:32", "kind": "UPDATE_PROGRESS", "number": 36, "percent": 75}
+{"time": "2026-11-17T13:13:50", "kind": "UPDATE_PROGRESS", "number": 36, "percent": 100}
+{"time": "2026-11-17T13:14:03", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:14:06", "kind": "UPDATE_PASS", "number": 36, "seconds": 87.36, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:14:06", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:14:06", "kind": "UPDATE_BEGIN", "number": 37, "total": 100}
+{"time": "2026-11-17T13:14:25", "kind": "UPDATE_PROGRESS", "number": 37, "percent": 25}
+{"time": "2026-11-17T13:14:44", "kind": "UPDATE_PROGRESS", "number": 37, "percent": 50}
+{"time": "2026-11-17T13:15:01", "kind": "UPDATE_PROGRESS", "number": 37, "percent": 75}
+{"time": "2026-11-17T13:15:16", "kind": "UPDATE_PROGRESS", "number": 37, "percent": 100}
+{"time": "2026-11-17T13:15:30", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:15:33", "kind": "UPDATE_PASS", "number": 37, "seconds": 86.547, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:15:33", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:15:33", "kind": "UPDATE_BEGIN", "number": 38, "total": 100}
+{"time": "2026-11-17T13:15:51", "kind": "UPDATE_PROGRESS", "number": 38, "percent": 25}
+{"time": "2026-11-17T13:16:09", "kind": "UPDATE_PROGRESS", "number": 38, "percent": 50}
+{"time": "2026-11-17T13:16:27", "kind": "UPDATE_PROGRESS", "number": 38, "percent": 75}
+{"time": "2026-11-17T13:16:44", "kind": "UPDATE_PROGRESS", "number": 38, "percent": 100}
+{"time": "2026-11-17T13:16:57", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:17:00", "kind": "UPDATE_PASS", "number": 38, "seconds": 87.156, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:17:00", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:17:00", "kind": "UPDATE_BEGIN", "number": 39, "total": 100}
+{"time": "2026-11-17T13:17:19", "kind": "UPDATE_PROGRESS", "number": 39, "percent": 25}
+{"time": "2026-11-17T13:17:48", "kind": "UPDATE_PROGRESS", "number": 39, "percent": 50}
+{"time": "2026-11-17T13:18:31", "kind": "UPDATE_PROGRESS", "number": 39, "percent": 75}
+{"time": "2026-11-17T13:19:13", "kind": "UPDATE_PROGRESS", "number": 39, "percent": 100}
+{"time": "2026-11-17T13:19:28", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:19:31", "kind": "UPDATE_PASS", "number": 39, "seconds": 150.735, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:19:31", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:19:31", "kind": "UPDATE_BEGIN", "number": 40, "total": 100}
+{"time": "2026-11-17T13:20:15", "kind": "UPDATE_PROGRESS", "number": 40, "percent": 25}
+{"time": "2026-11-17T13:20:57", "kind": "UPDATE_PROGRESS", "number": 40, "percent": 50}
+{"time": "2026-11-17T13:21:40", "kind": "UPDATE_PROGRESS", "number": 40, "percent": 75}
+{"time": "2026-11-17T13:22:23", "kind": "UPDATE_PROGRESS", "number": 40, "percent": 100}
+{"time": "2026-11-17T13:22:37", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:22:40", "kind": "UPDATE_PASS", "number": 40, "seconds": 188.844, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:22:41", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:22:41", "kind": "UPDATE_BEGIN", "number": 41, "total": 100}
+{"time": "2026-11-17T13:23:18", "kind": "UPDATE_PROGRESS", "number": 41, "percent": 25}
+{"time": "2026-11-17T13:23:36", "kind": "UPDATE_PROGRESS", "number": 41, "percent": 50}
+{"time": "2026-11-17T13:23:54", "kind": "UPDATE_PROGRESS", "number": 41, "percent": 75}
+{"time": "2026-11-17T13:24:12", "kind": "UPDATE_PROGRESS", "number": 41, "percent": 100}
+{"time": "2026-11-17T13:24:25", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:24:28", "kind": "UPDATE_PASS", "number": 41, "seconds": 107.047, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:24:28", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:24:28", "kind": "UPDATE_BEGIN", "number": 42, "total": 100}
+{"time": "2026-11-17T13:24:47", "kind": "UPDATE_PROGRESS", "number": 42, "percent": 25}
+{"time": "2026-11-17T13:25:04", "kind": "UPDATE_PROGRESS", "number": 42, "percent": 50}
+{"time": "2026-11-17T13:25:23", "kind": "UPDATE_PROGRESS", "number": 42, "percent": 75}
+{"time": "2026-11-17T13:25:41", "kind": "UPDATE_PROGRESS", "number": 42, "percent": 100}
+{"time": "2026-11-17T13:25:54", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:25:57", "kind": "UPDATE_PASS", "number": 42, "seconds": 88.812, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:25:57", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:25:57", "kind": "UPDATE_BEGIN", "number": 43, "total": 100}
+{"time": "2026-11-17T13:26:16", "kind": "UPDATE_PROGRESS", "number": 43, "percent": 25}
+{"time": "2026-11-17T13:26:34", "kind": "UPDATE_PROGRESS", "number": 43, "percent": 50}
+{"time": "2026-11-17T13:26:52", "kind": "UPDATE_PROGRESS", "number": 43, "percent": 75}
+{"time": "2026-11-17T13:27:09", "kind": "UPDATE_PROGRESS", "number": 43, "percent": 100}
+{"time": "2026-11-17T13:27:22", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:27:25", "kind": "UPDATE_PASS", "number": 43, "seconds": 87.86, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:27:25", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:27:25", "kind": "UPDATE_BEGIN", "number": 44, "total": 100}
+{"time": "2026-11-17T13:27:45", "kind": "UPDATE_PROGRESS", "number": 44, "percent": 25}
+{"time": "2026-11-17T13:28:02", "kind": "UPDATE_PROGRESS", "number": 44, "percent": 50}
+{"time": "2026-11-17T13:28:19", "kind": "UPDATE_PROGRESS", "number": 44, "percent": 75}
+{"time": "2026-11-17T13:28:37", "kind": "UPDATE_PROGRESS", "number": 44, "percent": 100}
+{"time": "2026-11-17T13:28:50", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:28:53", "kind": "UPDATE_PASS", "number": 44, "seconds": 87.625, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:28:53", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:28:53", "kind": "UPDATE_BEGIN", "number": 45, "total": 100}
+{"time": "2026-11-17T13:29:11", "kind": "UPDATE_PROGRESS", "number": 45, "percent": 25}
+{"time": "2026-11-17T13:29:29", "kind": "UPDATE_PROGRESS", "number": 45, "percent": 50}
+{"time": "2026-11-17T13:29:47", "kind": "UPDATE_PROGRESS", "number": 45, "percent": 75}
+{"time": "2026-11-17T13:30:04", "kind": "UPDATE_PROGRESS", "number": 45, "percent": 100}
+{"time": "2026-11-17T13:30:17", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:30:20", "kind": "UPDATE_PASS", "number": 45, "seconds": 87.188, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:30:21", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:30:21", "kind": "UPDATE_BEGIN", "number": 46, "total": 100}
+{"time": "2026-11-17T13:30:39", "kind": "UPDATE_PROGRESS", "number": 46, "percent": 25}
+{"time": "2026-11-17T13:30:57", "kind": "UPDATE_PROGRESS", "number": 46, "percent": 50}
+{"time": "2026-11-17T13:31:15", "kind": "UPDATE_PROGRESS", "number": 46, "percent": 75}
+{"time": "2026-11-17T13:31:32", "kind": "UPDATE_PROGRESS", "number": 46, "percent": 100}
+{"time": "2026-11-17T13:31:46", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:31:48", "kind": "UPDATE_PASS", "number": 46, "seconds": 87.812, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:31:49", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:31:49", "kind": "UPDATE_BEGIN", "number": 47, "total": 100}
+{"time": "2026-11-17T13:32:07", "kind": "UPDATE_PROGRESS", "number": 47, "percent": 25}
+{"time": "2026-11-17T13:32:25", "kind": "UPDATE_PROGRESS", "number": 47, "percent": 50}
+{"time": "2026-11-17T13:32:44", "kind": "UPDATE_PROGRESS", "number": 47, "percent": 75}
+{"time": "2026-11-17T13:33:02", "kind": "UPDATE_PROGRESS", "number": 47, "percent": 100}
+{"time": "2026-11-17T13:33:15", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:33:17", "kind": "UPDATE_PASS", "number": 47, "seconds": 88.766, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:33:18", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:33:18", "kind": "UPDATE_BEGIN", "number": 48, "total": 100}
+{"time": "2026-11-17T13:33:37", "kind": "UPDATE_PROGRESS", "number": 48, "percent": 25}
+{"time": "2026-11-17T13:33:55", "kind": "UPDATE_PROGRESS", "number": 48, "percent": 50}
+{"time": "2026-11-17T13:34:12", "kind": "UPDATE_PROGRESS", "number": 48, "percent": 75}
+{"time": "2026-11-17T13:34:30", "kind": "UPDATE_PROGRESS", "number": 48, "percent": 100}
+{"time": "2026-11-17T13:34:43", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:34:45", "kind": "UPDATE_PASS", "number": 48, "seconds": 87.797, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:34:46", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:34:46", "kind": "UPDATE_BEGIN", "number": 49, "total": 100}
+{"time": "2026-11-17T13:35:05", "kind": "UPDATE_PROGRESS", "number": 49, "percent": 25}
+{"time": "2026-11-17T13:35:22", "kind": "UPDATE_PROGRESS", "number": 49, "percent": 50}
+{"time": "2026-11-17T13:35:40", "kind": "UPDATE_PROGRESS", "number": 49, "percent": 75}
+{"time": "2026-11-17T13:35:57", "kind": "UPDATE_PROGRESS", "number": 49, "percent": 100}
+{"time": "2026-11-17T13:36:11", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:36:13", "kind": "UPDATE_PASS", "number": 49, "seconds": 87.719, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:36:14", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:36:14", "kind": "UPDATE_BEGIN", "number": 50, "total": 100}
+{"time": "2026-11-17T13:36:35", "kind": "UPDATE_PROGRESS", "number": 50, "percent": 25}
+{"time": "2026-11-17T13:36:53", "kind": "UPDATE_PROGRESS", "number": 50, "percent": 50}
+{"time": "2026-11-17T13:37:10", "kind": "UPDATE_PROGRESS", "number": 50, "percent": 75}
+{"time": "2026-11-17T13:37:28", "kind": "UPDATE_PROGRESS", "number": 50, "percent": 100}
+{"time": "2026-11-17T13:37:41", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:37:44", "kind": "UPDATE_PASS", "number": 50, "seconds": 89.906, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:37:44", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:37:44", "kind": "UPDATE_BEGIN", "number": 51, "total": 100}
+{"time": "2026-11-17T13:38:02", "kind": "UPDATE_PROGRESS", "number": 51, "percent": 25}
+{"time": "2026-11-17T13:38:19", "kind": "UPDATE_PROGRESS", "number": 51, "percent": 50}
+{"time": "2026-11-17T13:38:37", "kind": "UPDATE_PROGRESS", "number": 51, "percent": 75}
+{"time": "2026-11-17T13:38:55", "kind": "UPDATE_PROGRESS", "number": 51, "percent": 100}
+{"time": "2026-11-17T13:39:08", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:39:11", "kind": "UPDATE_PASS", "number": 51, "seconds": 86.922, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:39:11", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:39:11", "kind": "UPDATE_BEGIN", "number": 52, "total": 100}
+{"time": "2026-11-17T13:39:30", "kind": "UPDATE_PROGRESS", "number": 52, "percent": 25}
+{"time": "2026-11-17T13:39:48", "kind": "UPDATE_PROGRESS", "number": 52, "percent": 50}
+{"time": "2026-11-17T13:40:31", "kind": "UPDATE_PROGRESS", "number": 52, "percent": 75}
+{"time": "2026-11-17T13:41:13", "kind": "UPDATE_PROGRESS", "number": 52, "percent": 100}
+{"time": "2026-11-17T13:41:28", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:41:30", "kind": "UPDATE_PASS", "number": 52, "seconds": 139.453, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:41:31", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:41:31", "kind": "UPDATE_BEGIN", "number": 53, "total": 100}
+{"time": "2026-11-17T13:42:15", "kind": "UPDATE_PROGRESS", "number": 53, "percent": 25}
+{"time": "2026-11-17T13:42:57", "kind": "UPDATE_PROGRESS", "number": 53, "percent": 50}
+{"time": "2026-11-17T13:43:39", "kind": "UPDATE_PROGRESS", "number": 53, "percent": 75}
+{"time": "2026-11-17T13:44:21", "kind": "UPDATE_PROGRESS", "number": 53, "percent": 100}
+{"time": "2026-11-17T13:44:36", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:44:39", "kind": "UPDATE_PASS", "number": 53, "seconds": 188.0, "readbacks": 36, "flash_crc_accepted": true, "app_bytes_match": true, "backup_bytes_match": true, "read_timeouts": 0}
+{"time": "2026-11-17T13:44:39", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-17T13:44:39", "kind": "UPDATE_BEGIN", "number": 54, "total": 100}
+{"time": "2026-11-17T13:45:23", "kind": "UPDATE_PROGRESS", "number": 54, "percent": 25}
+{"time": "2026-11-17T13:45:50", "kind": "UPDATE_PROGRESS", "number": 54, "percent": 50}
+{"time": "2026-11-17T13:46:09", "kind": "UPDATE_PROGRESS", "number": 54, "percent": 75}
+{"time": "2026-11-17T13:46:26", "kind": "UPDATE_PROGRESS", "number": 54, "percent": 100}
+{"time": "2026-11-17T13:46:37", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-17T13:46:37", "kind": "CLEANUP", "remove_client": 0}

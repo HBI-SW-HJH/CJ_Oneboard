@@ -1,0 +1,60 @@
+{
+  "before": {
+    "g_dbg_lin_irq_count": 2651,
+    "g_dbg_lin_rxbrk_count": 291,
+    "g_dbg_lin_rxc_count": 2359,
+    "g_dbg_lin_rxs_count": 0,
+    "g_dbg_lin_error_count": 1,
+    "g_dbg_lin_rx_cb_count": 0,
+    "g_dbg_lin_last_pid": 125,
+    "g_dbg_lin_last_raw_id": 61,
+    "g_dbg_lin_last_state": 1,
+    "g_dbg_lin_last_intflag": 7,
+    "g_dbg_lin_last_status": 4,
+    "g_dbg_lin_error_state": 2,
+    "s_state": 2,
+    "s_pid": 125,
+    "s_dataIdx": 0,
+    "s_active": 536879168,
+    "sercom": {
+      "0x0": "0x44302106",
+      "0x4": "0x30000",
+      "0xc": "0x9c",
+      "0x14": "0xac00ac",
+      "0x18": "0x3",
+      "0x1c": "0x0",
+      "0x28": "0x7d"
+    },
+    "tick": 109414
+  },
+  "diagnostic": "0020406080a00000",
+  "selection_error": "RuntimeError('Only read services and volatile target selection permitted')",
+  "after": {
+    "g_dbg_lin_irq_count": 2662,
+    "g_dbg_lin_rxbrk_count": 292,
+    "g_dbg_lin_rxc_count": 2369,
+    "g_dbg_lin_rxs_count": 0,
+    "g_dbg_lin_error_count": 1,
+    "g_dbg_lin_rx_cb_count": 0,
+    "g_dbg_lin_last_pid": 139,
+    "g_dbg_lin_last_raw_id": 11,
+    "g_dbg_lin_last_state": 1,
+    "g_dbg_lin_last_intflag": 5,
+    "g_dbg_lin_last_status": 4,
+    "g_dbg_lin_error_state": 2,
+    "s_state": 0,
+    "s_pid": 139,
+    "s_dataIdx": 8,
+    "s_active": 536878945,
+    "sercom": {
+      "0x0": "0x44302106",
+      "0x4": "0x30000",
+      "0xc": "0x9c",
+      "0x14": "0xac00ac",
+      "0x18": "0x3",
+      "0x1c": "0x0",
+      "0x28": "0x0"
+    },
+    "tick": 112444
+  }
+}

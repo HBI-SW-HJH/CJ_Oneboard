@@ -1,0 +1,8 @@
+{"time": "2026-11-18T08:58:57", "kind": "START", "prefix": "FourChair50_20261118_pre_resume_085857", "brightness_cap": 12, "gui": false, "jlink": false, "lin_flash_write": true}
+{"time": "2026-11-18T08:58:57", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T08:59:00", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T08:59:01", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T08:59:01", "kind": "DIAGNOSTIC", "chair": "0C", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T08:59:02", "kind": "DIAGNOSTIC", "chair": "0D", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T08:59:02", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T08:59:02", "kind": "CLEANUP", "remove_client": 0}

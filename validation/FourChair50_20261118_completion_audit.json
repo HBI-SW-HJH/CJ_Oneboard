@@ -1,0 +1,3349 @@
+{
+  "created": "2026-11-18T11:12:24.362317",
+  "requested_checks_complete": true,
+  "clean_without_incidents": false,
+  "checks": {
+    "campaign_finished": true,
+    "exactly_50_each_unique": true,
+    "four_fault_recoveries": true,
+    "fault_recovery_evidence": true,
+    "normal_update_evidence": true,
+    "final_four_healthy": true,
+    "event_passes_match_results": true,
+    "logged_diagnostics_clear": true,
+    "logged_recoveries_match_results": true,
+    "normal_bin_unchanged": true,
+    "fault_bin_exactly_one_byte": true,
+    "source_and_configuration_unchanged": true
+  },
+  "boards": [
+    {
+      "chair": "0A",
+      "serial": "26J07-0021",
+      "init_number": "4729D1C4",
+      "completed": 50,
+      "fault_test_passed": true,
+      "restore_count_before": 0,
+      "restore_count_after": 1,
+      "post_boot_read_retries": 3
+    },
+    {
+      "chair": "0B",
+      "serial": "26I16-0002",
+      "init_number": "AEBE9602",
+      "completed": 50,
+      "fault_test_passed": true,
+      "restore_count_before": 2,
+      "restore_count_after": 3,
+      "post_boot_read_retries": 2
+    },
+    {
+      "chair": "0C",
+      "serial": "26I16-0003",
+      "init_number": "FB3D8E91",
+      "completed": 50,
+      "fault_test_passed": true,
+      "restore_count_before": 1,
+      "restore_count_after": 2,
+      "post_boot_read_retries": 4
+    },
+    {
+      "chair": "0D",
+      "serial": "26I16-0004",
+      "init_number": "E13173F1",
+      "completed": 50,
+      "fault_test_passed": true,
+      "restore_count_before": 0,
+      "restore_count_after": 1,
+      "post_boot_read_retries": 0
+    }
+  ],
+  "normal_downloads_completed": 200,
+  "normal_attempts_started": 203,
+  "recovery_test_downloads": 4,
+  "rgb_readback_comparisons": 7344,
+  "source_files_checked": 283,
+  "source_changes": [],
+  "image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\CJ_OneBoard_App\\build\\Debug\\Exe\\CJ_App_Clock_20261117.bin",
+    "length": 29692,
+    "sha256": "84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2",
+    "crc32": "C69C9150"
+  },
+  "fault_image": {
+    "path": "D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\CJ_App_FAULT_OneByte_20261117.bin",
+    "length": 29692,
+    "offset": "0x5ae9",
+    "address": "0x15ae9",
+    "old": "B5",
+    "new": "DE",
+    "instruction": "PUSH 0xB538 -> UDF 0xDE38 at Reprogram_Process entry",
+    "sha256": "e6a6b2417d6d13d8651ef2a2fcb5669e853ff3eaacb2bcd287e708e8c012e50e",
+    "crc32": "CB6962B6",
+    "modified_byte_count": 1
+  },
+  "post_boot_read_retry_cases": [
+    {
+      "chair": "0B",
+      "cycle": 3,
+      "events": [
+        {
+          "time": "2026-11-17T15:33:27.136485",
+          "chair": "0B",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "UDS timeout NAD=02 request=22f210"
+        }
+      ]
+    },
+    {
+      "chair": "0C",
+      "cycle": 6,
+      "events": [
+        {
+          "time": "2026-11-17T15:51:56.491531",
+          "chair": "0C",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "LIN error ID=3D, flags=10"
+        }
+      ]
+    },
+    {
+      "chair": "0A",
+      "cycle": 7,
+      "events": [
+        {
+          "time": "2026-11-17T15:54:48.173734",
+          "chair": "0A",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "UDS timeout NAD=7F request=3101f3024729d1c4"
+        }
+      ]
+    },
+    {
+      "chair": "0A",
+      "cycle": 9,
+      "events": [
+        {
+          "time": "2026-11-17T16:06:05.240111",
+          "chair": "0A",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "UDS timeout NAD=7F request=3101f3024729d1c4"
+        }
+      ]
+    },
+    {
+      "chair": "0C",
+      "cycle": 16,
+      "events": [
+        {
+          "time": "2026-11-17T16:54:12.399106",
+          "chair": "0C",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "LIN error ID=3D, flags=10"
+        }
+      ]
+    },
+    {
+      "chair": "0B",
+      "cycle": 19,
+      "events": [
+        {
+          "time": "2026-11-17T17:09:40.956279",
+          "chair": "0B",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "UDS timeout NAD=7F request=3101f302aebe9602"
+        }
+      ]
+    },
+    {
+      "chair": "0C",
+      "cycle": 30,
+      "events": [
+        {
+          "time": "2026-11-18T09:06:49.668424",
+          "chair": "0C",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "LIN error ID=3D, flags=10"
+        }
+      ]
+    },
+    {
+      "chair": "0A",
+      "cycle": 31,
+      "events": [
+        {
+          "time": "2026-11-18T09:09:38.495284",
+          "chair": "0A",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "LIN error ID=3D, flags=10"
+        }
+      ]
+    },
+    {
+      "chair": "0C",
+      "cycle": 33,
+      "events": [
+        {
+          "time": "2026-11-18T09:23:49.450346",
+          "chair": "0C",
+          "retry": 1,
+          "recovery_wait": false,
+          "error": "UDS timeout NAD=7F request=3101f302fb3d8e91"
+        }
+      ]
+    }
+  ],
+  "interruptions": [
+    {
+      "finished": "2026-11-17T16:47:07.815022",
+      "completed": 61,
+      "error": "RuntimeError('UDS timeout NAD=7F request=3101f302aebe9602')",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 235, in main\n    before = check_board(board, restored)\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 161, in check_board\n    state = t.runtime(board)\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 67, in runtime\n    nad, mode = self.select(board['chair'], board['init'])\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\old\\CJ_Onboard_20261027\\validation\\FullFourChairTest.py\", line 209, in select\n    response = self.uds(0x7F, bytes.fromhex(\"3101f302\") + init.to_bytes(4, \"big\"))\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\old\\CJ_Onboard_20261027\\validation\\FullFourChairTest.py\", line 206, in uds\n    raise RuntimeError(f\"UDS timeout NAD={nad:02X} request={payload[:8].hex()}\")\nRuntimeError: UDS timeout NAD=7F request=3101f302aebe9602\n",
+      "note": "0B stopped responding before its cycle 16 download; SWD observed HALT. Later LIN recheck normal without our reset/run/download. Cause not established."
+    },
+    {
+      "recorded": "2026-11-18T09:02:28.440393",
+      "completed": 116,
+      "error": null,
+      "traceback": null,
+      "note": "PC sleep event at 2026-11-17 18:10:15 during A30 transfer; PC restarted on Nov18. Read-only LIN recheck found A in Boot flag1, B/C/D healthy App. Restart A30 transfer from byte zero; incomplete attempt is not counted as passed.",
+      "interrupted_attempt": {
+        "type": "normal",
+        "cycle": 30,
+        "before": {
+          "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+          "mode": 0,
+          "flag": 0,
+          "backup_flag": 0,
+          "fault_count": 0,
+          "backup_fault_count": 0,
+          "valid": 3,
+          "restores": 1,
+          "backup_length": 29692,
+          "bits": 7
+        },
+        "started": "2026-11-17T18:09:37.440739",
+        "phase": "transfer",
+        "chair": 10,
+        "bytes_acknowledged": 7424
+      },
+      "live_boot_state": {
+        "raw": "62f210010001000000030000000000010000000100000000000000000300000001000073fc03",
+        "mode": 1,
+        "flag": 1,
+        "backup_flag": 1,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 3
+      }
+    },
+    {
+      "recorded": "2026-11-18T10:10:33.777289",
+      "completed": 160,
+      "error": "RuntimeError('UDS timeout NAD=7D request=360381b001000dd0')",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 260, in main\n    download(board, image, item, starting_in_boot)\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 202, in download\n    require(t.uds(nad, bytes([0x36, seq]) + block) == bytes([0x76, seq]), 'Transfer acknowledgement')\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\old\\CJ_Onboard_20261027\\validation\\FullFourChairTest.py\", line 206, in uds\n    raise RuntimeError(f\"UDS timeout NAD={nad:02X} request={payload[:8].hex()}\")\nRuntimeError: UDS timeout NAD=7D request=360381b001000dd0\n",
+      "note": "A41 third data block received no response within 1 second; blocks1/2 acknowledged. Read-only LIN recheck found A responsive in Boot flag1, fault count0, restore count unchanged; B/C/D healthy. Exact cause not established. User explicitly requested retransmission. Restart from byte zero; failed attempt is not counted as passed.",
+      "interrupted_attempt": {
+        "type": "normal",
+        "cycle": 41,
+        "before": {
+          "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+          "mode": 0,
+          "flag": 0,
+          "backup_flag": 0,
+          "fault_count": 0,
+          "backup_fault_count": 0,
+          "valid": 3,
+          "restores": 1,
+          "backup_length": 29692,
+          "bits": 7
+        },
+        "started": "2026-11-18T10:06:56.643730",
+        "phase": "transfer",
+        "chair": 10
+      },
+      "live_boot_state": {
+        "raw": "62f210010001000000030000000000010000000100000000000000000300000001000073fc03",
+        "mode": 1,
+        "flag": 1,
+        "backup_flag": 1,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 3
+      }
+    },
+    {
+      "recorded": "2026-11-18T11:04:25.551452",
+      "completed": 196,
+      "error": "RuntimeError('UDS timeout NAD=7D request=360381b001000dd0')",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 264, in main\n    download(board, image, item, starting_in_boot)\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\CJ_Git_20261116\\validation\\FourChair50_20261117.py\", line 206, in download\n    require(t.uds(nad, bytes([0x36, seq]) + block) == bytes([0x76, seq]), 'Transfer acknowledgement')\n  File \"D:\\jhhan\\program\\CJ_OneBoard\\Program\\old\\CJ_Onboard_20261027\\validation\\FullFourChairTest.py\", line 206, in uds\n    raise RuntimeError(f\"UDS timeout NAD={nad:02X} request={payload[:8].hex()}\")\nRuntimeError: UDS timeout NAD=7D request=360381b001000dd0\n",
+      "note": "A50 third data block received no response within 1 second; blocks1/2 acknowledged. Read-only LIN recheck found A responsive in Boot flag1, fault count0, restore count unchanged; B/C/D healthy. Exact cause not established. User requested retransmission for this failure. Restart from byte zero; failed attempt is not counted as passed.",
+      "interrupted_attempt": {
+        "type": "normal",
+        "cycle": 50,
+        "before": {
+          "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+          "mode": 0,
+          "flag": 0,
+          "backup_flag": 0,
+          "fault_count": 0,
+          "backup_fault_count": 0,
+          "valid": 3,
+          "restores": 1,
+          "backup_length": 29692,
+          "bits": 7
+        },
+        "started": "2026-11-18T11:03:26.524936",
+        "phase": "transfer",
+        "chair": 10
+      },
+      "live_boot_state": {
+        "raw": "62f210010001000000030000000000010000000100000000000000000300000001000073fc03",
+        "mode": 1,
+        "flag": 1,
+        "backup_flag": 1,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 3
+      }
+    }
+  ],
+  "transfer_failures": [
+    {
+      "chair": "0A",
+      "cycle": 41,
+      "acknowledged_blocks": [
+        1,
+        2
+      ],
+      "failed_block": 3,
+      "block_frames": 22,
+      "publisher_echo_errors": 0,
+      "response_headers": 55,
+      "response_errors": {
+        "18": 55
+      },
+      "request_frame_interval_ms_min": 11.0,
+      "request_frame_interval_ms_max": 17.0,
+      "later_complete_retransmission_passed": true,
+      "frames": [
+        {
+          "time": "2026-11-18T10:06:56.643730",
+          "id": 1,
+          "publisher": true,
+          "data": "013f070000000000",
+          "errors": 0,
+          "hw_us": 4254473131
+        },
+        {
+          "time": "2026-11-18T10:06:56.702623",
+          "id": 60,
+          "publisher": true,
+          "data": "7f10083101f30247",
+          "errors": 0,
+          "hw_us": 4254532131
+        },
+        {
+          "time": "2026-11-18T10:06:56.715130",
+          "id": 60,
+          "publisher": true,
+          "data": "7f2129d1c4ffffff",
+          "errors": 0,
+          "hw_us": 4254543131
+        },
+        {
+          "time": "2026-11-18T10:06:56.734690",
+          "id": 61,
+          "publisher": false,
+          "data": "7f10097101f30247",
+          "errors": 0,
+          "hw_us": 4254564130
+        },
+        {
+          "time": "2026-11-18T10:06:56.742022",
+          "id": 61,
+          "publisher": false,
+          "data": "7f2129d1c400ffff",
+          "errors": 0,
+          "hw_us": 4254572130
+        },
+        {
+          "time": "2026-11-18T10:06:56.751218",
+          "id": 60,
+          "publisher": true,
+          "data": "01021002ffffffff",
+          "errors": 0,
+          "hw_us": 4254580131
+        },
+        {
+          "time": "2026-11-18T10:06:56.770852",
+          "id": 61,
+          "publisher": false,
+          "data": "0106500200fa01f4",
+          "errors": 0,
+          "hw_us": 4254600130
+        },
+        {
+          "time": "2026-11-18T10:06:57.485991",
+          "id": 60,
+          "publisher": true,
+          "data": "7f10083101f30247",
+          "errors": 0,
+          "hw_us": 4255310634
+        },
+        {
+          "time": "2026-11-18T10:06:57.500610",
+          "id": 60,
+          "publisher": true,
+          "data": "7f2129d1c4ffffff",
+          "errors": 0,
+          "hw_us": 4255328634
+        },
+        {
+          "time": "2026-11-18T10:06:57.520569",
+          "id": 61,
+          "publisher": false,
+          "data": "7f100a7101f30247",
+          "errors": 0,
+          "hw_us": 4255351633
+        },
+        {
+          "time": "2026-11-18T10:06:57.533214",
+          "id": 61,
+          "publisher": false,
+          "data": "7f2129d1c4017dff",
+          "errors": 0,
+          "hw_us": 4255359633
+        },
+        {
+          "time": "2026-11-18T10:06:57.543868",
+          "id": 60,
+          "publisher": true,
+          "data": "7d021002ffffffff",
+          "errors": 0,
+          "hw_us": 4255372634
+        },
+        {
+          "time": "2026-11-18T10:06:57.565344",
+          "id": 61,
+          "publisher": false,
+          "data": "7d06500200fa01f4",
+          "errors": 0,
+          "hw_us": 4255394633
+        },
+        {
+          "time": "2026-11-18T10:06:57.580443",
+          "id": 60,
+          "publisher": true,
+          "data": "7d100b3400440001",
+          "errors": 0,
+          "hw_us": 4255404634
+        },
+        {
+          "time": "2026-11-18T10:06:57.597364",
+          "id": 60,
+          "publisher": true,
+          "data": "7d210000000073fc",
+          "errors": 0,
+          "hw_us": 4255422634
+        },
+        {
+          "time": "2026-11-18T10:06:57.623474",
+          "id": 61,
+          "publisher": false,
+          "data": "7d037f3478ffffff",
+          "errors": 0,
+          "hw_us": 4255448633
+        },
+        {
+          "time": "2026-11-18T10:06:57.636047",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255462633
+        },
+        {
+          "time": "2026-11-18T10:06:57.653862",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255480633
+        },
+        {
+          "time": "2026-11-18T10:06:57.676844",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255498633
+        },
+        {
+          "time": "2026-11-18T10:06:57.693659",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255521633
+        },
+        {
+          "time": "2026-11-18T10:06:57.709382",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255537633
+        },
+        {
+          "time": "2026-11-18T10:06:57.725178",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255553633
+        },
+        {
+          "time": "2026-11-18T10:06:57.741558",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255569633
+        },
+        {
+          "time": "2026-11-18T10:06:57.761816",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255585633
+        },
+        {
+          "time": "2026-11-18T10:06:57.777786",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255606633
+        },
+        {
+          "time": "2026-11-18T10:06:57.793998",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255622633
+        },
+        {
+          "time": "2026-11-18T10:06:57.809905",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255638633
+        },
+        {
+          "time": "2026-11-18T10:06:57.831401",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255654633
+        },
+        {
+          "time": "2026-11-18T10:06:57.849098",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255675633
+        },
+        {
+          "time": "2026-11-18T10:06:57.864856",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255693633
+        },
+        {
+          "time": "2026-11-18T10:06:57.881639",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255709633
+        },
+        {
+          "time": "2026-11-18T10:06:57.898322",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255725633
+        },
+        {
+          "time": "2026-11-18T10:06:57.913999",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255742633
+        },
+        {
+          "time": "2026-11-18T10:06:57.930810",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255757194
+        },
+        {
+          "time": "2026-11-18T10:06:57.949636",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255774194
+        },
+        {
+          "time": "2026-11-18T10:06:57.968933",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255793194
+        },
+        {
+          "time": "2026-11-18T10:06:57.984718",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255812194
+        },
+        {
+          "time": "2026-11-18T10:06:58.001310",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255828194
+        },
+        {
+          "time": "2026-11-18T10:06:58.018226",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4255845194
+        },
+        {
+          "time": "2026-11-18T10:06:58.031618",
+          "id": 61,
+          "publisher": false,
+          "data": "7d0474200082ffff",
+          "errors": 0,
+          "hw_us": 4255861194
+        },
+        {
+          "time": "2026-11-18T10:06:58.075995",
+          "id": 60,
+          "publisher": true,
+          "data": "7d10823601000001",
+          "errors": 0,
+          "hw_us": 4255905195
+        },
+        {
+          "time": "2026-11-18T10:06:58.088476",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21203572010075",
+          "errors": 0,
+          "hw_us": 4255917195
+        },
+        {
+          "time": "2026-11-18T10:06:58.099942",
+          "id": 60,
+          "publisher": true,
+          "data": "7d227201005f7201",
+          "errors": 0,
+          "hw_us": 4255929195
+        },
+        {
+          "time": "2026-11-18T10:06:58.112236",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23000000000000",
+          "errors": 0,
+          "hw_us": 4255941195
+        },
+        {
+          "time": "2026-11-18T10:06:58.123655",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24000000000000",
+          "errors": 0,
+          "hw_us": 4255953195
+        },
+        {
+          "time": "2026-11-18T10:06:58.134971",
+          "id": 60,
+          "publisher": true,
+          "data": "7d25000000000000",
+          "errors": 0,
+          "hw_us": 4255964195
+        },
+        {
+          "time": "2026-11-18T10:06:58.149413",
+          "id": 60,
+          "publisher": true,
+          "data": "7d26000000000000",
+          "errors": 0,
+          "hw_us": 4255976195
+        },
+        {
+          "time": "2026-11-18T10:06:58.161033",
+          "id": 60,
+          "publisher": true,
+          "data": "7d27000000000075",
+          "errors": 0,
+          "hw_us": 4255990195
+        },
+        {
+          "time": "2026-11-18T10:06:58.173460",
+          "id": 60,
+          "publisher": true,
+          "data": "7d28720100000000",
+          "errors": 0,
+          "hw_us": 4256002195
+        },
+        {
+          "time": "2026-11-18T10:06:58.185020",
+          "id": 60,
+          "publisher": true,
+          "data": "7d29000000000075",
+          "errors": 0,
+          "hw_us": 4256014195
+        },
+        {
+          "time": "2026-11-18T10:06:58.197693",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2a720100734501",
+          "errors": 0,
+          "hw_us": 4256026195
+        },
+        {
+          "time": "2026-11-18T10:06:58.210358",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2b007572010075",
+          "errors": 0,
+          "hw_us": 4256038195
+        },
+        {
+          "time": "2026-11-18T10:06:58.222685",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2c720100757201",
+          "errors": 0,
+          "hw_us": 4256051195
+        },
+        {
+          "time": "2026-11-18T10:06:58.236985",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2d007572010075",
+          "errors": 0,
+          "hw_us": 4256064195
+        },
+        {
+          "time": "2026-11-18T10:06:58.248723",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2e720100757201",
+          "errors": 0,
+          "hw_us": 4256078195
+        },
+        {
+          "time": "2026-11-18T10:06:58.259787",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2f007572010075",
+          "errors": 0,
+          "hw_us": 4256089195
+        },
+        {
+          "time": "2026-11-18T10:06:58.272346",
+          "id": 60,
+          "publisher": true,
+          "data": "7d20720100757201",
+          "errors": 0,
+          "hw_us": 4256101195
+        },
+        {
+          "time": "2026-11-18T10:06:58.284449",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21009571010075",
+          "errors": 0,
+          "hw_us": 4256113195
+        },
+        {
+          "time": "2026-11-18T10:06:58.296805",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22720100757201",
+          "errors": 0,
+          "hw_us": 4256126195
+        },
+        {
+          "time": "2026-11-18T10:06:58.309394",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23007572010075",
+          "errors": 0,
+          "hw_us": 4256138195
+        },
+        {
+          "time": "2026-11-18T10:06:58.320807",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24720100757201",
+          "errors": 0,
+          "hw_us": 4256150195
+        },
+        {
+          "time": "2026-11-18T10:06:58.333476",
+          "id": 60,
+          "publisher": true,
+          "data": "7d250075720100ff",
+          "errors": 0,
+          "hw_us": 4256162195
+        },
+        {
+          "time": "2026-11-18T10:06:58.354806",
+          "id": 61,
+          "publisher": false,
+          "data": "7d027601ffffffff",
+          "errors": 0,
+          "hw_us": 4256183194
+        },
+        {
+          "time": "2026-11-18T10:06:58.364501",
+          "id": 60,
+          "publisher": true,
+          "data": "7d10823602757201",
+          "errors": 0,
+          "hw_us": 4256193195
+        },
+        {
+          "time": "2026-11-18T10:06:58.375739",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21007572010075",
+          "errors": 0,
+          "hw_us": 4256205195
+        },
+        {
+          "time": "2026-11-18T10:06:58.388409",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22720100757201",
+          "errors": 0,
+          "hw_us": 4256216195
+        },
+        {
+          "time": "2026-11-18T10:06:58.400418",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23007572010075",
+          "errors": 0,
+          "hw_us": 4256229195
+        },
+        {
+          "time": "2026-11-18T10:06:58.411866",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24720100757201",
+          "errors": 0,
+          "hw_us": 4256241195
+        },
+        {
+          "time": "2026-11-18T10:06:58.426674",
+          "id": 60,
+          "publisher": true,
+          "data": "7d25007572010075",
+          "errors": 0,
+          "hw_us": 4256253195
+        },
+        {
+          "time": "2026-11-18T10:06:58.439344",
+          "id": 60,
+          "publisher": true,
+          "data": "7d26720100757201",
+          "errors": 0,
+          "hw_us": 4256268195
+        },
+        {
+          "time": "2026-11-18T10:06:58.450937",
+          "id": 60,
+          "publisher": true,
+          "data": "7d27007572010075",
+          "errors": 0,
+          "hw_us": 4256280195
+        },
+        {
+          "time": "2026-11-18T10:06:58.470275",
+          "id": 60,
+          "publisher": true,
+          "data": "7d28720100757201",
+          "errors": 0,
+          "hw_us": 4256292195
+        },
+        {
+          "time": "2026-11-18T10:06:58.481857",
+          "id": 60,
+          "publisher": true,
+          "data": "7d29007572010075",
+          "errors": 0,
+          "hw_us": 4256311195
+        },
+        {
+          "time": "2026-11-18T10:06:58.493655",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2a720100757201",
+          "errors": 0,
+          "hw_us": 4256323195
+        },
+        {
+          "time": "2026-11-18T10:06:58.506407",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2b0000000120a1",
+          "errors": 0,
+          "hw_us": 4256334195
+        },
+        {
+          "time": "2026-11-18T10:06:58.517924",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2c720100757201",
+          "errors": 0,
+          "hw_us": 4256347195
+        },
+        {
+          "time": "2026-11-18T10:06:58.530288",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2d005f72010007",
+          "errors": 0,
+          "hw_us": 4256359195
+        },
+        {
+          "time": "2026-11-18T10:06:58.542303",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2e430100074301",
+          "errors": 0,
+          "hw_us": 4256371195
+        },
+        {
+          "time": "2026-11-18T10:06:58.554920",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2f000743010000",
+          "errors": 0,
+          "hw_us": 4256383195
+        },
+        {
+          "time": "2026-11-18T10:06:58.566812",
+          "id": 60,
+          "publisher": true,
+          "data": "7d20000000000000",
+          "errors": 0,
+          "hw_us": 4256396195
+        },
+        {
+          "time": "2026-11-18T10:06:58.579158",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21000000000000",
+          "errors": 0,
+          "hw_us": 4256408195
+        },
+        {
+          "time": "2026-11-18T10:06:58.591116",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22000000757201",
+          "errors": 0,
+          "hw_us": 4256420195
+        },
+        {
+          "time": "2026-11-18T10:06:58.609138",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23000743010000",
+          "errors": 0,
+          "hw_us": 4256432195
+        },
+        {
+          "time": "2026-11-18T10:06:58.624049",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24000000757201",
+          "errors": 0,
+          "hw_us": 4256450195
+        },
+        {
+          "time": "2026-11-18T10:06:58.636071",
+          "id": 60,
+          "publisher": true,
+          "data": "7d250073450100ff",
+          "errors": 0,
+          "hw_us": 4256465195
+        },
+        {
+          "time": "2026-11-18T10:06:58.661545",
+          "id": 61,
+          "publisher": false,
+          "data": "7d027602ffffffff",
+          "errors": 0,
+          "hw_us": 4256485194
+        },
+        {
+          "time": "2026-11-18T10:06:58.672297",
+          "id": 60,
+          "publisher": true,
+          "data": "7d1082360381b001",
+          "errors": 0,
+          "hw_us": 4256499195
+        },
+        {
+          "time": "2026-11-18T10:06:58.684051",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21000dd0fa2109",
+          "errors": 0,
+          "hw_us": 4256513195
+        },
+        {
+          "time": "2026-11-18T10:06:58.696892",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22010022009203",
+          "errors": 0,
+          "hw_us": 4256525195
+        },
+        {
+          "time": "2026-11-18T10:06:58.712065",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23e000bf009b5b",
+          "errors": 0,
+          "hw_us": 4256538195
+        },
+        {
+          "time": "2026-11-18T10:06:58.723938",
+          "id": 60,
+          "publisher": true,
+          "data": "7d241c0093009b8b",
+          "errors": 0,
+          "hw_us": 4256553195
+        },
+        {
+          "time": "2026-11-18T10:06:58.735254",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2542f8d3401ef4",
+          "errors": 0,
+          "hw_us": 4256565195
+        },
+        {
+          "time": "2026-11-18T10:06:58.747132",
+          "id": 60,
+          "publisher": true,
+          "data": "7d26d101b07047d0",
+          "errors": 0,
+          "hw_us": 4256576195
+        },
+        {
+          "time": "2026-11-18T10:06:58.759485",
+          "id": 60,
+          "publisher": true,
+          "data": "7d27b481b0204a10",
+          "errors": 0,
+          "hw_us": 4256588195
+        },
+        {
+          "time": "2026-11-18T10:06:58.771773",
+          "id": 60,
+          "publisher": true,
+          "data": "7d28680221884310",
+          "errors": 0,
+          "hw_us": 4256600195
+        },
+        {
+          "time": "2026-11-18T10:06:58.784268",
+          "id": 60,
+          "publisher": true,
+          "data": "7d296000e000bf10",
+          "errors": 0,
+          "hw_us": 4256613195
+        },
+        {
+          "time": "2026-11-18T10:06:58.798733",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2a690028fbd101",
+          "errors": 0,
+          "hw_us": 4256625195
+        },
+        {
+          "time": "2026-11-18T10:06:58.814252",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2b231b4c012020",
+          "errors": 0,
+          "hw_us": 4256639195
+        },
+        {
+          "time": "2026-11-18T10:06:58.826968",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2c700021022660",
+          "errors": 0,
+          "hw_us": 4256655195
+        },
+        {
+          "time": "2026-11-18T10:06:58.839300",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2d78304210d064",
+          "errors": 0,
+          "hw_us": 4256668195
+        },
+        {
+          "time": "2026-11-18T10:06:58.852091",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2e1c60681f0607",
+          "errors": 0,
+          "hw_us": 4256680195
+        },
+        {
+          "time": "2026-11-18T10:06:58.869163",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2f436760641efa",
+          "errors": 0,
+          "hw_us": 4256693195
+        },
+        {
+          "time": "2026-11-18T10:06:58.885944",
+          "id": 60,
+          "publisher": true,
+          "data": "7d20208000009004",
+          "errors": 0,
+          "hw_us": 4256710195
+        },
+        {
+          "time": "2026-11-18T10:06:58.899413",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2120e77b074203",
+          "errors": 0,
+          "hw_us": 4256727195
+        },
+        {
+          "time": "2026-11-18T10:06:58.910848",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22d1491c009fb9",
+          "errors": 0,
+          "hw_us": 4256740195
+        },
+        {
+          "time": "2026-11-18T10:06:58.928060",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2342f8d3bff35f",
+          "errors": 0,
+          "hw_us": 4256752208
+        },
+        {
+          "time": "2026-11-18T10:06:58.939996",
+          "id": 60,
+          "publisher": true,
+          "data": "7d248f18020e4f7f",
+          "errors": 0,
+          "hw_us": 4256769208
+        },
+        {
+          "time": "2026-11-18T10:06:58.956670",
+          "id": 60,
+          "publisher": true,
+          "data": "7d258ac01b2370ff",
+          "errors": 0,
+          "hw_us": 4256781208
+        },
+        {
+          "time": "2026-11-18T10:06:58.980970",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256806207
+        },
+        {
+          "time": "2026-11-18T10:06:58.998084",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256824207
+        },
+        {
+          "time": "2026-11-18T10:06:59.015970",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256841207
+        },
+        {
+          "time": "2026-11-18T10:06:59.031628",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256859207
+        },
+        {
+          "time": "2026-11-18T10:06:59.051578",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256874207
+        },
+        {
+          "time": "2026-11-18T10:06:59.068485",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256895207
+        },
+        {
+          "time": "2026-11-18T10:06:59.086239",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256911207
+        },
+        {
+          "time": "2026-11-18T10:06:59.102674",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256929207
+        },
+        {
+          "time": "2026-11-18T10:06:59.120158",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256945207
+        },
+        {
+          "time": "2026-11-18T10:06:59.135761",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256963207
+        },
+        {
+          "time": "2026-11-18T10:06:59.152209",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256979207
+        },
+        {
+          "time": "2026-11-18T10:06:59.172093",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4256995207
+        },
+        {
+          "time": "2026-11-18T10:06:59.187949",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257015207
+        },
+        {
+          "time": "2026-11-18T10:06:59.211961",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257031207
+        },
+        {
+          "time": "2026-11-18T10:06:59.228441",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257055207
+        },
+        {
+          "time": "2026-11-18T10:06:59.246919",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257071207
+        },
+        {
+          "time": "2026-11-18T10:06:59.262996",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257090207
+        },
+        {
+          "time": "2026-11-18T10:06:59.278925",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257106207
+        },
+        {
+          "time": "2026-11-18T10:06:59.301321",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257122207
+        },
+        {
+          "time": "2026-11-18T10:06:59.320499",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257144207
+        },
+        {
+          "time": "2026-11-18T10:06:59.339237",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257164207
+        },
+        {
+          "time": "2026-11-18T10:06:59.360292",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257182207
+        },
+        {
+          "time": "2026-11-18T10:06:59.380377",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257203207
+        },
+        {
+          "time": "2026-11-18T10:06:59.401027",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257224207
+        },
+        {
+          "time": "2026-11-18T10:06:59.417767",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257244207
+        },
+        {
+          "time": "2026-11-18T10:06:59.433398",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257260207
+        },
+        {
+          "time": "2026-11-18T10:06:59.449179",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257276207
+        },
+        {
+          "time": "2026-11-18T10:06:59.464741",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257292207
+        },
+        {
+          "time": "2026-11-18T10:06:59.485629",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257308207
+        },
+        {
+          "time": "2026-11-18T10:06:59.501987",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257328207
+        },
+        {
+          "time": "2026-11-18T10:06:59.524554",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257345207
+        },
+        {
+          "time": "2026-11-18T10:06:59.541144",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257367207
+        },
+        {
+          "time": "2026-11-18T10:06:59.558475",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257385207
+        },
+        {
+          "time": "2026-11-18T10:06:59.574736",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257401207
+        },
+        {
+          "time": "2026-11-18T10:06:59.591631",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257418207
+        },
+        {
+          "time": "2026-11-18T10:06:59.611876",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257434207
+        },
+        {
+          "time": "2026-11-18T10:06:59.630074",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257455207
+        },
+        {
+          "time": "2026-11-18T10:06:59.651714",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257474207
+        },
+        {
+          "time": "2026-11-18T10:06:59.670958",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257495207
+        },
+        {
+          "time": "2026-11-18T10:06:59.691441",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257514207
+        },
+        {
+          "time": "2026-11-18T10:06:59.710573",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257535207
+        },
+        {
+          "time": "2026-11-18T10:06:59.729807",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257554207
+        },
+        {
+          "time": "2026-11-18T10:06:59.747174",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257573207
+        },
+        {
+          "time": "2026-11-18T10:06:59.769159",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257590207
+        },
+        {
+          "time": "2026-11-18T10:06:59.785654",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257612207
+        },
+        {
+          "time": "2026-11-18T10:06:59.802260",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257628207
+        },
+        {
+          "time": "2026-11-18T10:06:59.823488",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257645207
+        },
+        {
+          "time": "2026-11-18T10:06:59.839255",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257666207
+        },
+        {
+          "time": "2026-11-18T10:06:59.860085",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257682207
+        },
+        {
+          "time": "2026-11-18T10:06:59.879170",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257703207
+        },
+        {
+          "time": "2026-11-18T10:06:59.901775",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257723207
+        },
+        {
+          "time": "2026-11-18T10:06:59.921702",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257748023
+        },
+        {
+          "time": "2026-11-18T10:06:59.938782",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257768023
+        },
+        {
+          "time": "2026-11-18T10:06:59.955995",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257785023
+        },
+        {
+          "time": "2026-11-18T10:06:59.975290",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 4257802023
+        }
+      ]
+    },
+    {
+      "chair": "0A",
+      "cycle": 50,
+      "acknowledged_blocks": [
+        1,
+        2
+      ],
+      "failed_block": 3,
+      "block_frames": 22,
+      "publisher_echo_errors": 0,
+      "response_headers": 56,
+      "response_errors": {
+        "18": 56
+      },
+      "request_frame_interval_ms_min": 11.0,
+      "request_frame_interval_ms_max": 19.0,
+      "later_complete_retransmission_passed": true,
+      "frames": [
+        {
+          "time": "2026-11-18T11:03:26.000077",
+          "id": 43,
+          "publisher": true,
+          "data": "0a05040000210000",
+          "errors": 0,
+          "hw_us": 7643830414
+        },
+        {
+          "time": "2026-11-18T11:03:26.016032",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000021",
+          "errors": 0,
+          "hw_us": 7643844413
+        },
+        {
+          "time": "2026-11-18T11:03:26.026376",
+          "id": 43,
+          "publisher": true,
+          "data": "0505050001220000",
+          "errors": 0,
+          "hw_us": 7643855414
+        },
+        {
+          "time": "2026-11-18T11:03:26.057841",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000022",
+          "errors": 0,
+          "hw_us": 7643881413
+        },
+        {
+          "time": "2026-11-18T11:03:26.069655",
+          "id": 43,
+          "publisher": true,
+          "data": "0a05050000220000",
+          "errors": 0,
+          "hw_us": 7643897414
+        },
+        {
+          "time": "2026-11-18T11:03:26.083360",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000022",
+          "errors": 0,
+          "hw_us": 7643914413
+        },
+        {
+          "time": "2026-11-18T11:03:26.094946",
+          "id": 43,
+          "publisher": true,
+          "data": "0505060001230000",
+          "errors": 0,
+          "hw_us": 7643923414
+        },
+        {
+          "time": "2026-11-18T11:03:26.118001",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000023",
+          "errors": 0,
+          "hw_us": 7643949413
+        },
+        {
+          "time": "2026-11-18T11:03:26.127507",
+          "id": 43,
+          "publisher": true,
+          "data": "0a05060000230000",
+          "errors": 0,
+          "hw_us": 7643957414
+        },
+        {
+          "time": "2026-11-18T11:03:26.141085",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000023",
+          "errors": 0,
+          "hw_us": 7643972413
+        },
+        {
+          "time": "2026-11-18T11:03:26.150379",
+          "id": 43,
+          "publisher": true,
+          "data": "0505070001240000",
+          "errors": 0,
+          "hw_us": 7643981414
+        },
+        {
+          "time": "2026-11-18T11:03:26.176994",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000024",
+          "errors": 0,
+          "hw_us": 7644005413
+        },
+        {
+          "time": "2026-11-18T11:03:26.189583",
+          "id": 43,
+          "publisher": true,
+          "data": "0a05070000240000",
+          "errors": 0,
+          "hw_us": 7644016414
+        },
+        {
+          "time": "2026-11-18T11:03:26.203985",
+          "id": 47,
+          "publisher": false,
+          "data": "0f02010000000024",
+          "errors": 0,
+          "hw_us": 7644034413
+        },
+        {
+          "time": "2026-11-18T11:03:26.213538",
+          "id": 1,
+          "publisher": true,
+          "data": "083f070000000000",
+          "errors": 0,
+          "hw_us": 7644043414
+        },
+        {
+          "time": "2026-11-18T11:03:26.221996",
+          "id": 13,
+          "publisher": false,
+          "data": "0020406080a00000",
+          "errors": 0,
+          "hw_us": 7644053413
+        },
+        {
+          "time": "2026-11-18T11:03:26.276159",
+          "id": 60,
+          "publisher": true,
+          "data": "7f10083101f30247",
+          "errors": 0,
+          "hw_us": 7644105414
+        },
+        {
+          "time": "2026-11-18T11:03:26.288806",
+          "id": 60,
+          "publisher": true,
+          "data": "7f2129d1c4ffffff",
+          "errors": 0,
+          "hw_us": 7644118414
+        },
+        {
+          "time": "2026-11-18T11:03:26.309333",
+          "id": 61,
+          "publisher": false,
+          "data": "7f10097101f30247",
+          "errors": 0,
+          "hw_us": 7644140413
+        },
+        {
+          "time": "2026-11-18T11:03:26.316682",
+          "id": 61,
+          "publisher": false,
+          "data": "7f2129d1c400ffff",
+          "errors": 0,
+          "hw_us": 7644148413
+        },
+        {
+          "time": "2026-11-18T11:03:26.325344",
+          "id": 60,
+          "publisher": true,
+          "data": "010322f210ffffff",
+          "errors": 0,
+          "hw_us": 7644156414
+        },
+        {
+          "time": "2026-11-18T11:03:26.348148",
+          "id": 61,
+          "publisher": false,
+          "data": "01102662f2100000",
+          "errors": 0,
+          "hw_us": 7644176413
+        },
+        {
+          "time": "2026-11-18T11:03:26.356846",
+          "id": 61,
+          "publisher": false,
+          "data": "0121010000000300",
+          "errors": 0,
+          "hw_us": 7644187413
+        },
+        {
+          "time": "2026-11-18T11:03:26.365198",
+          "id": 61,
+          "publisher": false,
+          "data": "0122000000000000",
+          "errors": 0,
+          "hw_us": 7644196413
+        },
+        {
+          "time": "2026-11-18T11:03:26.373369",
+          "id": 61,
+          "publisher": false,
+          "data": "0123000000000000",
+          "errors": 0,
+          "hw_us": 7644204413
+        },
+        {
+          "time": "2026-11-18T11:03:26.384145",
+          "id": 61,
+          "publisher": false,
+          "data": "0124000000000003",
+          "errors": 0,
+          "hw_us": 7644212413
+        },
+        {
+          "time": "2026-11-18T11:03:26.395674",
+          "id": 61,
+          "publisher": false,
+          "data": "0125000000010000",
+          "errors": 0,
+          "hw_us": 7644223413
+        },
+        {
+          "time": "2026-11-18T11:03:26.409030",
+          "id": 61,
+          "publisher": false,
+          "data": "012673fc07ffffff",
+          "errors": 0,
+          "hw_us": 7644235413
+        },
+        {
+          "time": "2026-11-18T11:03:26.426908",
+          "id": 60,
+          "publisher": true,
+          "data": "010322f202ffffff",
+          "errors": 0,
+          "hw_us": 7644248414
+        },
+        {
+          "time": "2026-11-18T11:03:26.458107",
+          "id": 61,
+          "publisher": false,
+          "data": "01102062f2023236",
+          "errors": 0,
+          "hw_us": 7644277413
+        },
+        {
+          "time": "2026-11-18T11:03:26.466308",
+          "id": 61,
+          "publisher": false,
+          "data": "01214a30372d3030",
+          "errors": 0,
+          "hw_us": 7644297413
+        },
+        {
+          "time": "2026-11-18T11:03:26.474638",
+          "id": 61,
+          "publisher": false,
+          "data": "012232312a5a5831",
+          "errors": 0,
+          "hw_us": 7644305413
+        },
+        {
+          "time": "2026-11-18T11:03:26.483873",
+          "id": 61,
+          "publisher": false,
+          "data": "01232d303032352a",
+          "errors": 0,
+          "hw_us": 7644314413
+        },
+        {
+          "time": "2026-11-18T11:03:26.496980",
+          "id": 61,
+          "publisher": false,
+          "data": "012400022a0a2a47",
+          "errors": 0,
+          "hw_us": 7644323413
+        },
+        {
+          "time": "2026-11-18T11:03:26.504966",
+          "id": 61,
+          "publisher": false,
+          "data": "012529d1c4ffffff",
+          "errors": 0,
+          "hw_us": 7644336413
+        },
+        {
+          "time": "2026-11-18T11:03:26.513565",
+          "id": 10,
+          "publisher": false,
+          "data": "0020406080a00000",
+          "errors": 0,
+          "hw_us": 7644344413
+        },
+        {
+          "time": "2026-11-18T11:03:26.524936",
+          "id": 1,
+          "publisher": true,
+          "data": "013f070000000000",
+          "errors": 0,
+          "hw_us": 7644353414
+        },
+        {
+          "time": "2026-11-18T11:03:26.577386",
+          "id": 60,
+          "publisher": true,
+          "data": "7f10083101f30247",
+          "errors": 0,
+          "hw_us": 7644405414
+        },
+        {
+          "time": "2026-11-18T11:03:26.589868",
+          "id": 60,
+          "publisher": true,
+          "data": "7f2129d1c4ffffff",
+          "errors": 0,
+          "hw_us": 7644420414
+        },
+        {
+          "time": "2026-11-18T11:03:26.609768",
+          "id": 61,
+          "publisher": false,
+          "data": "7f10097101f30247",
+          "errors": 0,
+          "hw_us": 7644441413
+        },
+        {
+          "time": "2026-11-18T11:03:26.618204",
+          "id": 61,
+          "publisher": false,
+          "data": "7f2129d1c400ffff",
+          "errors": 0,
+          "hw_us": 7644449413
+        },
+        {
+          "time": "2026-11-18T11:03:26.626431",
+          "id": 60,
+          "publisher": true,
+          "data": "01021002ffffffff",
+          "errors": 0,
+          "hw_us": 7644457414
+        },
+        {
+          "time": "2026-11-18T11:03:26.646444",
+          "id": 61,
+          "publisher": false,
+          "data": "0106500200fa01f4",
+          "errors": 0,
+          "hw_us": 7644477413
+        },
+        {
+          "time": "2026-11-18T11:03:27.355323",
+          "id": 60,
+          "publisher": true,
+          "data": "7f10083101f30247",
+          "errors": 0,
+          "hw_us": 7645185259
+        },
+        {
+          "time": "2026-11-18T11:03:27.366844",
+          "id": 60,
+          "publisher": true,
+          "data": "7f2129d1c4ffffff",
+          "errors": 0,
+          "hw_us": 7645197259
+        },
+        {
+          "time": "2026-11-18T11:03:27.387208",
+          "id": 61,
+          "publisher": false,
+          "data": "7f100a7101f30247",
+          "errors": 0,
+          "hw_us": 7645217258
+        },
+        {
+          "time": "2026-11-18T11:03:27.394553",
+          "id": 61,
+          "publisher": false,
+          "data": "7f2129d1c4017dff",
+          "errors": 0,
+          "hw_us": 7645225258
+        },
+        {
+          "time": "2026-11-18T11:03:27.403921",
+          "id": 60,
+          "publisher": true,
+          "data": "7d021002ffffffff",
+          "errors": 0,
+          "hw_us": 7645233259
+        },
+        {
+          "time": "2026-11-18T11:03:27.422819",
+          "id": 61,
+          "publisher": false,
+          "data": "7d06500200fa01f4",
+          "errors": 0,
+          "hw_us": 7645253258
+        },
+        {
+          "time": "2026-11-18T11:03:27.431225",
+          "id": 60,
+          "publisher": true,
+          "data": "7d100b3400440001",
+          "errors": 0,
+          "hw_us": 7645261259
+        },
+        {
+          "time": "2026-11-18T11:03:27.442752",
+          "id": 60,
+          "publisher": true,
+          "data": "7d210000000073fc",
+          "errors": 0,
+          "hw_us": 7645272259
+        },
+        {
+          "time": "2026-11-18T11:03:27.461590",
+          "id": 61,
+          "publisher": false,
+          "data": "7d037f3478ffffff",
+          "errors": 0,
+          "hw_us": 7645292258
+        },
+        {
+          "time": "2026-11-18T11:03:27.472929",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645300258
+        },
+        {
+          "time": "2026-11-18T11:03:27.489076",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645317258
+        },
+        {
+          "time": "2026-11-18T11:03:27.506090",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645333258
+        },
+        {
+          "time": "2026-11-18T11:03:27.522996",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645350258
+        },
+        {
+          "time": "2026-11-18T11:03:27.548948",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645367258
+        },
+        {
+          "time": "2026-11-18T11:03:27.565764",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645393258
+        },
+        {
+          "time": "2026-11-18T11:03:27.583882",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645410258
+        },
+        {
+          "time": "2026-11-18T11:03:27.601047",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645428258
+        },
+        {
+          "time": "2026-11-18T11:03:27.617697",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645445258
+        },
+        {
+          "time": "2026-11-18T11:03:27.634332",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645461258
+        },
+        {
+          "time": "2026-11-18T11:03:27.653795",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645478258
+        },
+        {
+          "time": "2026-11-18T11:03:27.671883",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645497258
+        },
+        {
+          "time": "2026-11-18T11:03:27.687964",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645515258
+        },
+        {
+          "time": "2026-11-18T11:03:27.704723",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645532258
+        },
+        {
+          "time": "2026-11-18T11:03:27.720588",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645548258
+        },
+        {
+          "time": "2026-11-18T11:03:27.736662",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645564258
+        },
+        {
+          "time": "2026-11-18T11:03:27.752340",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645580258
+        },
+        {
+          "time": "2026-11-18T11:03:27.770077",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645596258
+        },
+        {
+          "time": "2026-11-18T11:03:27.787184",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645614258
+        },
+        {
+          "time": "2026-11-18T11:03:27.803226",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645631258
+        },
+        {
+          "time": "2026-11-18T11:03:27.818227",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645646258
+        },
+        {
+          "time": "2026-11-18T11:03:27.833331",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645661258
+        },
+        {
+          "time": "2026-11-18T11:03:27.849042",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645677258
+        },
+        {
+          "time": "2026-11-18T11:03:27.864371",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7645692258
+        },
+        {
+          "time": "2026-11-18T11:03:27.877704",
+          "id": 61,
+          "publisher": false,
+          "data": "7d0474200082ffff",
+          "errors": 0,
+          "hw_us": 7645708258
+        },
+        {
+          "time": "2026-11-18T11:03:27.925009",
+          "id": 60,
+          "publisher": true,
+          "data": "7d10823601000001",
+          "errors": 0,
+          "hw_us": 7645755259
+        },
+        {
+          "time": "2026-11-18T11:03:27.936452",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21203572010075",
+          "errors": 0,
+          "hw_us": 7645766259
+        },
+        {
+          "time": "2026-11-18T11:03:27.948219",
+          "id": 60,
+          "publisher": true,
+          "data": "7d227201005f7201",
+          "errors": 0,
+          "hw_us": 7645777755
+        },
+        {
+          "time": "2026-11-18T11:03:27.960360",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23000000000000",
+          "errors": 0,
+          "hw_us": 7645789755
+        },
+        {
+          "time": "2026-11-18T11:03:27.972100",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24000000000000",
+          "errors": 0,
+          "hw_us": 7645801755
+        },
+        {
+          "time": "2026-11-18T11:03:27.985667",
+          "id": 60,
+          "publisher": true,
+          "data": "7d25000000000000",
+          "errors": 0,
+          "hw_us": 7645813755
+        },
+        {
+          "time": "2026-11-18T11:03:28.007364",
+          "id": 60,
+          "publisher": true,
+          "data": "7d26000000000000",
+          "errors": 0,
+          "hw_us": 7645826755
+        },
+        {
+          "time": "2026-11-18T11:03:28.020089",
+          "id": 60,
+          "publisher": true,
+          "data": "7d27000000000075",
+          "errors": 0,
+          "hw_us": 7645848755
+        },
+        {
+          "time": "2026-11-18T11:03:28.033701",
+          "id": 60,
+          "publisher": true,
+          "data": "7d28720100000000",
+          "errors": 0,
+          "hw_us": 7645861755
+        },
+        {
+          "time": "2026-11-18T11:03:28.048656",
+          "id": 60,
+          "publisher": true,
+          "data": "7d29000000000075",
+          "errors": 0,
+          "hw_us": 7645874755
+        },
+        {
+          "time": "2026-11-18T11:03:28.060897",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2a720100734501",
+          "errors": 0,
+          "hw_us": 7645889755
+        },
+        {
+          "time": "2026-11-18T11:03:28.072479",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2b007572010075",
+          "errors": 0,
+          "hw_us": 7645901755
+        },
+        {
+          "time": "2026-11-18T11:03:28.085641",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2c720100757201",
+          "errors": 0,
+          "hw_us": 7645913755
+        },
+        {
+          "time": "2026-11-18T11:03:28.099260",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2d007572010075",
+          "errors": 0,
+          "hw_us": 7645926755
+        },
+        {
+          "time": "2026-11-18T11:03:28.114688",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2e720100757201",
+          "errors": 0,
+          "hw_us": 7645940755
+        },
+        {
+          "time": "2026-11-18T11:03:28.126178",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2f007572010075",
+          "errors": 0,
+          "hw_us": 7645955755
+        },
+        {
+          "time": "2026-11-18T11:03:28.138242",
+          "id": 60,
+          "publisher": true,
+          "data": "7d20720100757201",
+          "errors": 0,
+          "hw_us": 7645967755
+        },
+        {
+          "time": "2026-11-18T11:03:28.150747",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21009571010075",
+          "errors": 0,
+          "hw_us": 7645978755
+        },
+        {
+          "time": "2026-11-18T11:03:28.163269",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22720100757201",
+          "errors": 0,
+          "hw_us": 7645991755
+        },
+        {
+          "time": "2026-11-18T11:03:28.176936",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23007572010075",
+          "errors": 0,
+          "hw_us": 7646004755
+        },
+        {
+          "time": "2026-11-18T11:03:28.191471",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24720100757201",
+          "errors": 0,
+          "hw_us": 7646017755
+        },
+        {
+          "time": "2026-11-18T11:03:28.204229",
+          "id": 60,
+          "publisher": true,
+          "data": "7d250075720100ff",
+          "errors": 0,
+          "hw_us": 7646032755
+        },
+        {
+          "time": "2026-11-18T11:03:28.228624",
+          "id": 61,
+          "publisher": false,
+          "data": "7d027601ffffffff",
+          "errors": 0,
+          "hw_us": 7646053754
+        },
+        {
+          "time": "2026-11-18T11:03:28.238142",
+          "id": 60,
+          "publisher": true,
+          "data": "7d10823602757201",
+          "errors": 0,
+          "hw_us": 7646066755
+        },
+        {
+          "time": "2026-11-18T11:03:28.254145",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21007572010075",
+          "errors": 0,
+          "hw_us": 7646078755
+        },
+        {
+          "time": "2026-11-18T11:03:28.265663",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22720100757201",
+          "errors": 0,
+          "hw_us": 7646094755
+        },
+        {
+          "time": "2026-11-18T11:03:28.277501",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23007572010075",
+          "errors": 0,
+          "hw_us": 7646106755
+        },
+        {
+          "time": "2026-11-18T11:03:28.290954",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24720100757201",
+          "errors": 0,
+          "hw_us": 7646118755
+        },
+        {
+          "time": "2026-11-18T11:03:28.306754",
+          "id": 60,
+          "publisher": true,
+          "data": "7d25007572010075",
+          "errors": 0,
+          "hw_us": 7646131755
+        },
+        {
+          "time": "2026-11-18T11:03:28.322434",
+          "id": 60,
+          "publisher": true,
+          "data": "7d26720100757201",
+          "errors": 0,
+          "hw_us": 7646147755
+        },
+        {
+          "time": "2026-11-18T11:03:28.336857",
+          "id": 60,
+          "publisher": true,
+          "data": "7d27007572010075",
+          "errors": 0,
+          "hw_us": 7646163755
+        },
+        {
+          "time": "2026-11-18T11:03:28.349218",
+          "id": 60,
+          "publisher": true,
+          "data": "7d28720100757201",
+          "errors": 0,
+          "hw_us": 7646177755
+        },
+        {
+          "time": "2026-11-18T11:03:28.362387",
+          "id": 60,
+          "publisher": true,
+          "data": "7d29007572010075",
+          "errors": 0,
+          "hw_us": 7646190755
+        },
+        {
+          "time": "2026-11-18T11:03:28.375055",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2a720100757201",
+          "errors": 0,
+          "hw_us": 7646203755
+        },
+        {
+          "time": "2026-11-18T11:03:28.387290",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2b0000000120a1",
+          "errors": 0,
+          "hw_us": 7646216755
+        },
+        {
+          "time": "2026-11-18T11:03:28.399382",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2c720100757201",
+          "errors": 0,
+          "hw_us": 7646228755
+        },
+        {
+          "time": "2026-11-18T11:03:28.416470",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2d005f72010007",
+          "errors": 0,
+          "hw_us": 7646240755
+        },
+        {
+          "time": "2026-11-18T11:03:28.428772",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2e430100074301",
+          "errors": 0,
+          "hw_us": 7646257755
+        },
+        {
+          "time": "2026-11-18T11:03:28.447763",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2f000743010000",
+          "errors": 0,
+          "hw_us": 7646270755
+        },
+        {
+          "time": "2026-11-18T11:03:28.459425",
+          "id": 60,
+          "publisher": true,
+          "data": "7d20000000000000",
+          "errors": 0,
+          "hw_us": 7646288755
+        },
+        {
+          "time": "2026-11-18T11:03:28.476300",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21000000000000",
+          "errors": 0,
+          "hw_us": 7646300755
+        },
+        {
+          "time": "2026-11-18T11:03:28.489914",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22000000757201",
+          "errors": 0,
+          "hw_us": 7646317755
+        },
+        {
+          "time": "2026-11-18T11:03:28.502777",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23000743010000",
+          "errors": 0,
+          "hw_us": 7646330755
+        },
+        {
+          "time": "2026-11-18T11:03:28.521786",
+          "id": 60,
+          "publisher": true,
+          "data": "7d24000000757201",
+          "errors": 0,
+          "hw_us": 7646343755
+        },
+        {
+          "time": "2026-11-18T11:03:28.536140",
+          "id": 60,
+          "publisher": true,
+          "data": "7d250073450100ff",
+          "errors": 0,
+          "hw_us": 7646363755
+        },
+        {
+          "time": "2026-11-18T11:03:28.558095",
+          "id": 61,
+          "publisher": false,
+          "data": "7d027602ffffffff",
+          "errors": 0,
+          "hw_us": 7646385754
+        },
+        {
+          "time": "2026-11-18T11:03:28.573691",
+          "id": 60,
+          "publisher": true,
+          "data": "7d1082360381b001",
+          "errors": 0,
+          "hw_us": 7646395755
+        },
+        {
+          "time": "2026-11-18T11:03:28.586266",
+          "id": 60,
+          "publisher": true,
+          "data": "7d21000dd0fa2109",
+          "errors": 0,
+          "hw_us": 7646414755
+        },
+        {
+          "time": "2026-11-18T11:03:28.602015",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22010022009203",
+          "errors": 0,
+          "hw_us": 7646427755
+        },
+        {
+          "time": "2026-11-18T11:03:28.617833",
+          "id": 60,
+          "publisher": true,
+          "data": "7d23e000bf009b5b",
+          "errors": 0,
+          "hw_us": 7646442755
+        },
+        {
+          "time": "2026-11-18T11:03:28.634863",
+          "id": 60,
+          "publisher": true,
+          "data": "7d241c0093009b8b",
+          "errors": 0,
+          "hw_us": 7646458755
+        },
+        {
+          "time": "2026-11-18T11:03:28.649406",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2542f8d3401ef4",
+          "errors": 0,
+          "hw_us": 7646475755
+        },
+        {
+          "time": "2026-11-18T11:03:28.663308",
+          "id": 60,
+          "publisher": true,
+          "data": "7d26d101b07047d0",
+          "errors": 0,
+          "hw_us": 7646490755
+        },
+        {
+          "time": "2026-11-18T11:03:28.676477",
+          "id": 60,
+          "publisher": true,
+          "data": "7d27b481b0204a10",
+          "errors": 0,
+          "hw_us": 7646504755
+        },
+        {
+          "time": "2026-11-18T11:03:28.691278",
+          "id": 60,
+          "publisher": true,
+          "data": "7d28680221884310",
+          "errors": 0,
+          "hw_us": 7646517755
+        },
+        {
+          "time": "2026-11-18T11:03:28.705033",
+          "id": 60,
+          "publisher": true,
+          "data": "7d296000e000bf10",
+          "errors": 0,
+          "hw_us": 7646532755
+        },
+        {
+          "time": "2026-11-18T11:03:28.716918",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2a690028fbd101",
+          "errors": 0,
+          "hw_us": 7646545755
+        },
+        {
+          "time": "2026-11-18T11:03:28.729292",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2b231b4c012020",
+          "errors": 0,
+          "hw_us": 7646557755
+        },
+        {
+          "time": "2026-11-18T11:03:28.742590",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2c700021022660",
+          "errors": 0,
+          "hw_us": 7646570755
+        },
+        {
+          "time": "2026-11-18T11:03:28.755306",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2d78304210d064",
+          "errors": 0,
+          "hw_us": 7646583755
+        },
+        {
+          "time": "2026-11-18T11:03:28.772130",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2e1c60681f0607",
+          "errors": 0,
+          "hw_us": 7646596755
+        },
+        {
+          "time": "2026-11-18T11:03:28.784368",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2f436760641efa",
+          "errors": 0,
+          "hw_us": 7646613755
+        },
+        {
+          "time": "2026-11-18T11:03:28.797173",
+          "id": 60,
+          "publisher": true,
+          "data": "7d20208000009004",
+          "errors": 0,
+          "hw_us": 7646625755
+        },
+        {
+          "time": "2026-11-18T11:03:28.808524",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2120e77b074203",
+          "errors": 0,
+          "hw_us": 7646637755
+        },
+        {
+          "time": "2026-11-18T11:03:28.820082",
+          "id": 60,
+          "publisher": true,
+          "data": "7d22d1491c009fb9",
+          "errors": 0,
+          "hw_us": 7646649755
+        },
+        {
+          "time": "2026-11-18T11:03:28.831924",
+          "id": 60,
+          "publisher": true,
+          "data": "7d2342f8d3bff35f",
+          "errors": 0,
+          "hw_us": 7646661755
+        },
+        {
+          "time": "2026-11-18T11:03:28.843262",
+          "id": 60,
+          "publisher": true,
+          "data": "7d248f18020e4f7f",
+          "errors": 0,
+          "hw_us": 7646672755
+        },
+        {
+          "time": "2026-11-18T11:03:28.855463",
+          "id": 60,
+          "publisher": true,
+          "data": "7d258ac01b2370ff",
+          "errors": 0,
+          "hw_us": 7646684755
+        },
+        {
+          "time": "2026-11-18T11:03:28.878888",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646705754
+        },
+        {
+          "time": "2026-11-18T11:03:28.895737",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646722754
+        },
+        {
+          "time": "2026-11-18T11:03:28.918617",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646739754
+        },
+        {
+          "time": "2026-11-18T11:03:28.935026",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646761754
+        },
+        {
+          "time": "2026-11-18T11:03:28.954958",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646778606
+        },
+        {
+          "time": "2026-11-18T11:03:28.970492",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646798606
+        },
+        {
+          "time": "2026-11-18T11:03:28.990057",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646814606
+        },
+        {
+          "time": "2026-11-18T11:03:29.010902",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646834606
+        },
+        {
+          "time": "2026-11-18T11:03:29.032749",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646855606
+        },
+        {
+          "time": "2026-11-18T11:03:29.052567",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646876606
+        },
+        {
+          "time": "2026-11-18T11:03:29.071471",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646896606
+        },
+        {
+          "time": "2026-11-18T11:03:29.091784",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646915606
+        },
+        {
+          "time": "2026-11-18T11:03:29.111609",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646935606
+        },
+        {
+          "time": "2026-11-18T11:03:29.128230",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646955606
+        },
+        {
+          "time": "2026-11-18T11:03:29.147679",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646971606
+        },
+        {
+          "time": "2026-11-18T11:03:29.165605",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7646992606
+        },
+        {
+          "time": "2026-11-18T11:03:29.182664",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647010606
+        },
+        {
+          "time": "2026-11-18T11:03:29.200026",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647027606
+        },
+        {
+          "time": "2026-11-18T11:03:29.220696",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647043606
+        },
+        {
+          "time": "2026-11-18T11:03:29.238840",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647064606
+        },
+        {
+          "time": "2026-11-18T11:03:29.254874",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647082606
+        },
+        {
+          "time": "2026-11-18T11:03:29.272476",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647098606
+        },
+        {
+          "time": "2026-11-18T11:03:29.288336",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647116606
+        },
+        {
+          "time": "2026-11-18T11:03:29.305038",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647132606
+        },
+        {
+          "time": "2026-11-18T11:03:29.321783",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647149606
+        },
+        {
+          "time": "2026-11-18T11:03:29.337630",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647165606
+        },
+        {
+          "time": "2026-11-18T11:03:29.354746",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647182606
+        },
+        {
+          "time": "2026-11-18T11:03:29.370381",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647198606
+        },
+        {
+          "time": "2026-11-18T11:03:29.386493",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647214606
+        },
+        {
+          "time": "2026-11-18T11:03:29.403099",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647230606
+        },
+        {
+          "time": "2026-11-18T11:03:29.425324",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647247606
+        },
+        {
+          "time": "2026-11-18T11:03:29.444357",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647269606
+        },
+        {
+          "time": "2026-11-18T11:03:29.461135",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647288606
+        },
+        {
+          "time": "2026-11-18T11:03:29.478073",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647305606
+        },
+        {
+          "time": "2026-11-18T11:03:29.495099",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647322606
+        },
+        {
+          "time": "2026-11-18T11:03:29.514010",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647338606
+        },
+        {
+          "time": "2026-11-18T11:03:29.531560",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647358606
+        },
+        {
+          "time": "2026-11-18T11:03:29.549395",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647375606
+        },
+        {
+          "time": "2026-11-18T11:03:29.566500",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647393606
+        },
+        {
+          "time": "2026-11-18T11:03:29.583451",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647410606
+        },
+        {
+          "time": "2026-11-18T11:03:29.600327",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647427606
+        },
+        {
+          "time": "2026-11-18T11:03:29.617110",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647444606
+        },
+        {
+          "time": "2026-11-18T11:03:29.634093",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647461606
+        },
+        {
+          "time": "2026-11-18T11:03:29.650809",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647478606
+        },
+        {
+          "time": "2026-11-18T11:03:29.667777",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647495606
+        },
+        {
+          "time": "2026-11-18T11:03:29.685678",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647512606
+        },
+        {
+          "time": "2026-11-18T11:03:29.702430",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647529606
+        },
+        {
+          "time": "2026-11-18T11:03:29.721340",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647546606
+        },
+        {
+          "time": "2026-11-18T11:03:29.738186",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647565606
+        },
+        {
+          "time": "2026-11-18T11:03:29.754906",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647582606
+        },
+        {
+          "time": "2026-11-18T11:03:29.774549",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647599606
+        },
+        {
+          "time": "2026-11-18T11:03:29.794081",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647619606
+        },
+        {
+          "time": "2026-11-18T11:03:29.813206",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647638606
+        },
+        {
+          "time": "2026-11-18T11:03:29.833330",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647657606
+        },
+        {
+          "time": "2026-11-18T11:03:29.850327",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647677606
+        },
+        {
+          "time": "2026-11-18T11:03:29.871854",
+          "id": 61,
+          "publisher": false,
+          "data": "ffffffffffffffff",
+          "errors": 24,
+          "hw_us": 7647694606
+        }
+      ]
+    }
+  ],
+  "final": [
+    {
+      "chair": 10,
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 7
+      }
+    },
+    {
+      "chair": 11,
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000003000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 3,
+        "backup_length": 29692,
+        "bits": 7
+      }
+    },
+    {
+      "chair": 12,
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000002000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 2,
+        "backup_length": 29692,
+        "bits": 7
+      }
+    },
+    {
+      "chair": 13,
+      "runtime": {
+        "raw": "62f210000001000000030000000000000000000000000000000000000300000001000073fc07",
+        "mode": 0,
+        "flag": 0,
+        "backup_flag": 0,
+        "fault_count": 0,
+        "backup_fault_count": 0,
+        "valid": 3,
+        "restores": 1,
+        "backup_length": 29692,
+        "bits": 7
+      }
+    }
+  ],
+  "limitations": [
+    "LIN API hardware tests; no GUI automation or optical/scope measurement",
+    "Four-board recovery confirmed using device status/restore count and LED-driver RGB readback; not a direct SWD flash comparison on all boards",
+    "Two missing block3 responses on 0A; exact cause not established; both entire retransmissions succeeded"
+  ]
+}

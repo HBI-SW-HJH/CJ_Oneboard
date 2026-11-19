@@ -1,0 +1,91 @@
+CJ App 클럭 변경 검증 및 LIN 다운로드 100회 최종 결과
+완료: 2026-11-17 14:56:51 (한국 시간)
+
+1. 시험 대상과 방법
+- 프로젝트: D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261116
+- 보드: 0x0B / Serial 26I16-0002 / Init Number AEBE9602
+- MCU: PIC32CM5164JH01032, DID 0x11060203
+- LIN 19200 baud로 실제 App Flash 다운로드. J-Link는 다운로드 후 읽기 검증에 사용.
+- GUI 실행 및 화면 제어 없음. 시험 중 Boot/App 소스, IAR EWP/ICF 변경 없음.
+- 색상 확인은 R/G/B 중 한 색상만 입력값 4/255로 사용.
+
+2. BIN
+- 경로: D:\jhhan\program\CJ_OneBoard\Program\CJ_Git_20261116\CJ_OneBoard_App\build\Debug\Exe\CJ_App_Clock_20261117.bin
+- 길이: 29,692 bytes / App 시작 주소: 0x00010000
+- CRC32: C69C9150
+- SHA256: 84a4ff1378d48131e8240366ec69fc8d1bd94aa7fdeafefae86fbeac54c0b4e2
+
+3. LIN 다운로드 결과
+- 1~100회가 중복 없이 모두 완료됨.
+- 완료된 100회 모두 MCU의 다운로드 CRC 승인, App 복귀 확인.
+- 매 회 App 및 Backup 영역을 J-Link로 읽어 BIN과 바이트 단위 비교: 모두 일치.
+- SRGB 4구역 + Logo 24개 + Strobe 8개 = 회당 36개 RGB 읽기 비교.
+  총 3,600개 비교 모두 일치. 각 회 진단값은 6구역 모두 0.
+- 예상하지 않은 HardFault, 백업 복원, Boot 잔류 없음.
+- restoreCount는 시작과 종료 모두 2로 유지. 시험 중 증가하지 않음.
+- Boot, 예약 Flash 영역, UserRow, 제품정보 PDS 내용은 시작 시점과 동일.
+- 100회 완료가 '통신 지연이 한 번도 없었다'는 의미는 아님. 아래 관측을 별도로 보존함.
+
+4. 부팅 후 조회 응답 지연: 5개 회차
+- 13회: UDS 대상 선택 응답 시간 초과. MCU LIN BUFOVF 1회.
+  다운로드 CRC와 Reset 응답은 정상. 리셋/재다운로드 없이 조회 재시도 10회 정상.
+  이후 해당 회차의 Flash 및 RGB 검증도 완료.
+- 54회: LIN 응답 프레임 오류 0x10(Timeout). MCU LIN 오류 카운터는 0.
+  리셋/재다운로드 없이 조회 재시도 10회 정상. Flash 및 RGB 검증도 완료.
+- 76회, 97회: UDS 대상 선택 응답 시간 초과. 각 1회 재조회 후 정상.
+  각 회 MCU LIN BUFOVF 1회 관측. 이후 모든 검증 통과.
+- 100회: LIN 응답 프레임 오류 0x10(Timeout). 1회 재조회 후 모든 검증 통과.
+  MCU LIN 오류 카운터는 0.
+- 모두 다운로드 완료 후 App의 상태를 조회하는 단계에서 발생.
+  다운로드 데이터 CRC 불일치 또는 App Flash 손상으로 분류하지 않음.
+- 부팅 약 10초 후 appConfirmed 저장과 통신 시점이 겹치는 것이 원인 후보.
+  Flash 기록 구간의 인터럽트 차단과 발생 시점은 부합하지만 동시 파형으로 확정하지는 않음.
+- 관측은 삭제하지 않았으며 제품 코드를 변경하여 숨기지 않았음.
+- 재시도는 알려진 읽기 요청 오류에만 최대 3회 허용. 전송/CRC/Flash 비교 실패를 무시하지 않음.
+- 0x10 의미: PEAK PLIN API Documentation, TLINMsgErrors.
+  https://www.peak-system.com/produktcd/Develop/PC%20interfaces/Windows/PLIN-API/PLINAPI_enu.pdf
+
+5. PC 절전으로 인한 별도 중단 1회
+- 32회차 전송 중 Windows가 12:24:24~13:04:16 절전 상태로 들어감.
+- Windows System 이벤트 42 및 1에서 확인. 절전 사유 Button or Lid, 복귀 Power Button.
+- 복귀 후 전송이 중단되어 보드는 업데이트 대기 Boot 상태(flag 1)였음.
+- 보드를 강제 리셋하거나 J-Link로 덮어쓰지 않고 LIN으로 32회차를 처음부터 재전송하여 완료.
+- 실제 시작한 전송은 총 101번 = 완료 100번 + PC 절전으로 중단된 시도 1번.
+- 절전 후 첫 점검에서 Boot 미지원 DID F202를 조회한 시험 도구 오류가 있었음.
+  이는 새 다운로드 시작 전의 점검 오류이며 다운로드 횟수에 포함하지 않음.
+  시험 도구에서 Boot 지원 조회를 사용한 뒤 재개. 제품 코드는 수정하지 않음.
+
+6. 앞서 완료한 클럭 검증
+- 외부 클럭 정상 기동: 100/100 통과.
+- XOSC 기동 실패 조건을 주입하고 기존 내부 클럭 대체 경로 확인: 100/100 통과.
+- DPLL 기동 실패 조건을 주입하고 기존 내부 클럭 대체 경로 확인: 100/100 통과.
+- 총 300회 실제 보드 기동 및 LIN/RGB 비교 10,800개 통과.
+- 실패 조건은 디버그 하드웨어 브레이크포인트/레지스터로 주입. Flash 코드는 패치하지 않음.
+- 저온 챔버에서 실제 False Unlock을 재현한 시험은 아님.
+- 광학 밝기나 오실로스코프 파형 측정이 아니라 드라이버 RGB 읽기와 CPU 상태 검증임.
+
+7. 최종 상태
+- CPU 실행 중, App 정상 복귀. WDT 활성.
+- GCLK0 = GCLK1 = 0x00010307, DPLLCTRLB = 0x00031010, DPLLSTATUS = 0x03.
+- BOOTPROT = 0x04, NVM LOCK = 0x0000. 보호 설정 유지.
+- 업데이트 기록: flag 0, faultCount 0, appConfirmed 1, recoveryUsed 0, restoreCount 2.
+- App/Backup 길이 29,692, CRC C69C9150. 주/백업 업데이트 기록 정상 및 동일.
+- 마지막 진단 정상. OSP 24/8개 응답 유효, SRGB 응답 유효.
+- LIN 다운로드 시험의 보드 보고 최고 온도: 27℃.
+- 매 회 RGB 읽기 후 OFF 명령 전송. 마지막 회차도 OFF 명령 후 종료.
+- LIN 및 J-Link 연결 해제 완료. 종료 시 보드 리셋하지 않음.
+- 시험 시작 시 저장한 소스/설정 283개 파일의 SHA256 재비교: 변경 0개.
+
+8. 근거 파일 (이 문서와 같은 validation 폴더)
+- ClockLin100_20261117_resume4_result.json: 1~100회 통합 결과, 개별 RGB/Flash/CPU 기록.
+- ClockLin100_20261117_completion_audit.json: 횟수, 오류 관측, 소스 해시, 최종 상태 재검증.
+- ClockStress100_20261117_result.json: 클럭 3조건 각 100회 결과.
+- ClockStress100_20261117_manifest.json: 시험 시작 시 소스/설정 해시.
+- ClockLin100_20261117_read_retry.json: 13회차 이후 무리셋 조회 10회.
+- ClockLin100_20261117_incident54_readonly.json: 54회차 이후 무리셋 조회 10회 및 Flash 읽기.
+  해당 읽기 점검의 jsonl START 줄은 공용 시험 도구를 사용하여 lin_flash_write=true로 기록되었으나,
+  실제 수행 내용은 JSON의 reset_or_download=false 및 원시 프레임과 같이 읽기/대상 선택뿐임.
+- ClockLin100_20261117_sleep_events.json: 32회차 PC 절전/복귀 이벤트.
+- ClockLin100_20261117_interruption32_swd.json: 절전 후 Boot/Flash 상태 읽기.
+- 원본/각 resume의 .jsonl 및 _frames.jsonl.gz: 전송 및 응답 원시 기록. 모두 보존.
+- 이전 ClockStress100_20261117_summary.txt는 13회차 중단 당시 기록이며 최종 결과는 본 문서 기준.

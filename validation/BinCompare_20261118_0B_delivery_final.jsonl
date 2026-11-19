@@ -1,0 +1,6 @@
+{"time": "2026-11-18T13:40:06", "kind": "START", "prefix": "BinCompare_20261118_0B_delivery_final", "brightness_cap": 12, "gui": false, "jlink": false}
+{"time": "2026-11-18T13:40:06", "kind": "ADAPTER", "settings": {"6": 0, "7": 0, "21": 0}, "clients": [0]}
+{"time": "2026-11-18T13:40:09", "kind": "CONNECTED", "idle_ms": 3000}
+{"time": "2026-11-18T13:40:09", "kind": "DIAGNOSTIC", "chair": "0B", "faults": {"LH": 0, "RH": 0, "Head": 0, "Back": 0, "Logo": 0, "Strobe": 0}}
+{"time": "2026-11-18T13:40:09", "kind": "CLEANUP", "disconnect": 0}
+{"time": "2026-11-18T13:40:09", "kind": "CLEANUP", "remove_client": 0}

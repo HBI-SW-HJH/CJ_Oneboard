@@ -1,0 +1,22 @@
+{
+  "executable": "C:\\Users\\HKKIM\\AppData\\Local\\Temp\\CJ_BinCompare_20261118_05bry6up\\BinCompareAutomatic.exe",
+  "source": "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\Forms\\FormUDS_Verification.cs",
+  "source_sha256": "11eccf2d57d33ae997aeecd3e5fab2ee00da25584384dbc1b945d2636fdd776e",
+  "source_files": {
+    "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\LIN\\LINFrame.cs": "168bb26a24163a42b127e2ebd42fbe633e4c38babc028bfb3bdb86b10b104864",
+    "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\LIN\\LINProtocol.cs": "3f495a5c67179210ac3a73edac7c0721bee2f34100477fb1825fb5ed4dec932c",
+    "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\LIN\\CJLinProtocol.cs": "920ba4ddb583370d5587fe4b31c97b5b8c672f8f7692fd92a4b11bd4b07811a1",
+    "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\LIN\\CJVerificationProtocol.cs": "cdb8963a321afa87e4ac35dd21774c730c0b3b2637074c4c8735a553e80fb5d0",
+    "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\LIN\\UDSProtocol.cs": "098186c84097b889038521a71379bce28f74ce6b0bac9c3c056cf20488e35157",
+    "D:\\jhhan\\program\\PC\\PC_Lan8661_20261111\\LIN\\PeakLINGateway.cs": "246f67474c9baabe32922cb0913d6abfa44df18ca1afc70ab464815f4e26c544"
+  },
+  "adaptations": [
+    "Console fields/event polling instead of GUI; no Windows Forms/Excel COM",
+    "Brightness 2/5/10%, zone/fade/flicker maximum 10%",
+    "Flicker 10/20/30Hz; previously accepted tolerance 2ms",
+    "Stop on first failed verdict",
+    "JSON rows instead of Excel COM; report exported separately"
+  ],
+  "expected_rows": 126,
+  "expected_detail_rows": 696
+}

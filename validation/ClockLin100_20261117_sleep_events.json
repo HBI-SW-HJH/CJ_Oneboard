@@ -1,0 +1,50 @@
+[
+  {
+    "TimeCreated": "2026-11-17T13:04:17.7961224+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 566,
+    "Message": "시스템 세션이 22에서 24 (으)로 전환되었습니다.\r\n\r\nReason PolicyChange \r\n\r\nBootId: 133"
+  },
+  {
+    "TimeCreated": "2026-11-17T13:04:16.5244555+09:00",
+    "ProviderName": "Microsoft-Windows-Power-Troubleshooter",
+    "Id": 1,
+    "Message": "시스템이 저전원 상태에서 복귀되었습니다.\r\n\r\n절전 모드 시간: ‎2026‎-‎11‎-‎17T03:24:24.124996900Z\r\n절전 모드 해제 시간: ‎2026‎-‎11‎-‎17T04:04:16.276479000Z\r\n\r\n절전 모드 해제 원본: Power Button"
+  },
+  {
+    "TimeCreated": "2026-11-17T13:04:16.4020721+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 566,
+    "Message": "시스템 세션이 21에서 22 (으)로 전환되었습니다.\r\n\r\nReason SxTransition \r\n\r\nBootId: 133"
+  },
+  {
+    "TimeCreated": "2026-11-17T13:04:14.50057+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 130,
+    "Message": "펌웨어 S3번. SuspendStart: 47627398, SuspendEnd: 47627399"
+  },
+  {
+    "TimeCreated": "2026-11-17T13:04:14.5005684+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 131,
+    "Message": "펌웨어 S3번. ResumeCount: 1, FullResume: 735, AverageResume: 735"
+  },
+  {
+    "TimeCreated": "2026-11-17T12:24:29.1361385+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 107,
+    "Message": "시스템이 절전 모드에서 다시 시작되었습니다."
+  },
+  {
+    "TimeCreated": "2026-11-17T12:24:27.0597074+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 42,
+    "Message": "시스템이 절전 모드로 전환하는 중입니다.\r\n\r\n절전 모드 전환 이유: Button or Lid"
+  },
+  {
+    "TimeCreated": "2026-11-17T12:24:24.1915689+09:00",
+    "ProviderName": "Microsoft-Windows-Kernel-Power",
+    "Id": 566,
+    "Message": "시스템 세션이 20에서 21 (으)로 전환되었습니다.\r\n\r\nReason PolicyChange \r\n\r\nBootId: 133"
+  }
+]
